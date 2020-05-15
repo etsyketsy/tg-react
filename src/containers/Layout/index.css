@@ -1,0 +1,74 @@
+
+.text {
+  display: inline-flex;
+  border-bottom: solid transparent;
+ }
+ 
+ .active .text {
+   padding: 0em;
+   border-bottom: solid #ffcebe;
+   box-sizing: border-box;
+ }
+
+
+#navLinks {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vh;
+  padding-right: 3vh;
+  align-items: left;
+  object-fit: contain;
+  width: 20vh;
+  height: 8em;
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-size: 3vmin;
+  object-fit: contain;
+}
+
+#logo {
+  display: block;
+  max-width: 20vh;
+  height: auto; 
+  margin-top: 1vh;
+}
+
+#logoWrapper {
+  display: inline-block;
+  align-items: left;
+  object-fit: scale-down;
+  width: 100%;
+  margin-bottom: 2vh;
+  margin-left: 0;
+}
+
+#layout {
+  color: #2C2A2D;
+  width: 100%;
+  height: 100%;
+  margin-right: 1vh;
+  display: flex;
+  align-items: left;
+
+} 
+
+/* global styling */
+.sectionHeader {
+  margin-bottom: 1vh;
+  font-size: 3.75vh;
+  font-family: 'Karla', sans-serif;
+}
+
+.displayGrid {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.displayGrid::after {
+  content: "";
+  flex: auto;
+}
+
+#loading {
+  margin-top: 21vh;
+}

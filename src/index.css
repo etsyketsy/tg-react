@@ -1,0 +1,15 @@
+
+/* global styling */
+body {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}

@@ -1,0 +1,131 @@
+.postPreview .postLink {
+    border: none;
+    font-size: .9em;
+} 
+
+.postPreview .postTitle {
+    font-size: 1.1em;
+    border: none;
+}   
+
+.postPreview img{
+    width: 100%;
+    height: 100%;
+}
+
+.postPreview figure {
+    max-width: 6em;
+    max-height: 6em;
+    display: inline-block;
+    object-fit: scale-down;
+    margin-block-start: 0vh;
+    margin-block-end: 0vh;
+    margin-inline-start: 0vh;
+    margin-inline-end: 0vh;
+}
+
+
+.previewHTML p{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align:left;
+    width: 80%;
+    margin: 0;
+    font-size: .9em;
+    padding-top: 1vh;
+}
+
+.previewHTML p:nth-of-type(1n+2) {
+    visibility: hidden;
+}
+
+.previewHTML {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto; 
+    overflow: hidden;
+    width: 100%;
+    height: 6em;
+    padding-top: 1vh;
+    border-top: solid #ffcebe;
+}
+
+.postPreview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    overflow: hidden;
+    width: auto;
+    height: 20vh;
+}
+
+#newsPreview {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.post img {
+    max-width: 40vh;
+}
+
+.postTitle {
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    font-size: 2.5vh;
+    font-weight: bold;
+    padding-bottom: .5vh;
+    margin-top: 2vh;
+    border-bottom: solid #ffcebe;
+}
+
+/* .pubDate {
+    font-size: .9em;
+    text-align: right;
+    width: 100%;
+
+} */
+.postLink {
+    border-bottom: solid #ffcebe;
+}
+
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: auto;
+    margin-bottom: 2vh;
+}
+
+#blogLink .text{
+    border-bottom: solid #ffcebe;
+    margin-right: 3vh;
+}
+
+#blogLink {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    margin-bottom: 5vh;
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+}
+

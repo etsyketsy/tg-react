@@ -1,0 +1,16 @@
+#logo {
+    display: block;
+    width: 15vh;
+    height: auto; 
+    margin-top: 1vh;
+  }
+  
+  #logoWrapper {
+    display: inline-block;
+    align-items: left;
+    object-fit: scale-down;
+    width: 100%;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+  }
+  
