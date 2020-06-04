@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Release from '../Release/index.js';
+import releaseData from '../../assets/releaseData.js';
 
 
 class ReleasesPreview extends Component {
@@ -11,13 +12,9 @@ class ReleasesPreview extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:8000/api/releases/')
-            .then(response => response.json())
-            .then(data => {
-                this.setState(
-                    { releases: data }
-                )
-            })
+        this.setState(
+            { releases: releaseData }
+        )
     }
 
     render() {
