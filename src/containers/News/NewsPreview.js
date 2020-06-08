@@ -18,6 +18,7 @@ class NewsPreview extends Component {
             .catch((error) => {
                 console.log(error)
             });
+
     }
 
     render() {
@@ -32,7 +33,7 @@ class NewsPreview extends Component {
                         this.state.posts.slice(0, 3).map((post, index) => {
 
                             let html = post.content;
-
+                   
                             return (
 
                                 <div className='postPreview' key={index}>
