@@ -105,8 +105,13 @@
   .sectionHeader {
     margin-top: 1vh;
     margin-bottom: 1vh;
+    margin-left: 3vh;
     font-size: 2.5em;
     font-family: 'Karla', sans-serif;
   }
- 
+
+  .displayGrid {
+    margin-left: 3vh;
+  }
+
 }
