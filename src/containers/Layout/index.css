@@ -1,15 +1,13 @@
-
 .text {
   display: inline-flex;
   border-bottom: solid transparent;
- }
+}
  
- .active .text {
+.active .text {
    padding: 0em;
    border-bottom: solid #ffcebe;
    box-sizing: border-box;
- }
-
+}
 
 #navLinks {
   display: flex;
@@ -83,6 +81,7 @@
    justify-content: space-around;
    align-content: left;
    width: 100%;
+   height: 6vh;
    font-family: 'Inconsolata', monospace;
    font-size: 3vmin;
  }
@@ -90,7 +89,6 @@
  #navLinks .text {
    padding: 1vh;
    width: 100%;
-
  }
 
   #logo {
@@ -101,6 +99,12 @@
   #logoWrapper {
     visibility: hidden;
     width: 0;
+  }
+
+  .sectionHeader {
+    margin-bottom: 1vh;
+    font-size: 2.5em;
+    font-family: 'Karla', sans-serif;
   }
  
 }
