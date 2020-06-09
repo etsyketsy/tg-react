@@ -49,6 +49,7 @@
 
 /* global styling */
 .sectionHeader {
+  margin-top: 20vh;
   margin-bottom: 1vh;
   font-size: 3.75vh;
   font-family: 'Karla', sans-serif;
@@ -102,6 +103,7 @@
   }
 
   .sectionHeader {
+    margin-top: 1vh;
     margin-bottom: 1vh;
     font-size: 2.5em;
     font-family: 'Karla', sans-serif;
