@@ -113,13 +113,12 @@
 #news {
     display: flex;
     flex-direction: column;
-    justify-content: left;
     flex-wrap: wrap;
     overflow-wrap: break-word;
     word-wrap: break-word;
     overflow: hidden;
     max-height: 100%;
-    max-width: 90%;
+    max-width: 100%;
 }
 
 br {

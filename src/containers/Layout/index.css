@@ -36,7 +36,7 @@
   margin-left: 1vh;
   display: flex;
   flex-wrap: wrap;
-  margin: 1vh;
+  margin: 2vh;
   width: auto;
   box-sizing: border-box;
 } 
@@ -63,6 +63,6 @@
 @media only screen and (min-width: 767px) {
 
   #layout {
-    margin: 3vh;
+    margin: 4vh;
   }
 }
