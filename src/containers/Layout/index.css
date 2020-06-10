@@ -12,43 +12,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-end;
   width: 100%;
   height: auto;
   font-family: 'Inconsolata', monospace;
   font-size: 3vmin;
-  margin-bottom: 2vh;
+  margin-bottom: 3.5vh;
 }
 
 #logoWrapper img {
-  /* height: auto; 
-  margin-top: 1vh;
+  width: 100%;
+  max-height: 10vh;
   object-fit: scale-down;
-  border: solid green;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; */
-  /* display: flex;
-  align-items: center; */
-  border: solid green;
-  position: relative;
 }
 
 #logoWrapper {
-  /* display: inline-block;
-  align-items: left;
-  justify-content: top; 
-  display: block;
-  margin: auto; 
-  object-fit: contain;
-  text-align: center;
-  min-height: 6vh; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;*/
-  position: relative;
+  justify-items: center;
   width: 100%;
-  border: solid blue;
 }
 
 #layout {
@@ -58,7 +37,6 @@
   display: flex;
   flex-wrap: wrap;
   margin: 1.5vh;
-  width: 100%;
 } 
 
 .sectionHeader {
