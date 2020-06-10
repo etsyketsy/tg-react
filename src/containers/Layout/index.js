@@ -9,13 +9,13 @@ class Layout extends Component {
   render() {
     return (
       <div id="layout">
-
+        <div id="logo">
+          <Link to="/" replace id="logoWrapper">
+            <img src={logo} alt="Logo" id="logoGif" />
+          </Link>
+        </div>
         <div id="navLinks">
-          <div id="logo">
-            <Link to="/" replace id="logoWrapper">
-              <img src={logo} alt="Logo" id="logoGif" />
-            </Link>
-         </div>
+
           <NavLink to="/" activeClassName="active" exact replace>
             <div className='text'>HOME</div>
           </NavLink>
