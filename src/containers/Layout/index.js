@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import logo2 from '../../assets/logo2.jpg';
+import logo from '../../assets/logo.gif';
 import './index.css';
 
 
@@ -10,13 +10,12 @@ class Layout extends Component {
     return (
       <div id="layout">
         
- 
+          <Link to="/" replace id="logoWrapper">
+            <img src={logo} alt="Logo" id="logoGif" />
+          </Link>
+        
         <div id="navLinks">
-        <div id="logo">
-                <Link to="/" replace id="logoWrapper">
-                    <img src={logo2} alt="Logo" id="logo" />
-                </Link>
-            </div>
+
           <NavLink to="/" activeClassName="active" exact replace>
             <div className='text'>HOME</div>
           </NavLink>
@@ -35,11 +34,11 @@ class Layout extends Component {
           <NavLink to="/about" activeClassName="active" replace>
             <div className='text'>ABOUT</div>
           </NavLink>
-            <a href="https://deathwishinc.com/collections/twelve-gauge"
-              target="_blank" rel="noopener noreferrer">
-                <div className='text'>STORE</div>
-            </a>
-         
+          <a href="https://deathwishinc.com/collections/twelve-gauge"
+            target="_blank" rel="noopener noreferrer">
+            <div className='text'>STORE</div>
+          </a>
+
         </div>
         {this.props.children}
       </div>

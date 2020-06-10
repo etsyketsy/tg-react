@@ -140,8 +140,10 @@ br {
     }
 
     .post{
-      width: 100%;
+      width: auto;
       font-size: .75em;
+      margin-left: 1vh;
+      margin-right: 1vh;
     }
 
     .postHTML {
