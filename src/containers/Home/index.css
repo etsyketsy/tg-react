@@ -1,17 +1,7 @@
-
-#navLinks {
-  grid-area: sidebar;
-}
-
-#header {
-  grid-area: header;
-}
-
 #news {
   grid-area: news;
-
-
 }
+
 #releasesPreview {
   grid-area: releases;
 }
@@ -30,18 +20,13 @@
   word-wrap: break-word;
 }
 
-.content {
-  text-align: left;
-  margin-top: 15vh;
-}
-
 .home {
   grid-area: app;
   background-color: #FFFFFF;
   color: #2C2A2D;
   width: 100%;
   height: 100%;
-  margin-top: 16vh;
+  /* margin-top: 16vh; */
   display: grid;
   grid-template-areas: 
   'news     releases'
@@ -52,6 +37,16 @@
   row-gap: 2vh;
 }
 
+@media only screen and (max-width: 767px) {
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5vh;
+    height: 100%;
+    width: 100%;
+  }
+
+}
 
 
 

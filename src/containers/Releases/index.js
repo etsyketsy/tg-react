@@ -6,9 +6,7 @@ import releaseData from '../../assets/releaseData.js';
 
 
 class Releases extends Component {
-    state = {
-
-    }
+    state = {  }
 
     componentDidMount() {
         this.setState(
