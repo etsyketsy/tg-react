@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
-import Release from '../Release/index.js';
+import ReleaseTile from '../ReleaseTile/index.js';
 import releaseData from '../../assets/releaseData.js';
 
 
@@ -34,7 +34,7 @@ class Releases extends Component {
                                         }}
                                         key={index}
                                     >
-                                        <Release
+                                        <ReleaseTile
                                             item={release}
                                             id={index}
                                             key={index}

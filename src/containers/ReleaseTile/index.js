@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 
-class Release extends Component {
+class ReleaseTile extends Component {
 
     render() {
         return (
@@ -22,4 +22,4 @@ class Release extends Component {
     }
 }
 
-export default Release;
+export default ReleaseTile;
