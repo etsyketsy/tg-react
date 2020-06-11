@@ -36,7 +36,9 @@
   margin-left: 1vh;
   display: flex;
   flex-wrap: wrap;
-  margin: 1.5vh;
+  margin: 2vh;
+  width: auto;
+  box-sizing: border-box;
 } 
 
 .sectionHeader {
@@ -47,7 +49,6 @@
 .displayGrid {
   display: flex;
   flex-flow: wrap;
-  margin: auto;
 }
 
 .displayGrid::after {
@@ -57,4 +58,11 @@
 
 #loading {
   margin: 3vh;
+}
+
+@media only screen and (min-width: 767px) {
+
+  #layout {
+    margin: 4vh;
+  }
 }
