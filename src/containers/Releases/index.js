@@ -6,12 +6,12 @@ import releaseData from '../../assets/releaseData.js';
 
 
 class Releases extends Component {
-    state = {  }
+    state = {}
 
     componentDidMount() {
         this.setState(
-            {releases: releaseData}
-          )
+            { releases: releaseData }
+        )
     }
 
 
@@ -19,7 +19,7 @@ class Releases extends Component {
     render() {
         return (
             (!this.state.releases) ?
-            <p id='loading'>loading...</p>
+                <p id='loading'>loading...</p>
                 :
                 <div className="content" id="releases">
                     <div className="sectionHeader">Releases</div>
@@ -27,24 +27,23 @@ class Releases extends Component {
                         {this.state.releases.map(
                             (release, index) => {
                                 return (
-                                    <Link
-                                        to={{
-                                            pathname: `/releases/${release.cat_num}/`,
-                                            state: { release }
-                                        }}
-                                        key={index}
-                                    >
+                                    // <Link
+                                    //     to={{
+                                    //         pathname: `/releases/${release.cat_num}/`,
+                                    //         state: { release }
+                                    //     }}
+                                    //     key={index}
+                                    // >
                                         <ReleaseTile
                                             item={release}
                                             id={index}
                                             key={index}
                                         />
-                                    </Link>
+                                    // </Link>
 
                                 )
                             }
                         )
-    
                         }
                     </div>
                 </div>
