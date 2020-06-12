@@ -7,10 +7,36 @@
   max-height: 20vh;
 }
 
-#releaseTile .details {
-  display: flex;
-  flex-direction: column;
+#releaseDetails {
+  width: 100%;
   margin-left: 2vh;
+  font-family: 'Inconsolata', monospace;
+}
+
+#releaseHeadline div {
+  margin-right: 1vh;
+}
+
+#releaseHeadline {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2.75vmin;
+  font-family: 'Karla', sans-serif;
+  border-bottom: solid #ffcebe;
+}
+
+#tracksHeader {
+  display: flex;
+  margin-top: 1vh;
+  font-size: 2.25vmin;
+}
+
+.tracks {
+  margin: 0;
+}
+
+#releaseBio {
+  margin: 0;
 }
 
 #releaseTile {
@@ -22,6 +48,7 @@
   height: auto;
   width: 100%;
   height: auto;
-  margin: 1vh;
+  margin: 2vh;
   margin-left: 0;
+  font-size: 2vmin;
 }
