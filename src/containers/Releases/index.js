@@ -24,7 +24,7 @@ class Releases extends Component {
                 <div className="content" id="releases">
                     <div className="sectionHeader">Releases</div>
                     <div className="displayGrid">
-                        {this.state.releases.map(
+                        {this.state.releases.reverse().map(
                             (release, index) => {
                                 return (
                                     // <Link
