@@ -32,15 +32,14 @@
   'artists  about';
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  column-gap: 1vh;
-  row-gap: 2vh;
+  column-gap: 2.5vh;
+  row-gap: 1vh;
 }
 
 @media only screen and (max-width: 767px) {
   .home {
     display: flex;
     flex-wrap: wrap;
-    padding: 1.5vh;
     height: 100%;
     width: 100%;
   }

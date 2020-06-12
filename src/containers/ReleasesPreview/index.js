@@ -18,7 +18,6 @@ class ReleasesPreview extends Component {
     }
 
     render() {
-
         return (
             (!this.state.releases) ?
             <p id='loading'>loading...</p>
