@@ -24,8 +24,8 @@
   grid-area: app;
   background-color: #FFFFFF;
   color: #2C2A2D;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-areas: 
   'news     releases'

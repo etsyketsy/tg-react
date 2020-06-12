@@ -1,12 +1,13 @@
 .text {
   border-bottom: solid transparent;
   margin-top: 1vh;
+
 }
  
 .active .text {
-   border-bottom: solid #ffcebe;
-   box-sizing: border-box;
-}
+  border-bottom: solid #ffcebe;
+  box-sizing: border-box; 
+} 
 
 #navLinks {
   display: flex;
@@ -66,3 +67,4 @@
     margin: 4vh;
   }
 }
+
