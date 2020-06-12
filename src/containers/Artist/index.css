@@ -1,61 +1,10 @@
-
-
-.photoPreview {
-    display: flex;
-    object-fit: cover;
-    height: 100%;
-}
-
-#itemTile {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    font-size: 1.75vh;
-    width: 20vmin;
-    height: 20vmin;
-    word-wrap: break-word;
-    hyphens: auto;
-    margin-right: 1vh;
-    margin-bottom: 1vh;
-  }
-
-#itemTile #info {
-    background: #ffcebe;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    text-align: center;
-}
-
-#itemTile #info p {
-    color: #383838;
-    line-height: 1.25em;
-    height: 25%;
-    bottom: 0;
-    position: absolute;
-    text-align: left;
-    margin-left: 1vh;
-}
-
-button {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 3vh;
-    width: 1vh;
-    border: none;
-    font-size: 1em;
-}  
-
 .name {
     font-size: 2em;
+    width: 20vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Karla', sans-serif;
 }
-
 
 .location {
     font-size: .5em;
@@ -65,10 +14,8 @@ button {
 
 .artistPhoto {
     max-width: 216px;
-    height: 116px;
+    max-height: 116px;
     object-fit: cover;
-    padding: 0;
-    display: flex;
 }
 
 .bio {
@@ -81,20 +28,26 @@ button {
 
 .desc {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-between;
-    height: auto;
+    width: 100%;
     margin-bottom: 1.5vh;
-
 }
 
 .artistSlide {
-    width: 60vh;
-    height: auto;
+    width: 50vh;
     display: flex;
     flex-direction: column;
-    padding-top: 5vh;
-    margin-top: 10vh;
+    flex-flow: wrap;
+    margin: 2vh;
+    margin-left: 0;
 }
 
-
+@media only screen and (max-width: 767px) {
+    .artistPhoto {
+        min-width: 10vh;
+        max-width: 40vh;
+        height: auto;
+        object-fit: scale-down;
+    }
+}
