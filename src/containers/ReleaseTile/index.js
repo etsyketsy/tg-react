@@ -1,34 +1,31 @@
 import React, { Component } from 'react';
+import ReactHtmlParser from 'react-html-parser';
 import './index.css';
 
 class ReleaseTile extends Component {
 
-    clickHandler = (e) => {
-        console.log(e.currentTarget)
-    }
     render() {
+        console.log(this.props.item)
         return (
             <div id="releaseTile">
-                <a href='#full_info'
-                    onClick={this.clickHandler}
-                >
-                <img className='photoPreview'
-                    src={this.props.item.image}
-                    alt='releaseCover' />
-                {/* <div id='preview_info'> */}
-                    <div className='preview_title'>
+                <img src={this.props.item.image}
+                    alt='releaseCover'
+                />
+                <div className='details'>
+                    <div className='cat_num'>
+                        {this.props.item.cat_num}
+                    </div>
+                    <div className='releaseArtist'>
+                        {this.props.item.artist}
+                    </div>
+                    <div className='releaseTitle'>
                         {this.props.item.release_title}
                     </div>
-                    <div className='preview_artist'>
-                        by {this.props.item.artist}
+                    <div className='bio'>
+                        {ReactHtmlParser(this.props.item.bio)}
                     </div>
-                {/* </div> */}
-                </a>
-                <div id='full_info'>
-                    <a href='closeDetail'>
-                        {this.props.item.bio}
-                    </a>
                 </div>
+
             </div>
         )
     }
