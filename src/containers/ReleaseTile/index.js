@@ -3,9 +3,15 @@ import './index.css';
 
 class ReleaseTile extends Component {
 
+    clickHandler = (e) => {
+        console.log(e.currentTarget)
+    }
     render() {
         return (
             <div id="releaseTile">
+                <a href='#full_info'
+                    onClick={this.clickHandler}
+                >
                 <img className='photoPreview'
                     src={this.props.item.image}
                     alt='releaseCover' />
@@ -17,16 +23,11 @@ class ReleaseTile extends Component {
                         by {this.props.item.artist}
                     </div>
                 {/* </div> */}
+                </a>
                 <div id='full_info'>
-                    <div className='release_title'>
-                        {this.props.item.release_title}
-                    </div>
-                    <div className='release_artist'>
-                        by {this.props.item.artist}
-                    </div>
-                    <div className='release_bio'>
+                    <a href='closeDetail'>
                         {this.props.item.bio}
-                    </div>
+                    </a>
                 </div>
             </div>
         )

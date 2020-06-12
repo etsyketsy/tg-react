@@ -17,8 +17,24 @@
   display: inline-block;
 }
 
-#releaseTile #full_info {
-  display: none;
+#full_info {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+#full_info:target {
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  opacity: 100;
+  width: inherit;
+  height: auto;
+}
+
+#closeDetail:target {
+  visibility: hidden;
   width: 0;
   height: 0;
 }
@@ -32,9 +48,10 @@
   height: auto;
   min-width: 10vh;
   max-width: 25vh;
+  height: auto;
   margin: 1vh;
+  margin-left: 0;
 }
-
 /* #releaseTile:hover #preview_info{
       opacity: .8;
       transition: opacity .2s;
