@@ -1,12 +1,37 @@
+#footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #333333;
+  color: #efefef;
+ }
+ 
+#about {
+  width: 50%;
+  /* margin-top: 3vh; */
+  padding-top: 3vh;
+  padding-left: 20vh;
+  padding-right: 3vh;
+  padding-bottom: 3vh;
+}
+
+#contact {
+  width: 50%;
+  /* margin-top: 3vh; */
+  padding-top: 3vh;
+  padding-right: 20vh;
+  padding-bottom: 3vh;
+}
+
 #layoutBody {
   margin-left: 20vh;
   margin-right: 20vh;
+  margin-bottom: 5vh;
   width: 100%;
 }
 
 #header {
   width: 100%;
-  background: url(../../assets/halftone1.jpg);
+  background: url(../../assets/halftone2.jpg);
   background-size: 67%;
   background-repeat: repeat;
   padding-top: 2vh;
@@ -100,5 +125,25 @@
     margin-right: 2vh;
     width: 100%;
   }
+
+  #about {
+    width: 100%;
+    padding: 2vh;
+  }
+  
+  #contact {
+    width: 100%;
+    padding: 2vh;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 3vh;
+    padding-bottom: 5vh;
+    background-color: #333333;
+    color: #efefef;
+   }
 }
 

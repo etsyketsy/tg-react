@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import logo from '../../assets/tg_triangle_logo.png';
+import About from '../About/index.js';
+import Contact from '../Contact/index.js';
 import './index.css';
 
 
@@ -44,6 +46,10 @@ class Layout extends Component {
         </div>
         <div id='layoutBody'>
           {this.props.children}
+        </div>
+        <div id='footer'>
+          <About />
+          <Contact />
         </div>
       </div>
     );

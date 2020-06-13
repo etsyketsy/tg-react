@@ -44,7 +44,7 @@
     margin-left: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
     .artistPhoto {
         min-width: 10vh;
         max-width: 40vh;

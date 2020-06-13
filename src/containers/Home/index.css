@@ -1,12 +1,3 @@
-#about {
-  width: 47%;
-  margin-right: 3vh;
-}
-
-#contact {
-  width: 47%;
-}
-
 #releasesPreview {
   width: 47%;
 }
@@ -77,6 +68,11 @@
   margin-right: 3vh;
 }
 
+#footer {
+ display: flex;
+ flex-direction: column;
+}
+
 .home {
   background-color: #FFFFFF;
   color: #2C2A2D;
@@ -85,15 +81,24 @@
   margin-top: 2vh;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
   .home {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     height: 100%;
-    width: 100%;
-    margin: 2vh;
+    /* width: 100%; */
+    /* margin: 2vh; */
   }
 
+  #newsPreview {
+    max-width: 100%;
+  }
+
+  #releasesPreview {
+    padding-top: 2vh;
+    width: 100%;
+  }
 }
 
 
