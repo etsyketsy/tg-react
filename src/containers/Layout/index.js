@@ -11,7 +11,6 @@ class Layout extends Component {
       <div id="layout">
         <div id='header'>
 
-
           <Link to="/" replace id="logoWrapper">
             <img src={logo} alt="Logo" id="logoGif" />
           </Link>
@@ -21,9 +20,9 @@ class Layout extends Component {
             <NavLink to="/" activeClassName="active" exact replace>
               <div className='text'>HOME</div>
             </NavLink>
-            <NavLink to="/news" activeClassName="active" exact replace>
+            {/* <NavLink to="/news" activeClassName="active" exact replace>
               <div className='text'>NEWS</div>
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/releases" activeClassName="active" replace>
               <div className='text'>RELEASES</div>
             </NavLink>
@@ -33,9 +32,9 @@ class Layout extends Component {
             <a href="https://music.tgrex.com/" target="_blank" rel="noopener noreferrer">
               <div className='text'>AUDIO</div>
             </a>
-            <NavLink to="/about" activeClassName="active" replace>
+            {/* <NavLink to="/about" activeClassName="active" replace>
               <div className='text'>ABOUT</div>
-            </NavLink>
+            </NavLink> */}
             <a href="https://deathwishinc.com/collections/twelve-gauge"
               target="_blank" rel="noopener noreferrer">
               <div className='text'>STORE</div>
@@ -43,7 +42,9 @@ class Layout extends Component {
 
           </div>
         </div>
-        {this.props.children}
+        <div id='layoutBody'>
+          {this.props.children}
+        </div>
       </div>
     );
   }

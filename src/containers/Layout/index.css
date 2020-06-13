@@ -1,9 +1,18 @@
+#layoutBody {
+  margin-left: 20vh;
+  margin-right: 20vh;
+  width: 100%;
+}
+
 #header {
   width: 100%;
   background: url(../../assets/halftone1.jpg);
   background-size: 67%;
-  background-repeat: round repeat;
+  background-repeat: repeat;
   padding-top: 2vh;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center; */
 }
 
 .text {
@@ -21,23 +30,28 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+  align-items: flex-end;
   height: auto;
   font-family: 'Inconsolata', monospace;
   font-size: 3vmin;
-  margin-bottom: 3.5vh;
-  
+  margin-bottom: 2vh;
+  margin-top: 1vh;
+  margin-right: 20vh;
+  width: 200%;
+  /* width: 200%; */
 }
 
 #logoWrapper img {
-  width: 100%;
+  width: auto;
   max-height: 10vh;
   object-fit: scale-down;
+  margin-bottom: 2vh;
 }
 
 #logoWrapper {
   justify-items: center;
   width: 100%;
+  margin-left: 20vh;
 }
 
 #layout {
@@ -70,10 +84,25 @@
   margin: 3vh;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 1024px) {
 
-  #layout {
-    /* margin: 4vh; */
+  #navLinks {
+    margin-right: 2vh;
+    width: 100%;
+  }
+
+  #logoWrapper {
+    margin-left: 2vh;
+  }
+
+  #layoutBody {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    width: 100%;
+  }
+
+  .sectionHeader {
+    font-size: 1.75em;
   }
 }
 

@@ -34,7 +34,7 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 2.5vh;
   row-gap: 1vh;
-  margin: 4vh;
+  margin-top: 2vh;
 }
 
 @media only screen and (max-width: 767px) {
