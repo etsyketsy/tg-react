@@ -1,16 +1,15 @@
 #header {
   width: 100%;
-  background: url(../../assets/halftone.gif);
+  background: url(../../assets/halftone1.jpg);
+  background-size: 67%;
+  background-repeat: round repeat;
+  padding-top: 2vh;
 }
 
 .text {
   border-bottom: solid transparent;
   margin-top: 1vh;
-  padding: 1vh;
-  padding-top: .5vh;
-  padding-bottom: .5vh;
   color: white;
-  background-color: black;
 }
  
 .active .text {
