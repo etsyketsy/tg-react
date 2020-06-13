@@ -7,7 +7,7 @@ import releaseData from '../../assets/releaseData.js';
 class ReleasesPreview extends Component {
 
     state = {
-        itemsToRender: 4,
+        itemsToRender: 3,
         releases: null
     }
 
@@ -23,10 +23,10 @@ class ReleasesPreview extends Component {
             <p id='loading'>loading...</p>
             :
             <div className="preview" id="releasesPreview">
-                 <div className="sectionHeader">Releases</div>
+                 <div className="sectionHeader">// Latest Releases</div>
                 <div className="displayGrid">
                     {
-                        this.state.releases.slice(0, this.state.itemsToRender).map(
+                        this.state.releases.reverse().slice(0, this.state.itemsToRender).map(
                             (release, index) => {
                                 return (
                                     <Link

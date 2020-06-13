@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="content" id="contact">
-                <div className="sectionHeader">Contact</div>
+                <div className="sectionHeader">// Contact</div>
                 <div className="contactDisplay">
                     Label: <br></br>
                     Jihad M. Rabah, jihad@twelvegaugehc.com
