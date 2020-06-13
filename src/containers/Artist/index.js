@@ -15,7 +15,10 @@ class Artist extends Component {
             <div className='location'>{this.props.item.artist_location}
             </div>
           </div>
-          <img src={this.props.item.image} alt='img' className='artistPhoto' />
+          <img src={this.props.item.image} 
+            alt='img' 
+            className='artistPhoto' 
+          />
         </div>
         <div className='bio'>
           {this.props.item.artist_bio}
