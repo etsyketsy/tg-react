@@ -1,7 +1,16 @@
+#header {
+  width: 100%;
+  background: url(../../assets/halftone.gif);
+}
+
 .text {
   border-bottom: solid transparent;
   margin-top: 1vh;
-
+  padding: 1vh;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  color: white;
+  background-color: black;
 }
  
 .active .text {
@@ -18,6 +27,7 @@
   font-family: 'Inconsolata', monospace;
   font-size: 3vmin;
   margin-bottom: 3.5vh;
+  
 }
 
 #logoWrapper img {
@@ -33,11 +43,11 @@
 
 #layout {
   color: #2C2A2D;
-  margin-right: 1vh;
-  margin-left: 1vh;
+  /* margin-right: 1vh;
+  margin-left: 1vh; */
   display: flex;
   flex-wrap: wrap;
-  margin: 2vh;
+  /* margin: 2vh; */
   width: auto;
   box-sizing: border-box;
 } 
@@ -64,7 +74,7 @@
 @media only screen and (min-width: 767px) {
 
   #layout {
-    margin: 4vh;
+    /* margin: 4vh; */
   }
 }
 
