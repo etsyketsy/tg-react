@@ -1,25 +1,31 @@
 #footer {
   display: flex;
   flex-direction: row;
-  background-color: #333333;
+  background-color: #212121;
   color: #efefef;
  }
+
+ #footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
  
 #about {
-  width: 50%;
+  width: 39%;
   /* margin-top: 3vh; */
-  padding-top: 3vh;
-  padding-left: 20vh;
-  padding-right: 3vh;
-  padding-bottom: 3vh;
+  margin-top: 3vh;
+  margin-left: 20vh;
+  margin-right: 3vh;
+  margin-bottom: 5vh;
 }
 
 #contact {
-  width: 50%;
+  max-width: 57%;
   /* margin-top: 3vh; */
-  padding-top: 3vh;
-  padding-right: 20vh;
-  padding-bottom: 3vh;
+  margin-top: 3vh;
+  margin-right: 20vh;
+  margin-bottom: 5vh;
+  margin-left: 3vh;
 }
 
 #layoutBody {
@@ -128,12 +134,18 @@
 
   #about {
     width: 100%;
-    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 0;
   }
   
   #contact {
     width: 100%;
-    padding: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 0;
   }
 
   #footer {
@@ -142,7 +154,7 @@
     flex-wrap: wrap;
     padding-right: 3vh;
     padding-bottom: 5vh;
-    background-color: #333333;
+    background-color: #212121;
     color: #efefef;
    }
 }
