@@ -68,17 +68,13 @@
   margin-right: 3vh;
 }
 
-#footer {
- display: flex;
- flex-direction: column;
-}
+
 
 .home {
   background-color: #FFFFFF;
   color: #2C2A2D;
   display: flex;
   flex-flow: wrap;
-  margin-top: 2vh;
 }
 
 @media only screen and (max-width: 1024px) {

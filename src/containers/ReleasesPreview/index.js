@@ -28,6 +28,7 @@ class ReleasesPreview extends Component {
                     {
                         this.state.releases.reverse().slice(0, this.state.itemsToRender).map(
                             (release, index) => {
+                                console.log(release)
                                 return (
                                     <Link
                                         to={{

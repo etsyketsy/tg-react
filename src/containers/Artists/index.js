@@ -24,7 +24,7 @@ class Artists extends Component {
         <p id='loading'>loading...</p>
         :
         <div className="content" id="artists">
-          <div className="sectionHeader">Artists</div>
+          <div className="sectionHeader">// Artists</div>
           <div className="displayGrid">
             {
               this.state.artists.map(

@@ -3,6 +3,10 @@
   flex-direction: row;
   background-color: #212121;
   color: #efefef;
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
  }
 
  #footer a {
@@ -11,24 +15,19 @@
 }
  
 #about {
-  width: 39%;
-  /* margin-top: 3vh; */
-  margin-top: 3vh;
-  margin-left: 20vh;
+  max-height: 100%;
+  max-width: 47%;
   margin-right: 3vh;
-  margin-bottom: 5vh;
 }
 
 #contact {
-  max-width: 57%;
-  /* margin-top: 3vh; */
-  margin-top: 3vh;
-  margin-right: 20vh;
-  margin-bottom: 5vh;
-  margin-left: 3vh;
+  max-height: 100%;
+  max-width: 47%;
+  margin-right: 3vh;
 }
 
 #layoutBody {
+  margin-top: 2vh;
   margin-left: 20vh;
   margin-right: 20vh;
   margin-bottom: 5vh;
@@ -40,7 +39,8 @@
   background: url(../../assets/halftone2.jpg);
   background-size: 67%;
   background-repeat: repeat;
-  padding-top: 2vh;
+  padding-top: 3vh;
+  padding-bottom: 1.5vh;
   display: flex;
   /* flex-direction: column;
   align-items: center; */
@@ -51,7 +51,7 @@
   margin-top: 1vh;
   color: white;
 }
- 
+
 .active .text {
   border-bottom: solid #ffcebe;
   box-sizing: border-box; 
@@ -68,8 +68,7 @@
   margin-bottom: 2vh;
   margin-top: 1vh;
   margin-right: 20vh;
-  width: 200%;
-  /* width: 200%; */
+  width: 120%;
 }
 
 #logoWrapper img {
@@ -119,7 +118,7 @@
 
   #navLinks {
     margin-right: 2vh;
-    width: 100%;
+    width: 200%;
   }
 
   #logoWrapper {
@@ -132,30 +131,24 @@
     width: 100%;
   }
 
-  #about {
-    width: 100%;
-    margin-top: 2vh;
-    margin-left: 2vh;
-    margin-bottom: 2vh;
-    margin-right: 0;
-  }
-  
-  #contact {
-    width: 100%;
-    margin-top: 2vh;
-    margin-left: 2vh;
-    margin-bottom: 2vh;
-    margin-right: 0;
-  }
-
   #footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-right: 3vh;
+    width: 100%;
+    padding-top: 2vh;
+    padding-left: 2vh;
     padding-bottom: 5vh;
-    background-color: #212121;
-    color: #efefef;
+    padding-right: 0
    }
+
+   #about {
+     max-width: 100%;
+   }
+
+   #contact {
+    max-width: 100%;
+    padding-top: 2vh;
+  }
 }
 
