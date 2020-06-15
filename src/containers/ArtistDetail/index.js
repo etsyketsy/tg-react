@@ -36,9 +36,9 @@ class ArtistDetail extends Component {
             (!this.state.item) ?
                 <p id='loading'>loading...</p>
                 :
-                <div className="artistSlide" id={this.props.index}>
-                    <button onClick={this.exitHandler}>&#215;</button>
-
+                <div className="artistDetail" id={this.props.index}>
+                    {/* <button onClick={this.exitHandler}>&#215;</button> */}
+                    <button onClick={this.exitHandler}>&#8592;</button>
                     <div className="desc">
                         <img src={this.state.item.image} alt='img' className='artistPhoto' />
                         <div className='name'>
