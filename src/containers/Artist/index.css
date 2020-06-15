@@ -1,9 +1,10 @@
 .name {
     font-size: 1.5em;
-    width: 20vh;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
+    margin: 1vh;
+    max-width: 30vh
 }
 
 .location {
@@ -13,8 +14,8 @@
 }
 
 .artistPhoto {
-    max-width: 216px;
-    max-height: 116px;
+    max-width: 40vh;
+    max-height: 30vh;
     object-fit: cover;
 }
 
@@ -22,26 +23,26 @@
     padding: 0;
     margin: 0;
     border-top: solid #ffcebe;
+    width: 100%;
 }
 
 .desc {
     display: flex;
-    flex-direction: row; 
-    flex-flow: wrap;
-    justify-content: space-evenly;
     object-fit: scale-down;
-    width: 100%;
-    height: 10vh;
+    max-height: 30vh;
     margin-bottom: 1.5vh;
+    border: solid green;
 }
 
-.artistSlide {
-    width: 30vh;
+.desc img {
     display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
-    margin: 2vh;
-    margin-left: 0;
+    width: 100%;
+}
+
+
+.artistSlide {
+    display: flex;
+    flex-flow: column wrap;
 }
 
 @media only screen and (max-width: 1024px) {
