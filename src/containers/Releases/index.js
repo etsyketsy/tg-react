@@ -23,7 +23,7 @@ class Releases extends Component {
                 :
                 <div className="content" id="releases">
                     <div className="sectionHeader">// Releases</div>
-                    <div className="displayGrid">
+                    {/* <div className="displayGrid"> */}
                         {this.state.releases.reverse().map(
                             (release, index) => {
                                 return (
@@ -45,7 +45,7 @@ class Releases extends Component {
                             }
                         )
                         }
-                    </div>
+                    {/* </div> */}
                 </div>
 
         )

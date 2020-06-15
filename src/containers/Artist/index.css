@@ -3,20 +3,17 @@
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
-    margin: 1vh;
-    max-width: 30vh
 }
 
 .location {
     font-size: .5em;
     line-height: 1em;
-    margin-top: 1vh;
 }
 
 .artistPhoto {
-    max-width: 40vh;
-    max-height: 30vh;
-    object-fit: cover;
+    max-width: 15vh;
+    object-fit: scale-down;
+    box-sizing: border-box;
 }
 
 .bio {
@@ -28,21 +25,23 @@
 
 .desc {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     object-fit: scale-down;
     max-height: 30vh;
+    max-width: 30vh;
     margin-bottom: 1.5vh;
-    border: solid green;
+    
 }
-
-.desc img {
-    display: flex;
-    width: 100%;
-}
-
 
 .artistSlide {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    max-width: 30vh;
+    min-width: 20vh;
+    /* max-height: 30vh; */
+    overflow: hidden;
+    margin: 1vh;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -86,11 +86,8 @@
 
 #layout {
   color: #2C2A2D;
-  /* margin-right: 1vh;
-  margin-left: 1vh; */
   display: flex;
-  flex-wrap: wrap;
-  /* margin: 2vh; */
+  flex-flow: wrap;
   width: auto;
   box-sizing: border-box;
 } 
@@ -102,16 +99,21 @@
 
 .displayGrid {
   display: flex;
-  flex-flow: wrap;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
-.displayGrid::after {
+/* .displayGrid::after {
   content: "";
   flex: auto;
-}
+} */
 
 #loading {
   margin: 3vh;
+}
+
+.content {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {

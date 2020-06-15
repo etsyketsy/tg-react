@@ -20,9 +20,9 @@ class Artist extends Component {
             className='artistPhoto' 
           />
         </div>
-        <div className='bio'>
+        {/* <div className='bio'>
           {this.props.item.artist_bio}
-        </div>
+        </div> */}
       </div>
     )
   }
