@@ -626,7 +626,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2755099957/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/vesuvius\">Vesuvius by Creatures</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2755099957/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/vesuvius\">Vesuvius by Creatures</a></iframe>",
         "artist": [
             "Creatures"
         ],
@@ -647,7 +647,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2587804011/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/split\">Split by Another Mistake &amp; Overlooked</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2587804011/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/split\">Split by Another Mistake &amp; Overlooked</a></iframe>",
         "artist": [
             "Overlooked",
             "Another Mistake"
@@ -669,7 +669,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2022299670/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/bremerton-zoo\">Bremerton Zoo by Power</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2022299670/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/bremerton-zoo\">Bremerton Zoo by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -690,7 +690,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=710562126/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=710562126/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
         "artist": [
             "No Sir"
         ],
@@ -711,7 +711,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=3703321340/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=3703321340/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
         "artist": [
             "Nervous"
         ],
@@ -732,7 +732,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2110031721/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/see-you-when-i-see-you\">See You When I See You by Youth Funeral</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2110031721/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/see-you-when-i-see-you\">See You When I See You by Youth Funeral</a></iframe>",
         "artist": [
             "Youth Funeral"
         ],
@@ -753,7 +753,7 @@ const releaseData =
         "target_markets": "Everywhere",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3781833552/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iv\">Human Performance IV by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3781833552/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iv\">Human Performance IV by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -774,7 +774,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1838276407/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/heavy-muscle\">Heavy Muscle by Power</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1838276407/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/heavy-muscle\">Heavy Muscle by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -795,7 +795,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Coming Soon",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 500px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Nervous"
         ],

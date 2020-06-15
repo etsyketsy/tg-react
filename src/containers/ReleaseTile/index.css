@@ -1,10 +1,23 @@
+#releasesPreview #releaseDetails {
+  margin-left: 0;
+}
 
+#releasesPreview.preview #releaseBio,
+#releasesPreview.preview .tracks {
+  display: none;  
+}
 
-#releaseTile img{
+#releasesPreview.preview #releaseTile img {
+  /* max-width: 20vh;
+  max-height: 20vh; */
+  display: none;
+}
+
+#releaseTile img {
   display: flex;
   object-fit: scale-down;
-  max-width: 20vh;
-  max-height: 20vh;
+  max-width: 30vh;
+  max-height: 30vh;
 }
 
 #releaseDetails {
@@ -20,9 +33,11 @@
 #releaseHeadline {
   display: flex;
   flex-wrap: wrap;
-  font-size: 2.75vmin;
+  font-size: 1.25em;
+  /* font-size: 2.75vmin; */
   font-family: 'Karla', sans-serif;
-  border-bottom: solid #ffcebe;
+  /* border-bottom: solid #ffcebe; */
+  /* text-decoration: underline solid #ffcebe; */
 }
 
 #tracksHeader {
@@ -48,7 +63,8 @@
   height: auto;
   width: 100%;
   height: auto;
-  margin: 2vh;
-  margin-left: 0;
+  padding: 2vh;
+  padding-left: 0;
   font-size: 2vmin;
+  border-bottom: solid #ffcebe;; 
 }
