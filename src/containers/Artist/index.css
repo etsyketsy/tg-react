@@ -1,47 +1,54 @@
-
-
-.photoPreview {
-    display: flex;
-    object-fit: cover;
-    height: 100%;
-}
-
-#itemTile {
+.name {
+    font-size: 1.5em;
+    width: 20vh;
     display: flex;
     flex-direction: column;
-    position: relative;
-    font-size: 1.75vh;
-    width: 20vmin;
-    height: 20vmin;
-    word-wrap: break-word;
-    hyphens: auto;
-    margin-right: 1vh;
-    margin-bottom: 1vh;
-  }
+    font-family: 'Karla', sans-serif;
+}
 
-#itemTile #info {
-    background: #ffcebe;
-    height: 100%;
+.location {
+    font-size: .5em;
+    line-height: 1em;
+    margin-top: 1vh;
+}
+
+.artistPhoto {
+    max-width: 216px;
+    max-height: 116px;
+    object-fit: cover;
+}
+
+.bio {
+    padding: 0;
+    margin: 0;
+    border-top: solid #ffcebe;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row; 
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    object-fit: scale-down;
     width: 100%;
-    opacity: 0;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    text-align: center;
+    height: 10vh;
+    margin-bottom: 1.5vh;
 }
 
-#itemTile #info p {
-    color: #383838;
-    line-height: 1.25em;
-    height: 25%;
-    bottom: 0;
-    position: absolute;
-    text-align: left;
-    margin-left: 1vh;
+.artistSlide {
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin: 2vh;
+    margin-left: 0;
 }
 
-
-#itemTile:hover #info {
-        opacity: .8;
-        transition: opacity .2s;
+@media only screen and (max-width: 767px) {
+    .artistPhoto {
+        min-width: 10vh;
+        max-width: 40vh;
+        height: auto;
+        object-fit: scale-down;
+    }
 }
