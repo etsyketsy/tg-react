@@ -10,7 +10,6 @@ class ArtistDetail extends Component {
     }
 
     getReleases = (props) => {
-        
         let releases = releaseData.filter(release => release.artist_nice_name === this.props.location.state.artist.artist_nice_name
         );
         this.setState({
@@ -39,9 +38,8 @@ class ArtistDetail extends Component {
             :
             this.setState({
                 item: this.props.location.state.artist
-                // releases: releaseData.reduce()
             })
-            this.getReleases();
+        this.getReleases();
     }
 
     render() {
@@ -69,17 +67,16 @@ class ArtistDetail extends Component {
                     <div className="artistReleases">
                         {this.state.releases.map(
                             (release, index) => {
-                                return(
-                                    <ReleaseTile 
-                                     item={release}
-                                     id={index}
-                                     key={index}
-                                     />
-                                 )
+                                return (
+                                    <ReleaseTile
+                                        item={release}
+                                        id={index}
+                                        key={index}
+                                    />
+                                )
                             }
-                            
+
                         )}
-                        !!!Releaes will go here
                     </div>
                 </div>
         )

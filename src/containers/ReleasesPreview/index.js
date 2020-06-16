@@ -26,7 +26,7 @@ class ReleasesPreview extends Component {
                  <div className="sectionHeader">// Latest Releases</div>
                 <div className="displayGrid">
                     {
-                        this.state.releases.reverse().slice(0, this.state.itemsToRender).map(
+                        this.state.releases.slice(0, this.state.itemsToRender).map(
                             (release, index) => {
                                 console.log(release)
                                 return (

@@ -17,6 +17,7 @@ class Releases extends Component {
 
     // Renders release display grid with all releases if no item is selected
     render() {
+
         return (
             (!this.state.releases) ?
                 <p id='loading'>loading...</p>
@@ -24,7 +25,7 @@ class Releases extends Component {
                 <div className="content" id="releases">
                     <div className="sectionHeader">// Releases</div>
                     {/* <div className="displayGrid"> */}
-                        {this.state.releases.reverse().map(
+                        {this.state.releases.map(
                             (release, index) => {
                                 return (
                                     // <Link

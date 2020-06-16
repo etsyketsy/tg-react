@@ -2,8 +2,9 @@
   margin-left: 0;
 }
 
-#releasesPreview.preview #releaseBio,
-#releasesPreview.preview .tracks {
+/* #releasesPreview.preview #releaseBio,
+#releasesPreview */
+.preview #releaseBio, .preview .tracks {
   display: none;  
 }
 
