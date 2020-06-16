@@ -28,7 +28,7 @@ button {
     margin-right: 1vh;
 }
 
-.desc {
+.artistDetail .desc {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
