@@ -47,16 +47,39 @@ button {
     font-size: 1.9em;
 }
 .artistReleases #releaseHeadline {
-    border-bottom: solid #ffcebe;
     display: flex;
     flex-flow: row wrap;
+    align-content: flex-end;
+    width: 100%;
+    border-bottom: solid #ffcebe;
 }
 
-.artistReleases #releasePreview {
+.artistReleases #releaseTile {
+    display: flex;
+    align-items: flex-end;
     object-fit: scale-down;
     margin-top: 2vh;
     margin-right: 2vh;
-    width: 460px;
+    width: 400px;
+    padding: 0;
+    border: none;
+}
+
+.artistReleases #releaseTile img {
+    object-fit: scale-down;
+    width: 15vh;
+}
+
+.artistReleases #releaseBio {
+    display: none;
+}
+
+.artistReleases .tracks {
+    display: none;
+}
+
+.artistReleases .mediaPlayer {
+    display: none;
 }
 
 .artistReleases {

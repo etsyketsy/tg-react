@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import './index.css';
-import ReleasePreview from '../ReleasePreview/index';
+import ReleaseTile from '../ReleaseTile/index';
 import releaseData from '../../assets/releaseData';
 
 class ArtistDetail extends Component {
@@ -68,7 +68,7 @@ class ArtistDetail extends Component {
                         {this.state.releases.map(
                             (release, index) => {
                                 return (
-                                    <ReleasePreview
+                                    <ReleaseTile
                                         item={release}
                                         id={index}
                                         key={index}
