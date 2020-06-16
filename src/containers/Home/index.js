@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReleasesPreview from '../ReleasesPreview/index.js';
+import LatestReleases from '../LatestReleases/index.js';
 import NewsPreview from '../News/NewsPreview.js';
 // import About from '../About/index.js';
 // import Contact from '../Contact/index.js';
@@ -13,7 +13,7 @@ class Home extends Component {
     return (
       <div className="home">
         <NewsPreview />
-        <ReleasesPreview />
+        <LatestReleases />
         {/* <div id='footer'>
           <About />
           <Contact />

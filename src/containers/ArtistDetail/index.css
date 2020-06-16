@@ -43,6 +43,17 @@ button {
     padding-top: 1vh;
 }
 
+.artistReleases #releaseTile {
+    border: solid blue;
+    width: 30%;
+    object-fit: scale-down;
+}
+
+.artistReleases {
+    border: solid red;
+    display: flex;
+    flex-flow: row wrap;
+}
 /*
 .artistSlide {
     width: 60vh;
