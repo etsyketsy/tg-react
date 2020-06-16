@@ -20,7 +20,7 @@ class LatestReleases extends Component {
     render() {
         return (
             (!this.state.releases) ?
-            <p id='loading'>loading...</p>
+            <p id="loading">loading...</p>
             :
             <div className="preview" id="latestReleases">
                  <div className="sectionHeader">// Latest Releases</div>
@@ -47,7 +47,7 @@ class LatestReleases extends Component {
                         )
                     }
                 </div>
-                <Link to="/releases" replace>ALL RELEASES</Link>
+                <Link to="/releases" replace id="releasesLink">ALL RELEASES</Link>
             </div>
         )
     }

@@ -5,6 +5,7 @@ import './index.css';
 class ReleasePreview extends Component {
 
     render() {
+        console.log(this.props.item)
         return (
             <div id="releasePreview">
                 <div id='releaseHeadline'>
