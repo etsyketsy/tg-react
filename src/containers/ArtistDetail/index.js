@@ -32,6 +32,7 @@ class ArtistDetail extends Component {
     }
 
     render() {
+        console.log(this.state.item)
         return (
             (!this.state.item) ?
                 <p id='loading'>loading...</p>
