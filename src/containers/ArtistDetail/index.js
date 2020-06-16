@@ -1,10 +1,21 @@
 import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import './index.css';
+import ReleaseTile from '../ReleaseTile/index';
+import releaseData from '../../assets/releaseData';
 
 class ArtistDetail extends Component {
     state = {
         item: null
+    }
+
+    getReleases = (props) => {
+        
+        let releases = releaseData.filter(release => release.artist_nice_name === this.props.location.state.artist.artist_nice_name
+        );
+        this.setState({
+            releases: releases
+        })
     }
 
     exitHandler = (props) => {
@@ -28,11 +39,12 @@ class ArtistDetail extends Component {
             :
             this.setState({
                 item: this.props.location.state.artist
+                // releases: releaseData.reduce()
             })
+            this.getReleases();
     }
 
     render() {
-        console.log(this.state.item)
         return (
             (!this.state.item) ?
                 <p id='loading'>loading...</p>
@@ -52,6 +64,22 @@ class ArtistDetail extends Component {
                     </div>
                     <div className='bio'>
                         {ReactHtmlParser(this.state.item.artist_bio)}
+                    </div>
+
+                    <div className="artistReleases">
+                        {this.state.releases.map(
+                            (release, index) => {
+                                return(
+                                    <ReleaseTile 
+                                     item={release}
+                                     id={index}
+                                     key={index}
+                                     />
+                                 )
+                            }
+                            
+                        )}
+                        !!!Releaes will go here
                     </div>
                 </div>
         )
