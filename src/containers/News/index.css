@@ -52,6 +52,7 @@
     overflow-wrap: break-word;
     word-wrap: break-word;
     overflow: hidden;
+
     max-height: 100%;
     max-width: 100%;
 }

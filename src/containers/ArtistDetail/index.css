@@ -37,22 +37,32 @@ button {
     margin-bottom: 1.5vh;
 }
 
-
 .bio {
     border-top: solid #ffcebe;
     padding-top: 1vh;
 }
 
-.artistReleases #releaseTile {
-    border: solid blue;
-    width: 30%;
+.artistDetail .sectionHeader {
+    margin-top: 3vh;
+    font-size: 1.9em;
+}
+.artistReleases #releaseHeadline {
+    border-bottom: solid #ffcebe;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.artistReleases #releasePreview {
     object-fit: scale-down;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    width: 460px;
 }
 
 .artistReleases {
-    border: solid red;
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 /*
 .artistSlide {

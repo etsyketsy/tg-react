@@ -63,7 +63,7 @@ class ArtistDetail extends Component {
                     <div className='bio'>
                         {ReactHtmlParser(this.state.item.artist_bio)}
                     </div>
-
+                    <div className="sectionHeader">//Releases</div>
                     <div className="artistReleases">
                         {this.state.releases.map(
                             (release, index) => {
