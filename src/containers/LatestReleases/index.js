@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import ReleaseTile from '../ReleaseTile/index.js';
+import ReleasePreview from '../ReleasePreview/index.js';
 import releaseData from '../../assets/releaseData.js';
 
 
-class ReleasesPreview extends Component {
+class LatestReleases extends Component {
 
     state = {
         itemsToRender: 3,
@@ -20,15 +20,14 @@ class ReleasesPreview extends Component {
     render() {
         return (
             (!this.state.releases) ?
-            <p id='loading'>loading...</p>
+            <p id="loading">loading...</p>
             :
-            <div className="preview" id="releasesPreview">
+            <div className="preview" id="latestReleases">
                  <div className="sectionHeader">// Latest Releases</div>
                 <div className="displayGrid">
                     {
-                        this.state.releases.reverse().slice(0, this.state.itemsToRender).map(
+                        this.state.releases.slice(0, this.state.itemsToRender).map(
                             (release, index) => {
-                                console.log(release)
                                 return (
                                     <Link
                                         to={{
@@ -37,7 +36,7 @@ class ReleasesPreview extends Component {
                                         }}
                                         key={index}
                                     >
-                                        <ReleaseTile
+                                        <ReleasePreview
                                             item={release}
                                             id={index}
                                             key={index}
@@ -48,10 +47,10 @@ class ReleasesPreview extends Component {
                         )
                     }
                 </div>
-                <Link to="/releases" replace>ALL RELEASES</Link>
+                <Link to="/releases" replace id="releasesLink">ALL RELEASES</Link>
             </div>
         )
     }
 }
 
-export default ReleasesPreview;
+export default LatestReleases;

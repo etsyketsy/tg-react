@@ -1,54 +1,50 @@
-.name {
+.artistSlide .name {
     font-size: 1.5em;
-    width: 20vh;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
 }
 
-.location {
+.artistSlide .location {
     font-size: .5em;
     line-height: 1em;
-    margin-top: 1vh;
 }
 
-.artistPhoto {
-    max-width: 216px;
-    max-height: 116px;
-    object-fit: cover;
+.artistSlide .artistPhoto {
+    display: flex;
+    width: inherit;
+    object-fit: scale-down;
 }
-
+/* 
 .bio {
     padding: 0;
     margin: 0;
     border-top: solid #ffcebe;
-}
-
-.desc {
-    display: flex;
-    flex-direction: row; 
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    object-fit: scale-down;
     width: 100%;
-    height: 10vh;
-    margin-bottom: 1.5vh;
-}
+} */
 
-.artistSlide {
-    width: 30vh;
+/* .artistSlide  .desc {
     display: flex;
     flex-direction: column;
-    flex-flow: wrap;
-    margin: 2vh;
-    margin-left: 0;
+} */
+
+.displayGrid {
+    display: flex;
+    flex-flow: row wrap; 
+  }
+
+.artistSlide {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    max-width: 20vh;
 }
 
 @media only screen and (max-width: 1024px) {
-    .artistPhoto {
+    /* .artistPhoto {
         min-width: 10vh;
         max-width: 40vh;
         height: auto;
         object-fit: scale-down;
-    }
+    } */
 }

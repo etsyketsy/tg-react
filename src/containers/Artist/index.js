@@ -8,21 +8,23 @@ class Artist extends Component {
     console.log(this.props.item)
     return (
       <div className="artistSlide" id={this.props.index}>
-        <div className="desc">
+        
+          <img src={this.props.item.image}
+            alt='img'
+            className='artistPhoto'
+          />
+          <div className="desc">
           <div className='name'>
             {this.props.item.artist}
             <br />
             <div className='location'>{this.props.item.artist_location}
             </div>
           </div>
-          <img src={this.props.item.image} 
-            alt='img' 
-            className='artistPhoto' 
-          />
+
         </div>
-        <div className='bio'>
+        {/* <div className='bio'>
           {this.props.item.artist_bio}
-        </div>
+        </div> */}
       </div>
     )
   }

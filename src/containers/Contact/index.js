@@ -12,13 +12,13 @@ class Contact extends Component {
                     <p>Distribution/wholesale inquiries:
                     Deathwish Direct, distro@deathwishinc.com</p>
 
-                    <p>Follow us on social media
-                        <ul>
-                            <li>Instagram: <a href="https://instagram.com/twelvegaugehc">@twelvegaugehc</a></li>
-                            <li>Twitter: <a href="https://twitter.com/twelvegaugehc">@twelvegaugehc</a></li>
-                            <li><a href="https://www.facebook.com/tgrex/">Facebook</a></li>
-                        </ul>
-                    </p>
+                    <p>Follow us on social media</p>
+                    <ul>
+                        <li>Instagram: <a href="https://instagram.com/twelvegaugehc">@twelvegaugehc</a></li>
+                        <li>Twitter: <a href="https://twitter.com/twelvegaugehc">@twelvegaugehc</a></li>
+                        <li><a href="https://www.facebook.com/tgrex/">Facebook</a></li>
+                    </ul>
+                    
           </div>
             </div>
         )

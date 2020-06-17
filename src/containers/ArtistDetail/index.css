@@ -1,51 +1,93 @@
-/* button {
+button {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 3vh;
     width: 1vh;
     border: none;
     font-size: 1em;
+    background: none;
 }  
 
-.name {
+.artistDetail .name {
     font-size: 2em;
     display: flex;
     flex-direction: column;
     font-family: 'Inconsolata', monospace;
 }
 
-
-.location {
-    font-size: .5em;
-    line-height: 1em;
-    margin-top: 1vh;
+.artistDetail .location {
+    font-size: .75em;
 }
 
-.artistPhoto {
+.artistDetail .artistPhoto {
     max-width: 216px;
     height: 116px;
     object-fit: cover;
     padding: 0;
     display: flex;
+    margin-right: 1vh;
+}
+
+.artistDetail .desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: auto;
+    margin-bottom: 1.5vh;
 }
 
 .bio {
-    padding: 0;
-    height: auto;
-    margin: 0;
     border-top: solid #ffcebe;
     padding-top: 1vh;
 }
 
-.desc {
+.artistDetail .sectionHeader {
+    margin-top: 3vh;
+    font-size: 1.9em;
+}
+.artistReleases #releaseHeadline {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: auto;
-    margin-bottom: 1.5vh;
-
+    flex-flow: row wrap;
+    align-content: flex-end;
+    width: 100%;
+    border-bottom: solid #ffcebe;
 }
 
+.artistReleases #releaseTile {
+    display: flex;
+    align-items: flex-end;
+    object-fit: scale-down;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    width: 400px;
+    padding: 0;
+    border: none;
+}
+
+.artistReleases #releaseTile img {
+    object-fit: scale-down;
+    width: 15vh;
+}
+
+.artistReleases #releaseBio {
+    display: none;
+}
+
+.artistReleases .tracks {
+    display: none;
+}
+
+.artistReleases .mediaPlayer {
+    display: none;
+}
+
+.artistReleases {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/*
 .artistSlide {
     width: 60vh;
     height: auto;

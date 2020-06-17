@@ -5,7 +5,6 @@ import './index.css';
 class ReleaseTile extends Component {
 
     render() {
-        
         return (
             <div id="releaseTile">
                 <img src={this.props.item.image}

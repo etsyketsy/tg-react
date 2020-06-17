@@ -32,11 +32,18 @@ class Artists extends Component {
                   // List only artists, not affiliates
                   if (artist.artist_type === 'artist') {
                     return (
+                      <Link to={{
+                        pathname: `/artists/${artist.artist_nice_name}/`,
+                        state: { artist }
+                      }}
+                        key={index}
+                      >
                         <Artist
                           item={artist}
                           key={index}
                           id={index}
                         />
+                        </Link>
                     )
                   }
                   else return null;

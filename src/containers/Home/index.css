@@ -1,4 +1,4 @@
-#releasesPreview {
+#latestReleases {
   width: 47%;
 }
 
@@ -68,8 +68,6 @@
   margin-right: 3vh;
 }
 
-
-
 .home {
   background-color: #FFFFFF;
   color: #2C2A2D;
@@ -91,7 +89,7 @@
     max-width: 100%;
   }
 
-  #releasesPreview {
+  #latestReleases {
     padding-top: 2vh;
     width: 100%;
   }
