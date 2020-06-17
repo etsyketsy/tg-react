@@ -26,16 +26,16 @@ class ArtistDetail extends Component {
     }
 
     componentDidMount() {
-        (!this.props.location.state) ?
+        // (!this.props.location.state) ?
 
-            fetch(`http://localhost:8000/api/artists/${this.props.match.params.artist_nice_name}/`)
-                .then(response => response.json())
-                .then(data => {
-                    this.setState(
-                        { item: data[0] }
-                    )
-                })
-            :
+        //     fetch(`http://localhost:8000/api/artists/${this.props.match.params.artist_nice_name}/`)
+        //         .then(response => response.json())
+        //         .then(data => {
+        //             this.setState(
+        //                 { item: data[0] }
+        //             )
+        //         })
+        //     :
             this.setState({
                 item: this.props.location.state.artist
             })

@@ -12,10 +12,8 @@
 
 .artistSlide .artistPhoto {
     display: flex;
+    width: inherit;
     object-fit: scale-down;
-    box-sizing: border-box;
-    margin-right: 1vh;
-
 }
 /* 
 .bio {
@@ -25,27 +23,28 @@
     width: 100%;
 } */
 
-.artistSlide  .desc {
+/* .artistSlide  .desc {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    /* max-height: 30vh; */
-    max-width: 20vh;
+} */
 
-}
+.displayGrid {
+    display: flex;
+    flex-flow: row wrap; 
+  }
 
 .artistSlide {
-    display: grid;
-    flex-direction: row;
-    margin: 1vh;
-    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    max-width: 20vh;
 }
 
 @media only screen and (max-width: 1024px) {
-    .artistPhoto {
+    /* .artistPhoto {
         min-width: 10vh;
         max-width: 40vh;
         height: auto;
         object-fit: scale-down;
-    }
+    } */
 }
