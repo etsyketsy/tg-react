@@ -7,15 +7,15 @@ class ReleasePreview extends Component {
     render() {
         console.log(this.props.item)
         return (
-            <div id="releasePreview">
-                <div id='releaseHeadline'>
-                    <div id='cat_num'>
+            <div className="releasePreview">
+                <div className='releaseHeadline'>
+                    <div className='cat_num'>
                         {this.props.item.cat_num}:
                         </div>
-                    <div id='releaseArtist'>
+                    <div className='releaseArtist'>
                         {this.props.item.artist} -
                         </div>
-                    <div id='releaseTitle'>
+                    <div className='releaseTitle'>
                         {this.props.item.release_title}
                     </div>
                 </div>

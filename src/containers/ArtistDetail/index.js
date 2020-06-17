@@ -71,7 +71,7 @@ class ArtistDetail extends Component {
                                 return (
                                     <ReleaseTile
                                         item={release}
-                                        id={index}
+                                        id={release.cat_num}
                                         key={index}
                                     />
                                 )

@@ -3,33 +3,37 @@ import ReactHtmlParser from 'react-html-parser';
 import './index.css';
 
 class ReleaseTile extends Component {
+    
+    linkRelease = (e) => {
+        console.log(e.target)
+    }
 
     render() {
         return (
-            <div id="releaseTile">
+            <div className="releaseTile" onClick={this.linkRelease} id={this.props.item.cat_num}>
                 <img src={this.props.item.image}
                     alt='releaseCover'
                 />
-                <div id='releaseDetails'>
-                    <div id='releaseHeadline'>
-                        <div id='cat_num'>
+                <div className='releaseDetails'>
+                    <div className='releaseHeadline'>
+                        <div className='cat_num'>
                                 {this.props.item.cat_num}:
                         </div>
-                        <div id='releaseArtist'>
+                        <div className='releaseArtist'>
                             {this.props.item.artist} - 
                         </div>
-                        <div id='releaseTitle'>
+                        <div className='releaseTitle'>
                             {this.props.item.release_title}
                         </div>
-                        <div id='releaseFormats'>
+                        <div className='releaseFormats'>
                             {this.props.item.release_formats}
                         </div>
                     </div>
-                    <div id='releaseBio'>
+                    <div className='releaseBio'>
                         {ReactHtmlParser(this.props.item.bio)}
                     </div>
                     <div className='tracks'>
-                        <div id='tracksHeader'>Tracks</div>
+                        <div className='tracksHeader'>Tracks</div>
                         {ReactHtmlParser(this.props.item.tracklisting)}
                     </div>
                     <div className='mediaPlayer'>

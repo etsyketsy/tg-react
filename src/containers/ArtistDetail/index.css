@@ -46,7 +46,7 @@ button {
     margin-top: 3vh;
     font-size: 1.9em;
 }
-.artistReleases #releaseHeadline {
+.artistReleases .releaseHeadline {
     display: flex;
     flex-flow: row wrap;
     align-content: flex-end;
@@ -54,7 +54,7 @@ button {
     border-bottom: solid #ffcebe;
 }
 
-.artistReleases #releaseTile {
+.artistReleases .releaseTile {
     display: flex;
     align-items: flex-end;
     object-fit: scale-down;
@@ -65,12 +65,12 @@ button {
     border: none;
 }
 
-.artistReleases #releaseTile img {
+.artistReleases .releaseTile img {
     object-fit: scale-down;
     width: 15vh;
 }
 
-.artistReleases #releaseBio {
+.artistReleases .releaseBio {
     display: none;
 }
 

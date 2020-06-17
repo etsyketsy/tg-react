@@ -1,22 +1,22 @@
 
-#releaseTile img {
+.releaseTile img {
   display: flex;
   object-fit: scale-down;
   max-width: 30vh;
   max-height: 30vh;
 }
 
-#releaseDetails {
+.releaseDetails {
   width: 100%;
   margin-left: 2vh;
   font-family: 'Inconsolata', monospace;
 }
 
-#releaseHeadline div {
+.releaseHeadline div {
   margin-right: 1vh;
 }
 
-#releaseHeadline {
+.releaseHeadline {
   display: flex;
   flex-wrap: wrap;
   font-size: 1.25em;
@@ -26,7 +26,7 @@
   /* text-decoration: underline solid #ffcebe; */
 }
 
-#tracksHeader {
+.tracksHeader {
   display: flex;
   margin-top: 1vh;
   font-size: 2.25vmin;
@@ -36,11 +36,11 @@
   margin: 0;
 }
 
-#releaseBio {
+.releaseBio {
   margin: 0;
 }
 
-#releaseTile {
+.releaseTile {
   display: flex;
   flex-direction: row;
   word-wrap: break-word;
