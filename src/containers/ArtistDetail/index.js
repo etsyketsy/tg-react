@@ -36,9 +36,10 @@ class ArtistDetail extends Component {
         //             )
         //         })
         //     :
-            this.setState({
-                item: this.props.location.state.artist
-            })
+        console.log(this.props.location)
+        this.setState({
+            item: this.props.location.state.artist
+        })
         this.getReleases();
     }
 

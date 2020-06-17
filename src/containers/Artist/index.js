@@ -5,7 +5,6 @@ import './index.css';
 class Artist extends Component {
 
   render() {
-    console.log(this.props.item)
     return (
       <div className="artistSlide" id={this.props.index}>
         
