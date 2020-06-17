@@ -20,10 +20,10 @@ ReactDOM.render(
                 <Route exact path='/' component={Home} />
                 <Route exact path='/news' component={News} />
                 <Route exact path='/releases' component={Releases} />
-                <Route 
+                {/* <Route 
                     exact path='/releases/:cat_num' 
                     component={ReleaseDetail}
-                />
+                /> */}
                 <Route exact path='/artists' component={Artists} />
                 <Route 
                     exact path='/artists/:artist_nice_name' 

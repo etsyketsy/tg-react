@@ -37,7 +37,7 @@ class Releases extends Component {
                                     // >
                                         <ReleaseTile
                                             item={release}
-                                            id={index}
+                                            id={release.cat_num}
                                             key={index}
                                         />
                                     // </Link>

@@ -1,21 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import ReactHtmlParser from 'react-html-parser';
 import './index.css';
 
 class ReleaseTile extends Component {
-
-    linkRelease = (e) => {
-        console.log(e.target.id)
-        this.props.history.push('')
-    }
-
     render() {
         return (
-            <Link to={{
-                pathname: `/releases/`
-            }}
-            >
+            <Link to={`/releases#${this.props.item.cat_num}`}>
                 <div className="releaseTile" id={this.props.item.cat_num}>
                 <img src={this.props.item.image}
                     alt='releaseCover'
