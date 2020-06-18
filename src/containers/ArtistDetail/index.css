@@ -1,4 +1,4 @@
-button {
+.artistDetail button {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 3vh;
@@ -6,6 +6,7 @@ button {
     border: none;
     font-size: 1em;
     background: none;
+    outline: none;
 }  
 
 .artistDetail .name {
