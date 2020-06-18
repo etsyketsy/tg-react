@@ -50,13 +50,17 @@ class ReleaseTile extends Component {
                             <div className='mediaPlayer'>
                                 {ReactHtmlParser(this.props.item.mediaplayer_html)}
                             </div>
-                            <button className='tracksHeader'
-                                onClick={this.tracksClickHandler}>
-                                {!this.state.expanded ? 'See tracks' : 'Close Tracklisting'}
-                            </button>
-                            <div className={`tracks ${toggledClass}`}>
-                                {ReactHtmlParser(this.props.item.tracklisting)}
+                            <div className='tracks'>
+                                <button className='tracksHeader'
+                                    onClick={this.tracksClickHandler}>
+                                    {!this.state.expanded ? 'See tracks'
+                                        : 'x'}
+                                </button>
+                                <div className={`tracks ${toggledClass}`}>
+                                    {ReactHtmlParser(this.props.item.tracklisting)}
+                                </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
