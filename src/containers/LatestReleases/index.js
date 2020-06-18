@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import ReleasePreview from '../ReleasePreview/index.js';
 import releaseData from '../../assets/releaseData.js';
 
@@ -29,12 +29,8 @@ class LatestReleases extends Component {
                         this.state.releases.slice(0, this.state.itemsToRender).map(
                             (release, index) => {
                                 return (
-                                    <Link
-                                        to={{
-                                            pathname: `/releases/${release.cat_num}/`,
-                                            state: { release }
-                                        }}
-                                        key={index}
+                                    <Link 
+                                        to={`/releases#${release.cat_num}`}
                                     >
                                         <ReleasePreview
                                             item={release}

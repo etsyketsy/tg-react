@@ -36,9 +36,10 @@ class ArtistDetail extends Component {
         //             )
         //         })
         //     :
-            this.setState({
-                item: this.props.location.state.artist
-            })
+        console.log(this.props.location)
+        this.setState({
+            item: this.props.location.state.artist
+        })
         this.getReleases();
     }
 
@@ -70,7 +71,7 @@ class ArtistDetail extends Component {
                                 return (
                                     <ReleaseTile
                                         item={release}
-                                        id={index}
+                                        id={release.cat_num}
                                         key={index}
                                     />
                                 )

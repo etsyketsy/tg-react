@@ -28,10 +28,7 @@
     flex-direction: column;
 } */
 
-.displayGrid {
-    display: flex;
-    flex-flow: row wrap; 
-  }
+
 
 .artistSlide {
     display: flex;
