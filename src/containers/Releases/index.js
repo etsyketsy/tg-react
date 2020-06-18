@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import ReleaseTile from '../ReleaseTile/index.js';
+import ReleaseDetail from '../ReleaseDetail/index.js';
 import releaseData from '../../assets/releaseData.js';
 
 

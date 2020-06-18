@@ -4,8 +4,19 @@ import ReactHtmlParser from 'react-html-parser';
 import './index.css';
 
 class ReleaseTile extends Component {
+
+    state = {
+        expanded: false
+    }
+
+    tracksClickHandler = () => {
+        this.setState(
+            { expanded: !this.state.expanded }
+        )
+    }
+
     render() {
-        console.log(this.props.item.release_date)
+        let toggledClass = this.state.expanded ? 'expanded' : 'collapsed';
 
         return (
             <Link to={`/releases#${this.props.item.cat_num}`}>
@@ -29,18 +40,23 @@ class ReleaseTile extends Component {
                             </div>
                         </div>
                         <div className='releaseBio'>
-                        <div className='releaseDate'>
-                            <div className='dateHeader'>Released:</div> 
+                            <div className='releaseDate'>
+                                <div className='dateHeader'>Released:</div>
                                 {this.props.item.release_date}
-                        </div>
+                            </div>
                             {ReactHtmlParser(this.props.item.bio)}
                         </div>
-                        <div className='tracks'>
-                            <div className='tracksHeader'>Tracks</div>
-                            {ReactHtmlParser(this.props.item.tracklisting)}
-                        </div>
-                        <div className='mediaPlayer'>
-                            {ReactHtmlParser(this.props.item.mediaplayer_html)}
+                        <div className='media'>
+                            <div className='mediaPlayer'>
+                                {ReactHtmlParser(this.props.item.mediaplayer_html)}
+                            </div>
+                            <button className='tracksHeader'
+                                onClick={this.tracksClickHandler}>
+                                {!this.state.expanded ? 'See tracks' : 'Close Tracklisting'}
+                            </button>
+                            <div className={`tracks ${toggledClass}`}>
+                                {ReactHtmlParser(this.props.item.tracklisting)}
+                            </div>
                         </div>
                     </div>
                 </div>

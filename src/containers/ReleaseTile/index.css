@@ -22,15 +22,29 @@
   font-family: 'Karla', sans-serif;
 }
 
-.tracksHeader {
-  display: flex;
+button.tracksHeader {
+  width: 20vh;
   margin-top: 1vh;
   font-size: 2.25vmin;
   font-family: 'Karla', sans-serif;
+  border: none;
 }
 
-.tracks {
-  margin: 0;
+button {
+  outline: none;
+}
+
+.media {
+  display: flex;
+  border: none;
+}
+
+.tracks.expanded {
+  visibility: visible;
+}
+
+.tracks.collapsed {
+  visibility: hidden;
 }
 
 .releaseBio {
@@ -40,10 +54,6 @@
 .dateHeader {
   margin-right: .5vh;
   font-family: 'Karla', sans-serif;
-  /* font-size: 1.2em;
-  display: flex;
-  align-items: flex-end;
-  border: solid blue; */
 }
 
 .releaseDate {
