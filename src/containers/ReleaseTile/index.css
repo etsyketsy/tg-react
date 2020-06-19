@@ -1,5 +1,6 @@
 .releaseTile img {
   display: flex;
+  align-items: flex-start;
   object-fit: scale-down;
   max-width: 30vh;
   max-height: 30vh;
@@ -38,8 +39,9 @@
 
 .media {
   margin-top: 2vh;
-  display: flex;
-  justify-items: flex-start;
+  /* display: flex;
+  flex-direction: column;
+  justify-items: flex-start; */
 }
 
 .mediaPlayer {
@@ -51,17 +53,12 @@
   flex-direction: column;
 }
 
-.tracks.expanded :only-of-type{
+.tracks.expanded ol{
   visibility: visible;
   overflow: visible;
   margin: 0;
-  /* padding-left: 2.2vh; */
-}
-
-
-.tracks.expanded {
-  visibility: visible;
-  overflow: visible;
+  padding-left: 4.5vh;
+  height: auto !important;
 }
 
 .tracks.collapsed {
