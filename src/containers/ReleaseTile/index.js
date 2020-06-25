@@ -9,17 +9,21 @@ class ReleaseTile extends Component {
         expanded: false
     }
 
-    tracksClickHandler = () => {
+    tracksClickHandler = (e) => {
         this.setState(
             { expanded: !this.state.expanded }
         )
     }
 
+    // componentDidMount() {
+    //     document.body.style.overflow = "hidden"
+    // }
+
     render() {
         let toggledClass = this.state.expanded ? 'expanded' : 'collapsed';
 
         return (
-            <Link to={`/releases#${this.props.item.cat_num}`}>
+            <div to={`/releases#${this.props.item.cat_num}`}>
                 <div className="releaseTile" id={this.props.item.cat_num}>
                     <img src={this.props.item.image}
                         alt='releaseCover'
@@ -51,11 +55,12 @@ class ReleaseTile extends Component {
                                 {ReactHtmlParser(this.props.item.mediaplayer_html)}
                             </div>
                             <div className='tracks'>
-                                <button className='tracksHeader'
+                                <div className='tracksHeader'
                                     onClick={this.tracksClickHandler}>
-                                    {!this.state.expanded ? 'See tracks'
+                                    {!this.state.expanded ? 
+                                        'See tracks'
                                         : 'x'}
-                                </button>
+                                </div>
                                 <div className={`tracks ${toggledClass}`}>
                                     {ReactHtmlParser(this.props.item.tracklisting)}
                                 </div>
@@ -64,7 +69,7 @@ class ReleaseTile extends Component {
                         </div>
                     </div>
                 </div>
-            </Link >
+            </div >
         )
     }
 }
