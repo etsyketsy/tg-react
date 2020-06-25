@@ -1,17 +1,14 @@
 .releasePreview {
     margin-left: 0;
-    margin-top: 1vh;
+    margin-top: 2vh;
   }
 
-.releasePreview img {
-    display: flex;
-    object-fit: scale-down;
-    max-width: 30vh;
-    max-height: 30vh;
+.releasePreview img{
+   display: none;
 }
 
 .releasePreview .releaseHeadline{
     /* border-bottom: solid #ffcebe; */
     margin-bottom: 1.5vh;
+    width: 100%;
 }
-  
