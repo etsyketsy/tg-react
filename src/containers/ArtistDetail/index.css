@@ -53,30 +53,27 @@
     align-content: flex-end;
     width: 100%;
     border-bottom: solid #ffcebe;
+    height: 100%;
+    box-sizing: border-box;
 }
 
-.artistReleases .releaseTile {
+.artistReleases .releasePreview {
     display: flex;
-    align-items: flex-end;
     object-fit: scale-down;
     margin-top: 2vh;
     margin-right: 2vh;
     width: 400px;
     padding: 0;
-    border: none;
 }
 
-.artistReleases .releaseTile img {
+.artistReleases .releasePreview img {
+    visibility: visible;
     object-fit: scale-down;
-    width: 15vh;
-}
-
-.artistReleases .releaseBio {
-    display: none;
-}
-
-.artistReleases .tracks {
-    display: none;
+    display: flex;
+    object-fit: scale-down;
+    max-width: 15vh;
+    max-height: 15vh;
+    margin-right: 1vh;
 }
 
 .artistReleases .mediaPlayer {
@@ -88,12 +85,3 @@
     flex-flow: row wrap;
     justify-content: space-between;
 }
-/*
-.artistSlide {
-    width: 60vh;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding-top: 5vh;
-    margin-top: 10vh;
-} */

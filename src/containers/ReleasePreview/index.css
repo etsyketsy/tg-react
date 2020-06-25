@@ -3,11 +3,8 @@
     margin-top: 1vh;
   }
 
-.releasePreview img {
-    display: flex;
-    object-fit: scale-down;
-    max-width: 30vh;
-    max-height: 30vh;
+.releasePreview img{
+   display: none;
 }
 
 .releasePreview .releaseHeadline{
