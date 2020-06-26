@@ -9,6 +9,7 @@
 
 .releasePreview .releaseHeadline{
     /* border-bottom: solid #ffcebe; */
+    margin-top: 2vh;
     margin-bottom: 1.5vh;
     width: 100%;
 }
