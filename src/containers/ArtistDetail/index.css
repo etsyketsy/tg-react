@@ -55,6 +55,7 @@
     border-bottom: solid #ffcebe;
     height: 100%;
     box-sizing: border-box;
+    margin: 0;
 }
 
 .artistReleases .releasePreview {
