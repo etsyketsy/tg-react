@@ -34,7 +34,7 @@ class ReleaseTile extends Component {
                             {this.props.item.cat_num}:
                         </div>
                         <Link 
-                            to={`/artist/${this.props.item.artist_nice_name}/`}
+                            to={`/artists/${this.props.item.artist_nice_name}/`}
                             className='releaseArtist'  
                         >
                             {this.props.item.artist} -
