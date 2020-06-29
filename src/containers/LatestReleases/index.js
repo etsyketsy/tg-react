@@ -31,6 +31,7 @@ class LatestReleases extends Component {
                                 return (
                                     <Link 
                                         to={`/releases#${release.cat_num}`}
+                                        key={index}
                                     >
                                         <ReleasePreview
                                             item={release}
