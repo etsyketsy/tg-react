@@ -29,16 +29,16 @@ class LatestReleases extends Component {
                         this.state.releases.slice(0, this.state.itemsToRender).map(
                             (release, index) => {
                                 return (
-                                    <Link 
-                                        to={`/releases#${release.cat_num}`}
-                                        key={index}
-                                    >
+                                    // <Link 
+                                    //     to={`/releases#${release.cat_num}`}
+                                    //     key={index}
+                                    // >
                                         <ReleasePreview
                                             item={release}
                                             id={index}
                                             key={index}
                                         />
-                                    </Link>
+                                    // </Link>
                                 )
                             }
                         )
