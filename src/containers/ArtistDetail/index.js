@@ -3,14 +3,26 @@ import ReactHtmlParser from 'react-html-parser';
 import './index.css';
 import ReleasePreview from '../ReleasePreview/index';
 import releaseData from '../../assets/releaseData';
+import artistData from '../../assets/artistData';
 
 class ArtistDetail extends Component {
     state = {
         item: null
     }
 
-    getReleases = (props) => {
-        let releases = releaseData.filter(release => release.artist_nice_name === this.props.location.state.artist.artist_nice_name
+    getArtist = (niceName) => {
+        let currentArtist = artistData.filter(
+            artist => artist.artist_nice_name === niceName
+        )
+        this.setState(
+            { item: currentArtist[0] }
+        )
+    }
+
+    getReleases = (niceName) => {
+
+        let releases = releaseData.filter(
+            release => release.artist_nice_name === niceName
         );
         this.setState({
             releases: releases
@@ -26,27 +38,28 @@ class ArtistDetail extends Component {
     }
 
     componentDidMount() {
-        // (!this.props.location.state) ?
+        // (typeof this.props.location.state === 'undefined') ?
+        let niceName = this.props.match.params.artist_nice_name;
 
-        //     fetch(`http://localhost:8000/api/artists/${this.props.match.params.artist_nice_name}/`)
-        //         .then(response => response.json())
-        //         .then(data => {
-        //             this.setState(
-        //                 { item: data[0] }
-        //             )
-        //         })
-        //     :
-        console.log(this.props.location)
-        this.setState({
-            item: this.props.location.state.artist
-        })
-        this.getReleases();
+        this.getArtist(niceName)
+        this.getReleases(niceName)
+        // :
+      
+        // console.log(this.state)
+        // // 
+
+        // this.setState({
+        //     item: this.props.location.state.artist
+        // })
+        // // this.getReleases();
     }
 
     render() {
+        console.log('render state')
+        console.log(this.state)
         return (
             (!this.state.item) ?
-                <p id='loading'>loading...</p>
+                <p id='loading'>HELLO</p>
                 :
                 <div className="artistDetail" id={this.props.index}>
                     {/* <button onClick={this.exitHandler}>&#215;</button> */}
@@ -65,7 +78,7 @@ class ArtistDetail extends Component {
                         {ReactHtmlParser(this.state.item.artist_bio)}
                     </div>
                     <div className="sectionHeader">//Releases</div>
-                    <div className="artistReleases">
+                    {/* <div className="artistReleases">
                         {this.state.releases.map(
                             (release, index) => {
                                 return (
@@ -78,7 +91,7 @@ class ArtistDetail extends Component {
                             }
 
                         )}
-                    </div>
+                    </div> */}
                 </div>
         )
     }
