@@ -78,7 +78,7 @@ class ArtistDetail extends Component {
                         {ReactHtmlParser(this.state.item.artist_bio)}
                     </div>
                     <div className="sectionHeader">//Releases</div>
-                    {/* <div className="artistReleases">
+                    <div className="artistReleases">
                         {this.state.releases.map(
                             (release, index) => {
                                 return (
@@ -91,7 +91,7 @@ class ArtistDetail extends Component {
                             }
 
                         )}
-                    </div> */}
+                    </div>
                 </div>
         )
     }
