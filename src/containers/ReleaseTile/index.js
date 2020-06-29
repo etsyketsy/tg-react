@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
 import './index.css';
+
 
 class ReleaseTile extends Component {
 
@@ -20,7 +22,7 @@ class ReleaseTile extends Component {
 
     render() {
         let toggledClass = this.state.expanded ? 'expanded' : 'collapsed';
-
+        console.log(this.props.item)
         return (
             <div className="releaseTile" id={this.props.item.cat_num}>
                 <img src={this.props.item.image}
@@ -31,9 +33,12 @@ class ReleaseTile extends Component {
                         <div className='cat_num'>
                             {this.props.item.cat_num}:
                         </div>
-                        <div className='releaseArtist'>
+                        <Link 
+                            to={`/artists/${this.props.item.artist_nice_name}/`}
+                            className='releaseArtist'  
+                        >
                             {this.props.item.artist} -
-                        </div>
+                        </Link>
                         <div className='releaseTitle'>
                             {this.props.item.release_title}
                         </div>

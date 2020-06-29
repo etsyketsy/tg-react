@@ -60,6 +60,7 @@
 
 .artistReleases .releasePreview {
     display: flex;
+    align-items: flex-end;
     object-fit: scale-down;
     margin-top: 2vh;
     margin-right: 2vh;
@@ -71,7 +72,6 @@
     visibility: visible;
     object-fit: scale-down;
     display: flex;
-    object-fit: scale-down;
     max-width: 15vh;
     max-height: 15vh;
     margin-right: 1vh;
