@@ -204,7 +204,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1549624465/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iii\">Human Performance III by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -225,7 +225,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=58990340/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/euphoria\">Euphoria by Daggers</a></iframe>",
         "artist": [
             "Daggers"
         ],
@@ -246,7 +246,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2357662761/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/fatal-birth\">Fatal Birth by Fatal Birth</a></iframe>",
         "artist": [
             "Fatal Birth"
         ],
@@ -267,7 +267,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=878158353/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/decade-of-dust\">Decade Of Dust by Hellhorse</a></iframe>",
         "artist": [
             "Hellhorse"
         ],
@@ -288,7 +288,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=891119658/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/death-haunts\">Death Haunts by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -309,7 +309,7 @@ const releaseData =
         "target_markets": "",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2072950714/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-ii\">Human Performance II by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -330,7 +330,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "879198005681",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1872670965/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/hospital-bomber\">Hospital Bomber by Heavy Heavy Low Low</a></iframe>",
         "artist": [
             "Heavy Heavy Low Low"
         ],
@@ -351,7 +351,7 @@ const releaseData =
         "target_markets": "",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3396072146/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-i\">Human Performance I by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -372,7 +372,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "603111917818",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3302418404/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/throats\">Throats by Throats</a></iframe>",
         "artist": [
             "Throats"
         ],
@@ -393,7 +393,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=4156458436/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/and-your-fathers-are-dead-in-the-ground\">...And Your Fathers Are Dead In The Ground by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -414,7 +414,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2329066628/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/ghost-town-anthems\">Ghost Town Anthems by Black Teeth</a></iframe>",
         "artist": [
             "Black Teeth"
         ],
@@ -435,7 +435,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1025091983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/purple-mercy\">Purple Mercy by Purple Mercy</a></iframe>",
         "artist": [
             "Purple Mercy"
         ],
@@ -456,7 +456,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=954722975/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/hell-and-reason\">Hell And Reason by Hell And Reason</a></iframe>",
         "artist": [
             "Hell And Reason"
         ],
@@ -477,7 +477,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3591531558/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/midnight-sessions\">Midnight Sessions by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -498,7 +498,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "880270230426",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3309518291/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/mere-bears-the-riot-cops-bathed-on-zion\">Mere Bears: The Riot Cops Bathed On Zion by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -519,7 +519,7 @@ const releaseData =
         "target_markets": "",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2219069505/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/dent-face\">Dent Face by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -624,7 +624,7 @@ const releaseData =
         "target_markets": "",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2619520474/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/unanimity-and-the-cessation-of-hostility-2\">Unanimity And The Cessation Of Hostility by Misericordiam</a></iframe>",
         "artist": [
             "Misericordiam"
         ],
@@ -645,7 +645,7 @@ const releaseData =
         "target_markets": "San Jose, San Francisco, Los Angeles, Seattle, Portland, Boston, Las Vegas, Orlando, New York City, Detroit, Phoenix, Salt Lake City",
         "upc": "879198000792",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1078935163/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/midnight-venom-2\">Midnight Venom by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -709,7 +709,7 @@ const releaseData =
         "target_markets": "",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2916340656/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/live-your-heart-and-never-follow-2\">Live Your Heart And Never Follow by Set It Straight</a></iframe>",
         "artist": [
             "Set It Straight"
         ],
@@ -752,7 +752,7 @@ const releaseData =
         "target_markets": "",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2916340656/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/live-your-heart-and-never-follow-2\">Live Your Heart And Never Follow by Set It Straight</a></iframe>",
         "artist": [
             "Where Eagles Dare",
             "Set It Straight"
@@ -795,7 +795,7 @@ const releaseData =
         "target_markets": "",
         "upc": "",
         "status": "Out Now",
-        "mediaplayer_html": "2019131599",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2019131599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/courtside-seats\">Courtside Seats... by Heavy Heavy Low Low</a></iframe>",
         "artist": [
             "Heavy Heavy Low Low"
         ],

@@ -33,11 +33,15 @@ class ReleaseTile extends Component {
                         <div className='cat_num'>
                             {this.props.item.cat_num}:
                         </div>
-                        <Link 
+                         <Link 
                             to={`/artists/${this.props.item.artist_nice_name}/`}
                             className='releaseArtist'  
                         >
-                            {this.props.item.artist} -
+                            {(this.props.item.artist.length >= 2) ?
+                                `${this.props.item.artist[0]} & ${this.props.item.artist[1]}`
+                                :
+                                this.props.item.artist
+                            } -
                         </Link>
                         <div className='releaseTitle'>
                             {this.props.item.release_title}
