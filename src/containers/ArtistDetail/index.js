@@ -20,7 +20,6 @@ class ArtistDetail extends Component {
     }
 
     getReleases = (niceName) => {
-
         let releases = releaseData.filter(
             release => release.artist_nice_name === niceName
         );
@@ -55,8 +54,6 @@ class ArtistDetail extends Component {
     }
 
     render() {
-        console.log('render state')
-        console.log(this.state)
         return (
             (!this.state.item) ?
                 <p id='loading'>HELLO</p>
@@ -89,7 +86,6 @@ class ArtistDetail extends Component {
                                     />
                                 )
                             }
-
                         )}
                     </div>
                 </div>

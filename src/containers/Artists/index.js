@@ -34,7 +34,6 @@ class Artists extends Component {
                     return (
                       <Link to={{
                         pathname: `/artists/${artist.artist_nice_name}/`,
-                        state: { artist }
                       }}
                         key={index}
                       >
