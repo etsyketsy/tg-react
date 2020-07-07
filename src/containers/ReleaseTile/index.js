@@ -25,7 +25,6 @@ class ReleaseTile extends Component {
                     for (let j = 0; j < artistNiceNames.length; j++) {
                         let test = this.props.item.artist[j][0].toLowerCase();
                         if (test == niceName[i]) {
-                            console.log('it`s a match! ' + niceName + ' ' + this.props.item.artist[j])
                             splitLinks.push(
                                 {
                                     url: niceName,
@@ -40,7 +39,6 @@ class ReleaseTile extends Component {
         )
 
         // Return Artist text with links to correct artist pages based on the splitting done above
-
         return (
             <div className='splitArtistsWrapper'>
                 <Link
@@ -84,14 +82,17 @@ class ReleaseTile extends Component {
                         {(this.props.item.artist.length >= 2) ?
                             this.getSplitArtists()
                             :
+                            <div className='artistWrapper'>
                             <Link
                                 to={`/artists/${this.props.item.artist_nice_name}/`}
                                 className='releaseArtistWrapper'
                             >
                                 {this.props.item.artist}
                             </Link>
+                            </div>
+
                         }
-                        &nbsp;-&nbsp;
+                        <div> - </div>
                         <div className='releaseTitle'>
                             {this.props.item.release_title}
                         </div>
