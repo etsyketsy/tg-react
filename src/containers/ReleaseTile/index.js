@@ -10,6 +10,56 @@ class ReleaseTile extends Component {
         expanded: false
     }
 
+    // getSplitArtistLinks = (props) =>{
+    //     (props.item.artist >= 2) ?
+    // }
+
+    getSplitArtists = (props) => {
+        let artistNiceNames = this.props.item.artist_nice_name.split("_");
+        // console.log('split ' + artistLinks)
+        // console.log(this.props.item.artist[0][0].toLowerCase())
+
+        artistNiceNames.forEach(
+            (niceName) => {
+                for (let i = 0; i < this.props.item.artist.length; i++) {
+                    for (let j = 0; j < artistNiceNames.length; j++) {
+                        let test = this.props.item.artist[j][0].toLowerCase();
+                        if (test == niceName[i]) {
+                            console.log('it`s a match! ' + niceName + ' ' + this.props.item.artist[j])
+                            // return(
+                            //     <Link
+                            //         to={`/artists/${niceName}/`}
+                            //         className='releaseArtistWrapper'
+                            //     >
+                            //         {this.props.item.artist[i]}
+                            //     </Link>
+                            // )
+                        }
+                        // else {
+                        //     console.log('try again ' + niceName + ' from these '+this.props.item.artist)
+                        //     continue
+                        // }
+                    }
+
+                }
+            }
+        )
+        // let test = this.props.item.artist[i][0];
+        // console.log(test)
+        // if (test.toLowerCase() == artist[0]) {
+
+        //     return (
+        //         <Link to={`/artists/${artist}`}
+        //         >
+        //             {this.props.item.artist[i]}
+        //         </Link>
+        //     )
+        // }
+
+    }
+
+
+
     tracksClickHandler = (e) => {
         this.setState(
             { expanded: !this.state.expanded }
@@ -22,7 +72,7 @@ class ReleaseTile extends Component {
 
     render() {
         let toggledClass = this.state.expanded ? 'expanded' : 'collapsed';
-        console.log(this.props.item)
+
         return (
             <div className="releaseTile" id={this.props.item.cat_num}>
                 <img src={this.props.item.image}
@@ -33,19 +83,19 @@ class ReleaseTile extends Component {
                         <div className='cat_num'>
                             {this.props.item.cat_num}:
                         </div>
-                         <Link 
-                            to={`/artists/${this.props.item.artist_nice_name}/`}
-                            className='releaseArtist'  
-                        >
-                            {(this.props.item.artist.length >= 2) ?
-                                `${this.props.item.artist[0]} & ${this.props.item.artist[1]}`
-                                :
-                                this.props.item.artist
-                            }
-                        </Link>
+                        {(this.props.item.artist.length >= 2) ?
+                            this.getSplitArtists()
+                            :
+                            <Link
+                                to={`/artists/${this.props.item.artist_nice_name}/`}
+                                className='releaseArtistWrapper'
+                            >
+                                {this.props.item.artist}
+                            </Link>
+                        }
                         &nbsp;-&nbsp;
                         <div className='releaseTitle'>
-                                 {this.props.item.release_title}
+                            {this.props.item.release_title}
                         </div>
                         <div className='releaseFormats'>
                             {this.props.item.release_formats}
