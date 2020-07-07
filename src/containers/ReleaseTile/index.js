@@ -15,10 +15,10 @@ class ReleaseTile extends Component {
     // }
 
     getSplitArtists = (props) => {
+        // Get array of artist nice names and match against artists in the artist name array
         let artistNiceNames = this.props.item.artist_nice_name.split("_");
-        // console.log('split ' + artistLinks)
-        // console.log(this.props.item.artist[0][0].toLowerCase())
 
+        let splitLinks = []
         artistNiceNames.forEach(
             (niceName) => {
                 for (let i = 0; i < this.props.item.artist.length; i++) {
@@ -26,36 +26,38 @@ class ReleaseTile extends Component {
                         let test = this.props.item.artist[j][0].toLowerCase();
                         if (test == niceName[i]) {
                             console.log('it`s a match! ' + niceName + ' ' + this.props.item.artist[j])
-                            // return(
-                            //     <Link
-                            //         to={`/artists/${niceName}/`}
-                            //         className='releaseArtistWrapper'
-                            //     >
-                            //         {this.props.item.artist[i]}
-                            //     </Link>
-                            // )
+                            splitLinks.push(
+                                {
+                                    url: niceName,
+                                    name: this.props.item.artist[j]
+                                }
+                            )
                         }
-                        // else {
-                        //     console.log('try again ' + niceName + ' from these '+this.props.item.artist)
-                        //     continue
-                        // }
                     }
 
                 }
             }
         )
-        // let test = this.props.item.artist[i][0];
-        // console.log(test)
-        // if (test.toLowerCase() == artist[0]) {
 
-        //     return (
-        //         <Link to={`/artists/${artist}`}
-        //         >
-        //             {this.props.item.artist[i]}
-        //         </Link>
-        //     )
-        // }
+        // Return Artist text with links to correct artist pages based on the splitting done above
 
+        return (
+            <div className='splitArtistsWrapper'>
+                <Link
+                    to={`/artists/${splitLinks[0].url}/`}
+                    className='releaseArtistWrapper'
+                >
+                    {splitLinks[0].name}
+                </Link>
+                &nbsp;&&nbsp;
+                 <Link
+                    to={`/artists/${splitLinks[1].url}/`}
+                    className='releaseArtistWrapper'
+                >
+                    {splitLinks[1].name}
+                </Link>
+            </div>
+        )
     }
 
 
@@ -65,10 +67,6 @@ class ReleaseTile extends Component {
             { expanded: !this.state.expanded }
         )
     }
-
-    // componentDidMount() {
-    //     document.body.style.overflow = "hidden"
-    // }
 
     render() {
         let toggledClass = this.state.expanded ? 'expanded' : 'collapsed';
