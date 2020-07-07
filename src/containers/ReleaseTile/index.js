@@ -41,10 +41,11 @@ class ReleaseTile extends Component {
                                 `${this.props.item.artist[0]} & ${this.props.item.artist[1]}`
                                 :
                                 this.props.item.artist
-                            } -
+                            }
                         </Link>
+                        &nbsp;-&nbsp;
                         <div className='releaseTitle'>
-                            {this.props.item.release_title}
+                                 {this.props.item.release_title}
                         </div>
                         <div className='releaseFormats'>
                             {this.props.item.release_formats}
