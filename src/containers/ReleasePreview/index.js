@@ -5,6 +5,38 @@ import './index.css';
 
 class ReleasePreview extends Component {
 
+    getSplitArtists = (props) => {
+        // Get array of artist nice names and match against artists in the artist name array
+        let artistNiceNames = this.props.item.artist_nice_name.split("_");
+
+        let splitLinks = [];
+        artistNiceNames.forEach(
+            (niceName) => {
+                for (let i = 0; i < this.props.item.artist.length; i++) {
+                    for (let j = 0; j < artistNiceNames.length; j++) {
+                        let test = this.props.item.artist[j][0].toLowerCase();
+                        if (test == niceName[i]) {
+                            splitLinks.push(
+                                {
+                                    url: niceName,
+                                    name: this.props.item.artist[j]
+                                }
+                            )
+                        }
+                    }
+
+                }
+            }
+        )
+
+        // Return Artist text with links to correct artist pages based on the splitting done above
+        return (
+            <div className='splitArtistsWrapper'>
+                {splitLinks[0].name}&nbsp;&&nbsp;{splitLinks[1].name}
+            </div>
+        )
+    }
+
     render() {
         return (
             <div className='releasePreviewWrapper'>
@@ -18,18 +50,23 @@ class ReleasePreview extends Component {
                         <div className='cat_num'>
                             {this.props.item.cat_num}:
                         </div>
-                        <div className='releaseArtist'>
-                            {this.props.item.artist} -
-                        </div>
+                        {(this.props.item.artist.length >= 2) ?
+                            this.getSplitArtists()
+                            :
+                            <div className='artistWrapper'>
+                                {this.props.item.artist}
+                            </div>
+                        }
+                        <div> - </div>
                         <div className='releaseTitle'>
                             {this.props.item.release_title}
                         </div>
                     </div>
-                    </Link>
+                </Link>
                 <div className='mediaPlayer'>
                     {ReactHtmlParser(this.props.item.mediaplayer_html)}
                 </div>
-               
+
             </div>
         )
     }
