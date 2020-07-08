@@ -29,8 +29,11 @@ class ArtistDetail extends Component {
     }
 
     exitHandler = (props) => {
-        // Clicking the exit will push user back to All Artists or homepage depending on user's path
-        (!this.props.location.state) ?
+        // Clicking the exit will push user back to All Artists or homepage depending on user's path indicated by the pop or push action of the history
+        
+        // POP indicates user routed to the exact url likely from outside of TG
+        // PUSH indicates user routed from a link on TG site
+        (this.props.history.action === "POP") ?
             this.props.history.push('/artists')
             :
             this.props.history.goBack()
@@ -39,7 +42,7 @@ class ArtistDetail extends Component {
     componentDidMount() {
         // (typeof this.props.location.state === 'undefined') ?
         let niceName = this.props.match.params.artist_nice_name;
-
+        console.log(this.props)
         this.getArtist(niceName)
         this.getReleases(niceName)
         // :
