@@ -745,7 +745,7 @@ const releaseData =
         "release_title": "Split",
         "release_formats": "CDEP, 7\"EP, Digital",
         "release_date": "2005-09-06",
-        "artist_nice_name": "siswed",
+        "artist_nice_name": "sis_wed",
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Set It Straight - Percent</li>\r\n<li>Set It Straight - These Walls</li>\r\n<li>Set It Straight - Blinders</li>\r\n<li>Set It Straight - Young Voices</li>\r\n<li>Where Eagles Dare - Caught Up in the Moment</li>\r\n<li>Where Eagles Dare - Dead Street</li>\r\n<li>Where Eagles Dare - Scene of the Crime, Pt. 1</li>\r\n<li>Where Eagles Dare - Scene of the Crime, Pt. 2</li>\r\n</ol>",
         "bio": "Bringing together two underdog hardcore bands for a split EP that features some of Where Eagle Dare's last material before breakup, and music from Set It Straight's early days.",
         "ffo": "",
