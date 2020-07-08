@@ -10,39 +10,47 @@ class ArtistDetail extends Component {
         item: null
     }
 
+    // Find artist details from Artist Data based on nice name passed in URL
     getArtist = (niceName) => {
-        let currentArtist = artistData.filter(
-            artist => artist.artist_nice_name === niceName
-        )
-        this.setState(
-            { item: currentArtist[0] }
+        
+        return new Promise((resolve, reject) => {
+            let currentArtist = artistData.filter(
+                artist => artist.artist_nice_name === niceName.toLowerCase()
+            )
+            if (currentArtist[0]){
+                this.setState(
+                    { item: currentArtist[0]}
+                )
+                this.getReleases(currentArtist[0].artist)
+                resolve();
+            } else {
+                reject('Artist not found')
+            }
+
+        }
+
         )
     }
 
-    getReleases = (niceName) => {
-        let releasesArray = []
-        releaseData.forEach(
-            (release) => {
-                (release.artist.length >= 2) ? {
-                    let splitArtists = release.artist_nice_name.split("_")
-
-                    releasesArray.push(splitArtists)
-                }
-                  
-                :
-                console.log('not a split')
-                // if (release.artist_nice_name === niceName) {
-                //     releases.push(release)
-                // }
+    // After artist is found, filter through Releases to find any release related to the artist
+    getReleases = (artistName) => {
+        return new Promise((resolve, reject) => {
+            let releases = releaseData.filter(
+                release => release.artist.includes(artistName)
+               
+            );
+            if (releases){
+                this.setState({
+                    releases: releases
+                }) 
+                resolve();
+            } else {
+                reject('Release(s) not found')
             }
-               
-            // this.setState({
-            //     releases: releases
-            // })     
-        
-               
-        );
-      
+
+        }
+        )
+       
     }
 
     exitHandler = (props) => {
@@ -59,9 +67,9 @@ class ArtistDetail extends Component {
     componentDidMount() {
         // (typeof this.props.location.state === 'undefined') ?
         let niceName = this.props.match.params.artist_nice_name;
-        console.log(this.props)
+       
         this.getArtist(niceName)
-        this.getReleases(niceName)
+        
         // :
       
         // console.log(this.state)
@@ -76,7 +84,7 @@ class ArtistDetail extends Component {
     render() {
         return (
             (!this.state.item) ?
-                <p id='loading'>HELLO</p>
+                <p id='loading'>still thinking...</p>
                 :
                 <div className="artistDetail" id={this.props.index}>
                     {/* <button onClick={this.exitHandler}>&#215;</button> */}
@@ -95,7 +103,7 @@ class ArtistDetail extends Component {
                         {ReactHtmlParser(this.state.item.artist_bio)}
                     </div>
                     <div className="sectionHeader">//Releases</div>
-                    {/* <div className="artistReleases">
+                    <div className="artistReleases">
                         {this.state.releases.map(
                             (release, index) => {
                                 return (
@@ -107,7 +115,7 @@ class ArtistDetail extends Component {
                                 )
                             }
                         )}
-                    </div> */}
+                    </div>
                 </div>
         )
     }
