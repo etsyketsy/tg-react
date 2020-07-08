@@ -20,12 +20,29 @@ class ArtistDetail extends Component {
     }
 
     getReleases = (niceName) => {
-        let releases = releaseData.filter(
-            release => release.artist_nice_name === niceName
+        let releasesArray = []
+        releaseData.forEach(
+            (release) => {
+                (release.artist.length >= 2) ? {
+                    let splitArtists = release.artist_nice_name.split("_")
+
+                    releasesArray.push(splitArtists)
+                }
+                  
+                :
+                console.log('not a split')
+                // if (release.artist_nice_name === niceName) {
+                //     releases.push(release)
+                // }
+            }
+               
+            // this.setState({
+            //     releases: releases
+            // })     
+        
+               
         );
-        this.setState({
-            releases: releases
-        })
+      
     }
 
     exitHandler = (props) => {
@@ -78,7 +95,7 @@ class ArtistDetail extends Component {
                         {ReactHtmlParser(this.state.item.artist_bio)}
                     </div>
                     <div className="sectionHeader">//Releases</div>
-                    <div className="artistReleases">
+                    {/* <div className="artistReleases">
                         {this.state.releases.map(
                             (release, index) => {
                                 return (
@@ -90,7 +107,7 @@ class ArtistDetail extends Component {
                                 )
                             }
                         )}
-                    </div>
+                    </div> */}
                 </div>
         )
     }

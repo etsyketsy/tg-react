@@ -18,7 +18,7 @@ class ReleaseTile extends Component {
         // Get array of artist nice names and match against artists in the artist name array
         let artistNiceNames = this.props.item.artist_nice_name.split("_");
 
-        let splitLinks = []
+        let splitLinks = [];
         artistNiceNames.forEach(
             (niceName) => {
                 for (let i = 0; i < this.props.item.artist.length; i++) {
