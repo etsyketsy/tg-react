@@ -1,3 +1,23 @@
+import anothermistake from '../assets/artistArt/anothermistake_photo_thumb.jpg';
+import blackteeth from '../assets/artistArt/blackteeth_photo_thumb.jpg';
+import creatures from '../assets/artistArt/creatures_photo_thumb.jpg';
+import daggers from '../assets/artistArt/daggers_photo_thumb.jpg';
+import fatal_birth from '../assets/artistArt/fatal_birth_photo_thumb.jpg';
+import hellandreason from '../assets/artistArt/hellandreason_photo_thumb.jpg';
+import hellhorse from '../assets/artistArt/hellhorse_photo_thumb.jpg';
+import hhll from '../assets/artistArt/hhll_photo_thumb.jpg';
+import miser from '../assets/artistArt/miser_photo_thumb.jpg';
+import nervous from '../assets/artistArt/nervous_photo_thumb.jpg';
+import nosir from '../assets/artistArt/nosir_photo_thumb.jpg';
+import overlooked from '../assets/artistArt/overlooked_photo_thumb.jpg';
+import pm from '../assets/artistArt/pm_photo_thumb.jpg';
+import power from '../assets/artistArt/power_photo_thumb.jpg';
+import sis from '../assets/artistArt/sis_photo_thumb.jpg';
+import stz from '../assets/artistArt/stz_photo_thumb.jpg';
+import throats from '../assets/artistArt/throats_photo_thumb.jpg';
+import ylb from '../assets/artistArt/ylb_photo_thumb.jpg';
+import youthfuneral from '../assets/artistArt/youthfuneral_photo_thumb.jpg';
+
 const artistData = [
     {
         "artist": "Another Mistake",
@@ -8,7 +28,7 @@ const artistData = [
         "artist_contact": "anothermistake@twelvegaugehc.com",
         "status": "Active",
         "id": 23,
-        "image": "http://127.0.0.1:8000/media/artists/anothermistake_photo_thumb.jpg"
+        "image": anothermistake
     },
     {
         "artist": "Black Teeth",
@@ -19,7 +39,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Inactive",
         "id": 6,
-        "image": "http://127.0.0.1:8000/media/artists/blackteeth_photo_thumb.jpg"
+        "image": blackteeth
     },
     {
         "artist": "Countdown",
@@ -41,7 +61,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 21,
-        "image": "http://127.0.0.1:8000/media/artists/creatures_photo_thumb.jpg"
+        "image": creatures
     },
     {
         "artist": "Daggers",
@@ -52,7 +72,7 @@ const artistData = [
         "artist_contact": "daggersband@gmail.com",
         "status": "Active",
         "id": 20,
-        "image": "http://127.0.0.1:8000/media/artists/daggers_photo_thumb.jpg"
+        "image": daggers
     },
     {
         "artist": "Dead Will Rise",
@@ -74,7 +94,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 22,
-        "image": "http://127.0.0.1:8000/media/artists/fatal_birth_photo_thumb.jpg"
+        "image": fatal_birth
     },
     {
         "artist": "Heavy Heavy Low Low",
@@ -85,7 +105,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Inactive",
         "id": 3,
-        "image": "http://127.0.0.1:8000/media/artists/hhll_photo_thumb.jpg"
+        "image": hhll
     },
     {
         "artist": "Hell And Reason",
@@ -96,7 +116,7 @@ const artistData = [
         "artist_contact": "hellandreasonportland@gmail.com",
         "status": "Inactive",
         "id": 4,
-        "image": "http://127.0.0.1:8000/media/artists/hellandreason_photo_thumb.jpg"
+        "image": hellandreason
     },
     {
         "artist": "Hellhorse",
@@ -107,7 +127,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Inactive",
         "id": 18,
-        "image": "http://127.0.0.1:8000/media/artists/hellhorse_photo_thumb.jpg"
+        "image": hellhorse
     },
     {
         "artist": "Hoods",
@@ -129,7 +149,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Inactive",
         "id": 8,
-        "image": "http://127.0.0.1:8000/media/artists/miser_photo_thumb.jpg"
+        "image": miser
     },
     {
         "artist": "Molotov Solution",
@@ -151,7 +171,7 @@ const artistData = [
         "artist_contact": "nervous.songs@gmail.com",
         "status": "active",
         "id": 26,
-        "image": "http://127.0.0.1:8000/media/artists/nervous_photo_thumb.jpg"
+        "image": nervous
     },
     {
         "artist": "No Sir",
@@ -162,7 +182,7 @@ const artistData = [
         "artist_contact": "nosir@familydrugs.org",
         "status": "active",
         "id": 25,
-        "image": "http://127.0.0.1:8000/media/artists/nosir_photo_thumb.jpg"
+        "image": nosir
     },
     {
         "artist": "Overlooked",
@@ -173,7 +193,7 @@ const artistData = [
         "artist_contact": "overlooked@twelvegaugehc.com",
         "status": "Inactive",
         "id": 24,
-        "image": "http://127.0.0.1:8000/media/artists/overlooked_photo_thumb.jpg"
+        "image": overlooked
     },
     {
         "artist": "Power",
@@ -184,7 +204,7 @@ const artistData = [
         "artist_contact": "powerbremerton@gmail.com",
         "status": "Active",
         "id": 19,
-        "image": "http://127.0.0.1:8000/media/artists/power_photo_thumb.jpg"
+        "image": power
     },
     {
         "artist": "Purple Mercy",
@@ -195,7 +215,7 @@ const artistData = [
         "artist_contact": "purplemercy@gmail.com",
         "status": "Inactive",
         "id": 2,
-        "image": "http://127.0.0.1:8000/media/artists/pm_photo_thumb.jpg"
+        "image": pm
     },
     {
         "artist": "Sabertooth Zombie",
@@ -206,7 +226,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 1,
-        "image": "http://127.0.0.1:8000/media/artists/stz_photo_thumb.jpg"
+        "image": stz
     },
     {
         "artist": "Set It Straight",
@@ -217,7 +237,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Inactive",
         "id": 10,
-        "image": "http://127.0.0.1:8000/media/artists/sis_photo_thumb.jpg"
+        "image": sis
     },
     {
         "artist": "These Days",
@@ -239,7 +259,7 @@ const artistData = [
         "artist_contact": "throatsofgold@hotmail.co.uk",
         "status": "Inactive",
         "id": 5,
-        "image": "http://127.0.0.1:8000/media/artists/throats_photo_thumb.jpg"
+        "image": throats
     },
     {
         "artist": "Tiefighter",
@@ -283,7 +303,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Inactive",
         "id": 12,
-        "image": "http://127.0.0.1:8000/media/artists/ylb_photo_thumb.jpg"
+        "image": ylb
     },
     {
         "artist": "Youth Funeral",
@@ -294,7 +314,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 27,
-        "image": "http://127.0.0.1:8000/media/artists/youthfuneral_photo_thumb.jpg"
+        "image": youthfuneral
     }
 ]
 
