@@ -1,3 +1,47 @@
+import TG001 from '../assets/albumArt/TG-001.jpg';
+import TG002 from '../assets/albumArt/TG-002.jpg';
+import TG003 from '../assets/albumArt/TG-003.jpg';
+import TG004 from '../assets/albumArt/TG-004.jpg';
+import TG005 from '../assets/albumArt/TG-005.jpg';
+import TG006 from '../assets/albumArt/TG-006.jpg';
+import TG007 from '../assets/albumArt/TG-007.jpg';
+import TG008 from '../assets/albumArt/TG-008.jpg';
+import TG009 from '../assets/albumArt/TG-009.jpg';
+import TG010 from '../assets/albumArt/TG-010.jpg';
+import TG011 from '../assets/albumArt/TG-011.jpg';
+import TG012 from '../assets/albumArt/TG-012.jpg';
+import TG013 from '../assets/albumArt/TG-013.jpg';
+import TG014 from '../assets/albumArt/TG-014.jpg';
+import TG015 from '../assets/albumArt/TG-015.jpg';
+import TG016 from '../assets/albumArt/TG-016.jpg';
+import TG017 from '../assets/albumArt/TG-017.jpg';
+import TG018 from '../assets/albumArt/TG-018.jpg';
+import TG019 from '../assets/albumArt/TG-019.jpg';
+import TG020 from '../assets/albumArt/TG-020.jpg';
+import TG021 from '../assets/albumArt/TG-021.jpg';
+import TG022 from '../assets/albumArt/TG-022.jpg';
+import TG023 from '../assets/albumArt/TG-023.jpg';
+import TG024 from '../assets/albumArt/TG-024.jpg';
+import TG025 from '../assets/albumArt/TG-025.jpg';
+import TG026 from '../assets/albumArt/TG-026.jpg';
+import TG027 from '../assets/albumArt/TG-027.jpg';
+import TG028 from '../assets/albumArt/TG-028.jpg';
+import TG029 from '../assets/albumArt/TG-029.jpg';
+import TG030 from '../assets/albumArt/TG-030.jpg';
+import TG031 from '../assets/albumArt/TG-031.jpg';
+import TG032 from '../assets/albumArt/TG-032.jpg';
+import TG033 from '../assets/albumArt/TG-033.jpg';
+import TG034 from '../assets/albumArt/TG-034.jpg';
+import TG035 from '../assets/albumArt/TG-035.jpg';
+import TG036 from '../assets/albumArt/TG-036.jpg';
+import TG037 from '../assets/albumArt/TG-037.jpg';
+import TG038 from '../assets/albumArt/TG-038.jpg';
+// import TG039 from '../assets/albumArt/TG-039.jpg';
+// import TG040 from '../assets/albumArt/TG-040.jpg';
+// import TG041 from '../assets/albumArt/TG-041.jpg';
+// import TG042 from '../assets/albumArt/TG-042.jpg';
+// import TG043 from '../assets/albumArt/TG-043.jpg';
+
 const releaseData = 
 [
     {
@@ -18,7 +62,7 @@ const releaseData =
         "artist": [
             "Nervous"
         ],
-        "image": "http://localhost:8000/media/releases/TG-038_300.jpg",
+        "image": TG038,
         "id": 38
     },
     {
@@ -39,7 +83,7 @@ const releaseData =
         "artist": [
             "Power"
         ],
-        "image": "http://localhost:8000/media/releases/TG-037_300.jpg",
+        "image": TG037,
         "id": 37
     },
     {
@@ -60,7 +104,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-036_300.jpg",
+        "image": TG036,
         "id": 36
     },
     {
@@ -81,7 +125,7 @@ const releaseData =
         "artist": [
             "Youth Funeral"
         ],
-        "image": "http://localhost:8000/media/releases/TG-035_300.jpg",
+        "image": TG035,
         "id": 35
     },
     {
@@ -102,7 +146,7 @@ const releaseData =
         "artist": [
             "Nervous"
         ],
-        "image": "http://localhost:8000/media/releases/TG-034_300.jpg",
+        "image": TG034,
         "id": 34
     },
     {
@@ -123,7 +167,7 @@ const releaseData =
         "artist": [
             "No Sir"
         ],
-        "image": "http://localhost:8000/media/releases/TG-033_300.jpg",
+        "image": TG033,
         "id": 33
     },
     {
@@ -144,7 +188,7 @@ const releaseData =
         "artist": [
             "Power"
         ],
-        "image": "http://localhost:8000/media/releases/TG-032_300.jpg",
+        "image": TG032,
         "id": 32
     },
     {
@@ -166,7 +210,7 @@ const releaseData =
             "Overlooked",
             "Another Mistake"
         ],
-        "image": "http://localhost:8000/media/releases/TG-031_300.jpg",
+        "image": TG031,
         "id": 31
     },
     {
@@ -187,7 +231,7 @@ const releaseData =
         "artist": [
             "Creatures"
         ],
-        "image": "http://localhost:8000/media/releases/TG-030_300.jpg",
+        "image": TG030,
         "id": 30
     },
     {
@@ -208,7 +252,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-029_300_cQMiN4l.jpg",
+        "image": TG027,
         "id": 27
     },
     {
@@ -229,7 +273,7 @@ const releaseData =
         "artist": [
             "Daggers"
         ],
-        "image": "http://localhost:8000/media/releases/TG-028_300.jpg",
+        "image": TG029,
         "id": 29
     },
     {
@@ -250,7 +294,7 @@ const releaseData =
         "artist": [
             "Fatal Birth"
         ],
-        "image": "http://localhost:8000/media/releases/TG-027_300.jpg",
+        "image": TG028,
         "id": 28
     },
     {
@@ -271,7 +315,7 @@ const releaseData =
         "artist": [
             "Hellhorse"
         ],
-        "image": "http://localhost:8000/media/releases/TG-026_300.jpg",
+        "image": TG026,
         "id": 26
     },
     {
@@ -292,7 +336,7 @@ const releaseData =
         "artist": [
             "Power"
         ],
-        "image": "http://localhost:8000/media/releases/TG-025_300.jpg",
+        "image": TG025,
         "id": 25
     },
     {
@@ -313,7 +357,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-024_300.jpg",
+        "image": TG024,
         "id": 24
     },
     {
@@ -334,7 +378,7 @@ const releaseData =
         "artist": [
             "Heavy Heavy Low Low"
         ],
-        "image": "http://localhost:8000/media/releases/TG-023_300.jpg",
+        "image": TG023,
         "id": 23
     },
     {
@@ -355,7 +399,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-022_300.jpg",
+        "image": TG022,
         "id": 22
     },
     {
@@ -376,7 +420,7 @@ const releaseData =
         "artist": [
             "Throats"
         ],
-        "image": "http://localhost:8000/media/releases/TG-021_300.jpg",
+        "image": TG021,
         "id": 21
     },
     {
@@ -397,7 +441,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-020_300.jpg",
+        "image": TG020,
         "id": 20
     },
     {
@@ -418,7 +462,7 @@ const releaseData =
         "artist": [
             "Black Teeth"
         ],
-        "image": "http://localhost:8000/media/releases/TG-019_300.jpg",
+        "image": TG019,
         "id": 19
     },
     {
@@ -439,7 +483,7 @@ const releaseData =
         "artist": [
             "Purple Mercy"
         ],
-        "image": "http://localhost:8000/media/releases/TG-018_300.jpg",
+        "image": TG018,
         "id": 18
     },
     {
@@ -460,7 +504,7 @@ const releaseData =
         "artist": [
             "Hell And Reason"
         ],
-        "image": "http://localhost:8000/media/releases/TG-017_300.jpg",
+        "image": TG017,
         "id": 17
     },
     {
@@ -481,7 +525,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-016_300.jpg",
+        "image": TG016,
         "id": 16
     },
     {
@@ -502,7 +546,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-015_300.jpg",
+        "image": TG015,
         "id": 15
     },
     {
@@ -523,7 +567,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-014_300.jpg",
+        "image": TG014,
         "id": 14
     },
     {
@@ -544,7 +588,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-013_300.jpg",
+        "image": TG013,
         "id": 13
     },
     {
@@ -565,7 +609,7 @@ const releaseData =
         "artist": [
             "Molotov Solution"
         ],
-        "image": "http://localhost:8000/media/releases/TG-012_300.jpg",
+        "image": TG012,
         "id": 12
     },
     {
@@ -586,7 +630,7 @@ const releaseData =
         "artist": [
             "Dead Will Rise"
         ],
-        "image": "http://localhost:8000/media/releases/TG-011_300.jpg",
+        "image": TG011,
         "id": 11
     },
     {
@@ -607,7 +651,7 @@ const releaseData =
         "artist": [
             "These Days"
         ],
-        "image": "http://localhost:8000/media/releases/TG-010_300.jpg",
+        "image": TG010,
         "id": 10
     },
     {
@@ -628,7 +672,7 @@ const releaseData =
         "artist": [
             "Misericordiam"
         ],
-        "image": "http://localhost:8000/media/releases/TG-009_300.jpg",
+        "image": TG009,
         "id": 9
     },
     {
@@ -649,7 +693,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": "http://localhost:8000/media/releases/TG-008_300.jpg",
+        "image": TG008,
         "id": 8
     },
     {
@@ -671,7 +715,7 @@ const releaseData =
             "War From A Harlots Mouth",
             "Molotov Solution"
         ],
-        "image": "http://localhost:8000/media/releases/TG-007_300.jpg",
+        "image": TG007,
         "id": 7
     },
     {
@@ -692,7 +736,7 @@ const releaseData =
         "artist": [
             "Hoods"
         ],
-        "image": "http://localhost:8000/media/releases/TG-006_300.jpg",
+        "image": TG006,
         "id": 6
     },
     {
@@ -713,7 +757,7 @@ const releaseData =
         "artist": [
             "Set It Straight"
         ],
-        "image": "http://localhost:8000/media/releases/TG-005_300.jpg",
+        "image": TG005,
         "id": 5
     },
     {
@@ -735,7 +779,7 @@ const releaseData =
             "Countdown",
             "Tiefighter"
         ],
-        "image": "http://localhost:8000/media/releases/TG-004_300.jpg",
+        "image": TG004,
         "id": 4
     },
     {
@@ -757,7 +801,7 @@ const releaseData =
             "Where Eagles Dare",
             "Set It Straight"
         ],
-        "image": "http://localhost:8000/media/releases/TG-003_300.jpg",
+        "image": TG003,
         "id": 3
     },
     {
@@ -778,7 +822,7 @@ const releaseData =
         "artist": [
             "Yourlastbreath"
         ],
-        "image": "http://localhost:8000/media/releases/TG-002_300.jpg",
+        "image": TG002,
         "id": 2
     },
     {
@@ -799,7 +843,7 @@ const releaseData =
         "artist": [
             "Heavy Heavy Low Low"
         ],
-        "image": "http://localhost:8000/media/releases/TG-001_300.jpg",
+        "image": TG001,
         "id": 1
     }
 ]
