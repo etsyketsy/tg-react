@@ -57,3 +57,27 @@
 .artistReleases .mediaPlayer{
     display: none;
 }
+
+@media only screen and (max-width: 410px) {
+    /* .artistDetail .releasePreview img {
+      width: 10vh;
+      height: 10vh;
+      display: flex;
+      justify-content: flex-start;
+    } */
+
+    .artistReleases {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+
+    .artistReleases .releasePreviewWrapper{
+        width: 100%;
+    }
+
+    .artistReleases .releaseHeadline{
+        width: inherit;
+        font-size: .8em;
+    }
+  }
