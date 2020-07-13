@@ -26,13 +26,13 @@
     object-fit: cover;
     padding: 0;
     display: flex;
-    margin-right: 1vh;
+    margin-left: 1vh;
 }
 
 .artistDetail .desc {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-end;
     height: auto;
     margin-bottom: 1.5vh;
@@ -66,6 +66,15 @@
       justify-content: flex-start;
     } */
 
+    .artistDetail .name {
+        margin-top: 3vh;
+        font-size: 5vmin;
+    }
+
+    .artistDetail .bio {
+        font-size: 2vmin;
+    }
+
     .artistReleases {
         display: flex;
         flex-flow: column wrap;
@@ -78,6 +87,13 @@
 
     .artistReleases .releaseHeadline{
         width: inherit;
-        font-size: .8em;
+        font-size: 3vmin;
+    }
+
+    .artistDetail .artistPhoto {
+        max-width: 60%;
+        object-fit: cover;
+        padding: 0;
+        margin-left: 1vh;
     }
   }
