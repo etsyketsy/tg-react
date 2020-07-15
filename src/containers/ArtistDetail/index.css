@@ -10,7 +10,7 @@
 }  
 
 .artistDetail .name {
-    font-size: 2em;
+    font-size: 4vmin;
     display: flex;
     flex-direction: column;
     font-family: 'Inconsolata', monospace;
@@ -32,7 +32,7 @@
 .artistDetail .desc {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-end;
     height: auto;
     margin-bottom: 1.5vh;
@@ -45,7 +45,8 @@
 
 .artistDetail .sectionHeader {
     margin-top: 3vh;
-    font-size: 1.9em;
+    font-size: 1.25em;
+    margin-bottom: 1vh;
 }
 
 .artistReleases {
@@ -68,7 +69,7 @@
 
     .artistDetail .name {
         margin-top: 3vh;
-        font-size: 5vmin;
+        font-size: 6vmin;
     }
 
     .artistDetail .bio {
