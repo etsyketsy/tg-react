@@ -66,7 +66,6 @@
   height: auto;
   font-family: 'Inconsolata', monospace;
   font-size: 3vmin;
-  /* width: 130%; */
   margin-bottom: 2vh;
   margin-top: 1vh;
   margin-right: 20vh;
@@ -125,11 +124,11 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1179px) {
 
   #navLinks {
     margin-right: 2vh;
-    width: 200%;
+    width: 125%;
   }
 
   #logoWrapper {
@@ -163,3 +162,31 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  #navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: auto;
+    font-family: 'Inconsolata', monospace;
+    font-size: 3vmin;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+    margin-right: 20vh;
+  }
+  
+  #navLinks {
+    margin-right: 2vh;
+    width: 50%;
+  }
+
+  .text {
+    border-bottom: solid transparent;
+    margin-top: 1vh;
+    margin-right: 1.5vh;
+    color: white;
+  }
+
+
+}
