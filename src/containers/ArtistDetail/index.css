@@ -10,7 +10,7 @@
 }  
 
 .artistDetail .name {
-    font-size: 2em;
+    font-size: 4vmin;
     display: flex;
     flex-direction: column;
     font-family: 'Inconsolata', monospace;
@@ -26,7 +26,7 @@
     object-fit: cover;
     padding: 0;
     display: flex;
-    margin-right: 1vh;
+    margin-left: 1vh;
 }
 
 .artistDetail .desc {
@@ -45,7 +45,8 @@
 
 .artistDetail .sectionHeader {
     margin-top: 3vh;
-    font-size: 1.9em;
+    font-size: 1.25em;
+    margin-bottom: 1vh;
 }
 
 .artistReleases {
@@ -57,3 +58,43 @@
 .artistReleases .mediaPlayer{
     display: none;
 }
+
+@media only screen and (max-width: 415px) {
+    /* .artistDetail .releasePreview img {
+      width: 10vh;
+      height: 10vh;
+      display: flex;
+      justify-content: flex-start;
+    } */
+
+    .artistDetail .name {
+        margin-top: 3vh;
+        font-size: 6vmin;
+    }
+
+    .artistDetail .bio {
+        font-size: 2vmin;
+    }
+
+    .artistReleases {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+
+    .artistReleases .releasePreviewWrapper{
+        width: 100%;
+    }
+
+    .artistReleases .releaseHeadline{
+        width: inherit;
+        font-size: 3vmin;
+    }
+
+    .artistDetail .artistPhoto {
+        max-width: 60%;
+        object-fit: cover;
+        padding: 0;
+        margin-left: 1vh;
+    }
+  }
