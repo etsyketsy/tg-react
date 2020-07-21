@@ -1,8 +1,7 @@
 .artistSlide .name {
-    font-size: 2.3vw;
+    font-size: 2vw;
     display: flex;
     flex-flow: column wrap;
-    margin-left: .5vh;
     font-family: 'Karla', sans-serif;
 }
 
@@ -11,12 +10,12 @@
     line-height: 1em;
 }
 
-.artistSlide .artistPhoto {
+.artistSlide img {
     display: flex;
+
     width: inherit;
     height: 10vh;
-    margin: 0;
-    object-fit: scale-down;
+    object-fit: contian;
 }
 
 
@@ -31,7 +30,6 @@
 @media only screen and (max-width: 450px) {
     .artistSlide .name {
         font-size: 5vw;
-        font-family: 'Karla', sans-serif;
     }
 
     .artistSlide .location {
