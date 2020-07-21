@@ -11,12 +11,12 @@
     line-height: 1em;
 }
 
-.artistSlide .artistPhoto {
+.artistSlide img {
     display: flex;
+
     width: inherit;
     height: 10vh;
-    margin: 0;
-    object-fit: scale-down;
+    object-fit: contian;
 }
 
 
