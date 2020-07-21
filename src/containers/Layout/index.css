@@ -42,8 +42,6 @@
   padding-top: 3vh;
   padding-bottom: 1.5vh;
   display: flex;
-  /* flex-direction: column;
-  align-items: center; */
 }
 
 .text {
@@ -93,28 +91,16 @@
 } 
 
 .sectionHeader {
-  font-size: 1.75em;
+  font-size: 2em;
   font-family: 'Karla', sans-serif;
 }
 
 #artists .displayGrid {
-  /* display: flex;
-  flex-flow: row wrap; */
   display: grid;
+  margin-top: 2vh;
   gap: 1vh;
   grid-template-columns: repeat(auto-fill, minmax(20vh, auto));
 }
-
-/*.displayGrid {
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-}
-
-.displayGrid::after {
-  content: "";
-  flex: auto;
-} */
 
 #loading {
   margin: 3vh;
