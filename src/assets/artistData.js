@@ -91,7 +91,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 20,
-        "image": " "
+        "image": null
     },
     {
         "artist": "Dead Will Rise",
@@ -289,7 +289,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 2,
-        "image": ""
+        "image": null
     },
     {
         "artist": "Sabertooth Zombie",
@@ -311,7 +311,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 1,
-        "image": " "
+        "image": null
     },
     {
         "artist": "Thin",
@@ -322,7 +322,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 1,
-        "image": " "
+        "image": null
     },
     {
         "artist": "Set It Straight",

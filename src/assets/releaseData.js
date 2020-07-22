@@ -51,87 +51,87 @@ import TG045 from '../assets/albumArt/TG-045.jpg';
 
 const releaseData = 
 [
-    // {
-    //     "cat_num": "TG050",
-    //     "release_title": "In Spite Of",
-    //     "release_formats": "12\"LP, Cassette, Digital",
-    //     "release_date": "2020-10-31",
-    //     "artist_nice_name": "fyh",
-    //     "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
-    //     "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
-    //     "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
-    //     "status": "Coming Soon",
-    //     "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
-    //     "artist": [
-    //         "For Your Health"
-    //     ],
-    //     "image": TG050
-    // },
-    // {
-    //     "cat_num": "TG049",
-    //     "release_title": "Midnight Venom",
-    //     "release_formats": "12\"LP",
-    //     "release_date": "2020-09-30",
-    //     "artist_nice_name": "stz",
-    //     "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
-    //     "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
-    //     "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
-    //     "status": "Coming Soon",
-    //     "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
-    //     "artist": [
-    //         "Sabertooth Zombie"
-    //     ],
-    //     "image": TG049
-    // },
-    // {
-    //     "cat_num": "TG048",
-    //     "release_title": "Dawn",
-    //     "release_formats": "12\"LP, Cassette",
-    //     "release_date": "2020-07-24",
-    //     "artist_nice_name": "thin",
-    //     "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
-    //     "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
-    //     "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
-    //     "status": "Coming Soon",
-    //     "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
-    //     "artist": [
-    //         "Thin"
-    //     ],
-    //     "image": TG048
-    // },
-    // {
-    //     "cat_num": "TG047",
-    //     "release_title": "Split",
-    //     "release_formats": "7\"EP",
-    //     "release_date": "2020-07-10",
-    //     "artist_nice_name": "sidetracked_theseeker",
-    //     "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
-    //     "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
-    //     "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
-    //     "status": "Out Now",
-    //     "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
-    //     "artist": [
-    //         "Sidetracked",
-    //         "The Seeker"
-    //     ],
-    //     "image": TG047
-    // },
-    // {
-    //     "cat_num": "TG046",
-    //     "release_title": "Weeping/Creeping",
-    //     "release_formats": "12\"EP Lathe, Digital",
-    //     "release_date": "2020-10-14",
-    //     "artist_nice_name": "downstaaiirs",
-    //     "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
-    //     "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
-    //     "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
-    //     "status": "Coming Soon",
-    //     "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
-    //     "artist": [
-    //         "Downstaaiirs"
-    //     ],
-    //     "image": TG046
-    // },
+    {
+        "cat_num": "TG050",
+        "release_title": "In Spite Of",
+        "release_formats": "12\"LP, Cassette, Digital",
+        "release_date": "2020-10-31",
+        "artist_nice_name": "fyh",
+        "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
+        "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
+        "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
+        "status": "Coming Soon",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "artist": [
+            "For Your Health"
+        ],
+        "image": null
+    },
+    {
+        "cat_num": "TG049",
+        "release_title": "Midnight Venom",
+        "release_formats": "12\"LP",
+        "release_date": "2020-09-30",
+        "artist_nice_name": "stz",
+        "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
+        "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
+        "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
+        "status": "Coming Soon",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "artist": [
+            "Sabertooth Zombie"
+        ],
+        "image": null
+    },
+    {
+        "cat_num": "TG048",
+        "release_title": "Dawn",
+        "release_formats": "12\"LP, Cassette",
+        "release_date": "2020-07-24",
+        "artist_nice_name": "thin",
+        "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
+        "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
+        "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
+        "status": "Coming Soon",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "artist": [
+            "Thin"
+        ],
+        "image": null
+    },
+    {
+        "cat_num": "TG047",
+        "release_title": "Split",
+        "release_formats": "7\"EP",
+        "release_date": "2020-07-10",
+        "artist_nice_name": "sidetracked_theseeker",
+        "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
+        "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
+        "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
+        "status": "Out Now",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "artist": [
+            "Sidetracked",
+            "The Seeker"
+        ],
+        "image": null
+    },
+    {
+        "cat_num": "TG046",
+        "release_title": "Weeping/Creeping",
+        "release_formats": "12\"EP Lathe, Digital",
+        "release_date": "2020-10-14",
+        "artist_nice_name": "downstaaiirs",
+        "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
+        "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
+        "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
+        "status": "Coming Soon",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "artist": [
+            "Downstaaiirs"
+        ],
+        "image": null
+    },
     {
         "cat_num": "TG045",
         "release_title": "Death of Spring",
