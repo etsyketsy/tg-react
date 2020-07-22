@@ -14,7 +14,7 @@ import nosir from '../assets/artistArt/nosir_photo_thumb.jpg';
 import overlooked from '../assets/artistArt/overlooked_photo_thumb.jpg';
 import pm from '../assets/artistArt/pm_photo_thumb.jpg';
 import power from '../assets/artistArt/power_photo_thumb.jpg';
-import shin_guard from '../assets/artistArt/shin_guard_thumb.jpg';
+import shin_guard from '../assets/artistArt/shin_guard_photo_thumb.jpg';
 import sis from '../assets/artistArt/sis_photo_thumb.jpg';
 import stz from '../assets/artistArt/stz_photo_thumb.jpg';
 import throats from '../assets/artistArt/throats_photo_thumb.jpg';
