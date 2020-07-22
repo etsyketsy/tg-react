@@ -3,11 +3,14 @@
     display: flex;
     flex-flow: column wrap;
     font-family: 'Karla', sans-serif;
+    margin-top: .25vh;
+    border-top: solid #ffcebe;
 }
 
 .artistSlide .location {
     font-size: 1.2vw;
     line-height: 1em;
+
 }
 
 .artistSlide img {
@@ -16,8 +19,6 @@
     height: 10vh;
     object-fit: contian;
 }
-
-
 
 .artistSlide {
     display: flex;
