@@ -36,11 +36,13 @@ import TG035 from '../assets/albumArt/TG-035.jpg';
 import TG036 from '../assets/albumArt/TG-036.jpg';
 import TG037 from '../assets/albumArt/TG-037.jpg';
 import TG038 from '../assets/albumArt/TG-038.jpg';
-// import TG039 from '../assets/albumArt/TG-039.jpg';
-// import TG040 from '../assets/albumArt/TG-040.jpg';
-// import TG041 from '../assets/albumArt/TG-041.jpg';
-// import TG042 from '../assets/albumArt/TG-042.jpg';
-// import TG043 from '../assets/albumArt/TG-043.jpg';
+import TG039 from '../assets/albumArt/TG-039.jpg';
+import TG040 from '../assets/albumArt/TG-040.jpg';
+import TG041 from '../assets/albumArt/TG-041.jpg';
+import TG042 from '../assets/albumArt/TG-042.jpg';
+import TG043 from '../assets/albumArt/TG-043.jpg';
+import TG044 from '../assets/albumArt/TG-044.jpg';
+import TG045 from '../assets/albumArt/TG-045.jpg';
 
 const releaseData = 
 [
