@@ -2,9 +2,11 @@ import anothermistake from '../assets/artistArt/anothermistake_photo_thumb.jpg';
 import blackteeth from '../assets/artistArt/blackteeth_photo_thumb.jpg';
 import creatures from '../assets/artistArt/creatures_photo_thumb.jpg';
 import daggers from '../assets/artistArt/daggers_photo_thumb.jpg';
-import fatal_birth from '../assets/artistArt/fatal_birth_photo_thumb.jpg';import frail_hands from '../assets/artistArt/frail_hands_photo_thumb.jpg';
+// import downstaaiirs from '../assets/artistArt/downstaaiirs_photo_thumb.jpg';
+import fatal_birth from '../assets/artistArt/fatal_birth_photo_thumb.jpg';
 import fyh from '../assets/artistArt/fyh_photo_thumb.jpg';
-import ghost_spirit from '../assets/artistArt/ghost_spirit_photo_thumb.jpg';
+import frailhands from '../assets/artistArt/frailhands_photo_thumb.jpg';
+import ghostspirit from '../assets/artistArt/ghostspirit_photo_thumb.jpg';
 import hellandreason from '../assets/artistArt/hellandreason_photo_thumb.jpg';
 import hellhorse from '../assets/artistArt/hellhorse_photo_thumb.jpg';
 import hhll from '../assets/artistArt/hhll_photo_thumb.jpg';
@@ -12,11 +14,14 @@ import miser from '../assets/artistArt/miser_photo_thumb.jpg';
 import nervous from '../assets/artistArt/nervous_photo_thumb.jpg';
 import nosir from '../assets/artistArt/nosir_photo_thumb.jpg';
 import overlooked from '../assets/artistArt/overlooked_photo_thumb.jpg';
-import pm from '../assets/artistArt/pm_photo_thumb.jpg';
 import power from '../assets/artistArt/power_photo_thumb.jpg';
-import shin_guard from '../assets/artistArt/shin_guard_photo_thumb.jpg';
+import pm from '../assets/artistArt/pm_photo_thumb.jpg';
+import shinguard from '../assets/artistArt/shinguard_photo_thumb.jpg';
+// import sidetracked from '../assets/artistArt/sidetracked_photo_thumb.jpg';
 import sis from '../assets/artistArt/sis_photo_thumb.jpg';
 import stz from '../assets/artistArt/stz_photo_thumb.jpg';
+// import theseeker from '../assets/artistArt/theseeker_photo_thumb.jpg';
+// import thin from '../assets/artistArt/thin_photo_thumb.jpg';
 import throats from '../assets/artistArt/throats_photo_thumb.jpg';
 import ylb from '../assets/artistArt/ylb_photo_thumb.jpg';
 import youthfuneral from '../assets/artistArt/youthfuneral_photo_thumb.jpg';
@@ -78,6 +83,17 @@ const artistData = [
         "image": daggers
     },
     {
+        "artist": "Downstaaiirs",
+        "artist_nice_name": "downstaaiirs",
+        "artist_location": "Bay Area, CA",
+        "artist_bio": "Downstaaiirs is a post-hardcore band with members of Heavy Heavy Low Low, Blowout, Toast the Wrap and other hardcore veterans.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 20,
+        "image": " "
+    },
+    {
         "artist": "Dead Will Rise",
         "artist_nice_name": "dwr",
         "artist_location": "Athens, OH",
@@ -98,6 +114,39 @@ const artistData = [
         "status": "Active",
         "id": 22,
         "image": fatal_birth
+    },
+    {
+        "artist": "For Your Health",
+        "artist_nice_name": "fyh",
+        "artist_location": "Columbus, OH",
+        "artist_bio": "For Your Health is an emotional hardcore band hailing from the bowels of the midwest. Fuck cops, para tu salud.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 22,
+        "image": fyh
+    },
+    {
+        "artist": "Frail Hands",
+        "artist_nice_name": "frailhands",
+        "artist_location": "Bay Area, CA",
+        "artist_bio": "Hailing from Halifax, Nova Scotia, Frail Hands is a four-piece screamo band with a chaotic and raw sound with members of King's Girls and Heisse. Drawing influence from bands like Portraits of Past, Loma Prieta, Orchid, and La Quiete, the band is a newcomer to the thriving Halifax screamo scene.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 22,
+        "image": frailhands
+    },
+    {
+        "artist": "Ghost Spirit",
+        "artist_nice_name": "ghostspirit",
+        "artist_location": "Los Angeles, CA",
+        "artist_bio": "Ghost Spirit is a DIY screamo band from LA that features members of Lord Snow, Fight Fair, and Nuvolascura.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 22,
+        "image": ghostspirit
     },
     {
         "artist": "Heavy Heavy Low Low",
@@ -221,6 +270,28 @@ const artistData = [
         "image": pm
     },
     {
+        "artist": "Shin Guard",
+        "artist_nice_name": "shinguard",
+        "artist_location": "Pittsburgh, PA",
+        "artist_bio": "Shin Guard is a screamo band from Pittsburgh, PA that’s been making waves over the last few years due to their hard-working ethic, dynamic sound, and the release of their highly praised 2020 LP.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 2,
+        "image": shinguard
+    },
+    {
+        "artist": "Sidetracked",
+        "artist_nice_name": "sidetracked",
+        "artist_location": "Tacoma, WA",
+        "artist_bio": "Sidetracked is a well-established hardcore/power violence band that’s been around since the early 2000s. Developing their sound over time, Sidetracked has gone from a youth crew hardcore band to being one of the top powerviolence bands in the scene.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 2,
+        "image": ""
+    },
+    {
         "artist": "Sabertooth Zombie",
         "artist_nice_name": "stz",
         "artist_location": "Santa Rosa, CA",
@@ -230,6 +301,28 @@ const artistData = [
         "status": "Active",
         "id": 1,
         "image": stz
+    },
+    {
+        "artist": "The Seeker",
+        "artist_nice_name": "theseeker",
+        "artist_location": "Milan, Italy",
+        "artist_bio": "The Seeker is a three-piece power violence band based out of Milan, Italy. Their raw and fast sound makes them loved by hardcore and powerviolence fans alike.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 1,
+        "image": " "
+    },
+    {
+        "artist": "Thin",
+        "artist_nice_name": "thin",
+        "artist_location": "New York, NY",
+        "artist_bio": "Thin is a 3-piece mathgrind band from New York City that formed in the spring of 2019. The band delivers a chaotic, aggressive, and unhinged barrage of blasting drums, off-kilter grooves, and slashing guitars. For fans of Ed Gein, Maruta, and Daughters.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Active",
+        "id": 1,
+        "image": " "
     },
     {
         "artist": "Set It Straight",
