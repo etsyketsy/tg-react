@@ -48,7 +48,7 @@
   border-bottom: solid transparent;
   margin-top: 1vh;
   margin-right: 2vh;
-  color: white;
+  color: #fafafa;
 }
 
 .active .text {
@@ -83,11 +83,13 @@
 }
 
 #layout {
-  color: #2C2A2D;
+  /* color: #2C2A2D; */
   display: flex;
   flex-flow: wrap;
   width: auto;
   box-sizing: border-box;
+  background-color: #484848;
+  color: #fafafa;
 } 
 
 .sectionHeader {
