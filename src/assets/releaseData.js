@@ -65,7 +65,8 @@ const releaseData =
         "artist": [
             "For Your Health"
         ],
-        "image": null
+        "image": null,
+        "status": "unannounced"
     },
     {
         "cat_num": "TG049",
@@ -81,7 +82,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": null
+        "image": null,
+        "status": "Coming Soon"
     },
     {
         "cat_num": "TG048",
@@ -97,7 +99,8 @@ const releaseData =
         "artist": [
             "Thin"
         ],
-        "image": null
+        "image": null,
+        "status": "unannounced"
     },
     {
         "cat_num": "TG047",
@@ -114,7 +117,8 @@ const releaseData =
             "Sidetracked",
             "The Seeker"
         ],
-        "image": null
+        "image": null,
+        "status": "Out now"
     },
     {
         "cat_num": "TG046",
@@ -130,7 +134,8 @@ const releaseData =
         "artist": [
             "Downstaaiirs"
         ],
-        "image": null
+        "image": null,
+        "status": "unannounced"
     },
     {
         "cat_num": "TG045",
@@ -147,7 +152,8 @@ const releaseData =
             "For Your Health",
             "Shin Guard"
         ],
-        "image": TG045
+        "image": TG045,
+        "status": "Out now"
     },
     {
         "cat_num": "TG044",
@@ -163,7 +169,8 @@ const releaseData =
         "artist": [
             "Frail Hands"
         ],
-        "image": TG044
+        "image": TG044,
+        "status": "Out now"
     },
     {
         "cat_num": "TG043",
@@ -179,7 +186,8 @@ const releaseData =
         "artist": [
             "Heavy Heavy Low Low"
         ],
-        "image": TG043
+        "image": TG043,
+        "status": "Out now"
     },
     {
         "cat_num": "TG042",
@@ -195,7 +203,8 @@ const releaseData =
         "artist": [
             "Ghost Spirit"
         ],
-        "image": TG042
+        "image": TG042,
+        "status": "Out now"
     },
     {
         "cat_num": "TG041",
@@ -211,7 +220,8 @@ const releaseData =
         "artist": [
             "Shin Guard"
         ],
-        "image": TG041
+        "image": TG041,
+        "status": "Out now"
     },
     {
         "cat_num": "TG040",
@@ -227,7 +237,8 @@ const releaseData =
         "artist": [
             "Frail Hands"
         ],
-        "image": TG040
+        "image": TG040,
+        "status": "Out now"
     },
     {
         "cat_num": "TG039",
@@ -244,7 +255,8 @@ const releaseData =
             "Ghost Spirit",
             "Frail Hands"
         ],
-        "image": TG039
+        "image": TG039,
+        "status": "Out now"
     },
     {
         "cat_num": "TG038",
@@ -260,7 +272,8 @@ const releaseData =
         "artist": [
             "Nervous"
         ],
-        "image": TG038
+        "image": TG038,
+        "status": "Out now"
     },
     {
         "cat_num": "TG037",
@@ -276,7 +289,8 @@ const releaseData =
         "artist": [
             "Power"
         ],
-        "image": TG037
+        "image": TG037,
+        "status": "Out now"
     },
     {
         "cat_num": "TG036",
@@ -292,7 +306,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG036
+        "image": TG036,
+        "status": "Out now"
     },
     {
         "cat_num": "TG035",
@@ -308,7 +323,8 @@ const releaseData =
         "artist": [
             "Youth Funeral"
         ],
-        "image": TG035
+        "image": TG035,
+        "status": "Out now"
     },
     {
         "cat_num": "TG034",
@@ -324,7 +340,8 @@ const releaseData =
         "artist": [
             "Nervous"
         ],
-        "image": TG034
+        "image": TG034,
+        "status": "Out now"
     },
     {
         "cat_num": "TG033",
@@ -340,7 +357,8 @@ const releaseData =
         "artist": [
             "No Sir"
         ],
-        "image": TG033
+        "image": TG033,
+        "status": "Out now"
     },
     {
         "cat_num": "TG032",
@@ -356,7 +374,8 @@ const releaseData =
         "artist": [
             "Power"
         ],
-        "image": TG032
+        "image": TG032,
+        "status": "Out now"
     },
     {
         "cat_num": "TG031",
@@ -373,7 +392,8 @@ const releaseData =
             "Overlooked",
             "Another Mistake"
         ],
-        "image": TG031
+        "image": TG031,
+        "status": "Out now"
     },
     {
         "cat_num": "TG030",
@@ -389,7 +409,8 @@ const releaseData =
         "artist": [
             "Creatures"
         ],
-        "image": TG030
+        "image": TG030,
+        "status": "Out now"
     },
     {
         "cat_num": "TG029",
@@ -405,7 +426,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG029
+        "image": TG029,
+        "status": "Out now"
     },
     {
         "cat_num": "TG028",
@@ -421,7 +443,8 @@ const releaseData =
         "artist": [
             "Daggers"
         ],
-        "image": TG028
+        "image": TG028,
+        "status": "Out now"
     },
     {
 
@@ -438,7 +461,8 @@ const releaseData =
         "artist": [
             "Fatal Birth"
         ],
-        "image": TG027
+        "image": TG027,
+        "status": "Out now"
     },
     {
         "cat_num": "TG026",
@@ -454,7 +478,8 @@ const releaseData =
         "artist": [
             "Hellhorse"
         ],
-        "image": TG026
+        "image": TG026,
+        "status": "Out now"
     },
     {
         "cat_num": "TG025",
@@ -470,7 +495,8 @@ const releaseData =
         "artist": [
             "Power"
         ],
-        "image": TG025
+        "image": TG025,
+        "status": "Out now"
     },
     {
         "cat_num": "TG024",
@@ -486,7 +512,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG024
+        "image": TG024,
+        "status": "Out now"
     },
     {
         "cat_num": "TG023",
@@ -502,7 +529,8 @@ const releaseData =
         "artist": [
             "Heavy Heavy Low Low"
         ],
-        "image": TG023
+        "image": TG023,
+        "status": "Out now"
     },
     {
         "cat_num": "TG022",
@@ -518,7 +546,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG022
+        "image": TG022,
+        "status": "Out now"
     },
     {
 
@@ -535,7 +564,8 @@ const releaseData =
         "artist": [
             "Throats"
         ],
-        "image": TG021
+        "image": TG021,
+        "status": "Out now"
     },
     {
         "cat_num": "TG020",
@@ -551,7 +581,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG020
+        "image": TG020,
+        "status": "Out now"
     },
     {
         "cat_num": "TG019",
@@ -567,7 +598,8 @@ const releaseData =
         "artist": [
             "Black Teeth"
         ],
-        "image": TG019
+        "image": TG019,
+        "status": "Out now"
     },
     {
         "cat_num": "TG018",
@@ -583,7 +615,8 @@ const releaseData =
         "artist": [
             "Purple Mercy"
         ],
-        "image": TG018
+        "image": TG018,
+        "status": "Out now"
     },
     {
         "cat_num": "TG017",
@@ -599,7 +632,8 @@ const releaseData =
         "artist": [
             "Hell And Reason"
         ],
-        "image": TG017
+        "image": TG017,
+        "status": "Out now"
     },
     {
         "cat_num": "TG016",
@@ -615,7 +649,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG016
+        "image": TG016,
+        "status": "Out now"
     },
     {
         "cat_num": "TG015",
@@ -631,7 +666,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG015
+        "image": TG015,
+        "status": "Out now"
     },
     {
         "cat_num": "TG014",
@@ -647,7 +683,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG014
+        "image": TG014,
+        "status": "Out now"
     },
     {
         "cat_num": "TG013",
@@ -663,7 +700,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG013
+        "image": TG013,
+        "status": "Out now"
     },
     {
         "cat_num": "TG012",
@@ -679,7 +717,8 @@ const releaseData =
         "artist": [
             "Molotov Solution"
         ],
-        "image": TG012
+        "image": TG012,
+        "status": "Out now"
     },
     {
         "cat_num": "TG011",
@@ -695,7 +734,8 @@ const releaseData =
         "artist": [
             "Dead Will Rise"
         ],
-        "image": TG011
+        "image": TG011,
+        "status": "Out now"
     },
     {
         "cat_num": "TG010",
@@ -711,7 +751,8 @@ const releaseData =
         "artist": [
             "These Days"
         ],
-        "image": TG010
+        "image": TG010,
+        "status": "Out now"
     },
     {
         "cat_num": "TG009",
@@ -727,7 +768,8 @@ const releaseData =
         "artist": [
             "Misericordiam"
         ],
-        "image": TG009
+        "image": TG009,
+        "status": "Out now"
     },
     {
         "cat_num": "TG008",
@@ -743,7 +785,8 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": TG008
+        "image": TG008,
+        "status": "Out now"
     },
     {
         "cat_num": "TG007",
@@ -760,7 +803,8 @@ const releaseData =
             "War From A Harlots Mouth",
             "Molotov Solution"
         ],
-        "image": TG007
+        "image": TG007,
+        "status": "Out now"
     },
     {
         "cat_num": "TG006",
@@ -776,7 +820,8 @@ const releaseData =
         "artist": [
             "Hoods"
         ],
-        "image": TG006
+        "image": TG006,
+        "status": "Out now"
     },
     {
         "cat_num": "TG005",
@@ -792,7 +837,8 @@ const releaseData =
         "artist": [
             "Set It Straight"
         ],
-        "image": TG005
+        "image": TG005,
+        "status": "Out now"
     },
     {
         "cat_num": "TG004",
@@ -809,7 +855,8 @@ const releaseData =
             "Countdown",
             "Tiefighter"
         ],
-        "image": TG004
+        "image": TG004,
+        "status": "Out now"
     },
     {
         "cat_num": "TG003",
@@ -826,7 +873,8 @@ const releaseData =
             "Where Eagles Dare",
             "Set It Straight"
         ],
-        "image": TG003
+        "image": TG003,
+        "status": "Out now"
     },
     {
         "cat_num": "TG002",
@@ -842,7 +890,8 @@ const releaseData =
         "artist": [
             "Yourlastbreath"
         ],
-        "image": TG002
+        "image": TG002,
+        "status": "Out now"
     },
     {
         "cat_num": "TG001",
@@ -858,7 +907,8 @@ const releaseData =
         "artist": [
             "Heavy Heavy Low Low"
         ],
-        "image": TG001
+        "image": TG001,
+        "status": "Out now"
     }
 ]
 

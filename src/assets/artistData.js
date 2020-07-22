@@ -89,7 +89,7 @@ const artistData = [
         "artist_bio": "Downstaaiirs is a post-hardcore band with members of Heavy Heavy Low Low, Blowout, Toast the Wrap and other hardcore veterans.",
         "artist_type": "artist",
         "artist_contact": "#",
-        "status": "Active",
+        "status": "Unannounced",
         "id": 20,
         "image": null
     },
@@ -122,7 +122,7 @@ const artistData = [
         "artist_bio": "For Your Health is an emotional hardcore band hailing from the bowels of the midwest. Fuck cops, para tu salud.",
         "artist_type": "artist",
         "artist_contact": "#",
-        "status": "Active",
+        "status": "Unannounced",
         "id": 22,
         "image": fyh
     },
