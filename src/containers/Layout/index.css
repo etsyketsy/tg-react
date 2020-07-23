@@ -91,7 +91,7 @@
 } 
 
 .sectionHeader {
-  font-size: 2em;
+  font-size: 3vmin;
   font-family: 'Karla', sans-serif;
 }
 
@@ -132,10 +132,11 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    padding-top: 2vh;
+    padding-top: 5vh;
     padding-left: 2vh;
     padding-bottom: 5vh;
-    padding-right: 0
+    padding-right: 0;
+    font-size: 1.75vmin;
    }
 
    #about {

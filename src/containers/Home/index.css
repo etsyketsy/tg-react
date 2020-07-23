@@ -8,10 +8,8 @@
 }  
 
 .postPreview figure {
-  max-width: 6em;
-  max-height: 6em;
-  min-height: 4em;
-  min-width: 4em;
+  height: 14vh;
+  width: 14vh;
   float: left;
   object-fit: contain;
   margin: 0;    
@@ -22,9 +20,8 @@
 .postPreview img {
   float: left;
   object-fit: contain;
-  min-height: 4em;
-  min-width: 4em;
-  max-height: 6em;
+  height: 14vh;
+  width: 14vh;
   margin-right: 1vh;
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -33,17 +30,18 @@
 .previewHTML p {
   margin: 1vh;
 }
+
 .previewHTML p:nth-of-type(1n+2) {
   visibility: hidden;
 }
 
 .previewHTML {
-  max-height: 12vh;
+  max-height: 17vh;
   overflow: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto; 
-  font-size: .9em;
+  font-size: 1.5vmin;
   object-fit: scale-down;
   float: left;
   box-sizing: border-box;
@@ -66,6 +64,7 @@
 
 #releasesLink {
   border-bottom: solid #ffcebe;
+  font-size: 1.5vmin;
 }
 
 #latestReleases .displayGrid {

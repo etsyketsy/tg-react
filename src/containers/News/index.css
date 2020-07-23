@@ -19,10 +19,9 @@
 }
 
 .postTitle {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Karla', sans-serif;
     display: flex;
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 2vmin;
     margin-top: 2vh;
     margin-bottom: 1vh;
     border-bottom: solid #ffcebe;
@@ -30,6 +29,7 @@
 
 .postLink {
     border-bottom: solid #ffcebe;
+    font-size: 1vmin;
 }
 
 

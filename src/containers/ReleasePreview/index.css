@@ -4,7 +4,6 @@
 }
 
 .releasePreview .releaseHeadline{
-  /* border-bottom: solid #ffcebe; */
   margin-top: 2vh;
   margin-bottom: 1.5vh;
   width: 100%;
@@ -41,8 +40,8 @@
 
 @media only screen and (max-width: 1030px) {
   .releasePreview img {
-    height: 10vh;
-    width: 10vh;
+    height: 14vh;
+    width: 14vh;
     object-fit: scale-down;
   }
 
@@ -57,7 +56,6 @@
     display: flex;
     margin-bottom: 1.5vh;
   }
-
 
   #latestReleases .releasePreviewWrapper {
     width: 100%;
