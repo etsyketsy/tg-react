@@ -44,7 +44,7 @@ class LatestReleases extends Component {
                         )
                     }
                 </div>
-                <Link to="/releases" replace id="releasesLink">ALL RELEASES</Link>
+                <Link to="/releases" replace id="releasesLink">all releases</Link>
             </div>
         )
     }
