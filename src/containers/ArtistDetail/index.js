@@ -13,9 +13,11 @@ class ArtistDetail extends Component {
 
     artistCheck = (artistInfo) => {
         console.log(artistInfo)
-        if (artistInfo.status != ("Active" || "Inactive")) {
+        if (artistInfo.status != "Active" && artistInfo.status != "Inactive") {
+            console.log(artistInfo.status)
             return false
         } else {
+            console.log(artistInfo.status)
             return true
         }
     }
@@ -93,16 +95,6 @@ class ArtistDetail extends Component {
         let niceName = this.props.match.params.artist_nice_name;
        
         this.getArtist(niceName)
-        
-        // :
-      
-        // console.log(this.state)
-        // // 
-
-        // this.setState({
-        //     item: this.props.location.state.artist
-        // })
-        // // this.getReleases();
     }
 
     render() {
@@ -110,7 +102,6 @@ class ArtistDetail extends Component {
             (!this.state.item) ?
                 <p id='loading'>loading</p>
                 :
-
                 (this.artistCheck(this.state.item)) ?
                     <div className="artistDetail" id={this.props.index}>
                         <button onClick={this.exitHandler}>&#8592;</button>
