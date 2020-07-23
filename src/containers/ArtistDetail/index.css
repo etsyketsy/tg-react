@@ -50,22 +50,31 @@
 }
 
 .artistReleases {
-    display: flex;
+    /* display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
 .artistReleases .mediaPlayer{
     display: none;
 }
 
+.releasePreviewWrapper {
+    width: 100%;
+}
+
+.artistReleases {
+    /* display: grid;
+    margin-top: 2vh;
+    gap: 1vh;
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr)); */
+    display: grid;
+    margin-top: 2vh;
+    gap: 0vh;
+    grid-template-columns: repeat(2, minmax(20vh, 1fr));
+  }
+
 @media only screen and (max-width: 415px) {
-    /* .artistDetail .releasePreview img {
-      width: 10vh;
-      height: 10vh;
-      display: flex;
-      justify-content: flex-start;
-    } */
 
     .artistDetail .name {
         margin-top: 3vh;
@@ -76,11 +85,17 @@
         font-size: 2vmin;
     }
 
-    .artistReleases {
+    /* .artistReleases {
+        display: grid;
+        margin-top: 2vh;
+        gap: 0vh;
+        grid-template-columns: repeat(2, minmax(20vh, 1fr));
+      }
+  .artistReleases {
         display: flex;
         flex-flow: column wrap;
         width: 100%;
-    }
+    } 
 
     .artistReleases .releasePreviewWrapper{
         width: 100%;
@@ -89,7 +104,7 @@
     .artistReleases .releaseHeadline{
         width: inherit;
         font-size: 3vmin;
-    }
+    } */
 
     .artistDetail .artistPhoto {
         max-width: 60%;
