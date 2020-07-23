@@ -10,6 +10,20 @@ class ArtistDetail extends Component {
         item: null
     }
 
+    // Returns empty div if image doesn't exist so no broken images are shown
+    imageCheck = (artistInfo) => {
+        if (!artistInfo.image) {
+            return (
+                <div></div>
+            )
+        }
+        else {
+            return (
+                <img src={this.state.item.image} alt='img'      className='artistPhoto' />
+            )
+        }
+    }
+
     // Find artist details from Artist Data based on nice name passed in URL
     getArtist = (niceName) => {
         
@@ -87,10 +101,12 @@ class ArtistDetail extends Component {
                 <p id='loading'>still thinking...</p>
                 :
                 <div className="artistDetail" id={this.props.index}>
-                    {/* <button onClick={this.exitHandler}>&#215;</button> */}
                     <button onClick={this.exitHandler}>&#8592;</button>
                     <div className="desc">
-                        <img src={this.state.item.image} alt='img'      className='artistPhoto' />
+                        <div> 
+                            {this.imageCheck(this.state.item)}
+                        </div>
+                       
                         <div className='name'>
                             {this.state.item.artist}
                             <br />
