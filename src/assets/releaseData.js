@@ -44,9 +44,9 @@ import TG043 from '../assets/albumArt/TG-043.jpg';
 import TG044 from '../assets/albumArt/TG-044.jpg';
 import TG045 from '../assets/albumArt/TG-045.jpg';
 // import TG046 from '../assets/albumArt/TG-046.jpg';
-// import TG047 from '../assets/albumArt/TG-047.jpg';
-// import TG048 from '../assets/albumArt/TG-048.jpg';
-// import TG049 from '../assets/albumArt/TG-049.jpg';
+import TG047 from '../assets/albumArt/TG-047.jpg';
+import TG048 from '../assets/albumArt/TG-048.jpg';
+import TG049 from '../assets/albumArt/TG-049.jpg';
 // import TG050 from '../assets/albumArt/TG-050.jpg';
 
 const releaseData = 
@@ -82,7 +82,7 @@ const releaseData =
         "artist": [
             "Sabertooth Zombie"
         ],
-        "image": null,
+        "image": TG049,
         "status": "Coming Soon"
     },
     {
@@ -99,8 +99,8 @@ const releaseData =
         "artist": [
             "Thin"
         ],
-        "image": null,
-        "status": "unannounced"
+        "image": TG048,
+        "status": "Out now"
     },
     {
         "cat_num": "TG047",
@@ -117,7 +117,7 @@ const releaseData =
             "Sidetracked",
             "The Seeker"
         ],
-        "image": null,
+        "image": TG047,
         "status": "Out now"
     },
     {
