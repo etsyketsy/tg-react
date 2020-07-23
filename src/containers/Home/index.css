@@ -76,6 +76,10 @@
   width: 47%;
 }
 
+#latestReleases .cat_num{
+  display: none;
+}
+
 .home {
   background-color: #FFFFFF;
   color: #2C2A2D;
