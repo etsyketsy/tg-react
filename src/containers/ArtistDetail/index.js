@@ -4,10 +4,20 @@ import './index.css';
 import ReleasePreview from '../ReleasePreview/index';
 import releaseData from '../../assets/releaseData';
 import artistData from '../../assets/artistData';
+import NotFound from '../NotFound';
 
 class ArtistDetail extends Component {
     state = {
         item: null
+    }
+
+    artistCheck = (artistInfo) => {
+        console.log(artistInfo)
+        if (artistInfo.status != ("Active" || "Inactive")) {
+            return false
+        } else {
+            return true
+        }
     }
 
     // Returns empty div if image doesn't exist so no broken images are shown
@@ -98,40 +108,44 @@ class ArtistDetail extends Component {
     render() {
         return (
             (!this.state.item) ?
-                <p id='loading'>still thinking...</p>
+                <p id='loading'>loading</p>
                 :
-                <div className="artistDetail" id={this.props.index}>
-                    <button onClick={this.exitHandler}>&#8592;</button>
-                    <div className="desc">
-                        <div> 
-                            {this.imageCheck(this.state.item)}
-                        </div>
+
+                (this.artistCheck(this.state.item)) ?
+                    <div className="artistDetail" id={this.props.index}>
+                        <button onClick={this.exitHandler}>&#8592;</button>
+                        <div className="desc">
+                            <div> 
+                                {this.imageCheck(this.state.item)}
+                            </div>
                        
-                        <div className='name'>
-                            {this.state.item.artist}
-                            <br />
-                            <div className='location'>{this.state.item.artist_location}
+                            <div className='name'>
+                                {this.state.item.artist}
+                                <br />
+                                <div className='location'>{this.state.item.artist_location}
+                                </div>
                             </div>
                         </div>
+                        <div className='bio'>
+                            {ReactHtmlParser(this.state.item.artist_bio)}
+                        </div>
+                        <div className="sectionHeader">//Releases</div>
+                        <div className="artistReleases">
+                            {this.state.releases.map(
+                                (release, index) => {
+                                    return (
+                                        <ReleasePreview
+                                            item={release}
+                                            id={release.cat_num}
+                                            key={index}
+                                        />
+                                    )
+                                }
+                            )}
+                        </div>
                     </div>
-                    <div className='bio'>
-                        {ReactHtmlParser(this.state.item.artist_bio)}
-                    </div>
-                    <div className="sectionHeader">//Releases</div>
-                    <div className="artistReleases">
-                        {this.state.releases.map(
-                            (release, index) => {
-                                return (
-                                    <ReleasePreview
-                                        item={release}
-                                        id={release.cat_num}
-                                        key={index}
-                                    />
-                                )
-                            }
-                        )}
-                    </div>
-                </div>
+                    :
+                    <NotFound />
         )
     }
 }
