@@ -2,7 +2,7 @@ import anothermistake from '../assets/artistArt/anothermistake_photo_thumb.jpg';
 import blackteeth from '../assets/artistArt/blackteeth_photo_thumb.jpg';
 import creatures from '../assets/artistArt/creatures_photo_thumb.jpg';
 import daggers from '../assets/artistArt/daggers_photo_thumb.jpg';
-// import downstaaiirs from '../assets/artistArt/downstaaiirs_photo_thumb.jpg';
+import downstaaiirs from '../assets/artistArt/downstaaiirs_photo_thumb.jpg';
 import fatal_birth from '../assets/artistArt/fatal_birth_photo_thumb.jpg';
 import fyh from '../assets/artistArt/fyh_photo_thumb.jpg';
 import frailhands from '../assets/artistArt/frailhands_photo_thumb.jpg';
@@ -17,11 +17,11 @@ import overlooked from '../assets/artistArt/overlooked_photo_thumb.jpg';
 import power from '../assets/artistArt/power_photo_thumb.jpg';
 import pm from '../assets/artistArt/pm_photo_thumb.jpg';
 import shinguard from '../assets/artistArt/shinguard_photo_thumb.jpg';
-// import sidetracked from '../assets/artistArt/sidetracked_photo_thumb.jpg';
+import sidetracked from '../assets/artistArt/sidetracked_photo_thumb.jpg';
 import sis from '../assets/artistArt/sis_photo_thumb.jpg';
 import stz from '../assets/artistArt/stz_photo_thumb.jpg';
-// import theseeker from '../assets/artistArt/theseeker_photo_thumb.jpg';
-// import thin from '../assets/artistArt/thin_photo_thumb.jpg';
+import theseeker from '../assets/artistArt/theseeker_photo_thumb.jpg';
+import thin from '../assets/artistArt/thin_photo_thumb.jpg';
 import throats from '../assets/artistArt/throats_photo_thumb.jpg';
 import ylb from '../assets/artistArt/ylb_photo_thumb.jpg';
 import youthfuneral from '../assets/artistArt/youthfuneral_photo_thumb.jpg';
@@ -91,7 +91,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 20,
-        "image": null
+        "image": downstaaiirs
     },
     {
         "artist": "Dead Will Rise",
@@ -289,7 +289,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 2,
-        "image": null
+        "image": sidetracked
     },
     {
         "artist": "Sabertooth Zombie",
@@ -311,7 +311,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 1,
-        "image": null
+        "image": theseeker
     },
     {
         "artist": "Thin",
@@ -322,7 +322,7 @@ const artistData = [
         "artist_contact": "#",
         "status": "Active",
         "id": 1,
-        "image": null
+        "image": thin
     },
     {
         "artist": "Set It Straight",
