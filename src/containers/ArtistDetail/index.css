@@ -41,18 +41,7 @@
 .bio {
     border-top: solid #ffcebe;
     padding-top: 1vh;
-}
-
-.artistDetail .sectionHeader {
-    margin-top: 3vh;
-    font-size: 1.25em;
-    margin-bottom: 1vh;
-}
-
-.artistReleases {
-    /* display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between; */
+    margin-bottom: 5vh;
 }
 
 .artistReleases .mediaPlayer{
@@ -61,16 +50,13 @@
 
 .releasePreviewWrapper {
     width: 100%;
+    height: 15vh;
+    /* margin-bottom: 1vh; */
 }
 
 .artistReleases {
-    /* display: grid;
-    margin-top: 2vh;
-    gap: 1vh;
-    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr)); */
     display: grid;
-    margin-top: 2vh;
-    gap: 0vh;
+    gap: 1vh;
     grid-template-columns: repeat(2, minmax(20vh, 1fr));
   }
 
