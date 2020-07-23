@@ -49,7 +49,7 @@ class ReleaseDetail extends Component {
                                 {this.state.item.release_title}
                             </div>
                             <div className='artists'>
-                                {this.state.item.fk_artist}
+                                {this.state.item.artist}
                             </div>
                             <div className='release_num'>                            {this.state.item.cat_num}
                             </div>

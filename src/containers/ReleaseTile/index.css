@@ -1,9 +1,11 @@
 .releaseTile img {
   display: flex;
   align-items: flex-start;
+  justify-items: flex-start;
   object-fit: scale-down;
-  max-width: 30vh;
-  max-height: 30vh;
+  /* max-width: 30vh;
+  max-height: 30vh; */
+  height: 25vh;
 }
 
 .releaseDetails {
@@ -26,7 +28,6 @@
 }
 
 .tracksHeader {
-  font-size: 1.5vmin;
   font-family: 'Karla', sans-serif;
   display: flex;
   width: auto;
@@ -36,6 +37,12 @@
   background: none;
   outline: none;
   display: flex;
+  line-height: .5vh;
+}
+
+.tracks ol {
+  margin: 0;
+  padding: 0;
 }
 
 .media {
@@ -48,7 +55,8 @@
 
 .tracks.expanded ol{
   visibility: visible;
-  padding-left: 4vh;
+  margin: 0;
+  padding-left: 3.5vh;
 }
 
 .tracks.collapsed {
