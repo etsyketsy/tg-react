@@ -12,8 +12,12 @@ class LatestReleases extends Component {
     }
 
     componentDidMount() {
+        let filteredReleases = releaseData.filter(
+            release =>  release.status != 'Unannounced'
+        );
+
         this.setState(
-            { releases: releaseData }
+            { releases: filteredReleases }
         )
     }
 
@@ -29,17 +33,12 @@ class LatestReleases extends Component {
                         this.state.releases.slice(0, this.state.itemsToRender).map(
                             (release, index) => {
                                 return (
-                                    // <Link 
-                                    //     to={`/releases#${release.cat_num}`}
-                                    //     key={index}
-                                    // >
-                                        <ReleasePreview
-                                            item={release}
-                                            id={index}
-                                            key={index}
-                                        />
-                                    // </Link>
-                                )
+                                    <ReleasePreview
+                                        item={release}
+                                        id={index}
+                                        key={index}
+                                    />
+                                )    
                             }
                         )
                     }

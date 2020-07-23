@@ -50,7 +50,7 @@ class ArtistDetail extends Component {
     getReleases = (artistName) => {
         return new Promise((resolve, reject) => {
             let releases = releaseData.filter(
-                release => release.artist.includes(artistName)
+                release => release.artist.includes(artistName) && release.status != 'Unannounced'
                
             );
             if (releases){
