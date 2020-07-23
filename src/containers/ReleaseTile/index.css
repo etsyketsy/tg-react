@@ -33,7 +33,7 @@
   width: auto;
   height: auto;
   border: none;
-  font-size: 1em;
+  font-size: 1.5vmin;
   background: none;
   outline: none;
   display: flex;
@@ -43,6 +43,7 @@
 .tracks ol {
   margin: 0;
   padding: 0;
+  
 }
 
 .media {
