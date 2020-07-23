@@ -16,8 +16,8 @@ class Artist extends Component {
           <div className='name'>
             {this.props.item.artist}
             <br />
-            <div className='location'>{this.props.item.artist_location}
-            </div>
+            {/* <div className='location'>{this.props.item.artist_location}
+            </div> */}
           </div>
 
         </div>
