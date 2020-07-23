@@ -90,13 +90,13 @@ class ArtistDetail extends Component {
                     {/* <button onClick={this.exitHandler}>&#215;</button> */}
                     <button onClick={this.exitHandler}>&#8592;</button>
                     <div className="desc">
+                        <img src={this.state.item.image} alt='img'      className='artistPhoto' />
                         <div className='name'>
                             {this.state.item.artist}
                             <br />
                             <div className='location'>{this.state.item.artist_location}
                             </div>
                         </div>
-                        <img src={this.state.item.image} alt='img' className='artistPhoto' />
                     </div>
                     <div className='bio'>
                         {ReactHtmlParser(this.state.item.artist_bio)}
