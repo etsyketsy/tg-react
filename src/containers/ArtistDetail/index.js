@@ -16,7 +16,6 @@ class ArtistDetail extends Component {
         if (artistInfo.status != ("Active" || "Inactive")) {
             return false
         } else {
-            console.log('woohoo!')
             return true
         }
     }
