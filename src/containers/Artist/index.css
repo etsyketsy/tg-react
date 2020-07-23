@@ -5,10 +5,10 @@
     font-family: 'Karla', sans-serif;
 }
 
-.artistSlide .location {
+/* .artistSlide .location {
     font-size: 1.2vw;
     line-height: 1em;
-}
+} */
 
 .artistSlide img {
     display: flex;
@@ -22,7 +22,7 @@
 .artistSlide {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
     max-width: 20vh;
 }
 
