@@ -13,7 +13,7 @@
     font-size: 4vmin;
     display: flex;
     flex-direction: column;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Karla', sans-serif;
 }
 
 .artistDetail .location {
