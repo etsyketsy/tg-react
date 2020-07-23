@@ -221,7 +221,7 @@ const artistData = [
         "artist_bio": "From Oakland, California, Nervous consists of frontman Jake Spek (Lewd Acts) and drummer Jacob Harris (Big Kids, Acid Fast). Best friends and co-pilots of Oakland DIY venue The Hive, Spek and Harris have announced Nervous to be their new priority. This is no side project, it's a real band with its own sound.\r\n\r\nThere's something of a Nirvana vibe with Nervous - or, more accurately, the band is inspired by many of the same bands Kurt Cobain espoused: Wipers, Pixies, The Jesus Lizard. Spek and Harris take these inspirations and twist them into anxiety-ridden California punk anthems. Spek's unhinged vocals are an absolute standout, something like David Yow in a really fired-up mood. His lyrics address true everyday struggles of the broke, lazy, and intelligent, and honesty seeps through his every word.",
         "artist_type": "artist",
         "artist_contact": "nervous.songs@gmail.com",
-        "status": "active",
+        "status": "Active",
         "id": 26,
         "image": nervous
     },
@@ -232,7 +232,7 @@ const artistData = [
         "artist_bio": "From Santa Rosa, California, No Sir (featuring members of Sabertooth Zombie and Creative Adult) hail from within a flourishing circle of current West Coast hardcore punk bands - bands like Ghostlimb, Loma Prieta, Punch, Trash Talk, and Ceremony. Varying in style, these Golden State bands of today are bonded by a general aesthetic: highly artistic and intellectual yet determined to keep things raw, lo-fi, and DIY. Gut-level music for the thinking man. No Sir are representatives of this modern scene but can also be understood in a historical context, as heirs to the legacy of the older generation of Californians - the extreme hardcore punk bands that have filled the pages of Maximumrocknroll for years, from Dead And Gone to Talk Is Poison to Look Back And Laugh.",
         "artist_type": "artist",
         "artist_contact": "nosir@familydrugs.org",
-        "status": "active",
+        "status": "Active",
         "id": 25,
         "image": nosir
     },
