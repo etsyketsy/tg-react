@@ -25,29 +25,22 @@ class Releases extends Component {
                 :
                 <div className="content" id="releases">
                     <div className="sectionHeader">// Releases</div>
-                    {/* <div className="displayGrid"> */}
                         {this.state.releases.map(
                             (release, index) => {
-                                return (
-                                    // <Link
-                                    //     to={{
-                                    //         pathname: `/releases/${release.cat_num}/`,
-                                    //         state: { release }
-                                    //     }}
-                                    //     key={index}
-                                    // >
-                                        <ReleaseTile
-                                            item={release}
-                                            id={release.cat_num}
-                                            key={index}
-                                        />
-                                    // </Link>
-
-                                )
+                                // Filter out unannounced releases
+                                if (release.status != 'Unannounced') {
+                                    return (
+                                            <ReleaseTile
+                                                item={release}
+                                                id={release.cat_num}
+                                                key={index}
+                                            />
+                                    )
+                                }
+                               
                             }
                         )
                         }
-                    {/* </div> */}
                 </div>
 
         )
