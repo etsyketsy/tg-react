@@ -66,7 +66,7 @@ const releaseData =
             "For Your Health"
         ],
         "image": null,
-        "status": "unannounced"
+        "status": "Unannounced"
     },
     {
         "cat_num": "TG049",
@@ -135,7 +135,7 @@ const releaseData =
             "Downstaaiirs"
         ],
         "image": null,
-        "status": "unannounced"
+        "status": "Unannounced"
     },
     {
         "cat_num": "TG045",
