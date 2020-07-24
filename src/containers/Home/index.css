@@ -65,7 +65,9 @@
 }
 
 #latestReleases .displayGrid {
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
+  object-fit: contain;
+
 }
 
 #latestReleases {
