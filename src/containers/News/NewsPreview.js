@@ -43,7 +43,7 @@ class NewsPreview extends Component {
                                     <div className='previewHTML'>
                                         {ReactHtmlParser(html)}
                                     </div>
-                                    <a href={post.link} className='postLink' target="_blank" rel="noopener noreferrer">>view full post</a>
+                                    <a href={post.link} className='postLink' target="_blank" rel="noopener noreferrer">> view full post</a>
                                 </div>
                             )
 
