@@ -5,23 +5,22 @@
 
 .releasePreview .releaseHeadline{
   margin-top: 2vh;
-  margin-bottom: 1.5vh;
+  margin-bottom: 1vh;
   width: 100%;
   font-family: 'Inconsolata', monospace;
   display: flex;
   flex-flow: row wrap;
-  align-content: flex-end;
+  align-content: flex-start;
   width: 100%;
   border-bottom: solid #ffcebe;
-  height: 100%;
   box-sizing: border-box;
-  margin: 0;
 }
 
 .releasePreview {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   object-fit: scale-down;
+  width: 100%;
   margin-top: 2vh;
   margin-right: 2vh;
   padding: 0;
@@ -35,7 +34,12 @@
 }
 
 .mediaPlayer {
-  display: none;
+}
+
+.releasePreviewWrapper {  
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
 }
 
 @media only screen and (max-width: 1030px) {
