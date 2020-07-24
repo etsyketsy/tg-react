@@ -3,6 +3,7 @@ import { withRouter, Link } from 'react-router-dom';
 import ReleaseTile from '../ReleaseTile/index.js';
 import ReleaseDetail from '../ReleaseDetail/index.js';
 import releaseData from '../../assets/releaseData.js';
+import ScrollToTop from '../ScrollToTop/index';
 
 
 
@@ -14,7 +15,6 @@ class Releases extends Component {
             { releases: releaseData }
         )
     }
-
 
     // Renders release display grid with all releases if no item is selected
     render() {
@@ -41,6 +41,7 @@ class Releases extends Component {
                             }
                         )
                         }
+                        <ScrollToTop />
                 </div>
 
         )
