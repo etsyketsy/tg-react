@@ -1,11 +1,4 @@
-.releasePreview {
-  margin-left: 0;
-  margin-top: 2vh;
-}
-
 .releasePreview .releaseHeadline{
-  margin-top: 2vh;
-  margin-bottom: 1vh;
   width: 100%;
   font-family: 'Inconsolata', monospace;
   display: flex;
@@ -34,6 +27,7 @@
 }
 
 .mediaPlayer {
+  margin-top: 1vh;
 }
 
 .releasePreviewWrapper {  

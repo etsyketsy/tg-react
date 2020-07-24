@@ -1,10 +1,12 @@
 .postPreview .postLink {
-  font-size: .8em;
+  font-size: 1.5vmin;
+  border-bottom: solid #ffcebe;
 } 
 
 .postPreview .postTitle {
-  font-size: 1.1em;
+  font-size: 2vmin;
   border: none;
+  margin-top: 3vh;
 }  
 
 .postPreview figure {
@@ -17,9 +19,8 @@
   margin-bottom: 1vh;
 }
 
-.postPreview img {
-  float: left;
-  object-fit: contain;
+.postPreview img {  
+  object-fit: scale-down;
   height: 14vh;
   width: 14vh;
   margin-right: 1vh;
@@ -36,10 +37,10 @@
 }
 
 .previewHTML {
-  max-height: 17vh;
+  max-height: 17vh; 
   overflow: hidden;
   overflow-wrap: break-word;
-  word-wrap: break-word;
+  word-wrap: break-word; 
   hyphens: auto; 
   font-size: 1.5vmin;
   object-fit: scale-down;
@@ -48,15 +49,11 @@
   border-top: solid #ffcebe;
 }
 
-.postPreview {
-  float: top;
-  vertical-align: top;
-}
 
 #newsPreview {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow: hidden; */
   max-height: 100%;
   max-width: 47%;
   margin-right: 3vh;
