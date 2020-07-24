@@ -115,8 +115,8 @@ class ReleaseTile extends Component {
                             <div className='tracksHeader'
                                 onClick={this.tracksClickHandler}>
                                 {!this.state.expanded ?
-                                    '>See tracks'
-                                    : 'x'}
+                                    '> See tracks'
+                                    : '<'}
                             </div>
                             <div className={`tracks ${toggledClass}`}>
                                 {ReactHtmlParser(this.props.item.tracklisting)}
