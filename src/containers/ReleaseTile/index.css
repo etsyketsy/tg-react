@@ -95,6 +95,11 @@
   font-size: 1.5vmin;
 }
 
+.releaseTile .mediaPlayer {
+  margin-bottom: 2vh;
+  display: none;
+}
+
 @media only screen and (max-width: 1030px) {
   .releaseTile img {
     width: 15vh;
