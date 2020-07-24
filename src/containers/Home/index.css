@@ -6,7 +6,7 @@
 .postPreview .postTitle {
   font-size: 2vmin;
   border: none;
-  margin-top: 3vh;
+  margin-top: 2vh;
 }  
 
 .postPreview figure {
@@ -47,6 +47,7 @@
   float: left;
   box-sizing: border-box;
   border-top: solid #ffcebe;
+  width: 100%;
 }
 
 
@@ -66,17 +67,21 @@
 
 #latestReleases .displayGrid {
   margin-bottom: 5vh;
-  object-fit: contain;
-
 }
 
 #latestReleases {
   width: 47%;
+
 }
 
 #latestReleases .cat_num{
   display: none;
 }
+
+/* .mediaPlayer {
+  padding-bottom: 5vh;
+  border: solid green;
+} */
 
 .home {
   background-color: #FFFFFF;

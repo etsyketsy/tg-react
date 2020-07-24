@@ -7,7 +7,7 @@ import releaseData from '../../assets/releaseData.js';
 class LatestReleases extends Component {
 
     state = {
-        itemsToRender: 4,
+        itemsToRender: 6,
         releases: null
     }
 

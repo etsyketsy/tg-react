@@ -27,10 +27,10 @@ class NewsPreview extends Component {
             <p id='loading'>loading...</p>
                 :
                 <div id='newsPreview' className='preview'>
-                    <div className="sectionHeader">// News</div>
+                    <div className="sectionHeader">// Latest News</div>
                     {
 
-                        this.state.posts.slice(0, 3).map((post, index) => {
+                        this.state.posts.slice(0, 5).map((post, index) => {
 
                             let html = post.content;
                    
