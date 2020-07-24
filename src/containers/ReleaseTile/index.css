@@ -43,7 +43,6 @@
 .tracks ol {
   margin: 0;
   padding: 0;
-  
 }
 
 .media {
@@ -94,6 +93,11 @@
   margin-left: 0;
   margin-bottom: 5vh;
   font-size: 1.5vmin;
+}
+
+.releaseTile .mediaPlayer {
+  margin-bottom: 2vh;
+  display: none;
 }
 
 @media only screen and (max-width: 1030px) {

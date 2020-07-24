@@ -1,4 +1,4 @@
-.post img {
+/* .post img {
     max-width: 30vh;
     float: left;
     margin-right: 1vh;
@@ -22,14 +22,13 @@
     font-family: 'Karla', sans-serif;
     display: flex;
     font-size: 2vmin;
-    margin-top: 2vh;
-    margin-bottom: 1vh;
     border-bottom: solid #ffcebe;
 }
 
 .postLink {
     border-bottom: solid #ffcebe;
     font-size: 1vmin;
+    margin-bottom: 2vh;
 }
 
 
@@ -102,4 +101,4 @@ br {
         font-size: 1.5em;
         margin-bottom: 1vh;
     }
-}
+} */

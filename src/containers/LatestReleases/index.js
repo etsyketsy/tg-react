@@ -7,7 +7,7 @@ import releaseData from '../../assets/releaseData.js';
 class LatestReleases extends Component {
 
     state = {
-        itemsToRender: 3,
+        itemsToRender: 4,
         releases: null
     }
 
@@ -43,7 +43,7 @@ class LatestReleases extends Component {
                         )
                     }
                 </div>
-                <Link to="/releases" replace id="releasesLink">all releases</Link>
+                <Link to="/releases" replace id="releasesLink">>all releases</Link>
             </div>
         )
     }

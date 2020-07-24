@@ -43,9 +43,9 @@ class ReleasePreview extends Component {
                 <Link
                     to={`/releases#${this.props.item.cat_num}`} className="releasePreview"
                 >
-                    <img src={this.props.item.image}
+                    {/* <img src={this.props.item.image}
                         alt='releaseCover'
-                    />
+                    /> */}
                     <div className='releaseHeadline'>
                         <div className='cat_num'>
                             {this.props.item.cat_num}:
