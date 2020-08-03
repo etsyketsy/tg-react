@@ -1,4 +1,9 @@
-#scrollButton {
+ .hidden {
+     visibility: hidden;
+ }
+
+.visible{
+    visibility: visible;
     display: inline-block;
     position: fixed;
     bottom: 10vh;
@@ -6,4 +11,5 @@
     height: 3.5vh;
     width: 5vh;
     font-size: 4vmin;
+
 }

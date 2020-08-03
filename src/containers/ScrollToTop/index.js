@@ -3,20 +3,32 @@ import './index.css';
 
 class ScrollToTop extends Component {
     state = {
-        is_visible: false
+        hasScrolled: false
     }
 
-    scrollUp() {
+    scrollUp = () => {
         window.scrollTo(0,0)
+        this.setState({ hasScrolled: false })
     }
+
+    onScroll = () => {
+        if (window.scrollY > 100 ) {      
+          this.setState({ hasScrolled: true })    
+          console.log('scrolled')
+        } 
+      }
 
     componentDidMount() {
-        console.log(window.scrollY)
+        document.addEventListener('scroll', this.onScroll) 
     }
 
+
     render() {
+        let is_visible = this.state.hasScrolled ? 'visible' : 'hidden';
+
         return (
-            <div id="scrollButton" onClick={this.scrollUp}>
+            <div id="scrollButton" className={`${is_visible}`} 
+            onClick={this.scrollUp}>
                &#8593;
             </div>
         )
