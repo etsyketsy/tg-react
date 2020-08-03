@@ -14,8 +14,9 @@ class ScrollToTop extends Component {
     onScroll = () => {
         if (window.scrollY > 100 ) {      
           this.setState({ hasScrolled: true })    
-          console.log('scrolled')
-        } 
+        }else if (window.scrollY <= 100 && this.state.hasScrolled) {
+            this.setState({ hasScrolled: false })
+        }
       }
 
     componentDidMount() {
