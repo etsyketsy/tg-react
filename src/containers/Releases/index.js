@@ -11,6 +11,8 @@ class Releases extends Component {
 
 
     componentDidMount() {
+        // Sort releases by Release Date
+        // First converts release_date from a string to date format
         let sortedReleases = releaseData.sort((x, y) => {
             let a = new Date(x.release_date),
                 b = new Date(y.release_date);
