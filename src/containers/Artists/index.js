@@ -11,8 +11,22 @@ class Artists extends Component {
   }
 
   componentDidMount() {
+    // Sort artists by name and set to state for processing
+    let sortedArtists = artistData.sort((x, y) => {
+      let a = x.artist.toLowerCase(),
+          b = y.artist.toLowerCase();
+
+          if (a < b) {
+            return -1;
+          }
+          if (a > b) {
+            return 1;
+          }
+          return 0;
+    });
+
     this.setState(
-      {artists: artistData}
+      {artists: sortedArtists}
     )
   }
 
@@ -23,6 +37,7 @@ class Artists extends Component {
       (!this.state.artists) ?
         <p id='loading'>loading...</p>
         :
+
         <div className="content" id="artists">
           <div className="sectionHeader">// Artists</div>
           <div className="displayGrid">
