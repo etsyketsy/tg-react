@@ -1,0 +1,15 @@
+ .hidden {
+     visibility: hidden;
+ }
+
+.visible{
+    visibility: visible;
+    display: block;
+    position: fixed;
+    bottom: 10vh;
+    right: 0;
+    height: 3.5vh;
+    width: 2vh;
+    margin-right: 1vh;
+    font-size: 4vmin;
+}
