@@ -4,12 +4,12 @@
 
 .visible{
     visibility: visible;
-    display: inline-block;
+    display: block;
     position: fixed;
     bottom: 10vh;
     right: 0;
     height: 3.5vh;
-    width: 5vh;
+    width: 2vh;
+    margin-right: 1vh;
     font-size: 4vmin;
-
 }
