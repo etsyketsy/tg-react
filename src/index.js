@@ -11,6 +11,7 @@ import News from './containers/News/index.js';
 import About from './containers/About/index.js';
 import Layout from './containers/Layout/index.js';
 import NotFound from './containers/NotFound/index.js';
+import gaTracker from './analytics/index.js';
 import * as serviceWorker from './serviceWorker';
 
 
@@ -18,15 +19,15 @@ ReactDOM.render(
     <Router>
         <Layout id="layout">
             <Switch>
-                <Route exact path='/' component={Home} />
-                <Route exact path='/news' component={News} />
-                <Route exact path='/releases' component={Releases} />
-                <Route exact path='/artists' component={Artists} />
+                <Route exact path='/' component={gaTracker(Home)} />
+                <Route exact path='/news' component={gaTracker(News)} />
+                <Route exact path='/releases' component={gaTracker(Releases)} />
+                <Route exact path='/artists' component={gaTracker(Artists)} />
                 <Route
                     exact path='/artists/:artist_nice_name'
-                    component={ArtistDetail}
+                    component={gaTracker(ArtistDetail)}
                 />
-                <Route exact path='/about' component={About} />
+                <Route exact path='/about' component={gaTracker(About)} />
                 <Route path='*' component={NotFound} />
             </Switch>
         </Layout>
