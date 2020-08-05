@@ -5,6 +5,8 @@ import React, { Component, } from "react";
 let trackingID = 'UA-174267664-1';
 ReactGA.initialize(trackingID);
 
+// Tracking Wrapper code credit goes to @juliaqiuxy 
+// https://github.com/react-ga/react-ga/wiki/React-Router-v4-withTracker
 const gaTracker = (WrappedComponent, options = {}) => {
     const trackPage = page => {
         ReactGA.set({
@@ -20,7 +22,6 @@ const gaTracker = (WrappedComponent, options = {}) => {
         // eslint-disable-next-line
         let page = this.props.location.pathname + this.props.location.search;
         trackPage(page);
-        console.log('now tracking ' + trackingID + ': '+ page)
       }
   
       componentDidUpdate(prevProps) {
