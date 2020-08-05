@@ -165,7 +165,7 @@ const releaseData =
         "bio": null,
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Frail Hands"
         ],
@@ -182,7 +182,7 @@ const releaseData =
         "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Heavy Heavy Low Low"
         ],
@@ -199,7 +199,7 @@ const releaseData =
         "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Ghost Spirit"
         ],
@@ -216,7 +216,7 @@ const releaseData =
         "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Shin Guard"
         ],
@@ -233,7 +233,7 @@ const releaseData =
         "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Frail Hands"
         ],
@@ -250,7 +250,7 @@ const releaseData =
         "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Ghost Spirit",
             "Frail Hands"
@@ -268,7 +268,7 @@ const releaseData =
         "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Coming Soon",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Nervous"
         ],
@@ -285,7 +285,7 @@ const releaseData =
         "bio": "Heavy Muscle was recorded and mixed by Phil Jones at The Dangler in Seattle, and mastered by Chris Mathews, Jr. The EP follows 2013 full-length Bremerton Zoo and 2011 EP Death Haunts, both also released on Twelve Gauge Records. Of Bremerton Zoo, UK blog Tight to the Nail opined:\r\n\r\n\"The wild-eyed, antisocial, bloodied knuckles and beer-stained jeans flipside to the old school hardcore coin... Drawing influence from Black Flag with their anarchic and raw fuck-you-core, Power have created a vicious and unpredictable record.\"",
         "ffo": "Sam Black Church, Biohazard, Onyx, Nirvana",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1838276407/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/heavy-muscle\">Heavy Muscle by Power</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1838276407/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/heavy-muscle\">Heavy Muscle by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -302,7 +302,7 @@ const releaseData =
         "bio": "The fourth EP in the four part series, Human Performance by Sabertooth Zombie featuring four songs that go places The Tooth have never gone. Recorded and mixed by Sam Pura at The Panda Studios (Self Defense Family, No Sir, North) and mastered by Piper Payne (Edward Sharpe and the Magnetic Zeros).",
         "ffo": "Metallica, Black Sabbath, Punk",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3781833552/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iv\">Human Performance IV by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3781833552/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iv\">Human Performance IV by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -319,7 +319,7 @@ const releaseData =
         "bio": "Debut Twelve Gauge Release from New Hampshire screamo/post-hardcore outfit Youth Funeral. Follow up to their self-released EP, Symptoms of Time.",
         "ffo": "Jeromes Dream, Orchid, Joshua Fit For Battle",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2110031721/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/see-you-when-i-see-you\">See You When I See You by Youth Funeral</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2110031721/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/see-you-when-i-see-you\">See You When I See You by Youth Funeral</a></iframe>",
         "artist": [
             "Youth Funeral"
         ],
@@ -336,7 +336,7 @@ const releaseData =
         "bio": "<p>Hot on the heels of No Sir's The Future Is Bright, Twelve Gauge Records presents its next home run: the self-titled debut album by Nervous, out September 24th.\r\n<p>From Oakland, California, Nervous consists of frontman Jake Spek (Lewd Acts) and drummer Jacob Harris (Big Kids, Acid Fast). Best friends and co-pilots of Oakland DIY venue The Hive, Spek and Harris have announced Nervous to be their new priority. This is no side project, it's a real band with its own sound.\r\n<p>There's something of a Nirvana vibe with Nervous - or, more accurately, the band is inspired by many of the same bands Kurt Cobain espoused: Wipers, Pixies, The Jesus Lizard. Spek and Harris take these inspirations and twist them into anxiety-ridden California punk anthems. Spek's unhinged vocals are an absolute standout, something like David Yow in a really fired-up mood. His lyrics address true everyday struggles of the broke, lazy, and intelligent, and honesty seeps through his every word. When Spek sings about being depressed, it's not depressing - on the contrary, he pulls you right in and makes you want to shout along, and you're left applauding him for having the courage to be so real. From the album's opening track, \"Good Morning\": \"Absolutely no sense of urgency / Not going to work, that is a certainty / I don't want to hang out, that shit is boring / I got a cut on my leg that won't stop bleeding / I think that I'm decomposing\".\r\n<p>Recorded and mixed by Jack Shirley (Deafheaven, Loma Prieta) and mastered by Alan Douches (Converge and so many more), Nervous' self-titled debut sounds clear and rich, rock-solid and rocking. The tracklist is as follows:",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=3703321340/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=3703321340/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
         "artist": [
             "Nervous"
         ],
@@ -353,7 +353,7 @@ const releaseData =
         "bio": "<p>From Santa Rosa, California, No Sir (featuring members of Sabertooth Zombie and Creative Adult) hail from within a flourishing circle of current West Coast hardcore punk bands - bands like Ghostlimb, Loma Prieta, Punch, Trash Talk, and Ceremony. Varying in style, these Golden State bands of today are bonded by a general aesthetic: highly artistic and intellectual yet determined to keep things raw, lo-fi, and DIY. Gut-level music for the thinking man. No Sir are representatives of this modern scene but can also be understood in a historical context, as heirs to the legacy of an older generation of Californians - the extreme hardcore punk bands that have filled the pages of Maximumrocknroll for years, from Dead and Gone to Talk Is Poison to Look Back and Laugh.\r\n<p>If you ask No Sir themselves, they'll add Wire and Nirvana to their list of influences too. All these references points are evident on the debut full-length, The Future Is Bright, as the band balance gloomy introspection and forward-charging aggression with a perfect sense of rock songwriting that makes every song as much a hummable hit as a punk rock exorcism.\r\n<p>Engineered, mixed, and mastered by Comadre guitarist Jack Shirley at The Atomic Garden, The Future Is Bright was tracked live in the studio to capture the true energy of the band. Shirley is a go-to producer for the West Coast scene, having helped make records for Deafheaven, Graf Orlock, Ghostlimb, Loma Prieta, and more.",
         "ffo": "Discharge, Negative Approach, Nirvana",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=710562126/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=710562126/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
         "artist": [
             "No Sir"
         ],
@@ -370,7 +370,7 @@ const releaseData =
         "bio": "<p>Bremerton's finest are back at it with their debut LP 'Bremerton Zoo' following up on their previously self-released 7\"EP and more recently 'Death Haunts' 7\"EP on Twelve Gauge. This time around, things are getting serious. Power's new LP is eleven tracks featuring the band's signature hard-hitting hardcore sound, and a cover of Black Sabbath's Sweet Leaf (who would've guessed?). This record keeps up with the tradition record of being fast-paced, pissed off and loud giving the listener no chance to lose focus.\r\n<p>Bremerton Zoo was recorded by Rusty Graeff during the months of July and August in Tacoma, WA and mastered by Chris Matthews Jr. at Joonior Studios.",
         "ffo": "Sam Black Church, Biohazard, Onyx, Nirvana",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2022299670/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/bremerton-zoo\">Bremerton Zoo by Power</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2022299670/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/bremerton-zoo\">Bremerton Zoo by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -387,7 +387,7 @@ const releaseData =
         "bio": "<p>Another Mistake (Louisville, KY) and Overlooked (Wilmington, NC) team up together for a split EP on Twelve Gauge Records that feature each artist's newest material. This split EP features three brand new tracks from each band, mixed by Sean Collier and Drew Fulk respectively, and mastered by Sam Pura at The Panda Studios.",
         "ffo": "Count Me Out, American Nightmare, No Warning, Think I Care",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2587804011/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/split\">Split by Another Mistake &amp; Overlooked</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2587804011/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/split\">Split by Another Mistake &amp; Overlooked</a></iframe>",
         "artist": [
             "Overlooked",
             "Another Mistake"
@@ -405,7 +405,7 @@ const releaseData =
         "bio": "<p>This is Creatures' newest LP showcasing some of the band's darkest material to date. Creatures' blend of unrelentless force and raw power produces a barbaric sound unlike any other. Recorded and mixed by Jack Shirley of The Atomic Garden and mastered by Alan Douches of West West Side Music.",
         "ffo": "Black Sabbath, Ringworm, Obituary, Crowbar",
         "status": "Out Now",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 460px; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2755099957/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/vesuvius\">Vesuvius by Creatures</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2755099957/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/vesuvius\">Vesuvius by Creatures</a></iframe>",
         "artist": [
             "Creatures"
         ],
