@@ -77,20 +77,8 @@
 #latestReleases .releaseCover {
   display: none;
 }
-
 #latestReleases .releasePreviewWrapper {
-<<<<<<< Updated upstream
-  height: auto;
-  object-fit: contain;
-  min-height: 150px;
-  max-height: 200px;
-=======
   height: 150px;
-  font-size: 2vmin;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }
 
 .home {
@@ -120,6 +108,7 @@
 
   #latestReleases .mediaPlayer {
     width: 100%;
+    height: 30px;
   }
 }
 
