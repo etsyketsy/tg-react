@@ -7,6 +7,7 @@
   width: 100%;
   border-bottom: solid #ffcebe;
   box-sizing: border-box;
+  font-size: 2.5vmin;
 }
 
 .releasePreview {
@@ -14,6 +15,7 @@
   align-items: flex-start;
   object-fit: scale-down;
   width: 100%;
+  height: auto;
   margin-top: 2vh;
   margin-right: 2vh;
   padding: 0;
@@ -48,9 +50,12 @@
     display: flex;
   }
 
+  .releasePreview .releaseHeadline{
+    font-size: 1vmin;
+  }
+
   .releasePreviewWrapper {
     width: 50%;
-    height: 10vh;
     display: flex;
     margin-bottom: 1.5vh;
   }
