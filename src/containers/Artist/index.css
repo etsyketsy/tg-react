@@ -1,5 +1,5 @@
 .artistSlide .name {
-    font-size: 1.6vw;
+    font-size: 3vmin;
     display: flex;
     flex-flow: column wrap;
     font-family: 'Karla', sans-serif;
@@ -28,6 +28,14 @@
 
 @media only screen and (max-width: 780px) {
     .artistSlide .name {
-        font-size: 3vw;
+        font-size: 3vmin;
+        /* word-break: break-word; */
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .artistSlide .name {
+        font-size: 4vmin;
+        /* word-break: break-word; */
     }
 }

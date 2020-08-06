@@ -59,11 +59,12 @@
 
 #releasesLink {
   border-bottom: solid #ffcebe;
-  font-size: 1.5vmin;
+  font-size: 3vmin;
 }
 
 #latestReleases .displayGrid {
-  margin-bottom: 5vh;
+  margin-bottom: 1.5vh;
+
 }
 
 #latestReleases {
@@ -86,7 +87,7 @@
 }
 
 .mediaPlayer {
-  margin-top: .5vh;
+  margin-top: 1vh;
   width: 100%;
 }
 
@@ -113,6 +114,7 @@
   #newsPreview {
     max-width: 100%;
     margin-right: 0;
+    margin-bottom: 2.5vh;
   }
 
   #latestReleases {
