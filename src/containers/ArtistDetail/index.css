@@ -16,7 +16,7 @@
 }
 
 .artistDetail .location {
-    font-size: 2.5vmin;
+    font-size: 2vmin;
 }
 
 .artistDetail .artistPhoto {
@@ -41,7 +41,7 @@
     border-top: solid #ffcebe;
     padding-top: 1vh;
     margin-bottom: 5vh;
-    font-size: 2vmin;
+    font-size: 1.75vmin;
 }
 
 .artistReleases .mediaPlayer{
