@@ -115,7 +115,6 @@
 @media only screen and (max-width: 780px) {
   .postPreview .postTitle {
     font-size: 4.75vw;
-
   }  
 
   .postPreview .postLink {
@@ -125,7 +124,6 @@
 
   .previewHTML {
     font-size: 4vmin;
-    line-height: 1.04em;
   }
 }
 

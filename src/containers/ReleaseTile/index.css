@@ -3,8 +3,6 @@
   align-items: flex-start;
   justify-items: flex-start;
   object-fit: scale-down;
-  /* max-width: 30vh;
-  max-height: 30vh; */
   height: 25vh;
 }
 
@@ -56,6 +54,7 @@
   visibility: visible;
   margin: 0;
   padding-left: 3.5vh;
+  margin-top: .75vh;
 }
 
 .tracks.collapsed {
@@ -99,27 +98,18 @@
   display: none;
 }
 
-/* CSS for tablets */
-@media only screen and (max-width: 1030px) {
+/* CSS for mobile screens */
+@media only screen and (max-width: 780px) {
   .releaseTile img {
     width: 15vh;
     height: 15vh;
-    display: flex;
-    justify-content: flex-start;
   }
-}
 
-/* CSS for mobile screens */
-@media only screen and (max-width: 480px) {
   .releaseHeadline {
     font-size: 4.75vw;
   }
 
   .releaseTile {
     font-size: 4vmin;
-    flex-grow: 1;
-  }
-  .releaseTime img {
-    display: inline-block;
   }
 }

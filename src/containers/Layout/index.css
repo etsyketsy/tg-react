@@ -179,10 +179,10 @@
     margin-right: 1.5vh;
     color: white;
   }
+}
 
+@media only screen and (max-width: 780px) {
   .sectionHeader {
     font-size: 6vw;
   }
-
-
 }
