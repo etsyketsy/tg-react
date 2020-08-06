@@ -60,7 +60,7 @@
     grid-template-columns: repeat(2, minmax(20vh, 1fr));
   }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 780px) {
     .artistDetail .name {
         margin-top: 4.75vw;
         font-size: 6vmin;
