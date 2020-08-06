@@ -91,7 +91,7 @@
 } 
 
 .sectionHeader {
-  font-size: 3vmin;
+  font-size: 3.5vmin;
   font-family: 'Karla', sans-serif;
 }
 
@@ -140,7 +140,7 @@
     padding-left: 2vh;
     padding-bottom: 5vh;
     padding-right: 2vh;
-    font-size: 1.75vmin;
+    font-size: 2vmin;
    }
 
    #about {
@@ -154,35 +154,19 @@
 }
 
 /* CSS for mobile screens */
-@media only screen and (max-width: 480px) {
-  #navLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: auto;
-    font-family: 'Inconsolata', monospace;
-    font-size: 3vmin;
-    margin-bottom: 2vh;
-    margin-top: 1vh;
-    margin-right: 20vh;
-  }
-  
-  #navLinks {
-    margin-right: 2vh;
-    width: 50%;
-  }
-
-  .text {
-    border-bottom: solid transparent;
-    margin-top: 1vh;
-    margin-right: 1.5vh;
-    color: white;
-  }
-}
-
 @media only screen and (max-width: 780px) {
   .sectionHeader {
     font-size: 6vw;
   }
+
+  #navLinks {
+    font-size: 3.5vmin;
+    margin-right: 2vh;
+    width: 60%;
+  }
+
+  .text {
+    margin-right: 1.75vh; 
+  }
 }
+
