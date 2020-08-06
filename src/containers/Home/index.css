@@ -1,5 +1,5 @@
 .postPreview .postLink {
-  font-size: 1.5vmin;
+  /* font-size: 1.5vmin; */
   border-bottom: solid #ffcebe;
 } 
 
@@ -52,9 +52,6 @@
 
 
 #newsPreview {
-  /* display: flex;
-  flex-direction: column;
-  overflow: hidden; */
   max-height: 100%;
   max-width: 47%;
   margin-right: 3vh;
@@ -84,11 +81,6 @@
   height: 150px;
 }
 
-/* .mediaPlayer {
-  padding-bottom: 5vh;
-  border: solid green;
-} */
-
 .home {
   background-color: #FFFFFF;
   color: #2C2A2D;
@@ -102,8 +94,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     height: 100%;
-    /* width: 100%; */
-    /* margin: 2vh; */
   }
 
   #newsPreview {
@@ -116,13 +106,26 @@
     width: 100%;
   }
 
-  /* #latestReleases .releaseCover {
-    display: flex;
-  } */
-
   #latestReleases .mediaPlayer {
     width: 100%;
     height: 30px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .postPreview .postTitle {
+    font-size: 4.75vw;
+
+  }  
+
+  .postPreview .postLink {
+    font-size: 4vmin;
+    margin-bottom: 5vh;
+  } 
+
+  .previewHTML {
+    font-size: 4vmin;
+    line-height: 1.04em;
   }
 }
 
