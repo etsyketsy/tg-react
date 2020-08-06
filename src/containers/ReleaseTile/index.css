@@ -33,7 +33,6 @@
   width: auto;
   height: auto;
   border: none;
-  font-size: 1.5vmin;
   background: none;
   outline: none;
   display: flex;
@@ -100,11 +99,27 @@
   display: none;
 }
 
+/* CSS for tablets */
 @media only screen and (max-width: 1030px) {
   .releaseTile img {
     width: 15vh;
     height: 15vh;
     display: flex;
     justify-content: flex-start;
+  }
+}
+
+/* CSS for mobile screens */
+@media only screen and (max-width: 480px) {
+  .releaseHeadline {
+    font-size: 4.75vw;
+  }
+
+  .releaseTile {
+    font-size: 4vmin;
+    flex-grow: 1;
+  }
+  .releaseTime img {
+    display: inline-block;
   }
 }

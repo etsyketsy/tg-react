@@ -153,6 +153,7 @@
   }
 }
 
+/* CSS for mobile screens */
 @media only screen and (max-width: 480px) {
   #navLinks {
     display: flex;
@@ -177,6 +178,10 @@
     margin-top: 1vh;
     margin-right: 1.5vh;
     color: white;
+  }
+
+  .sectionHeader {
+    font-size: 6vw;
   }
 
 
