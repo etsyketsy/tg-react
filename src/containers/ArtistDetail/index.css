@@ -2,9 +2,8 @@
     display: flex;
     justify-content: flex-start;
     margin-bottom: 3vh;
-    width: 1vh;
     border: none;
-    font-size: 1em;
+    font-size: 2vmin;
     background: none;
     outline: none;
 }  
@@ -61,37 +60,23 @@
     grid-template-columns: repeat(2, minmax(20vh, 1fr));
   }
 
-@media only screen and (max-width: 415px) {
-
+@media only screen and (max-width: 1080px) {
     .artistDetail .name {
-        margin-top: 3vh;
+        margin-top: 4.75vw;
         font-size: 6vmin;
     }
 
     .artistDetail .bio {
-        font-size: 2vmin;
-    }
-
-    /* .artistReleases {
-        display: grid;
-        margin-top: 2vh;
-        gap: 0vh;
-        grid-template-columns: repeat(2, minmax(20vh, 1fr));
-      }
-  .artistReleases {
-        display: flex;
-        flex-flow: column wrap;
-        width: 100%;
-    } 
-
-    .artistReleases .releasePreviewWrapper{
-        width: 100%;
+        font-size: 4vmin;
     }
 
     .artistReleases .releaseHeadline{
-        width: inherit;
-        font-size: 3vmin;
-    } */
+        font-size: 4vmin;
+    } 
+
+    .artistDetail .location {
+        font-size: 4vmin;
+    }
 
     .artistDetail .artistPhoto {
         max-width: 60%;
@@ -99,4 +84,8 @@
         padding: 0;
         margin-left: 1vh;
     }
+
+    .artistDetail button {
+        font-size: 4vmin;
+    }  
   }

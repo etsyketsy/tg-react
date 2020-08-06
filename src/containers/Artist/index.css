@@ -26,12 +26,8 @@
     max-width: 20vh;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 780px) {
     .artistSlide .name {
-        font-size: 5vw;
-    }
-
-    .artistSlide .location {
         font-size: 3vw;
     }
 }
