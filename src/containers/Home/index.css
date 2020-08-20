@@ -82,8 +82,6 @@
 #latestReleases .releasePreviewWrapper {
   height: auto;
   margin: 0;
-  /* display: flex;
-  align-items: flex-start; */
 }
 
 .mediaPlayer {
@@ -129,6 +127,12 @@
   .previewHTML {
     font-size: 4vmin;
   }
+
+  #releasesLink {
+    border-bottom: solid #ffcebe;
+    font-size: 4vmin;
+  }
+  
 }
 
 
