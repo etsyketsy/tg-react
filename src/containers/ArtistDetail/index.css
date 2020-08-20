@@ -59,7 +59,11 @@
     display: grid;
     gap: 1vh;
     grid-template-columns: repeat(2, minmax(20vh, 1fr));
-  }
+}
+
+.artistDetail {
+    margin-right: 2vh;
+}
 
 @media only screen and (max-width: 415px) {
 
