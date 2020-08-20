@@ -98,6 +98,33 @@
   display: none;
 }
 
+/* CSS for tablets */
+@media only screen and (max-width: 768px) {
+  .releaseTile img {
+    width: 15vh;
+    height: 15vh;
+    margin-right: 1vh;
+    display: block;
+    float: left;
+  }
+
+  .releaseTile .releaseHeadline {
+    font-size: 3vmin;
+    margin-top: 0;
+  }
+
+  .releaseTile {
+    font-size: 2.5vmin;
+    display: inline-block;
+    float: left;
+  }
+
+  .releaseDetails {
+    width: inherit;
+    margin-left:0;
+  }
+}
+
 /* CSS for mobile screens */
 @media only screen and (max-width: 480px) {
   .releaseTile img {
