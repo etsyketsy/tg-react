@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import Artist from '../Artist/index.js';
 import artistData from '../../assets/artistData.js';
+import ScrollToTop from '../ScrollToTop/index';
 
 
 class Artists extends Component {
@@ -65,6 +66,7 @@ class Artists extends Component {
               )
             }
           </div>
+          <ScrollToTop />
         </div>
     )
   }
