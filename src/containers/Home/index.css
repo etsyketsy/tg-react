@@ -37,7 +37,7 @@
 }
 
 .previewHTML {
-  max-height: 17vh; 
+  height: 17vh;
   overflow: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word; 
@@ -96,6 +96,23 @@
   flex-flow: wrap;
 }
 
+/* Tablet sizing */
+@media only screen and (max-width: 768px) {
+  .postPreview .postTitle {
+    font-size: 2.5vmin;
+    border: none;
+    margin-top: 2vh;
+  }  
+
+  .previewHTML {
+    font-size: 2vmin;
+    min-height: 18vh;
+    max-height: 21vh; 
+    margin-bottom: .5vh;
+  }
+}
+
+/* Mobile screen sizing */
 @media only screen and (max-width: 480px) {
   .home {
     display: flex;
@@ -116,7 +133,8 @@
   }
 
   .postPreview .postTitle {
-    font-size: 4.75vw;
+    font-size: 4.75vmin;
+    margin-top: 3vh;
   }  
 
   .postPreview .postLink {
@@ -126,11 +144,13 @@
 
   .previewHTML {
     font-size: 4vmin;
+    height: 21vh; 
+    margin-bottom: .5vh;
   }
 
   #releasesLink {
     border-bottom: solid #ffcebe;
-    font-size: 4vmin;
+    font-size: 4vh;
   }
   
 }
