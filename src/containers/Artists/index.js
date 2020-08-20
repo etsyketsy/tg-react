@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
-import Artist from '../Artist/index.js';
+import ArtistPreview from '../ArtistPreview/index.js';
 import artistData from '../../assets/artistData.js';
 
 
@@ -52,7 +52,7 @@ class Artists extends Component {
                       }}
                         key={index}
                       >
-                        <Artist
+                        <ArtistPreview
                           item={artist}
                           key={index}
                           id={index}

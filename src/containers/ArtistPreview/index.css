@@ -1,4 +1,4 @@
-.artistSlide .name {
+.artistPreview .name {
     font-size: 3vmin;
     display: flex;
     flex-flow: column wrap;
@@ -12,29 +12,22 @@
     line-height: 1em;
 } */
 
-.artistSlide img {
+.artistPreview img {
     display: flex;
     width: inherit;
     height: 10vh;
     object-fit: contian;
 }
 
-.artistSlide {
+.artistPreview {
     display: flex;
     flex-direction: column;
     margin-bottom: 2vh;
     max-width: 20vh;
 }
 
-@media only screen and (max-width: 780px) {
-    .artistSlide .name {
-        font-size: 3vmin;
-        /* word-break: break-word; */
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .artistSlide .name {
+@media only screen and (max-width: 480px) {
+    .artistPreview .name {
         font-size: 4vmin;
         /* word-break: break-word; */
     }

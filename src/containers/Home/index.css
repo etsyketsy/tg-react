@@ -98,12 +98,7 @@
   flex-flow: wrap;
 }
 
-/* @media only screen and (max-width: 724px) {
-
-  }
-} */
-
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   .home {
     display: flex;
     flex-wrap: wrap;

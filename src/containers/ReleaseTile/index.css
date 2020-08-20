@@ -99,7 +99,7 @@
 }
 
 /* CSS for mobile screens */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   .releaseTile img {
     width: 15vh;
     height: 15vh;

@@ -111,7 +111,7 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 1179px) {
+@media only screen and (max-width: 1200px) {
 
   #navLinks {
     margin-right: 2vh;
@@ -155,7 +155,7 @@
 }
 
 /* CSS for mobile screens */
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
   .sectionHeader {
     font-size: 6vw;
   }

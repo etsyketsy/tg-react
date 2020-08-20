@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser';
-import './index.css';
 
 
 class ReleaseDetail extends Component {
