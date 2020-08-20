@@ -111,8 +111,8 @@
   width: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
-
+/* CSS for Laptop */
+@media only screen and (max-width: 1179px) {
   #navLinks {
     margin-right: 2vh;
     width: 125%;
@@ -133,33 +133,17 @@
   }
 
   #footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
     padding-top: 5vh;
     padding-left: 2vh;
     padding-bottom: 5vh;
     padding-right: 2vh;
-    font-size: 3vmin;
-   }
-
-   #about {
-     max-width: 100%;
-   }
-
-   #contact {
-    max-width: 100%;
-    padding-top: 2vh;
   }
+
 }
 
-/* CSS for mobile screens */
-@media only screen and (max-width: 480px) {
-  .sectionHeader {
-    font-size: 6vw;
-  }
-
+/* CSS for tablets */
+@media only screen and (max-width: 768px) {
   #navLinks {
     font-size: 3.5vmin;
     margin-right: 2vh;
@@ -171,3 +155,39 @@
   }
 }
 
+/* CSS for mobile screens */
+@media only screen and (max-width: 480px) {
+  #logoWrapper {
+    margin-left: 1vh;
+  }
+  
+  #navLinks {
+    margin-right: 1vh;
+    font-size: 3.75vmin;
+    width: 65%;
+  }
+
+  .text {
+    margin-right: 1vh;
+  }
+
+  .sectionHeader {
+    font-size: 6vmin;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    font-size: 4vmin;
+ }
+  #contact {
+    min-width: 100%;
+  }
+
+  #about {
+    min-width: 100%;
+  }
+
+
+}
