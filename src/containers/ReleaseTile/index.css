@@ -98,6 +98,10 @@
   display: none;
 }
 
+#releases .sectionHeader {
+  font-size: 5vmin;
+}
+
 /* CSS for tablets */
 @media only screen and (max-width: 768px) {
   .releaseTile img {
@@ -132,5 +136,9 @@
 
   .releaseTile {
     font-size: 4vmin;
+  }
+
+  #releases .sectionHeader {
+    font-size: 7vmin;
   }
 }
