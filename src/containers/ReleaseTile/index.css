@@ -121,6 +121,16 @@
     width: inherit;
     margin-left:0;
   }
+  #releases .sectionHeader {
+    font-size: 6vmin;
+  }
+}
+
+/* Sizing for small browser screens */
+@media only screen and (max-width: 600px) {
+  #releases .sectionHeader {
+    font-size: 7vmin;
+  }
 }
 
 /* CSS for mobile screens */
