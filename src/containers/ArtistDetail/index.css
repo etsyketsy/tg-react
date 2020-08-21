@@ -104,8 +104,8 @@
     }
 
     .artistDetail .artistPhoto {
-        max-width: 60%;
-        object-fit: cover;
+        /* width: 40%; */
+        object-fit: scale-down;
         padding: 0;
         margin-left: 1vh;
     }
