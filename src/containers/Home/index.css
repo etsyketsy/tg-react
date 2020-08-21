@@ -121,6 +121,7 @@
   #latestReleases .displayGrid {
     margin-bottom: 1.5vh;
     margin-top: 1vh;
+    margin-right: 1vh;
   }
 
   #latestReleases .releaseHeadline {
@@ -136,6 +137,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     height: 100%;
+    margin-right: 1.5vh;
+    /* box-sizing: border-box; */
   }
 
   #newsPreview {
@@ -147,6 +150,9 @@
   #latestReleases {
     padding-top: 2vh;
     width: 100%;
+  }
+  #latestReleases .displayGrid {
+    margin-right: 0;
   }
 
   .postPreview .postTitle {
