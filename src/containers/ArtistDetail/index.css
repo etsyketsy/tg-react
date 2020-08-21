@@ -54,7 +54,7 @@
 }
 
 .artistReleases .releaseHeadline {
-    font-size: 2vmin;
+    font-size: 2.5vmin;
 }
 
 .artistReleases {
@@ -67,11 +67,19 @@
     margin-right: 2vh;
 }
 
+/* Laptop sizing */
+@media only screen and (max-width: 1024px) {
+    /* .artistReleases .releaseHeadline {
+        font-size: 4vmin;
+    } */
+} 
+
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
     .artistReleases .releaseHeadline {
         font-size: 2.5vmin;
     }
+
 }   
 
 /* Extra small sizing */
@@ -80,6 +88,7 @@
         display: flex;
         flex-flow: column wrap;
     }
+
 } 
 
 /* Mobile sizing */
@@ -111,10 +120,6 @@
     .artistDetail button {
         font-size: 4vmin;
     }  
-
-    .artistReleases .releaseHeadline {
-        font-size: 3vmin;
-    }
 
     .artistReleases {
         display: flex;
