@@ -69,6 +69,13 @@
     margin-right: 2vh;
 }
 
+/* Laptop sizing */
+@media only screen and (max-width: 1025px) {
+    .artistDetail {
+        margin-right: 2.2vh;
+    }
+}
+
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
     .artistReleases .releaseHeadline {
@@ -117,6 +124,10 @@
     #backButton {
         font-size: 8vmin;
         margin-bottom: 1vh;
+    }
+
+    .artistDetail {
+        margin-right: 1vh;
     }
     
   }

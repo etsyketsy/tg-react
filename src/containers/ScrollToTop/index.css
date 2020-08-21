@@ -18,6 +18,6 @@
 @media only screen and (max-width: 480px) {
     .visible {
         font-size: 8vmin;
-        padding-right: 1vh;
+        padding-right: .5vh;
     }       
 }
