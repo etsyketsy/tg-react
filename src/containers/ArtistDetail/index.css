@@ -1,11 +1,13 @@
-.artistDetail button {
+#backButton {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 3vh;
-    border: none;
-    font-size: 2vmin;
-    background: none;
-    outline: none;
+    display: block;
+    margin-bottom: 5vh; 
+    font-size: 4vmin;
+    /* height: 2vh;
+    width: 3.5vh; */
+    width: 5vh;
+    font-family: 'Inconsolata', monospace;
 }  
 
 .artistDetail .name {
@@ -67,19 +69,11 @@
     margin-right: 2vh;
 }
 
-/* Laptop sizing */
-@media only screen and (max-width: 1024px) {
-    /* .artistReleases .releaseHeadline {
-        font-size: 4vmin;
-    } */
-} 
-
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
     .artistReleases .releaseHeadline {
         font-size: 2.5vmin;
     }
-
 }   
 
 /* Extra small sizing */
@@ -88,7 +82,6 @@
         display: flex;
         flex-flow: column wrap;
     }
-
 } 
 
 /* Mobile sizing */
@@ -117,13 +110,13 @@
         margin-left: 1vh;
     }
 
-    .artistDetail button {
-        font-size: 4vmin;
-    }  
-
     .artistReleases {
         display: flex;
         flex-flow: column wrap;
+    }
+
+    #backButton {
+        font-size: 8vmin;
     }
     
   }
