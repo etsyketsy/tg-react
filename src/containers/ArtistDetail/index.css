@@ -107,7 +107,6 @@
         /* width: 40%; */
         object-fit: scale-down;
         padding: 0;
-        margin-left: 1vh;
     }
 
     .artistReleases {
@@ -117,6 +116,7 @@
 
     #backButton {
         font-size: 8vmin;
+        margin-bottom: 1vh;
     }
     
   }
