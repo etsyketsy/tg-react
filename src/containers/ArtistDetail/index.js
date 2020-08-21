@@ -105,7 +105,7 @@ class ArtistDetail extends Component {
                 :
                 (this.artistCheck(this.state.item)) ?
                     <div className="artistDetail" id={this.props.index}>
-                        <button onClick={this.exitHandler}>&#8592;</button>
+                        <div id='backButton' onClick={this.exitHandler}>&#8592;</div>
                         <div className="desc">
                             <div> 
                                 {this.imageCheck(this.state.item)}

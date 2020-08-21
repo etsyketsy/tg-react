@@ -20,7 +20,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-family: 'Karla', sans-serif;
   border-bottom: solid #ffcebe; 
 }
@@ -90,7 +90,7 @@
   margin: 3vh;
   margin-left: 0;
   margin-bottom: 5vh;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 .releaseTile .mediaPlayer {
@@ -99,7 +99,7 @@
 }
 
 #releases .sectionHeader {
-  font-size: 5vmin;
+  font-size: 4vmin;
 }
 
 /* CSS for tablets */
@@ -115,21 +115,27 @@
   .releaseTile {
     display: inline-block;
     float: left;
+    font-size: 1.15rem;
   }
 
   .releaseDetails {
     width: inherit;
     margin-left:0;
   }
+
   #releases .sectionHeader {
-    font-size: 6vmin;
+    font-size: 4.5vmin;
+  }
+
+  .releaseHeader {
+    font-size: 4.75vmin;
   }
 }
 
 /* Sizing for small browser screens */
 @media only screen and (max-width: 600px) {
   #releases .sectionHeader {
-    font-size: 7vmin;
+    font-size: 5vmin;
   }
 }
 
