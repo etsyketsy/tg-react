@@ -1,5 +1,5 @@
-.artistSlide .name {
-    font-size: 1.6vw;
+.artistPreview .name {
+    font-size: 3vmin;
     display: flex;
     flex-flow: column wrap;
     font-family: 'Karla', sans-serif;
@@ -12,26 +12,23 @@
     line-height: 1em;
 } */
 
-.artistSlide img {
+.artistPreview img {
     display: flex;
     width: inherit;
     height: 10vh;
     object-fit: contian;
 }
 
-.artistSlide {
+.artistPreview {
     display: flex;
     flex-direction: column;
     margin-bottom: 2vh;
     max-width: 20vh;
 }
 
-@media only screen and (max-width: 450px) {
-    .artistSlide .name {
-        font-size: 5vw;
-    }
-
-    .artistSlide .location {
-        font-size: 3vw;
+@media only screen and (max-width: 480px) {
+    .artistPreview .name {
+        font-size: 4vmin;
+        /* word-break: break-word; */
     }
 }

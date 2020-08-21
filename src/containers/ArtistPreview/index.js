@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './index.css';
 
 // Display Artist Tile for preview and All Artists pages
-class Artist extends Component {
+class ArtistPreview extends Component {
 
   render() {
     return (
-      <div className="artistSlide" id={this.props.index}>
+      <div className="artistPreview" id={this.props.index}>
         
           <img src={this.props.item.image}
             alt='img'
@@ -30,4 +30,4 @@ class Artist extends Component {
 
 }
 
-export default Artist;
+export default ArtistPreview;

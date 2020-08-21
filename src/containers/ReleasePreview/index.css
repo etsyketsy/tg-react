@@ -14,10 +14,11 @@
   align-items: flex-start;
   object-fit: scale-down;
   width: 100%;
-  margin-top: 2vh;
+  margin-top: 1vh;
   margin-right: 2vh;
   padding: 0;
 }
+
 .releasePreview img {
   object-fit: scale-down;
   display: flex;
@@ -26,36 +27,39 @@
   margin-right: 1vh;
 }
 
-.mediaPlayer {
-  margin-top: 1vh;
-}
-
 .releasePreviewWrapper {  
   display: flex;
   flex-direction: column;
   margin-bottom: 3vh;
 }
 
-@media only screen and (max-width: 1030px) {
+/* Tablet sizing */
+@media only screen and (max-width: 768px) {
+  /* .releasePreview .releaseHeadline {
+    font-size: 2.5vmin;
+  } */
+}
+
+/* Mobile screen sizing */
+@media only screen and (max-width: 480px) {
   .releasePreview img {
     height: 14vh;
     width: 14vh;
     object-fit: scale-down;
   }
 
+  /* .releasePreview .releaseHeadline {
+    font-size: 4.75vmin;
+  } */
+
   .releasePreview {
-    width: 100%;
     display: flex;
   }
 
   .releasePreviewWrapper {
-    width: 50%;
+    width: 100%;
     height: 10vh;
     display: flex;
-    margin-bottom: 1.5vh;
-  }
-
-  #latestReleases .releasePreviewWrapper {
-    width: 100%;
+    margin-bottom: 1vh;
   }
 }

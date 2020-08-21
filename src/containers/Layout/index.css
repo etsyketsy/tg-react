@@ -7,6 +7,7 @@
   padding-right: 20vh;
   padding-top: 3vh;
   padding-bottom: 5vh;
+  font-size: 2vmin;
  }
 
  #footer a {
@@ -91,7 +92,7 @@
 } 
 
 .sectionHeader {
-  font-size: 3vmin;
+  font-size: 3.5vmin;
   font-family: 'Karla', sans-serif;
 }
 
@@ -110,8 +111,8 @@
   width: 100%;
 }
 
+/* CSS for Laptop */
 @media only screen and (max-width: 1179px) {
-
   #navLinks {
     margin-right: 2vh;
     width: 125%;
@@ -132,51 +133,60 @@
   }
 
   #footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     width: 100%;
     padding-top: 5vh;
     padding-left: 2vh;
     padding-bottom: 5vh;
     padding-right: 2vh;
-    font-size: 1.75vmin;
-   }
-
-   #about {
-     max-width: 100%;
-   }
-
-   #contact {
-    max-width: 100%;
-    padding-top: 2vh;
   }
+
 }
 
-@media only screen and (max-width: 480px) {
+/* CSS for tablets */
+@media only screen and (max-width: 768px) {
   #navLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: auto;
-    font-family: 'Inconsolata', monospace;
-    font-size: 3vmin;
-    margin-bottom: 2vh;
-    margin-top: 1vh;
-    margin-right: 20vh;
-  }
-  
-  #navLinks {
+    font-size: 3.5vmin;
     margin-right: 2vh;
-    width: 50%;
+    width: 60%;
   }
 
   .text {
-    border-bottom: solid transparent;
-    margin-top: 1vh;
-    margin-right: 1.5vh;
-    color: white;
+    margin-right: 1.75vh; 
+  }
+}
+
+/* CSS for mobile screens */
+@media only screen and (max-width: 480px) {
+  #logoWrapper {
+    margin-left: 1vh;
+  }
+  
+  #navLinks {
+    margin-right: 1vh;
+    font-size: 3.75vmin;
+    width: 65%;
+  }
+
+  .text {
+    margin-right: 1vh;
+  }
+
+  .sectionHeader {
+    font-size: 6vmin;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+    font-size: 4vmin;
+ }
+  #contact {
+    min-width: 100%;
+  }
+
+  #about {
+    min-width: 100%;
   }
 
 

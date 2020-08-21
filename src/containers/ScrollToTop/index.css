@@ -2,15 +2,21 @@
      visibility: hidden;
  }
 
-.visible{
+.visible {
     visibility: visible;
     display: block;
     position: fixed;
     bottom: 10vh;
     right: 0;
+    padding-right: 1vh;
     height: 3.5vh;
     width: 2vh;
-    margin-right: 1vh;
     margin-left: 1vh;
     font-size: 4vmin;
+}
+
+@media only screen and (max-width: 480px) {
+    .visible {
+        font-size: 8vmin;
+    }       
 }

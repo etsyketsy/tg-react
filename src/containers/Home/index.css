@@ -1,5 +1,5 @@
 .postPreview .postLink {
-  font-size: 1.5vmin;
+  /* font-size: 1.5vmin; */
   border-bottom: solid #ffcebe;
 } 
 
@@ -37,7 +37,7 @@
 }
 
 .previewHTML {
-  max-height: 17vh; 
+  height: 17vh;
   overflow: hidden;
   overflow-wrap: break-word;
   word-wrap: break-word; 
@@ -52,9 +52,6 @@
 
 
 #newsPreview {
-  /* display: flex;
-  flex-direction: column;
-  overflow: hidden; */
   max-height: 100%;
   max-width: 47%;
   margin-right: 3vh;
@@ -62,11 +59,12 @@
 
 #releasesLink {
   border-bottom: solid #ffcebe;
-  font-size: 1.5vmin;
+  font-size: 2vmin;
 }
 
 #latestReleases .displayGrid {
-  margin-bottom: 5vh;
+  margin-bottom: 1.5vh;
+  margin-top: 1vh;
 }
 
 #latestReleases {
@@ -80,14 +78,19 @@
 #latestReleases .releaseCover {
   display: none;
 }
+
 #latestReleases .releasePreviewWrapper {
-  height: 150px;
+  height: auto;
 }
 
-/* .mediaPlayer {
-  padding-bottom: 5vh;
-  border: solid green;
-} */
+#latestReleases .releaseHeadline {
+  font-size: 2vmin;
+}
+
+.mediaPlayer {
+  margin-top: 1vh;
+  width: 100%;
+}
 
 .home {
   background-color: #FFFFFF;
@@ -97,19 +100,49 @@
   margin-right: 2vh;
 }
 
-@media only screen and (max-width: 1024px) {
+/* Tablet sizing */
+@media only screen and (max-width: 768px) {
+  .postPreview .postTitle {
+    font-size: 2.5vmin;
+    border: none;
+    margin-top: 2vh;
+  }  
+
+  .previewHTML {
+    font-size: 2vmin;
+    min-height: 18vh;
+    max-height: 21vh; 
+    margin-bottom: .5vh;
+  }
+
+  #latestReleases #releasesLink {
+    font-size: 2.25vmin;
+  }
+  
+  #latestReleases .displayGrid {
+    margin-bottom: 1.5vh;
+    margin-top: 1vh;
+  }
+
+  #latestReleases .releaseHeadline {
+    font-size: 2.5vmin;
+  }
+  
+}
+
+/* Mobile screen sizing */
+@media only screen and (max-width: 480px) {
   .home {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     height: 100%;
-    /* width: 100%; */
-    /* margin: 2vh; */
   }
 
   #newsPreview {
     max-width: 100%;
     margin-right: 0;
+    margin-bottom: 2.5vh;
   }
 
   #latestReleases {
@@ -117,14 +150,31 @@
     width: 100%;
   }
 
-  /* #latestReleases .releaseCover {
-    display: flex;
-  } */
+  .postPreview .postTitle {
+    font-size: 4.75vmin;
+    margin-top: 3vh;
+  }  
 
-  #latestReleases .mediaPlayer {
-    width: 100%;
-    height: 30px;
+  .postPreview .postLink {
+    font-size: 4.25vmin;
+    margin-bottom: 5vh;
+  } 
+
+  .previewHTML {
+    font-size: 4vmin;
+    height: 21vh; 
+    margin-bottom: .5vh;
   }
+
+  #latestReleases #releasesLink {
+    font-size: 4.75vmin;
+  } 
+
+  #latestReleases .releaseHeadline {
+    font-size: 4.75vmin;
+  }
+
+  
 }
 
 

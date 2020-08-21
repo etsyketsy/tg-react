@@ -3,8 +3,6 @@
   align-items: flex-start;
   justify-items: flex-start;
   object-fit: scale-down;
-  /* max-width: 30vh;
-  max-height: 30vh; */
   height: 25vh;
 }
 
@@ -22,7 +20,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  font-size: 2vmin;
+  font-size: 1.75rem;
   font-family: 'Karla', sans-serif;
   border-bottom: solid #ffcebe; 
 }
@@ -33,7 +31,6 @@
   width: auto;
   height: auto;
   border: none;
-  font-size: 1.5vmin;
   background: none;
   outline: none;
   display: flex;
@@ -57,6 +54,7 @@
   visibility: visible;
   margin: 0;
   padding-left: 3.5vh;
+  margin-top: .75vh;
 }
 
 .tracks.collapsed {
@@ -92,19 +90,65 @@
   margin: 3vh;
   margin-left: 0;
   margin-bottom: 5vh;
-  font-size: 1.5vmin;
+  font-size: 1.15rem;
 }
 
 .releaseTile .mediaPlayer {
-  margin-bottom: 2vh;
+  margin-bottom: 2.5vh;
   display: none;
 }
 
-@media only screen and (max-width: 1030px) {
+#releases .sectionHeader {
+  font-size: 5vmin;
+}
+
+/* CSS for tablets */
+@media only screen and (max-width: 768px) {
   .releaseTile img {
     width: 15vh;
     height: 15vh;
-    display: flex;
-    justify-content: flex-start;
+    margin-right: 1vh;
+    display: block;
+    float: left;
+  }
+
+  .releaseTile {
+    display: inline-block;
+    float: left;
+  }
+
+  .releaseDetails {
+    width: inherit;
+    margin-left:0;
+  }
+  #releases .sectionHeader {
+    font-size: 6vmin;
+  }
+}
+
+/* Sizing for small browser screens */
+@media only screen and (max-width: 600px) {
+  #releases .sectionHeader {
+    font-size: 7vmin;
+  }
+}
+
+/* CSS for mobile screens */
+@media only screen and (max-width: 480px) {
+  .releaseTile img {
+    width: 15vh;
+    height: 15vh;
+  }
+
+  .releaseTile .releaseHeadline {
+    font-size: 4.75vw;
+  }
+
+  .releaseTile {
+    font-size: 4vmin;
+  }
+
+  #releases .sectionHeader {
+    font-size: 7vmin;
   }
 }
