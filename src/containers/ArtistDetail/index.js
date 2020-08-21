@@ -5,6 +5,7 @@ import ReleasePreview from '../ReleasePreview/index';
 import releaseData from '../../assets/releaseData';
 import artistData from '../../assets/artistData';
 import NotFound from '../NotFound';
+import ScrollToTop from '../ScrollToTop';
 
 class ArtistDetail extends Component {
     state = {
@@ -134,6 +135,7 @@ class ArtistDetail extends Component {
                                 }
                             )}
                         </div>
+                        <ScrollToTop />
                     </div>
                     :
                     <NotFound />

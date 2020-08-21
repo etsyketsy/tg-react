@@ -97,6 +97,7 @@
   color: #2C2A2D;
   display: flex;
   flex-flow: wrap;
+  margin-right: 2vh;
 }
 
 /* Tablet sizing */

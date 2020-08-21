@@ -9,6 +9,9 @@
     bottom: 10vh;
     right: 0;
     padding-right: 1vh;
+    height: 3.5vh;
+    width: 2vh;
+    margin-left: 1vh;
     font-size: 4vmin;
 }
 
