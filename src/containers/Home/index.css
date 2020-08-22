@@ -4,7 +4,7 @@
 } 
 
 .postPreview .postTitle {
-  font-size: 2vmin;
+  font-size: 1.5rem;
   border: none;
   margin-top: 2vh;
 }  
@@ -48,6 +48,7 @@
   box-sizing: border-box;
   border-top: solid #ffcebe;
   width: 100%;
+  font-size: 1rem;
 }
 
 
@@ -84,7 +85,7 @@
 }
 
 #latestReleases .releaseHeadline {
-  font-size: 2vmin;
+  font-size: 1.5rem;
 }
 
 .mediaPlayer {
