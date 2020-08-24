@@ -12,13 +12,12 @@ class ArtistDetail extends Component {
         item: null
     }
 
+    // Uses artist status as proxy for existence of artis. Returns 'NotFound' if not
     artistCheck = (artistInfo) => {
         console.log(artistInfo)
         if (artistInfo.status != "Active" && artistInfo.status != "Inactive") {
-            console.log(artistInfo.status)
             return false
         } else {
-            console.log(artistInfo.status)
             return true
         }
     }
@@ -51,6 +50,9 @@ class ArtistDetail extends Component {
                 this.getReleases(currentArtist[0].artist)
                 resolve();
             } else {
+                this.setState(
+                    { item: null}
+                )
                 reject('Artist not found')
             }
 
@@ -59,12 +61,11 @@ class ArtistDetail extends Component {
         )
     }
 
-    // After artist is found, filter through Releases to find any release related to the artist
+    // After artist is found, filter through Releases to find any release related to the artist, but remove releases with 'Unannounced'
     getReleases = (artistName) => {
         return new Promise((resolve, reject) => {
             let releases = releaseData.filter(
                 release => release.artist.includes(artistName) && release.status != 'Unannounced'
-               
             );
             if (releases){
                 this.setState({
@@ -94,7 +95,6 @@ class ArtistDetail extends Component {
     componentDidMount() {
         // (typeof this.props.location.state === 'undefined') ?
         let niceName = this.props.match.params.artist_nice_name;
-       
         this.getArtist(niceName)
     }
 
