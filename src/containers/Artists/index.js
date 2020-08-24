@@ -45,7 +45,7 @@ class Artists extends Component {
             {
               this.state.artists.map(
                 (artist, index) => {
-                  // List only artists, not affiliates
+                  // List only artists, not affiliates or unannouncd artists
                   if (artist.artist_type === 'artist' && artist.status != 'Unannounced') {
                     return (
                       <Link to={{
