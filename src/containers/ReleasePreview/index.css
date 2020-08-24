@@ -33,13 +33,6 @@
   margin-bottom: 3vh;
 }
 
-/* Tablet sizing */
-@media only screen and (max-width: 768px) {
-  /* .releasePreview .releaseHeadline {
-    font-size: 2.5vmin;
-  } */
-}
-
 /* Mobile screen sizing */
 @media only screen and (max-width: 480px) {
   .releasePreview img {
@@ -47,10 +40,6 @@
     width: 14vh;
     object-fit: scale-down;
   }
-
-  /* .releasePreview .releaseHeadline {
-    font-size: 4.75vmin;
-  } */
 
   .releasePreview {
     display: flex;

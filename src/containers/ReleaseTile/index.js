@@ -10,10 +10,6 @@ class ReleaseTile extends Component {
         expanded: false
     }
 
-    // getSplitArtistLinks = (props) =>{
-    //     (props.item.artist >= 2) ?
-    // }
-
     getSplitArtists = (props) => {
         // Get array of artist nice names and match against artists in the artist name array
         let artistNiceNames = this.props.item.artist_nice_name.split("_");
@@ -59,7 +55,7 @@ class ReleaseTile extends Component {
     }
 
 
-
+    // Opens/closes track listing
     tracksClickHandler = (e) => {
         this.setState(
             { expanded: !this.state.expanded }
