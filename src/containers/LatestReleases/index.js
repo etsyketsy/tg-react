@@ -11,14 +11,25 @@ class LatestReleases extends Component {
         releases: null
     }
 
+    sortByReleaseDate = (releases)  => {
+        // Sort releases by Release Date
+        // First converts release_date from a string to date format for sorting
+        let sortedReleases = releases.sort((x, y) => {
+            let a = new Date(x.release_date),
+                b = new Date(y.release_date);
+            return b - a;
+        });
+        this.setState(
+            { releases: sortedReleases }
+        )
+    }
+
     componentDidMount() {
         let filteredReleases = releaseData.filter(
-            release =>  release.status != 'Unannounced'
+            release =>  {release.status != 'Unannounced'}∂
         );
 
-        this.setState(
-            { releases: filteredReleases }
-        )
+        this.sortByReleaseDate(filteredReleases)
     }
 
     render() {

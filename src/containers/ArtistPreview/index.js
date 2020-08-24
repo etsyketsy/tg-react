@@ -3,11 +3,10 @@ import './index.css';
 
 // Display Artist Tile for preview and All Artists pages
 class ArtistPreview extends Component {
-
+  
   render() {
     return (
       <div className="artistPreview" id={this.props.index}>
-        
           <img src={this.props.item.image}
             alt='img'
             className='artistPhoto'
@@ -21,7 +20,6 @@ class ArtistPreview extends Component {
       </div>
     )
   }
-
 }
 
 export default ArtistPreview;
