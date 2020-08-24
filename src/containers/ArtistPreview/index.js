@@ -16,14 +16,8 @@ class ArtistPreview extends Component {
           <div className='name'>
             {this.props.item.artist}
             <br />
-            {/* <div className='location'>{this.props.item.artist_location}
-            </div> */}
           </div>
-
         </div>
-        {/* <div className='bio'>
-          {this.props.item.artist_bio}
-        </div> */}
       </div>
     )
   }

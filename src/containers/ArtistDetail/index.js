@@ -14,7 +14,6 @@ class ArtistDetail extends Component {
 
     // Uses artist status as proxy for existence of artis. Returns 'NotFound' if not
     artistCheck = (artistInfo) => {
-        console.log(artistInfo)
         if (artistInfo.status != "Active" && artistInfo.status != "Inactive") {
             return false
         } else {
