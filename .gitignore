@@ -5,4 +5,4 @@ package-lock.json
 yarn.lock
 *.code-workspace
 .env
-build/
+/build
