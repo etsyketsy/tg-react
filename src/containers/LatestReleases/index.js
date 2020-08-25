@@ -26,7 +26,7 @@ class LatestReleases extends Component {
 
     componentDidMount() {
         let filteredReleases = releaseData.filter(
-            release =>  {release.status != 'Unannounced'}
+            release =>  release.status != 'Unannounced'
         );
 
         this.sortByReleaseDate(filteredReleases)
