@@ -30,7 +30,11 @@ class ArtistDetail extends Component {
         }
         else {
             return (
-                <img src={this.state.item.image} alt='img'      className='artistPhoto' />
+                <img 
+                    src={this.state.item.image} 
+                    alt='img' 
+                    className='artistPhoto' 
+                />
             )
         }
     }
@@ -60,11 +64,12 @@ class ArtistDetail extends Component {
         )
     }
 
-    // After artist is found, filter through Releases to find any release related to the artist, but remove releases with 'Unannounced'
+    // After artist is found, set artist's announced releases to state 
     getReleases = (artistName) => {
         return new Promise((resolve, reject) => {
             let releases = releaseData.filter(
-                release => release.artist.includes(artistName) && release.status !== 'Unannounced'
+                release => release.artist.includes(artistName) && release.status 
+                    !== 'Unannounced'
             );
             if (releases){
                 this.setState({
@@ -81,7 +86,8 @@ class ArtistDetail extends Component {
     }
 
     exitHandler = (props) => {
-        // Clicking the exit will push user back to All Artists or homepage depending on user's path indicated by the pop or push action of the history
+        // Clicking the exit will push user back to All Artists or homepage 
+        // depending on user's path indicated by pop/push action of the history
         
         // POP indicates user routed to the exact url likely from outside of TG
         // PUSH indicates user routed from a link on TG site
@@ -92,7 +98,11 @@ class ArtistDetail extends Component {
     }
 
     componentDidMount() {
-        // (typeof this.props.location.state === 'undefined') ?
+        // Component was loading with window at previous scroll position
+        // This will make sure the new component loads at the top of the page
+        window.scrollTo(0, 0); 
+
+        // Pulls nice name from url params
         let niceName = this.props.match.params.artist_nice_name;
         this.getArtist(niceName)
     }
