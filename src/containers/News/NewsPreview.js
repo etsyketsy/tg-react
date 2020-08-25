@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import RSSParser from 'rss-parser';
-import NotFound from '../NotFound';
+
 
 
 class NewsPreview extends Component {
@@ -12,7 +12,7 @@ class NewsPreview extends Component {
     componentDidMount() {
         let parser = new RSSParser();
 
-        parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rs')
+        parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
             .then(feed => {
                 this.setState({ posts: feed.items })
             })
@@ -27,7 +27,7 @@ class NewsPreview extends Component {
             <p id='loading'>loading...</p>
                 :
                 <div id='newsPreview' className='preview'>
-                    <div className="sectionHeader">// Latest News</div>
+                    <div className="sectionHeader">{'//'} Latest News</div>
                     {
 
                         this.state.posts.slice(0, 5).map((post, index) => {

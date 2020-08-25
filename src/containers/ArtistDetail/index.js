@@ -14,7 +14,7 @@ class ArtistDetail extends Component {
 
     // Uses artist status as proxy for existence of artis. Returns 'NotFound' if not
     artistCheck = (artistInfo) => {
-        if (artistInfo.status != "Active" && artistInfo.status != "Inactive") {
+        if (artistInfo.status !== "Active" && artistInfo.status !== "Inactive") {
             return false
         } else {
             return true
@@ -64,7 +64,7 @@ class ArtistDetail extends Component {
     getReleases = (artistName) => {
         return new Promise((resolve, reject) => {
             let releases = releaseData.filter(
-                release => release.artist.includes(artistName) && release.status != 'Unannounced'
+                release => release.artist.includes(artistName) && release.status !== 'Unannounced'
             );
             if (releases){
                 this.setState({
@@ -120,7 +120,7 @@ class ArtistDetail extends Component {
                         <div className='bio'>
                             {ReactHtmlParser(this.state.item.artist_bio)}
                         </div>
-                        <div className="sectionHeader">//Releases</div>
+                        <div className="sectionHeader">{'//'}Releases</div>
                         <div className="artistReleases">
                             {this.state.releases.map(
                                 (release, index) => {

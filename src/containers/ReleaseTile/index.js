@@ -20,7 +20,7 @@ class ReleaseTile extends Component {
                 for (let i = 0; i < this.props.item.artist.length; i++) {
                     for (let j = 0; j < artistNiceNames.length; j++) {
                         let test = this.props.item.artist[j][0].toLowerCase();
-                        if (test == niceName[i]) {
+                        if (test === niceName[i]) {
                             splitLinks.push(
                                 {
                                     url: niceName,

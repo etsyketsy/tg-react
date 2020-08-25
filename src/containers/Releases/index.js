@@ -37,7 +37,7 @@ class Releases extends Component {
                             (release, index) => {
                                 console.log(release.release_date)
                                 // Filter out unannounced releases
-                                if (release.status != 'Unannounced') {
+                                if (release.status !== 'Unannounced') {
                                     return (
                                             <ReleaseTile
                                                 item={release}
