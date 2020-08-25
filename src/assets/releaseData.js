@@ -49,23 +49,42 @@ import TG048 from '../assets/albumArt/TG-048.jpg';
 import TG049 from '../assets/albumArt/TG-049.jpg';
 // import TG050 from '../assets/albumArt/TG-050.jpg';
 
+
 const releaseData = 
 [
+    {
+        "cat_num": "TG051",
+        "release_title": "Come And See",
+        "release_formats": "12\"LP, Cassette, Digital",
+        "release_date": "2020-12-31", // TBD
+        "artist_nice_name": "worldpeace",
+        "tracklisting": null, //TBD
+        "bio": "<p>Across the twenty tracks on their debut LP ‘Come and See’, World Peace further dial in their brand of low end violence. Featuring no guitars and track lengths averaging 30 seconds, WP examine the co-dependency of man and god through a “less is more“ sonic approach. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland two piece craft a sound wholly their own. Recorded in September 2020 by Charles Toshio at Panda Studios. Mastered by Brad Boatright at Audiosiege.</p>",
+        "ffo": null,
+        "status": "Coming Soon",
+        "mediaplayer_html": null, //TBD
+        "artist": [
+            "World Peace"
+        ],
+        "image": null, //TBD
+        "status": "Unannounced"
+    },
+
     {
         "cat_num": "TG050",
         "release_title": "In Spite Of",
         "release_formats": "12\"LP, Cassette, Digital",
         "release_date": "2020-10-31",
         "artist_nice_name": "fyh",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //TBD
+        "bio": null, //TBD
         "ffo": null,
         "status": "Coming Soon",
-        "mediaplayer_html": null,
+        "mediaplayer_html": null, //TBD
         "artist": [
             "For Your Health"
         ],
-        "image": null,
+        "image": null, //TBD
         "status": "Unannounced"
     },
     {
@@ -74,8 +93,8 @@ const releaseData =
         "release_formats": "12\"LP",
         "release_date": "2020-09-30",
         "artist_nice_name": "stz",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": "<ol class=\"tracklisting\">\r\n<li>D.O.A.</li>\r\n<li>Shoes</li>\r\n<li>Decayed Decade</li>\r\n<li>Flee Creep And Cheat</li>\r\n<li>Automatic Minds</li>\r\n<li>Fragments</li>\r\n<li>The Gallows</li>\r\n<li>Black Of Mouth</li>\r\n<li>Interlude</li>\r\n<li>Rotten</li>\r\n<li>I'm Fucking Disgusted</li>\r\n<li>Self Mouth</li>\r\n<li>Seven Swords</li>\r\n<li>Get Bent</li>\r\n<li>Live In Hell Rot In Dirt</li>\r\n<li>Lady Death</li>\r\n<li>Giant</li>\r\n<li>Rat Bones</li>\r\n</ol>",
+        "bio": "<p>A hardcore staple from Bay Area hardcore outfit Sabertooth Zombie. Never intended to be pressed on vinyl but highly sought after, this record is being pressed to support the fight for Brown and Black liberation. All proceeds are donated to BLM causes.</p>",
         "ffo": null,
         "status": "Coming Soon",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=3591531558/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/midnight-sessions">Midnight Sessions by Sabertooth Zombie</a></iframe>',
@@ -91,8 +110,8 @@ const releaseData =
         "release_formats": "12\"LP, Cassette",
         "release_date": "2020-07-24",
         "artist_nice_name": "thin",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>dawn is Thin’s 14-track debut LP, which Decibel Magazine described as a “cover-to-cover assault on the brain”. Clocking in at just under 16 minutes, dawn barely gives the listener time to realize what hit them. Despite the short run time, the album incorporates a variety of riffs, blasts, breakdowns, and shrieks that toe the line between mathcore and grind.</p><p>dawn was tracked and mixed by Scot Moriarty, at Backroom Studios, in Rockaway, NJ, and was mastered by Brad Boatright, at Audiosiege, in Portland, OR. Originally released on April 20, 2020, and pressed to cassette in the US and Europe (Lower Class Kids Records), Dawn is seeing new life in the form of a one-sided 12”LP, along with a repress of the tape, on Twelve Gauge Records.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2593780934/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://music.tgrex.com/album/dawn">Dawn by Thin</a></iframe>',
@@ -108,8 +127,8 @@ const releaseData =
         "release_formats": "7\"EP",
         "release_date": "2020-07-10",
         "artist_nice_name": "sidetracked_theseeker",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>This split brings together two powerviolence bands from half way across the world from one another: Tacoma's very own Sidetracked and Milan, Italy's The Seeker. A short but sweet collection of raw, loud and fast tracks brought to you as a co-release between Twelve Gauge, To Live a Lie and Here And Now Records.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3806589230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/sidetracked-the-seeker-split">Sidetracked/The Seeker Split by Sidetracked &amp; The Seeker</a></iframe>',
@@ -126,15 +145,15 @@ const releaseData =
         "release_formats": "12\"EP Lathe, Digital",
         "release_date": "2020-10-14",
         "artist_nice_name": "downstaaiirs",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>Written in a dungeon on a beach somewhere in Santa Cruz, CA. Downstaaiirs' Weeping/Creeping is the band's debut EP originally released on 3/8/13 as a limited 50-tape run on Like Young Records, now seeing new light as a limited edition lathe cut 12\" accompanied by another run of tapes with new art.</p>",
         "ffo": null,
         "status": "Coming Soon",
-        "mediaplayer_html": null,
+        "mediaplayer_html": null, //TBD
         "artist": [
             "Downstaaiirs"
         ],
-        "image": null,
+        "image": null, //TBD
         "status": "Unannounced"
     },
     {
@@ -143,8 +162,8 @@ const releaseData =
         "release_formats": "12\"EP",
         "release_date": "2020-01-07",
         "artist_nice_name": "fyh_shinguard",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, // FOR SARAH TO GET
+        "bio": "<p>Death of Spring brings two up and coming hardcore bands: Columbus, Ohio's For Your Health and Pittsburg, Pennsylvania's Shin Guard. Originally released digitally and on tape in May 2019, this split is being pressed on vinyl as a co-release between Middle Man Records, iCorrupt, Quiet Year and Twelve Gauge.</p>",
         "ffo": null,
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1283864193/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/death-of-spring">Death of Spring by For Your Health &amp; Shin Guard</a></iframe>',
         "artist": [
@@ -160,8 +179,8 @@ const releaseData =
         "release_formats": "12\"LP, Digital",
         "release_date": "2020-01-10",
         "artist_nice_name": "frailhands",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>Nova Scotia's Frail Hands is back at it again with their latest release, \"parted/departed/apart\", a full-length 12\"LP that features the band's first piece of recorded music as a four-piece since the departure of vocalist Dawn Almeda. This is arguably the band's best material to date and is still the same chaotic and raw sound you've learned to expect from them.</p><p>The album was recorded by Palmer Jamieson at the Golden Palm in June-July 2019 and was mixed and mastered by Jack Shirley at the Atomic Garden shortly after. Artwork was done by M. Harrison of Aught \\ Void.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1719663425/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/parted-departed-apart">parted/departed/apart by Frail Hands</a></iframe>',
@@ -177,8 +196,8 @@ const releaseData =
         "release_formats": "12\"EP",
         "release_date": "2019-10-25",
         "artist_nice_name": "hhll",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>Young, dumb and full of fun.. Courtside Seats was recorded in a studio situated in the corner of a large warehouse in Mountain View, California by local hip hop producer Deegan Adams. The sophomore (and admittedly sophomoric) release by Heavy Heavy Low Low was originally only pressed on a limited and long out of print CD. October 25th 2019 will see the first ever vinyl pressing of the record almost 15 years since its original release.</p><p>Pressed with new artwork done by vocalist Robbie Smith.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2019131599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/courtside-seats">Courtside Seats... by Heavy Heavy Low Low</a></iframe>',
@@ -194,8 +213,8 @@ const releaseData =
         "release_formats": "12\"LP, Digital",
         "release_date": "2019-10-18",
         "artist_nice_name": "ghostspirit",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>Fresh off their west coast tour with The Fall of Troy, Los Angeles DIY screamo outfit Ghost Spirit returns with their new LP Hourglass on Twelve Gauge and Blue Swan Records on October 18, 2019.</p><p>Reteaming with grammy nominated producer Jack Shirley, the 8-track record leads with the blistering dissonant breakdowns of A Riddle, No Answer, then pulls you through a descent of heartfelt and urgent hardcore compositions. New member and scene veteran Nikolas Soelter (Calculator, Never Young) joins Niko Zaglaras (Lord Snow, Raw Nerve) on second guitar to bring an even more focused harsh sonic aesthetic than found on their previous self-titled LP as well as their split with Nova Scotia’s Frail Hands. On the record’s climax Look To The Stars, Taylor Jewell’s (Nuvoluscara, Elle) kinetic and signature crushing drums along with Alex Bigman’s (Seeing Means More, Fight Fair) desperate screaming showcases the band’s roots with influences including Portraits of Past, Envy, and 7 Angels 7 Plagues. In a line of consistently intense releases, Ghost Spirit’s third LP solidifies their place in the community and puts the band in league with contemporaries Portrayal of Guilt, Loma Prieta, and Touche Amore.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1031741231/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/hourglass">Hourglass by Ghost Spirit</a></iframe>',
@@ -211,8 +230,8 @@ const releaseData =
         "release_formats": "12\"LP",
         "release_date": "2015-10-23",
         "artist_nice_name": "shinguard",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>Shin Guard’s ‘2020’ is a side of the Pittsburgh four piece we hadn’t quite seen before. The release takes you on a journey filled with raw emotion, angst, and melody and leaves you wondering how a band blended such a wide range of influences so perfectly. 2020 is a socially conscious hardcore album, an amalgamation of riffs and screams at peak desperation. In 26 minutes, Shin Guard covers topics such as accountability, oppression, love, and more. Sound-wise, Shin Guard is a band from screamo and hardcore fans a like – sometimes compared to The Fall Of Troy but are really drawing and blending influences from much more.</p><p>Originally recorded during the months of December 2018 to January 2019 at Cafe Verona and released in February 2019 on tape by Flowerpot.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1480537049/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/2020">2020 by Shin Guard</a></iframe>',
@@ -228,8 +247,8 @@ const releaseData =
         "release_formats": "12\"LP, Digital",
         "release_date": "2019-01-11",
         "artist_nice_name": "frailhands",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //FOR SARAH TO GET
+        "bio": "<p>Originally released on tape in 2017 by Middle Man Records, this is Frail Hands’ first piece of recorded music, ten tracks of raw angry screamo influenced by bands like Portraits of Past, Loma Prieta, Orchid, and La Quiete. If you liked the split with Ghost Spirit we recently released, you’ll definitely want to check this out. It’s not something to sleep on.<p></p>Recorded at the Echo Chamber by Palmer Jamieson. Mixed and mastered by Jack Shirley at the Atomic Garden.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=765346872/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/frail-hands">Frail Hands by Frail Hands</a></iframe>',
@@ -245,8 +264,8 @@ const releaseData =
         "release_formats": "12\"EP, Digital",
         "release_date": "2018-08-24",
         "artist_nice_name": "ghostspirit_frailhands",
-        "tracklisting": null,
-        "bio": null,
+        "tracklisting": null, //for sarah to get
+        "bio": "<p>Hailing from Los Angeles, Ghost Spirit is a four piece made up from members of Lord Snow, Letters to Catalonia, and Seeing Means More. Their side of the split comes as a follow-up to their unrelenting debut self-titled LP, released on Blue Swan Records in the spring of 2017. Produced by Jack Shirley (Deafheaven, Loma Prieta, Oathbreaker), these 6 new songs expand on their traditional screamo sound and into the more abrasive and melodic side of hardcore.</p><p>From across the continent, Frail Hands is a five piece from Halifax, Nova Scotia with members of King’s Girls and Heisse. This is the follow up to their widely received self-titled debut LP released on Middle Man Records in the fall of 2017. Mixed and mastered by Jack Shirley, the energy of these 6 songs hit you in the face with a sonic assault of pure emotion that leaves you in a state of trance.</p><p>These two bands are very well suited for each other and bring their own variation of real screamo thats pays homage to bands like Portraits of Past, Loma Prieta, Orchid, and La Quiete. If you want to temporarily forget you’re living in 2018 and be taken back to a time when music was raw, heartfelt, and emotional…this record is for you.</p>",
         "ffo": null,
         "status": "Out Now",
         "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3215704805/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/ghost-spirit-frail-hands-split">Ghost Spirit / Frail Hands Split by Ghost Spirit &amp; Frail Hands</a></iframe>',
@@ -264,7 +283,7 @@ const releaseData =
         "release_date": "2015-10-23",
         "artist_nice_name": "nervous",
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
-        "bio": "Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned. \r\n\r\nFrontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records. \r\n\r\nSpek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"",
+        "bio": "<p>Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned.</p><p>Frontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records.</p><p>Spek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"</p>",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
         "status": "Out now",
         "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
@@ -281,7 +300,7 @@ const releaseData =
         "release_date": "2015-07-10",
         "artist_nice_name": "power",
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>$uck It</li>\r\n<li>Cageless</li>\r\n<li>L.O.S. (Life of Spite)</li>\r\n<li>Slow Train Coming</li>\r\n<li>Shepherds and Sheep</li>\r\n<li>When It's Time</li>\r\n</ol>",
-        "bio": "Heavy Muscle was recorded and mixed by Phil Jones at The Dangler in Seattle, and mastered by Chris Mathews, Jr. The EP follows 2013 full-length Bremerton Zoo and 2011 EP Death Haunts, both also released on Twelve Gauge Records. Of Bremerton Zoo, UK blog Tight to the Nail opined:\r\n\r\n\"The wild-eyed, antisocial, bloodied knuckles and beer-stained jeans flipside to the old school hardcore coin... Drawing influence from Black Flag with their anarchic and raw fuck-you-core, Power have created a vicious and unpredictable record.\"",
+        "bio": "<p></p>Heavy Muscle was recorded and mixed by Phil Jones at The Dangler in Seattle, and mastered by Chris Mathews, Jr. The EP follows 2013 full-length Bremerton Zoo and 2011 EP Death Haunts, both also released on Twelve Gauge Records. Of Bremerton Zoo, UK blog Tight to the Nail opined:<blockquote>\"The wild-eyed, antisocial, bloodied knuckles and beer-stained jeans flipside to the old school hardcore coin... Drawing influence from Black Flag with their anarchic and raw fuck-you-core, Power have created a vicious and unpredictable record.\"</blockquote></p>",
         "ffo": "Sam Black Church, Biohazard, Onyx, Nirvana",
         "status": "Out Now",
         "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1838276407/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/heavy-muscle\">Heavy Muscle by Power</a></iframe>",
@@ -298,8 +317,8 @@ const releaseData =
         "release_date": "2015-02-24",
         "artist_nice_name": "stz",
         "tracklisting": "<ol>\r\n<li>The Headache\r\n<li>Coffin Coast\r\n<li>Gardens Of Loss\r\n<li>Crazy Endings\r\n</ol>",
-        "bio": "The fourth EP in the four part series, Human Performance by Sabertooth Zombie featuring four songs that go places The Tooth have never gone. Recorded and mixed by Sam Pura at The Panda Studios (Self Defense Family, No Sir, North) and mastered by Piper Payne (Edward Sharpe and the Magnetic Zeros).",
-        "ffo": "Metallica, Black Sabbath, Punk",
+        "bio": "<p>The fourth EP in the four part series, Human Performance by Sabertooth Zombie featuring four songs that go places The Tooth have never gone. Recorded and mixed by Sam Pura at The Panda Studios (Self Defense Family, No Sir, North) and mastered by Piper Payne (Edward Sharpe and the Magnetic Zeros).",
+        "ffo": "Metallica, Black Sabbath, Punk</p>",
         "status": "Out Now",
         "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3781833552/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iv\">Human Performance IV by Sabertooth Zombie</a></iframe>",
         "artist": [
@@ -913,3 +932,4 @@ const releaseData =
 
 
 export default releaseData;
+
