@@ -43,7 +43,7 @@ import TG042 from '../assets/albumArt/TG-042.jpg';
 import TG043 from '../assets/albumArt/TG-043.jpg';
 import TG044 from '../assets/albumArt/TG-044.jpg';
 import TG045 from '../assets/albumArt/TG-045.jpg';
-// import TG046 from '../assets/albumArt/TG-046.jpg';
+import TG046 from '../assets/albumArt/TG-046.jpg';
 import TG047 from '../assets/albumArt/TG-047.jpg';
 import TG048 from '../assets/albumArt/TG-048.jpg';
 import TG049 from '../assets/albumArt/TG-049.jpg';
@@ -73,8 +73,8 @@ const releaseData =
         "cat_num": "TG050",
         "release_title": "In Spite Of",
         "release_formats": "12\"LP, Cassette, Digital",
-        "release_date": "2020-10-31",
-        "artist_nice_name": "fyh",
+        "release_date": "2020-10-31",//TBD
+        "artist_nice_name": "fyh", 
         "tracklisting": "<ol><li>Birthday Candles In The Effigy</li><li>I Slept With Wes Eisold And All I Got Was An Out Of Court Settlement</li><li>Push The Fucking Rock Sissy</li><li>Abscess Makes The Heart Grow</li><li>Day Of Black Sun</li><li>Save Your Breath, You're Gonna Need It To Blow My Head Off</li><li>If Anybody Asks, We're Already Fucked</li><li>You’re So United Ninety-three, We're So Flight Eighty</li><li>Like A Thirteenth Floor Elevator</li><li>Everyday at 1312</li><li>Thank You For The Venmo</li><li>This City Will Crumble And Many People Will Die</li></ol>",
         "bio": null, //TBD
         "ffo": null,
@@ -138,7 +138,7 @@ const releaseData =
         "cat_num": "TG046",
         "release_title": "Weeping/Creeping",
         "release_formats": "12\"EP Lathe, Digital",
-        "release_date": "2020-10-14",
+        "release_date": "2020-10-09",
         "artist_nice_name": "downstaaiirs",
         "tracklisting": "<ol><li>Thoughtograph</li><li>God Damn City</li><li>Zzaj Keed</li><li>Wish You Had</li><li>Graveyard Shift</li><li>So Much $$</li></ol>",
         "bio": "<p>Written in a dungeon on a beach somewhere in Santa Cruz, CA. Downstaaiirs' Weeping/Creeping is the band's debut EP originally released on 3/8/13 as a limited 50-tape run on Like Young Records, now seeing new light as a limited edition lathe cut 12\" accompanied by another run of tapes with new art.</p>",
@@ -147,8 +147,8 @@ const releaseData =
         "artist": [
             "Downstaaiirs"
         ],
-        "image": null, //TBD
-        "status": "Unannounced"
+        "image": TG046,
+        "status": "Coming Soon"
     },
     {
         "cat_num": "TG045",

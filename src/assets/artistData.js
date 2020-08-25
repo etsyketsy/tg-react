@@ -23,6 +23,7 @@ import stz from '../assets/artistArt/stz_photo_thumb.jpg';
 import theseeker from '../assets/artistArt/theseeker_photo_thumb.jpg';
 import thin from '../assets/artistArt/thin_photo_thumb.jpg';
 import throats from '../assets/artistArt/throats_photo_thumb.jpg';
+// import worldpeace from '../assets/artistArt/worldpeace_photo_thumb.jpg';
 import ylb from '../assets/artistArt/ylb_photo_thumb.jpg';
 import youthfuneral from '../assets/artistArt/youthfuneral_photo_thumb.jpg';
 
@@ -42,7 +43,7 @@ const artistData = [
         "artist": "Black Teeth",
         "artist_nice_name": "blackteeth",
         "artist_location": "Peoria, IL",
-        "artist_bio": "Black Teeth is a dark hardcore punk band from Peoria, IL playing a strain of hardcore in the veins of Modern Life Is War and His Hero Is Gone.\r\n\r\nThe band originally released a debut EP on Closed Casket Activities, following that up with their final EP on Twelve Gauge before breaking up.",
+        "artist_bio": "Black Teeth is a dark hardcore punk band from Peoria, IL playing a strain of hardcore in the veins of Modern Life Is War and His Hero Is Gone.<p>The band originally released a debut EP on Closed Casket Activities, following that up with their final EP on Twelve Gauge before breaking up.",
         "artist_type": "artist",
         "artist_contact": "#",
         "status": "Inactive",
@@ -64,7 +65,7 @@ const artistData = [
         "artist": "Creatures",
         "artist_nice_name": "creatures",
         "artist_location": "Los Angeles, CA",
-        "artist_bio": "Creatures' blend of unrelentless force and raw power produces a barbaric sound unlike any other. Hailing from Southern California, the band has previously released music on Eulogy Recordings and Closed Caskey Activities.\r\n\r\nFor Fans Of:  Black Sabbath, Ringworm, Obituary, Crowbar",
+        "artist_bio": "Creatures' blend of unrelentless force and raw power produces a barbaric sound unlike any other. Hailing from Southern California, the band has previously released music on Eulogy Recordings and Closed Caskey Activities.<p>For Fans Of:  Black Sabbath, Ringworm, Obituary, Crowbar",
         "artist_type": "artist",
         "artist_contact": "#",
         "status": "Active",
@@ -86,10 +87,10 @@ const artistData = [
         "artist": "Downstaaiirs",
         "artist_nice_name": "downstaaiirs",
         "artist_location": "Bay Area, CA",
-        "artist_bio": "Downstaaiirs is a post-hardcore band with members of Heavy Heavy Low Low, Blowout, Toast the Wrap and other hardcore veterans.",
+        "artist_bio": "Created in a Santa Cruz beach dungeon, Downstaaiirs is a post-hardcore 4-piece with members of Heavy Heavy Low Low, Blowout, Toast the Wraps playing an emotionally-driven dissonant sound akin to bands like Kind Of Like Spitting and Bedhead.",
         "artist_type": "artist",
         "artist_contact": "#",
-        "status": "Unannounced",
+        "status": "Active",
         "id": 20,
         "image": downstaaiirs
     },
@@ -108,7 +109,7 @@ const artistData = [
         "artist": "Fatal Birth",
         "artist_nice_name": "fatal_birth",
         "artist_location": "Bay Area, CA",
-        "artist_bio": "San Francisco based three-piece. Influences ranging from early\r\npower violence, first wave US death metal, darkened hardcore/punk, and\r\ndoom metal. Recorded to analog tape then mix and mastered by Jack\r\nShirley (Comadre, Skin Like Iron, Neo Cons) at The Atomic Garden\r\nStudio in one day. Harsh unadulterated dissonance.\r\n\r\nCo-released by T.B.H./S.F.",
+        "artist_bio": "San Francisco based three-piece. Influences ranging from early power violence, first wave US death metal, darkened hardcore/punk,and doom metal. Recorded to analog tape then mix and mastered by Jack Shirley (Comadre, Skin Like Iron, Neo Cons) at The Atomic Garden Studio in one day. Harsh unadulterated dissonance.<p>Co-released by T.B.H./S.F.",
         "artist_type": "artist",
         "artist_contact": "#",
         "status": "Active",
@@ -152,10 +153,10 @@ const artistData = [
         "artist": "Heavy Heavy Low Low",
         "artist_nice_name": "hhll",
         "artist_location": "San Jose, CA",
-        "artist_bio": "San Jose, California based HeavyHeavyLowLow was formed in 2004, and gained notoriety largely through word of mouth, internet hype and extensive touring. The quintet consisted of vocalist Robbie Smith, guitarists Ryan Madden and Danny Rankin, and brothers Chris and Andrew Fritter (drums and bass, respectively). Their album \"Everything's Watched, Everyone's Watching\", an eleven song session of metal/thrash/hardcore/grindcore recordings, was released on New Weathermen records, an imprint of Ferret, in September of 2006.",
+        "artist_bio": "San Jose, California based HeavyHeavyLowLow was formed in 2004, and gained notoriety largely through word of mouth, internet hype and extensive touring. The quintet consisted of vocalist Robbie Smith, guitarists Ryan Madden and Danny Rankin, and brothers Chris and Andrew Fritter (drums and bass, respectively).",
         "artist_type": "artist",
         "artist_contact": "#",
-        "status": "Inactive",
+        "status": "Active",
         "id": 3,
         "image": hhll
     },
@@ -218,7 +219,7 @@ const artistData = [
         "artist": "Nervous",
         "artist_nice_name": "nervous",
         "artist_location": "Oakland, CA",
-        "artist_bio": "From Oakland, California, Nervous consists of frontman Jake Spek (Lewd Acts) and drummer Jacob Harris (Big Kids, Acid Fast). Best friends and co-pilots of Oakland DIY venue The Hive, Spek and Harris have announced Nervous to be their new priority. This is no side project, it's a real band with its own sound.\r\n\r\nThere's something of a Nirvana vibe with Nervous - or, more accurately, the band is inspired by many of the same bands Kurt Cobain espoused: Wipers, Pixies, The Jesus Lizard. Spek and Harris take these inspirations and twist them into anxiety-ridden California punk anthems. Spek's unhinged vocals are an absolute standout, something like David Yow in a really fired-up mood. His lyrics address true everyday struggles of the broke, lazy, and intelligent, and honesty seeps through his every word.",
+        "artist_bio": "From Oakland, California, Nervous consists of frontman Jake Spek (Lewd Acts) and drummer Jacob Harris (Big Kids, Acid Fast). Best friends and co-pilots of Oakland DIY venue The Hive, Spek and Harris have announced Nervous to be their new priority. This is no side project, it's a real band with its own sound.<p>There's something of a Nirvana vibe with Nervous - or, more accurately, the band is inspired by many of the same bands Kurt Cobain espoused: Wipers, Pixies, The Jesus Lizard. Spek and Harris take these inspirations and twist them into anxiety-ridden California punk anthems. Spek's unhinged vocals are an absolute standout, something like David Yow in a really fired-up mood. His lyrics address true everyday struggles of the broke, lazy, and intelligent, and honesty seeps through his every word.",
         "artist_type": "artist",
         "artist_contact": "nervous.songs@gmail.com",
         "status": "Active",
@@ -262,7 +263,7 @@ const artistData = [
         "artist": "Purple Mercy",
         "artist_nice_name": "pm",
         "artist_location": "North Bay, CA",
-        "artist_bio": "It is told... Five them descended from the hypercosmic Mt. Doom in search of one ancient relic: The Volcano. The only way to attain said relic, was to summon the arcane, ancient, oldest ones through damned amplifiers and primordial crystalline hash jewels.\r\n\r\nFueled by their astral sacrament, they joined initiated forces to overthrow the bloodless, withered sects of automated, mechanical poseurs. By means of the aquarian global hotbox, subversive hordes were awakened as to bring forth salvaged antiquities, further drawing the relic in grasp.\r\n\r\nUpon bearing witness to the aforementioned activities, Caius Caligula road his effluvium fueled motorcycle through their scorched barren wasteland, sought by pineal compassing, and without speaking, delivered unto them post-draconian mystery realms to bring about the end of times and shitty music known and hated by all today. As the unholy bastard's tale goes, his blasphemous and horrid swamp rites drove them into eternal transdimensional madness and life abuse never ending.",
+        "artist_bio": "It is told... Five them descended from the hypercosmic Mt. Doom in search of one ancient relic: The Volcano. The only way to attain said relic, was to summon the arcane, ancient, oldest ones through damned amplifiers and primordial crystalline hash jewels.<p>Fueled by their astral sacrament, they joined initiated forces to overthrow the bloodless, withered sects of automated, mechanical poseurs. By means of the aquarian global hotbox, subversive hordes were awakened as to bring forth salvaged antiquities, further drawing the relic in grasp.<p>Upon bearing witness to the aforementioned activities, Caius Caligula road his effluvium fueled motorcycle through their scorched barren wasteland, sought by pineal compassing, and without speaking, delivered unto them post-draconian mystery realms to bring about the end of times and shitty music known and hated by all today. As the unholy bastard's tale goes, his blasphemous and horrid swamp rites drove them into eternal transdimensional madness and life abuse never ending.",
         "artist_type": "artist",
         "artist_contact": "purplemercy@gmail.com",
         "status": "Inactive",
@@ -328,7 +329,7 @@ const artistData = [
         "artist": "Set It Straight",
         "artist_nice_name": "sis",
         "artist_location": "Redding, CA",
-        "artist_bio": "Positively charged and sociopoliticaly aware straight edge hardcore from Redding, CA.\r\n\r\nFrom Scenepointblank.com: \"If Live Your Heart and Never Follow doesn't reach you -- musically and/or lyrically -- then there is definitely something wrong with you. The music and the message of the album are among the cream of the crop when it comes to today's hardcore scene.\"",
+        "artist_bio": "Positively charged and sociopoliticaly aware straight edge hardcore from Redding, CA.<p>From Scenepointblank.com: \"If Live Your Heart and Never Follow doesn't reach you -- musically and/or lyrically -- then there is definitely something wrong with you. The music and the message of the album are among the cream of the crop when it comes to today's hardcore scene.\"",
         "artist_type": "artist",
         "artist_contact": "#",
         "status": "Inactive",
@@ -339,7 +340,7 @@ const artistData = [
         "artist": "These Days",
         "artist_nice_name": "thesedays",
         "artist_location": "Bay Area, CA",
-        "artist_bio": "These Days is a hardcore band from the San Francisco Bay Area. Formed in 2003, These Days recorded their 6 song demo in April and began playing shortly after that. The band found a home at Run For Cover Records and released a 7\" entitled Death Sentence. Title Fight Records also released an accompanying CD version of the EP which included two unreleased tracks and the demo.\r\n\r\nTheir last record, Chained To The Lake, came out on CD on Twelve Gauge.",
+        "artist_bio": "These Days is a hardcore band from the San Francisco Bay Area. Formed in 2003, These Days recorded their 6 song demo in April and began playing shortly after that. The band found a home at Run For Cover Records and released a 7\" entitled Death Sentence. Title Fight Records also released an accompanying CD version of the EP which included two unreleased tracks and the demo.<p>Their last record, Chained To The Lake, came out on CD on Twelve Gauge.",
         "artist_type": "affiliate",
         "artist_contact": "#",
         "status": "Inactive",
@@ -350,7 +351,7 @@ const artistData = [
         "artist": "Throats",
         "artist_nice_name": "throats",
         "artist_location": "United Kingdom",
-        "artist_bio": "Throats died 7th December 2010.\r\n\r\nThroats are not simply a hardcore band anymore. Bile, rage and despondency have organically mutated an already bitter and angry band into something far more extreme, reckless and dangerous. Throats have now evolved into a monster that, whilst nodding to their own past, now encompass a sound that embraces elements of Napalm Death, Rotten Sound, crust and d-beat into their stoned, cosmic riffs and breakdowns",
+        "artist_bio": "Throats died 7th December 2010.<p>Throats are not simply a hardcore band anymore. Bile, rage and despondency have organically mutated an already bitter and angry band into something far more extreme, reckless and dangerous. Throats have now evolved into a monster that, whilst nodding to their own past, now encompass a sound that embraces elements of Napalm Death, Rotten Sound, crust and d-beat into their stoned, cosmic riffs and breakdowns",
         "artist_type": "artist",
         "artist_contact": "throatsofgold@hotmail.co.uk",
         "status": "Inactive",
@@ -361,7 +362,7 @@ const artistData = [
         "artist": "Tiefighter",
         "artist_nice_name": "tiefighter",
         "artist_location": "Whittier, CA",
-        "artist_bio": "Tiefighter is a pop-influenced hardcore/punk band from Los Angeles, California, USA signed to Torque Recordings(CAN) / Victory Records(US). Formed in November 2005, the band is comprised of members of yourlastbreath and More To Pride. This includes Rob (vocals), Eddie(guitar), Mike(bass), Mike A.(guitar) and Danny(drums).\r\n\r\nAlong with a European, Canadian, and US tour, the band released their long awaited debut full length, I Could Tell The World… , which saw a worldwide release on Tuesday October 28, 2008 via Torque/Victory Records.",
+        "artist_bio": "Tiefighter is a pop-influenced hardcore/punk band from Los Angeles, California, USA signed to Torque Recordings(CAN) / Victory Records(US). Formed in November 2005, the band is comprised of members of yourlastbreath and More To Pride. This includes Rob (vocals), Eddie(guitar), Mike(bass), Mike A.(guitar) and Danny(drums).<p>Along with a European, Canadian, and US tour, the band released their long awaited debut full length, I Could Tell The World… , which saw a worldwide release on Tuesday October 28, 2008 via Torque/Victory Records.",
         "artist_type": "affiliate",
         "artist_contact": "#",
         "status": "Inactive",
@@ -372,7 +373,7 @@ const artistData = [
         "artist": "War From A Harlots Mouth",
         "artist_nice_name": "wfahm",
         "artist_location": "Germany",
-        "artist_bio": "War from a Harlots Mouth is a mathcore / tech metal Band with a slight jazz-influence, formed between the end of 2005 and spring 2006, in Berlin, Germany.\r\n\r\nAfter releasing a Demo Tape and a Split-CD with Molotov Solution on Twelve Gauge Records in 2006, the quintet signed to Lifeforce Records for the release of their full length debut album 'Transmetropolitan' in 2007. After departing with their old vocalist they released 'In Shoals' in April 2009 with their new vocalist, Nico (former The Ocean).",
+        "artist_bio": "War from a Harlots Mouth is a mathcore / tech metal Band with a slight jazz-influence, formed between the end of 2005 and spring 2006, in Berlin, Germany.<p>After releasing a Demo Tape and a Split-CD with Molotov Solution on Twelve Gauge Records in 2006, the quintet signed to Lifeforce Records for the release of their full length debut album 'Transmetropolitan' in 2007. After departing with their old vocalist they released 'In Shoals' in April 2009 with their new vocalist, Nico (former The Ocean).",
         "artist_type": "affiliate",
         "artist_contact": "#",
         "status": "Active",
@@ -383,10 +384,21 @@ const artistData = [
         "artist": "Where Eagles Dare",
         "artist_nice_name": "wed",
         "artist_location": "Phoenix, AZ",
-        "artist_bio": "Named after a Misfits song, Where Eagles Dare, from Tempe, Arizona, with screeching vocals reminiscent of early Stretch Arm Strong and Shutdown. Musically coming at you like a mixture of both the aforementioned bands with melody, speed, and well written lyrics.\r\n\r\nWhere Eagles Dare is no longer together, but is still considered by much of Arizona's hardcore scene as one of the best bands to ever come out of their hometown.",
+        "artist_bio": "Named after a Misfits song, Where Eagles Dare, from Tempe, Arizona, with screeching vocals reminiscent of early Stretch Arm Strong and Shutdown. Musically coming at you like a mixture of both the aforementioned bands with melody, speed, and well written lyrics.<p>Where Eagles Dare is no longer together, but is still considered by much of Arizona's hardcore scene as one of the best bands to ever come out of their hometown.",
         "artist_type": "affiliate",
         "artist_contact": "#",
         "status": "Inactive",
+        "id": 17,
+        "image": null
+    },
+    {
+        "artist": "World Peace",
+        "artist_nice_name": "worldpeace",
+        "artist_location": "Oakland, CA",
+        "artist_bio": "World Peace is a two-piece powerviolence band featuring no guitar from Oakland, CA. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland three piece craft a sound wholly their own.",
+        "artist_type": "artist",
+        "artist_contact": "#",
+        "status": "Unannounced",
         "id": 17,
         "image": null
     },
@@ -415,3 +427,4 @@ const artistData = [
 ]
 
 export default artistData;
+
