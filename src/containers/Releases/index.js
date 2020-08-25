@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import ReleaseTile from '../ReleaseTile/index.js';
-import ReleaseDetail from '../ReleaseDetail/index.js';
+// import ReleaseDetail from '../ReleaseDetail/index.js';
 import releaseData from '../../assets/releaseData.js';
 import ScrollToTop from '../ScrollToTop/index';
 
@@ -35,7 +35,6 @@ class Releases extends Component {
                     <div className="sectionHeader">{'//'} Releases</div>
                         {this.state.releases.map(
                             (release, index) => {
-                                console.log(release.release_date)
                                 // Filter out unannounced releases
                                 if (release.status !== 'Unannounced') {
                                     return (
