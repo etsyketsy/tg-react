@@ -40,7 +40,7 @@ class Artists extends Component {
         :
 
         <div className="content" id="artists">
-          <div className="sectionHeader">// Artists</div>
+          <div className="sectionHeader">{'//'} Artists</div>
           <div className="displayGrid">
             {
               this.state.artists.map(

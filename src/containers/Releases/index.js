@@ -32,7 +32,7 @@ class Releases extends Component {
                 <p id='loading'>loading...</p>
                 :
                 <div className="content" id="releases">
-                    <div className="sectionHeader">// Releases</div>
+                    <div className="sectionHeader">{'//'} Releases</div>
                         {this.state.releases.map(
                             (release, index) => {
                                 console.log(release.release_date)

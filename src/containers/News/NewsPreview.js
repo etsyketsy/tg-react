@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import RSSParser from 'rss-parser';
+import NotFound from '../NotFound';
 
 
 class NewsPreview extends Component {
@@ -11,14 +12,13 @@ class NewsPreview extends Component {
     componentDidMount() {
         let parser = new RSSParser();
 
-        parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
+        parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rs')
             .then(feed => {
                 this.setState({ posts: feed.items })
             })
             .catch((error) => {
                 console.log(error)
             });
-
     }
 
     render() {
@@ -43,7 +43,7 @@ class NewsPreview extends Component {
                                     <div className='previewHTML'>
                                         {ReactHtmlParser(html)}
                                     </div>
-                                    <a href={post.link} className='postLink' target="_blank" rel="noopener noreferrer"> > view full post</a>
+                                    <a href={post.link} className='postLink' target="_blank" rel="noopener noreferrer"> {'>'} view full post</a>
                                 </div>
                             )
 

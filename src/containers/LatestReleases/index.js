@@ -38,7 +38,7 @@ class LatestReleases extends Component {
             <p id="loading">loading...</p>
             :
             <div className="preview" id="latestReleases">
-                 <div className="sectionHeader">// Latest Releases</div>
+                 <div className="sectionHeader">{'//'} Latest Releases</div>
                 <div className="displayGrid">
                     {
                         this.state.releases.slice(0, this.state.itemsToRender).map(
@@ -54,7 +54,7 @@ class LatestReleases extends Component {
                         )
                     }
                 </div>
-                <Link to="/releases" replace id="releasesLink">> all releases</Link>
+                <Link to="/releases" replace id="releasesLink">{'>'} all releases</Link>
             </div>
         )
     }
