@@ -45,7 +45,7 @@ class Releases extends Component {
                                             />
                                     )
                                 }
-                               
+                                else return null;
                             }
                         )
                         }
