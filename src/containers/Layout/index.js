@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import logo from '../../assets/tg_triangle_logo.png';
+import logo from '../../assets/tgArt/tg_triangle_logo.png';
 import About from '../About/index.js';
 import Contact from '../Contact/index.js';
 import './index.css';
@@ -18,7 +18,6 @@ class Layout extends Component {
           </Link>
 
           <div id="navLinks">
-
             <NavLink to="/" activeClassName="active" exact replace>
               <div className='text'>HOME</div>
             </NavLink>
@@ -34,9 +33,6 @@ class Layout extends Component {
             <a href="https://music.tgrex.com/" target="_blank" rel="noopener noreferrer">
               <div className='text'>AUDIO</div>
             </a>
-            {/* <NavLink to="/about" activeClassName="active" replace>
-              <div className='text'>ABOUT</div>
-            </NavLink> */}
             <a href="https://deathwishinc.com/collections/twelve-gauge"
               target="_blank" rel="noopener noreferrer">
               <div className='text'>STORE</div>

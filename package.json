@@ -15,7 +15,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy-production": "react-scripts build && scp -C -i ~/.ssh/tg_droplet -r ./build/* sarah@157.245.89.69:~/html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

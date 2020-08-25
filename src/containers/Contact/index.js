@@ -5,7 +5,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="content" id="contact">
-                <div className="sectionHeader">// Contact</div>
+                <div className="sectionHeader">{'//'} Contact</div>
                 <div className="contactDisplay">
                     <p>Label matters: jihad@twelvegaugehc.com</p>
 

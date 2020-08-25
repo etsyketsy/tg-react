@@ -11,14 +11,25 @@ class LatestReleases extends Component {
         releases: null
     }
 
+    sortByReleaseDate = (releases)  => {
+        // Sort releases by Release Date
+        // First converts release_date from a string to date format for sorting
+        let sortedReleases = releases.sort((x, y) => {
+            let a = new Date(x.release_date),
+                b = new Date(y.release_date);
+            return b - a;
+        });
+        this.setState(
+            { releases: sortedReleases }
+        )
+    }
+
     componentDidMount() {
         let filteredReleases = releaseData.filter(
-            release =>  release.status != 'Unannounced'
+            release =>  release.status !== 'Unannounced'
         );
 
-        this.setState(
-            { releases: filteredReleases }
-        )
+        this.sortByReleaseDate(filteredReleases)
     }
 
     render() {
@@ -27,7 +38,7 @@ class LatestReleases extends Component {
             <p id="loading">loading...</p>
             :
             <div className="preview" id="latestReleases">
-                 <div className="sectionHeader">// Latest Releases</div>
+                 <div className="sectionHeader">{'//'} Latest Releases</div>
                 <div className="displayGrid">
                     {
                         this.state.releases.slice(0, this.state.itemsToRender).map(
@@ -43,7 +54,7 @@ class LatestReleases extends Component {
                         )
                     }
                 </div>
-                <Link to="/releases" replace id="releasesLink">> all releases</Link>
+                <Link to="/releases" replace id="releasesLink">{'>'} all releases</Link>
             </div>
         )
     }

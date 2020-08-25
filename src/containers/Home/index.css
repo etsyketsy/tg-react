@@ -1,5 +1,4 @@
 .postPreview .postLink {
-  /* font-size: 1.5vmin; */
   border-bottom: solid #ffcebe;
 } 
 
@@ -50,7 +49,6 @@
   width: 100%;
   font-size: 1rem;
 }
-
 
 #newsPreview {
   max-height: 100%;
@@ -139,7 +137,6 @@
     flex-direction: column;
     height: 100%;
     margin-right: 1.5vh;
-    /* box-sizing: border-box; */
   }
 
   #newsPreview {
@@ -179,8 +176,6 @@
   #latestReleases .releaseHeadline {
     font-size: 4.75vmin;
   }
-
-  
 }
 
 

@@ -7,11 +7,6 @@
     border-top: solid #ffcebe;
 }
 
-/* .artistSlide .location {
-    font-size: 1.2vw;
-    line-height: 1em;
-} */
-
 .artistPreview img {
     display: flex;
     width: inherit;
@@ -29,6 +24,5 @@
 @media only screen and (max-width: 480px) {
     .artistPreview .name {
         font-size: 4vmin;
-        /* word-break: break-word; */
     }
 }

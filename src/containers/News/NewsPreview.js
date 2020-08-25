@@ -3,6 +3,7 @@ import ReactHtmlParser from 'react-html-parser';
 import RSSParser from 'rss-parser';
 
 
+
 class NewsPreview extends Component {
     state = {
         posts: null
@@ -18,7 +19,6 @@ class NewsPreview extends Component {
             .catch((error) => {
                 console.log(error)
             });
-
     }
 
     render() {
@@ -27,7 +27,7 @@ class NewsPreview extends Component {
             <p id='loading'>loading...</p>
                 :
                 <div id='newsPreview' className='preview'>
-                    <div className="sectionHeader">// Latest News</div>
+                    <div className="sectionHeader">{'//'} Latest News</div>
                     {
 
                         this.state.posts.slice(0, 5).map((post, index) => {
@@ -43,7 +43,7 @@ class NewsPreview extends Component {
                                     <div className='previewHTML'>
                                         {ReactHtmlParser(html)}
                                     </div>
-                                    <a href={post.link} className='postLink' target="_blank" rel="noopener noreferrer"> > view full post</a>
+                                    <a href={post.link} className='postLink' target="_blank" rel="noopener noreferrer"> {'>'} view full post</a>
                                 </div>
                             )
 

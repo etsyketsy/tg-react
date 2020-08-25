@@ -7,7 +7,7 @@ class About extends Component {
 
         return (
             <div id='about'>
-                <div className="sectionHeader">// About Twelve Gauge</div>
+                <div className="sectionHeader">{'//'} About Twelve Gauge</div>
                 <div className="aboutDisplay">
                     <p>Twelve Gauge Records is an independent record label currently operating out of New York, NY with a rich roster of hardcore and metal artists like Sabertooth Zombie, Power, Heavy Heavy Low Low, and others.</p>
 

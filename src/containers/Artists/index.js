@@ -40,13 +40,13 @@ class Artists extends Component {
         :
 
         <div className="content" id="artists">
-          <div className="sectionHeader">// Artists</div>
+          <div className="sectionHeader">{'//'} Artists</div>
           <div className="displayGrid">
             {
               this.state.artists.map(
                 (artist, index) => {
-                  // List only artists, not affiliates
-                  if (artist.artist_type === 'artist' && artist.status != 'Unannounced') {
+                  // List only artists, not affiliates or unannouncd artists
+                  if (artist.artist_type === 'artist' && artist.status !== 'Unannounced') {
                     return (
                       <Link to={{
                         pathname: `/artists/${artist.artist_nice_name}/`,

@@ -37,7 +37,7 @@
 
 #header {
   width: 100%;
-  background: url(../../assets/halftone2.jpg);
+  background: url(../../assets/tgArt/halftone2.jpg);
   background-size: 67%;
   background-repeat: repeat;
   padding-top: 3vh;
@@ -188,6 +188,4 @@
   #about {
     min-width: 100%;
   }
-
-
 }

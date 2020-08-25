@@ -4,8 +4,6 @@
     display: block;
     margin-bottom: 5vh; 
     font-size: 4vmin;
-    /* height: 2vh;
-    width: 3.5vh; */
     width: 5vh;
     font-family: 'Inconsolata', monospace;
 }  
@@ -111,7 +109,6 @@
     }
 
     .artistDetail .artistPhoto {
-        /* width: 40%; */
         object-fit: scale-down;
         padding: 0;
     }

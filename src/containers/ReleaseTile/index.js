@@ -10,10 +10,6 @@ class ReleaseTile extends Component {
         expanded: false
     }
 
-    // getSplitArtistLinks = (props) =>{
-    //     (props.item.artist >= 2) ?
-    // }
-
     getSplitArtists = (props) => {
         // Get array of artist nice names and match against artists in the artist name array
         let artistNiceNames = this.props.item.artist_nice_name.split("_");
@@ -24,7 +20,7 @@ class ReleaseTile extends Component {
                 for (let i = 0; i < this.props.item.artist.length; i++) {
                     for (let j = 0; j < artistNiceNames.length; j++) {
                         let test = this.props.item.artist[j][0].toLowerCase();
-                        if (test == niceName[i]) {
+                        if (test === niceName[i]) {
                             splitLinks.push(
                                 {
                                     url: niceName,
@@ -59,7 +55,7 @@ class ReleaseTile extends Component {
     }
 
 
-
+    // Opens/closes track listing
     tracksClickHandler = (e) => {
         this.setState(
             { expanded: !this.state.expanded }
