@@ -81,16 +81,13 @@
     }
 }   
 
-/* Extra small sizing */
+/* Extra small window and mobile phone sizing */
 @media only screen and (max-width: 610px) {
     .artistReleases {
         display: flex;
         flex-flow: column wrap;
     }
-} 
 
-/* Mobile sizing */
-@media only screen and (max-width: 480px) {
     .artistDetail .name {
         margin-top: 4.75vw;
         font-size: 6vmin;
