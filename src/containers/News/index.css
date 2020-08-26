@@ -1,0 +1,87 @@
+/* .post img {
+    max-width: 30vh;
+    float: left;
+    margin-right: 1vh;
+}
+.post figure {
+    margin: 0;
+    margin-top: 1vh;
+    float: top;
+}
+.post {
+    margin-bottom: 2vh;
+}
+.postHTML {
+    padding: 0;
+}
+.postTitle {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    font-size: 2vmin;
+    border-bottom: solid #ffcebe;
+}
+.postLink {
+    border-bottom: solid #ffcebe;
+    font-size: 1vmin;
+    margin-bottom: 2vh;
+}
+#blogLink .text{
+    border-bottom: solid #ffcebe;
+    margin-right: 3vh;
+}
+#blogLink {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    margin-bottom: 5vh;
+}
+#news {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
+}
+br {
+    display: none;
+}
+@media only screen and (max-width: 1024px) {
+    .post{
+      width: 100%;
+      font-size: .75em;
+      margin-left: 1vh;
+      margin-right: 1vh;
+    }
+    .postHTML {
+        width: 100%;
+    }
+    .postHTML img {
+        width: 20vh;
+        margin: 0;
+        margin-right: 1vh;
+        object-fit: scale-down;
+        float: left;
+    }
+    .postHTML figure {
+       display: hidden;
+       width: 20vh;
+       height: 20vh;
+       margin: 0;
+       margin-right: 1vh;
+       float: left;
+    }
+    .postHTML p {
+        margin: 0;
+        margin-bottom: 1.5vh;
+        float: top;
+        vertical-align: top;
+    }
+    .postTitle {
+        width: 100%;
+        font-size: 1.5em;
+        margin-bottom: 1vh;
+    }
+} */
