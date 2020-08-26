@@ -3,6 +3,7 @@ import { withRouter, Link } from 'react-router-dom';
 import ArtistPreview from '../ArtistPreview/index.js';
 import artistData from '../../assets/artistData.js';
 import ScrollToTop from '../ScrollToTop/index';
+import './index.css';
 
 
 class Artists extends Component {

@@ -1,0 +1,8 @@
+
+
+/* Tablet sizing */
+@media only screen and (max-width: 890px) and (min-width:830px) {
+    #artists .displayGrid {
+        margin-right: 2vh;
+    }
+}    
