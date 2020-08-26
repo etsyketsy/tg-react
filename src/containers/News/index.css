@@ -102,7 +102,7 @@
     }  
   
     .postHTML {
-      font-size: 2vmin;
+      font-size: 2.5vmin;
       margin-bottom: 0vh;
     }  
 
@@ -120,6 +120,7 @@
     .post {
         margin-right: 1vh;
     }
+
     .postTitle {
         font-size: 4.75vw;
     }
