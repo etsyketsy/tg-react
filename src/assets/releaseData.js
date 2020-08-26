@@ -94,7 +94,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>D.O.A.</li>\r\n<li>Shoes</li>\r\n<li>Decayed Decade</li>\r\n<li>Flee Creep And Cheat</li>\r\n<li>Automatic Minds</li>\r\n<li>Fragments</li>\r\n<li>The Gallows</li>\r\n<li>Black Of Mouth</li>\r\n<li>Interlude</li>\r\n<li>Rotten</li>\r\n<li>I'm Fucking Disgusted</li>\r\n<li>Self Mouth</li>\r\n<li>Seven Swords</li>\r\n<li>Get Bent</li>\r\n<li>Live In Hell Rot In Dirt</li>\r\n<li>Lady Death</li>\r\n<li>Giant</li>\r\n<li>Rat Bones</li>\r\n</ol>",
         "bio": "<p>A hardcore staple from Bay Area hardcore outfit Sabertooth Zombie. Never intended to be pressed on vinyl but highly sought after, this record is being pressed to support the fight for Brown and Black liberation. All proceeds are donated to BLM causes.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=3591531558/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/midnight-sessions">Midnight Sessions by Sabertooth Zombie</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=3591531558/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/midnight-sessions">Midnight Sessions by Sabertooth Zombie</a></iframe>',
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -110,7 +110,7 @@ const releaseData =
         "tracklisting": "<ol><li>dawn </li><li>Bereft</li><li>sepia</li><li>prefrontal cortex</li><li>dendrochronology</li><li>maiden name</li><li>glucocorticoids </li><li>serotonin </li><li>promenade </li><li>the god damn planed has crashed into the mountain</li><li>excavate</li><li>din </li><li>echolocation </li><li>exquisite corpse</li></ol>",
         "bio": "<p>dawn is Thin’s 14-track debut LP, which Decibel Magazine described as a “cover-to-cover assault on the brain”. Clocking in at just under 16 minutes, dawn barely gives the listener time to realize what hit them. Despite the short run time, the album incorporates a variety of riffs, blasts, breakdowns, and shrieks that toe the line between mathcore and grind.</p><p>dawn was tracked and mixed by Scot Moriarty, at Backroom Studios, in Rockaway, NJ, and was mastered by Brad Boatright, at Audiosiege, in Portland, OR. Originally released on April 20, 2020, and pressed to cassette in the US and Europe (Lower Class Kids Records), Dawn is seeing new life in the form of a one-sided 12”LP, along with a repress of the tape, on Twelve Gauge Records.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2593780934/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://music.tgrex.com/album/dawn">Dawn by Thin</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2593780934/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://music.tgrex.com/album/dawn">Dawn by Thin</a></iframe>',
         "artist": [
             "Thin"
         ],
@@ -126,7 +126,7 @@ const releaseData =
         "tracklisting": "<ol><li>Sidetracked - Out Of Line</li><li>Sidetracked - Investor</li><li>Sidetracked - Separate Ways</li><li>Sidetracked - Regress</li><li>Sidetracked - Lowest Point</li><li>Sidetracked - Disarray</li><li>The Seeker - Room One-O-Four</li><li>The Seeker - Know It All Fuck</li><li>The Seeker - Mandatory Fuck You</li><li>The Seeker - Chopstix</li><li>The Seeker - Sleep Paralysis (Voice In My Head)</li><li>The Seeker - The Bright Life of Burning Bridges</li><li>The Seeker - GG Carlin</li></ol>",
         "bio": "<p>This split brings together two powerviolence bands from half way across the world from one another: Tacoma's very own Sidetracked and Milan, Italy's The Seeker. A short but sweet collection of raw, loud and fast tracks brought to you as a co-release between Twelve Gauge, To Live a Lie and Here And Now Records.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3806589230/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/sidetracked-the-seeker-split">Sidetracked/The Seeker Split by Sidetracked &amp; The Seeker</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3806589230/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/sidetracked-the-seeker-split">Sidetracked/The Seeker Split by Sidetracked &amp; The Seeker</a></iframe>',
         "artist": [
             "Sidetracked",
             "The Seeker"
@@ -159,7 +159,7 @@ const releaseData =
         "tracklisting": "<ol><li>For Your Health - Charlie Brown’s Gotta Be Damn Near Public Domain By Now</li><li>For Your Health - Keres</li><li>For Your Health - Come In, I've Hanged Myself!</li><li>For Your Health - Hey Did You Know That The Drummer From Saetia Was In Interpol?</li><li>For Your Health - Enter Flesh</li><li>Shin Guard - Grief Instilled</li><li>Shin Guard - Both Stricken</li><li>Shin Guard - Perfect Boy</li><li>Shin Guard - Apropos Mortality</li></ol>",
         "bio": "<p>Death of Spring brings two up and coming hardcore bands: Columbus, Ohio's For Your Health and Pittsburg, Pennsylvania's Shin Guard. Originally released digitally and on tape in May 2019, this split is being pressed on vinyl as a co-release between Middle Man Records, iCorrupt, Quiet Year and Twelve Gauge.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1283864193/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/death-of-spring">Death of Spring by For Your Health &amp; Shin Guard</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1283864193/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/death-of-spring">Death of Spring by For Your Health &amp; Shin Guard</a></iframe>',
         "artist": [
             "For Your Health",
             "Shin Guard"
@@ -176,7 +176,7 @@ const releaseData =
         "tracklisting": "<ol><li>Holding</li><li>Nothing Said</li><li>Ephemeral</li><li>Visions</li><li>Atonement</li><li>Mirrored Limbs</li><li>Hamartia</li><li>Thin Veil</li><li>Still Life</li><li>Colored Gray</li></ol>",
         "bio": "<p>Nova Scotia's Frail Hands is back at it again with their latest release, \"parted/departed/apart\", a full-length 12\"LP that features the band's first piece of recorded music as a four-piece since the departure of vocalist Dawn Almeda. This is arguably the band's best material to date and is still the same chaotic and raw sound you've learned to expect from them.</p><p>The album was recorded by Palmer Jamieson at the Golden Palm in June-July 2019 and was mixed and mastered by Jack Shirley at the Atomic Garden shortly after. Artwork was done by M. Harrison of Aught \\ Void.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1719663425/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/parted-departed-apart">parted/departed/apart by Frail Hands</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1719663425/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/parted-departed-apart">parted/departed/apart by Frail Hands</a></iframe>',
         "artist": [
             "Frail Hands"
         ],
@@ -192,7 +192,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Pizza Party</li>\r\n<li>Inhalant Abuse Is Illegal And Can Be Fatal</li>\r\n<li>There's A Bat</li>\r\n<li>Do You Like Guns? Want to See My Passport?</li>\r\n<li>Kids Kids Kids</li>\r\n<li>You Killed The Bee, But You Broke The Light You Asshole</li>\r\n<li>Very Dramatic</li>\r\n<li>Saran Wrap Love Affair</li>\r\n<li>Vaginal Blood And Construction Paper Cigarettes</li>\r\n<li>Track 10</li>\r\n<li>Track 11</li>\r\n</ol>",
         "bio": "<p>Young, dumb and full of fun.. Courtside Seats was recorded in a studio situated in the corner of a large warehouse in Mountain View, California by local hip hop producer Deegan Adams. The sophomore (and admittedly sophomoric) release by Heavy Heavy Low Low was originally only pressed on a limited and long out of print CD. October 25th 2019 will see the first ever vinyl pressing of the record almost 15 years since its original release.</p><p>Pressed with new artwork done by vocalist Robbie Smith.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2019131599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/courtside-seats">Courtside Seats... by Heavy Heavy Low Low</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2019131599/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/courtside-seats">Courtside Seats... by Heavy Heavy Low Low</a></iframe>',
         "artist": [
             "Heavy Heavy Low Low"
         ],
@@ -208,7 +208,7 @@ const releaseData =
         "tracklisting": "<ol><li>A Riddle, No Answer</li><li>Rome</li><li>Lonely Ones</li><li>Lilacs</li><li>Desire Lies</li><li>Maybe Someday, Maybe Never</li><li>Look To The Stars</li><li>Remembering</li></ol>",
         "bio": "<p>Fresh off their west coast tour with The Fall of Troy, Los Angeles DIY screamo outfit Ghost Spirit returns with their new LP Hourglass on Twelve Gauge and Blue Swan Records on October 18, 2019.</p><p>Reteaming with grammy nominated producer Jack Shirley, the 8-track record leads with the blistering dissonant breakdowns of A Riddle, No Answer, then pulls you through a descent of heartfelt and urgent hardcore compositions. New member and scene veteran Nikolas Soelter (Calculator, Never Young) joins Niko Zaglaras (Lord Snow, Raw Nerve) on second guitar to bring an even more focused harsh sonic aesthetic than found on their previous self-titled LP as well as their split with Nova Scotia’s Frail Hands. On the record’s climax Look To The Stars, Taylor Jewell’s (Nuvoluscara, Elle) kinetic and signature crushing drums along with Alex Bigman’s (Seeing Means More, Fight Fair) desperate screaming showcases the band’s roots with influences including Portraits of Past, Envy, and 7 Angels 7 Plagues. In a line of consistently intense releases, Ghost Spirit’s third LP solidifies their place in the community and puts the band in league with contemporaries Portrayal of Guilt, Loma Prieta, and Touche Amore.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1031741231/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/hourglass">Hourglass by Ghost Spirit</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1031741231/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/hourglass">Hourglass by Ghost Spirit</a></iframe>',
         "artist": [
             "Ghost Spirit"
         ],
@@ -224,7 +224,7 @@ const releaseData =
         "tracklisting": "<ol><li>Motorcade</li><li>Epiphany</li><li>Soliloquy Of The Hourglass</li><li>Kennedy</li><li>2007</li><li>Sure</li><li>Spears</li><li>You Will Be Held Accountable For Your Actions</li></ol>",
         "bio": "<p>Shin Guard’s ‘2020’ is a side of the Pittsburgh four piece we hadn’t quite seen before. The release takes you on a journey filled with raw emotion, angst, and melody and leaves you wondering how a band blended such a wide range of influences so perfectly. 2020 is a socially conscious hardcore album, an amalgamation of riffs and screams at peak desperation. In 26 minutes, Shin Guard covers topics such as accountability, oppression, love, and more. Sound-wise, Shin Guard is a band from screamo and hardcore fans a like – sometimes compared to The Fall Of Troy but are really drawing and blending influences from much more.</p><p>Originally recorded during the months of December 2018 to January 2019 at Cafe Verona and released in February 2019 on tape by Flowerpot.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1480537049/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/2020">2020 by Shin Guard</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1480537049/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/2020">2020 by Shin Guard</a></iframe>',
         "artist": [
             "Shin Guard"
         ],
@@ -240,7 +240,7 @@ const releaseData =
         "tracklisting": "<ol><li>Convoy</li><li>Dissolution</li><li>Snow in June</li><li>Lambsong</li><li>Crematoria</li><li>Intravenous</li><li>Remorse</li><li>Grasp Unyielding</li><li>A Third and Final Solstice</li><li>Kernel Panic</li></ol>",
         "bio": "<p>Originally released on tape in 2017 by Middle Man Records, this is Frail Hands’ first piece of recorded music, ten tracks of raw angry screamo influenced by bands like Portraits of Past, Loma Prieta, Orchid, and La Quiete. If you liked the split with Ghost Spirit we recently released, you’ll definitely want to check this out. It’s not something to sleep on.<p></p>Recorded at the Echo Chamber by Palmer Jamieson. Mixed and mastered by Jack Shirley at the Atomic Garden.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=765346872/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/frail-hands">Frail Hands by Frail Hands</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=765346872/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/frail-hands">Frail Hands by Frail Hands</a></iframe>',
         "artist": [
             "Frail Hands"
         ],
@@ -256,7 +256,7 @@ const releaseData =
         "tracklisting": "<ol><li>Ghost Spirit - Sick Dreams</li><li>Ghost Spirit - The Guilt Of Your Affection</li><li>Ghost Spirit - A Hollow Peak</li><li>Ghost Spirit - Dark Winter</li><li>Ghost Spirit - Skull</li><li>Ghost Spirit - In Parting</li><li>Frail Hands - The Image Of You</li><li>Frail Hands - Mortar And Pestle</li><li>Frail Hands - Collateral</li><li>Frail Hands - Atonement</li><li>Frail Hands - In Conclusion</li><li>Frail Hands - Every Volatile Thing</li></ol>",
         "bio": "<p>Hailing from Los Angeles, Ghost Spirit is a four piece made up from members of Lord Snow, Letters to Catalonia, and Seeing Means More. Their side of the split comes as a follow-up to their unrelenting debut self-titled LP, released on Blue Swan Records in the spring of 2017. Produced by Jack Shirley (Deafheaven, Loma Prieta, Oathbreaker), these 6 new songs expand on their traditional screamo sound and into the more abrasive and melodic side of hardcore.</p><p>From across the continent, Frail Hands is a five piece from Halifax, Nova Scotia with members of King’s Girls and Heisse. This is the follow up to their widely received self-titled debut LP released on Middle Man Records in the fall of 2017. Mixed and mastered by Jack Shirley, the energy of these 6 songs hit you in the face with a sonic assault of pure emotion that leaves you in a state of trance.</p><p>These two bands are very well suited for each other and bring their own variation of real screamo thats pays homage to bands like Portraits of Past, Loma Prieta, Orchid, and La Quiete. If you want to temporarily forget you’re living in 2018 and be taken back to a time when music was raw, heartfelt, and emotional…this record is for you.</p>",
         "ffo": null,
-        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3215704805/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/ghost-spirit-frail-hands-split">Ghost Spirit / Frail Hands Split by Ghost Spirit &amp; Frail Hands</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3215704805/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/ghost-spirit-frail-hands-split">Ghost Spirit / Frail Hands Split by Ghost Spirit &amp; Frail Hands</a></iframe>',
         "artist": [
             "Ghost Spirit",
             "Frail Hands"
@@ -273,7 +273,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Future</li>\r\n<li>Lapse</li>\r\n<li>Breathing and Choking</li>\r\n<li>The Break</li>\r\n<li>Yearly</li>\r\n<li>Nostalgia and Expiration</li>\r\n</ol>",
         "bio": "<p>Duration and Delusion follows up the debut with more of what made that album great: minimal noise-punk jams seethe with feeling, existing in a space right between the raging and desperate and the totally stoned.</p><p>Frontman Jake Spek's anxiety-ridden rasp is the voice of a man carrying the weight of the world and trying to make sense of it all. Clean guitars strum urgently and break into surf rock tones as bare-bones drums and bass pound out tight Crass-like cadences. The band – Spek, drummer Jacob Harris, and bassist Conrad Nichols – name influences like The Melvins, Born Against, and the entire rosters of Ebullition and Dischord Records.</p><p>Spek says Duration and Delusion is a record about time: \"It's about our understanding of time and how it controls us. How our understanding of it shapes how we approach everything. Time as a power structure and a tool used in the reproduction of capital. The limitations imposed by structures we ourselves have created and abide by. The police. The state. Capitalism. People taking the streets. And weed, of course. Kill the cop in your head.\"</p>",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album= 426088097/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/duration-and-delusion\">Duration And Delusion by Nervous</a></iframe>",
         "artist": [
             "Nervous"
         ],
@@ -289,7 +289,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>$uck It</li>\r\n<li>Cageless</li>\r\n<li>L.O.S. (Life of Spite)</li>\r\n<li>Slow Train Coming</li>\r\n<li>Shepherds and Sheep</li>\r\n<li>When It's Time</li>\r\n</ol>",
         "bio": "<p></p>Heavy Muscle was recorded and mixed by Phil Jones at The Dangler in Seattle, and mastered by Chris Mathews, Jr. The EP follows 2013 full-length Bremerton Zoo and 2011 EP Death Haunts, both also released on Twelve Gauge Records. Of Bremerton Zoo, UK blog Tight to the Nail opined:<blockquote>\"The wild-eyed, antisocial, bloodied knuckles and beer-stained jeans flipside to the old school hardcore coin... Drawing influence from Black Flag with their anarchic and raw fuck-you-core, Power have created a vicious and unpredictable record.\"</blockquote></p>",
         "ffo": "Sam Black Church, Biohazard, Onyx, Nirvana",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1838276407/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/heavy-muscle\">Heavy Muscle by Power</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1838276407/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/heavy-muscle\">Heavy Muscle by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -305,7 +305,7 @@ const releaseData =
         "tracklisting": "<ol>\r\n<li>The Headache\r\n<li>Coffin Coast\r\n<li>Gardens Of Loss\r\n<li>Crazy Endings\r\n</ol>",
         "bio": "<p>The fourth EP in the four part series, Human Performance by Sabertooth Zombie featuring four songs that go places The Tooth have never gone. Recorded and mixed by Sam Pura at The Panda Studios (Self Defense Family, No Sir, North) and mastered by Piper Payne (Edward Sharpe and the Magnetic Zeros).",
         "ffo": "Metallica, Black Sabbath, Punk</p>",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3781833552/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iv\">Human Performance IV by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3781833552/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iv\">Human Performance IV by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -321,7 +321,7 @@ const releaseData =
         "tracklisting": "<ol>\r\n<li>Vultures\r\n<li>Confidante\r\n<li>I Remember\r\n<li>When It Pours\r\n<li>Weak But Warm\r\n<li>See You When I See You\r\n</ol>",
         "bio": "Debut Twelve Gauge Release from New Hampshire screamo/post-hardcore outfit Youth Funeral. Follow up to their self-released EP, Symptoms of Time.",
         "ffo": "Jeromes Dream, Orchid, Joshua Fit For Battle",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2110031721/size=large/bgcol=ffffff/linkcol=ff5247/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/see-you-when-i-see-you\">See You When I See You by Youth Funeral</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2110031721/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/see-you-when-i-see-you\">See You When I See You by Youth Funeral</a></iframe>",
         "artist": [
             "Youth Funeral"
         ],
@@ -337,7 +337,7 @@ const releaseData =
         "tracklisting": "<ol>\r\n<li>Good Morning\r\n<li>Cog In The Machine\r\n<li>Day Off\r\n<li>Perfection\r\n<li>Home\r\n<li>Birthday Party\r\n<li>Satire About A Vampire\r\n<li>Vulture\r\n<li>Hungry\r\n<li>Can’t Feel A Thing\r\n</ol>",
         "bio": "<p>Hot on the heels of No Sir's The Future Is Bright, Twelve Gauge Records presents its next home run: the self-titled debut album by Nervous, out September 24th.\r\n<p>From Oakland, California, Nervous consists of frontman Jake Spek (Lewd Acts) and drummer Jacob Harris (Big Kids, Acid Fast). Best friends and co-pilots of Oakland DIY venue The Hive, Spek and Harris have announced Nervous to be their new priority. This is no side project, it's a real band with its own sound.\r\n<p>There's something of a Nirvana vibe with Nervous - or, more accurately, the band is inspired by many of the same bands Kurt Cobain espoused: Wipers, Pixies, The Jesus Lizard. Spek and Harris take these inspirations and twist them into anxiety-ridden California punk anthems. Spek's unhinged vocals are an absolute standout, something like David Yow in a really fired-up mood. His lyrics address true everyday struggles of the broke, lazy, and intelligent, and honesty seeps through his every word. When Spek sings about being depressed, it's not depressing - on the contrary, he pulls you right in and makes you want to shout along, and you're left applauding him for having the courage to be so real. From the album's opening track, \"Good Morning\": \"Absolutely no sense of urgency / Not going to work, that is a certainty / I don't want to hang out, that shit is boring / I got a cut on my leg that won't stop bleeding / I think that I'm decomposing\".\r\n<p>Recorded and mixed by Jack Shirley (Deafheaven, Loma Prieta) and mastered by Alan Douches (Converge and so many more), Nervous' self-titled debut sounds clear and rich, rock-solid and rocking. The tracklist is as follows:",
         "ffo": "Wipers, Soundgarden, Hot Snakes, Pixies, Sonic Youth",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=3703321340/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=3703321340/size=medium/bgcol=ffffff/linkcol=383838/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
         "artist": [
             "Nervous"
         ],
@@ -353,7 +353,7 @@ const releaseData =
         "tracklisting": "<ol>\r\n<li>Intro\r\n<li>The Crowd\r\n<li>C.A.L.I.F.O.R.N.I.A.\r\n<li>Anxiety Consumption\r\n<li>I Doubt You'll Ever Swim Again\r\n<li>Wet Worlds\r\n<li>I Pushed Back, Violently\r\n<li>Interlude\r\n<li>The Baseline Percentage\r\n<li>Bad Vibes\r\n<li>Momma I'm A Good Boy\r\n</ol>",
         "bio": "<p>From Santa Rosa, California, No Sir (featuring members of Sabertooth Zombie and Creative Adult) hail from within a flourishing circle of current West Coast hardcore punk bands - bands like Ghostlimb, Loma Prieta, Punch, Trash Talk, and Ceremony. Varying in style, these Golden State bands of today are bonded by a general aesthetic: highly artistic and intellectual yet determined to keep things raw, lo-fi, and DIY. Gut-level music for the thinking man. No Sir are representatives of this modern scene but can also be understood in a historical context, as heirs to the legacy of an older generation of Californians - the extreme hardcore punk bands that have filled the pages of Maximumrocknroll for years, from Dead and Gone to Talk Is Poison to Look Back and Laugh.\r\n<p>If you ask No Sir themselves, they'll add Wire and Nirvana to their list of influences too. All these references points are evident on the debut full-length, The Future Is Bright, as the band balance gloomy introspection and forward-charging aggression with a perfect sense of rock songwriting that makes every song as much a hummable hit as a punk rock exorcism.\r\n<p>Engineered, mixed, and mastered by Comadre guitarist Jack Shirley at The Atomic Garden, The Future Is Bright was tracked live in the studio to capture the true energy of the band. Shirley is a go-to producer for the West Coast scene, having helped make records for Deafheaven, Graf Orlock, Ghostlimb, Loma Prieta, and more.",
         "ffo": "Discharge, Negative Approach, Nirvana",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=710562126/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=710562126/size=medium/bgcol=ffffff/linkcol=383838/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/the-future-is-bright\">The Future Is Bright by No Sir</a></iframe>",
         "artist": [
             "No Sir"
         ],
@@ -369,7 +369,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Bremerton Zoo\r\n<li>Buried Me\r\n<li>Eight Eyes\r\n<li>In-stride\r\n<li>Thinking Evil\r\n<li>Rotten Apple\r\n<li>Razors/Knives\r\n<li>Power\r\n<li>Animal II\r\n<li>When It's Time\r\n<li>Sweet Leaf\r\n</ol>",
         "bio": "<p>Bremerton's finest are back at it with their debut LP 'Bremerton Zoo' following up on their previously self-released 7\"EP and more recently 'Death Haunts' 7\"EP on Twelve Gauge. This time around, things are getting serious. Power's new LP is eleven tracks featuring the band's signature hard-hitting hardcore sound, and a cover of Black Sabbath's Sweet Leaf (who would've guessed?). This record keeps up with the tradition record of being fast-paced, pissed off and loud giving the listener no chance to lose focus.\r\n<p>Bremerton Zoo was recorded by Rusty Graeff during the months of July and August in Tacoma, WA and mastered by Chris Matthews Jr. at Joonior Studios.",
         "ffo": "Sam Black Church, Biohazard, Onyx, Nirvana",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2022299670/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/bremerton-zoo\">Bremerton Zoo by Power</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2022299670/size=medium/bgcol=ffffff/linkcol=383838/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/bremerton-zoo\">Bremerton Zoo by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -385,7 +385,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Another Mistake - Stuck In My Ways</li>\r\n<li>Another Mistake - Proof (Written Off Cover)</li>\r\n<li>Another Mistake - Up and Over</li>\r\n<li>Overlooked - Past or Present</li>\r\n<li>Overlooked - Fence Walker</li>\r\n<li>Overlooked - Means to An End</li>\r\n</ol>",
         "bio": "<p>Another Mistake (Louisville, KY) and Overlooked (Wilmington, NC) team up together for a split EP on Twelve Gauge Records that feature each artist's newest material. This split EP features three brand new tracks from each band, mixed by Sean Collier and Drew Fulk respectively, and mastered by Sam Pura at The Panda Studios.",
         "ffo": "Count Me Out, American Nightmare, No Warning, Think I Care",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2587804011/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/split\">Split by Another Mistake &amp; Overlooked</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2587804011/size=medium/bgcol=ffffff/linkcol=383838/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/split\">Split by Another Mistake &amp; Overlooked</a></iframe>",
         "artist": [
             "Overlooked",
             "Another Mistake"
@@ -402,7 +402,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Broken Throne</li>\r\n<li>Stepped On</li>\r\n<li>Separate</li>\r\n<li>Crush The Tyrants</li>\r\n<li>Let Me Burn</li>\r\n<li>Clandestine Vengeance</li>\r\n<li>Beneath Me</li>\r\n<li>Soulless Possessor</li>\r\n<li>Insubordinate</li>\r\n</ol>",
         "bio": "<p>This is Creatures' newest LP showcasing some of the band's darkest material to date. Creatures' blend of unrelentless force and raw power produces a barbaric sound unlike any other. Recorded and mixed by Jack Shirley of The Atomic Garden and mastered by Alan Douches of West West Side Music.",
         "ffo": "Black Sabbath, Ringworm, Obituary, Crowbar",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2755099957/size=medium/bgcol=ffffff/linkcol=ff5247/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/vesuvius\">Vesuvius by Creatures</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 130px;\" src=\"http://bandcamp.com/EmbeddedPlayer/album=2755099957/size=medium/bgcol=ffffff/linkcol=383838/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/vesuvius\">Vesuvius by Creatures</a></iframe>",
         "artist": [
             "Creatures"
         ],
@@ -418,7 +418,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Haunting Of Apartment 6</li>\r\n<li>Send The Pigs</li>\r\n<li>Banana Milk</li>\r\n</ol>",
         "bio": "<p>Sabertooth Zombie and Twelve Gauge Records present the third 7\" to be titled \"Human Performance\". Those who are familiar with the first two know the feeling of a Human Performance record yet it's hard to describe. 3 songs this time in celebration of making it to the third (of 4) record in this series.",
         "ffo": "Electric Wizard, Metallica, Black Flag",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1549624465/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iii\">Human Performance III by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1549624465/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-iii\">Human Performance III by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -434,7 +434,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Freaks</li>\r\n<li>Axes</li>\r\n<li>Dekanahwideh</li>\r\n<li>Mohawk</li>\r\n<li>Altar</li>\r\n<li>Call</li>\r\n<li>Riot</li>\r\n<li>Decay</li>\r\n<li>Gloom</li>\r\n</ol>",
         "bio": "<p>Daggers hails from Brussels with a dark, metallic sound. They've wrecked several stages all over Europe and have now recorded their new full length \"Euphoria\" with Ben Phillips at Lightship95 in London. Release date for the Euphoria 12\"LP to be determined but sometime in November.",
         "ffo": "Choking Victim, Ravencult",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=58990340/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/euphoria\">Euphoria by Daggers</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=58990340/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/euphoria\">Euphoria by Daggers</a></iframe>",
         "artist": [
             "Daggers"
         ],
@@ -451,7 +451,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Pray</li>\r\n<li>Cancer</li>\r\n<li>Second Coming</li>\r\n<li>Sheep Breed Sheep</li>\r\n<li>No Love</li>\r\n</ol>",
         "bio": "<p>San Francisco based three-piece. Influences ranging from early power violence, first wave US death metal, darkened hardcore/punk, and doom metal. Recorded to analog tape then mix and mastered by Jack Shirley (Comadre, Skin Like Iron, Neo Cons) at The Atomic Garden Studio in one day. Harsh unadulterated dissonance. Co-released by T.B.H./S.F.",
         "ffo": "Crossed Out, Pig Destroyer, Converge",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2357662761/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/fatal-birth\">Fatal Birth by Fatal Birth</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2357662761/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/fatal-birth\">Fatal Birth by Fatal Birth</a></iframe>",
         "artist": [
             "Fatal Birth"
         ],
@@ -467,7 +467,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Hellhorse</li>\r\n<li>Zion</li>\r\n<li>Keine Helder</li>\r\n<li>Pig</li>\r\n<li>I Am Disposable</li>\r\n<li>Wolfpack</li>\r\n<li>Year of Skulls</li>\r\n</ol>",
         "bio": "<p>Callousing and fast metal fused with d-beat punk and hardcore. Tucson, AZ's Hellhorse is a unique blend of precision and raw aggression. Lyrically, 'Decade Of Dust' paints a bleak and mysterious picture. As much for fans of Watain and Celtic Frost as it is for those of Catharsis, Ringworm, and Gehenna (US).",
         "ffo": "Catharsis, Ringworm, Gehenna",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=878158353/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/decade-of-dust\">Decade Of Dust by Hellhorse</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=878158353/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/decade-of-dust\">Decade Of Dust by Hellhorse</a></iframe>",
         "artist": [
             "Hellhorse"
         ],
@@ -483,7 +483,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Death Haunts</li>\r\n<li>Footprints</li>\r\n<li>Quarters, Nickels and Dimes</li>\r\n<li>Black Eyes</li>\r\n<li>Daughters</li>\r\n<li>Singing and Screaming</li>\r\n<li>C.R.E.A.M</li>\r\n</ol>",
         "bio": "<p>Power is a young hardcore band from Bremerton, Washington with a fast and pissed off sound. After a demo, and self-titled 7\"EP, Power has teamed up with Twelve Gauge Records for the release of a 7 song EP titled 'Death Haunts'. This EP was recorded by Rusty Graeff in late 2010.",
         "ffo": "Hardcore and Punk",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=891119658/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/death-haunts\">Death Haunts by Power</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=891119658/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/death-haunts\">Death Haunts by Power</a></iframe>",
         "artist": [
             "Power"
         ],
@@ -499,7 +499,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Harm Reduction</li>\r\n<li>Ball Of Wax</li>\r\n</ol>",
         "bio": "",
         "ffo": "",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2072950714/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-ii\">Human Performance II by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2072950714/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-ii\">Human Performance II by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -515,7 +515,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Je Suis Ame Solitaire</li>\r\n<li>Customary Impurity</li>\r\n<li>Meat Hole</li>\r\n<li>We Incompetent Sperm</li>\r\n</ol>",
         "bio": "<p>\"We have a visitor.\" There is a man, small in stature, 4 eyes and a neck 7\" in diameter entering the building in a very stern and unapproachable manner. The hospital had never been so busy on the date of 7/27/2010.\r\n<p>This is Heavy Heavy Low Low's final release before the band's break up and is their best material to date.",
         "ffo": "Curl Up And Die, Dead Guy, Blink 182",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1872670965/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/hospital-bomber\">Hospital Bomber by Heavy Heavy Low Low</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1872670965/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/hospital-bomber\">Hospital Bomber by Heavy Heavy Low Low</a></iframe>",
         "artist": [
             "Heavy Heavy Low Low"
         ],
@@ -531,7 +531,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>White Love</li>\r\n<li>Young Tongues</li>\r\n</ol>",
         "bio": "",
         "ffo": "",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3396072146/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-i\">Human Performance I by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3396072146/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/human-performance-i\">Human Performance I by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -548,7 +548,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Wake</li>\r\n<li>My Hands Are Cold</li>\r\n<li>Fuck Life</li>\r\n<li>Failgiver</li>\r\n<li>Something Low From This Way Comes</li>\r\n<li>Oaken/Wait</li>\r\n</ol>",
         "bio": "<p>Throats is a young, hardworking U.K. band that play fast and loud hardcore/metal. This is a repress of their self-titled release that includes the original record on side A, and some bonus cover tracks from other releases on Side B. CD version also includes bonus tracks, and exclusive new artwork.",
         "ffo": "Trap Them, the_Network, Converge",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3302418404/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/throats\">Throats by Throats</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3302418404/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/throats\">Throats by Throats</a></iframe>",
         "artist": [
             "Throats"
         ],
@@ -564,7 +564,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Guide Me</li>\r\n<li>Cleft Stick</li>\r\n<li>Natural Life</li>\r\n<li>Grim And Hopeless</li>\r\n<li>Apples</li>\r\n<li>Children</li>\r\n<li>Lonely Town</li>\r\n<li>Grave Digger</li>\r\n<li>Body Turned Transmitter</li>\r\n<li>Voice On Tape</li>\r\n<li>Hex Sells</li>\r\n<li>Spacemen And Cops</li>\r\n<li>Dangerous Beat</li>\r\n<li>Insomnia</li>\r\n<li>Grim And Hapless</li>\r\n<li>Old Fools</li>\r\n<li>The Man That Lived And Died Asleep</li>\r\n<li>Like A Shadow, Like Shackles</li>\r\n</ol>",
         "bio": "<p>This is Sabertooth Zombie's second full length record featuring 18 tracks on a double LP with artwork by Joe Leonard. This was the last release before the band started the recording of the Human Performance series. It's really your last chance to get short Sabertooth Zombie songs.",
         "ffo": "Electric Wizard, Metallica, Black Flag",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=4156458436/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/and-your-fathers-are-dead-in-the-ground\">...And Your Fathers Are Dead In The Ground by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=4156458436/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/and-your-fathers-are-dead-in-the-ground\">...And Your Fathers Are Dead In The Ground by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -580,7 +580,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Ghost Town Anthems</li>\r\n<li>Downtrodden</li>\r\n<li>Nails</li>\r\n<li>Breathe Sin</li>\r\n<li>Oceans</li>\r\n</ol>",
         "bio": "<p>This is the second 7\" by Black Teeth from Peoria, IL, following up on their debut Closed Casket Activities self-titled EP. Features five brand new, dark hardcore tracks in the veins of Modern Life Is War and His Hero Is Gone.",
         "ffo": "Modern Life Is War, Haymaker, His Hero Is Gone",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2329066628/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/ghost-town-anthems\">Ghost Town Anthems by Black Teeth</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2329066628/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/ghost-town-anthems\">Ghost Town Anthems by Black Teeth</a></iframe>",
         "artist": [
             "Black Teeth"
         ],
@@ -596,7 +596,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>1970's Acid Fuck Fest</li>\r\n<li>Beware</li>\r\n<li>Cashed Hit</li>\r\n<li>No Hymn</li>\r\n<li>Holy Vultures (Multiversal Mind Axe)</li>\r\n<li>Drifting On The Salton Sea</li>\r\n<li>Black Winds Of The Underworld</li>\r\n<li>Swine Language</li>\r\n</ol>",
         "bio": "<p>Purple Mercy's debut LP features 8 brand new stoner jams from the North Bay, CA 5-piece. Features members of Lifelong Tragedy.",
         "ffo": "Doom Rider, Black Sabbath, Electric Wizard",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1025091983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/purple-mercy\">Purple Mercy by Purple Mercy</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1025091983/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/purple-mercy\">Purple Mercy by Purple Mercy</a></iframe>",
         "artist": [
             "Purple Mercy"
         ],
@@ -612,7 +612,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Leper's Wisdom</li>\r\n<li>The Pariah's Salvation (What Has Risen May Fall What Has Fallen May Rise)</li>\r\n<li>Groping Through The Dark (The Truth Of The Sun.)</li>\r\n<li>Submission (I, Meme, Mine)</li>\r\n</ol>",
         "bio": "<p>Hailing from Sacramento's desolate foothills, beneath Seattle's dreary skies, and from Portland's muddy riverbanks, Hell and Reason are as dichotomous as their name indicates, taking influence from heavy-hitting predecessors such as Cursed, Tragedy, and Entombed, combined with the sociopathic anguish of bands such as Swans, Current 93, and Christian Death - all bound together by the outspoken ideals synonymous with Trial and Catharsis.\r\n<p>Having just completed their self-titled 7\", Hell and Reason are focused on constant progression and aspire to go over the top, a flight from the stagnant trenches of modern hardcore and metal, and into no man's land, running - full force into oblivion.",
         "ffo": "American Nightmare, Converge, Hope Conspiracy",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=954722975/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/hell-and-reason\">Hell And Reason by Hell And Reason</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=954722975/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/hell-and-reason\">Hell And Reason by Hell And Reason</a></iframe>",
         "artist": [
             "Hell And Reason"
         ],
@@ -628,7 +628,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>D.O.A.</li>\r\n<li>Seven Swords</li>\r\n<li>Black Of Mouth</li>\r\n<li>Shadow Of Shops</li>\r\n<li>I'm Fucking Disgusted</li>\r\n<li>Lady Death I</li>\r\n<li>Lady Death II</li>\r\n<li>Decayed Decade</li>\r\n<li>Automatic Minds</li>\r\n<li>Gallows</li>\r\n<li>Flee Creep And Cheat</li>\r\n<li>Live In Hell Rot In Dirt</li>\r\n<li>Rotten</li>\r\n<li>Curly Locks</li>\r\n</ol>",
         "bio": "<p>\"The Midnight Sessions\" compiles eleven tracks from \"Midnight Venom\" and all tracks of \"Dungeon Sessions\" (courtesy of Spiderghost Pressgang). They were re-recorded completely live at The Panda Studios with Sam Pura. This release includes all new artwork as well as an 18x24\" poster with every LP.",
         "ffo": "Black Flag, Metallica, Electric Wizard",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3591531558/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/midnight-sessions\">Midnight Sessions by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3591531558/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/midnight-sessions\">Midnight Sessions by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -644,7 +644,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Prisoner</li>\r\n<li>Crooked Divinity</li>\r\n<li>Panacea</li>\r\n<li>The Traveling Carnival</li>\r\n<li>Mr. Suit</li>\r\n<li>Hyber Nation</li>\r\n<li>Rock And Roll Friends</li>\r\n<li>Of Fear And Peace</li>\r\n<li>Glad Handed</li>\r\n<li>The Bride</li>\r\n<li>Dance</li>\r\n<li>House Of The Rising Sun</li>\r\n</ol>",
         "bio": "<p>\"Mere Bears: The Riot Cops Bathed On Zion\" is a digpak CD that features Sabertooth Zombie's previous two EPs on one disk. \"Dance\" and \"The Prisoner\" have been reformatted with new artwork and a track listing. Don't miss out on Sabertooth Zombie's weirdest material; you'll regret it.",
         "ffo": "Electric Wizard, Metallica, Black Flag",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3309518291/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/mere-bears-the-riot-cops-bathed-on-zion\">Mere Bears: The Riot Cops Bathed On Zion by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=3309518291/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/mere-bears-the-riot-cops-bathed-on-zion\">Mere Bears: The Riot Cops Bathed On Zion by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -660,7 +660,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Campaign</li>\r\n<li>Deep</li>\r\n<li>Dent Face</li>\r\n<li>Untitled</li>\r\n<li>Meal Ticket</li>\r\n<li>This Young Earth</li>\r\n<li>That Fleeting Feeling</li>\r\n</ol>",
         "bio": "",
         "ffo": "",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2219069505/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/dent-face\">Dent Face by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2219069505/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/dent-face\">Dent Face by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -740,7 +740,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>The Need Not Needless</li>\r\n<li>Sentience</li>\r\n<li>Subjugate</li>\r\n<li>Insomnia</li>\r\n<li>Primitive Thinking For Alternative Living</li>\r\n<li>Double Penetrated Debate</li>\r\n</ol>",
         "bio": "",
         "ffo": "",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2619520474/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/unanimity-and-the-cessation-of-hostility-2\">Unanimity And The Cessation Of Hostility by Misericordiam</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2619520474/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/unanimity-and-the-cessation-of-hostility-2\">Unanimity And The Cessation Of Hostility by Misericordiam</a></iframe>",
         "artist": [
             "Misericordiam"
         ],
@@ -756,7 +756,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>D.O.A.</li>\r\n<li>Shoes</li>\r\n<li>Decayed Decade</li>\r\n<li>Flee Creep And Cheat</li>\r\n<li>Automatic Minds</li>\r\n<li>Fragments</li>\r\n<li>The Gallows</li>\r\n<li>Black Of Mouth</li>\r\n<li>Interlude</li>\r\n<li>Rotten</li>\r\n<li>I'm Fucking Disgusted</li>\r\n<li>Self Mouth</li>\r\n<li>Seven Swords</li>\r\n<li>Get Bent</li>\r\n<li>Live In Hell Rot In Dirt</li>\r\n<li>Lady Death</li>\r\n<li>Giant</li>\r\n<li>Rat Bones</li>\r\n</ol>",
         "bio": "<p>If you've been following Sabertooth Zombie since their initial demo dropped in 2004, you've been carrying around blue balls for two years. The wait was worth it. Instead of throwing a bunch of tracks as an excuse to have a higher price, and an excuse for a longer set, what we have here is a genuine full length. The tracks flow together. Midnight Venom sounds like the boys of the North Bay put a conscious effort into the arrangement of songs.\r\n<p>Hell, there's even an instrumental interlude, titled 'Interlude', with echoing guitar notes. Unlike most punk bands that just make songs, Sabertooth Zombie writes songs that create atmosphere, not an atmosphere I'd like to live in, but one I'd like to dip into often.",
         "ffo": "Electric Wizard, Metallica, Black Flag",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1078935163/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/midnight-venom-2\">Midnight Venom by Sabertooth Zombie</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=1078935163/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/midnight-venom-2\">Midnight Venom by Sabertooth Zombie</a></iframe>",
         "artist": [
             "Sabertooth Zombie"
         ],
@@ -805,7 +805,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Live Your Heart and Never Follow</li>\r\n<li>Callouses</li>\r\n<li>Hourglass</li>\r\n<li>Self Deprogramming</li>\r\n<li>Oblivious</li>\r\n<li>Young Voices</li>\r\n<li>Reclamation</li>\r\n<li>Percent</li>\r\n<li>Ground Zero</li>\r\n<li>Meltdown</li>\r\n<li>Strikes and Gutters II</li>\r\n<li>Injustice</li>\r\n<li>So Many Questions</li>\r\n</ol>",
         "bio": "",
         "ffo": "",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2916340656/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/live-your-heart-and-never-follow-2\">Live Your Heart And Never Follow by Set It Straight</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2916340656/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/live-your-heart-and-never-follow-2\">Live Your Heart And Never Follow by Set It Straight</a></iframe>",
         "artist": [
             "Set It Straight"
         ],
@@ -838,7 +838,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Set It Straight - Percent</li>\r\n<li>Set It Straight - These Walls</li>\r\n<li>Set It Straight - Blinders</li>\r\n<li>Set It Straight - Young Voices</li>\r\n<li>Where Eagles Dare - Caught Up in the Moment</li>\r\n<li>Where Eagles Dare - Dead Street</li>\r\n<li>Where Eagles Dare - Scene of the Crime, Pt. 1</li>\r\n<li>Where Eagles Dare - Scene of the Crime, Pt. 2</li>\r\n</ol>",
         "bio": "Bringing together two underdog hardcore bands for a split EP that features some of Where Eagle Dare's last material before breakup, and music from Set It Straight's early days.",
         "ffo": "",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2916340656/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/live-your-heart-and-never-follow-2\">Live Your Heart And Never Follow by Set It Straight</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2916340656/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/live-your-heart-and-never-follow-2\">Live Your Heart And Never Follow by Set It Straight</a></iframe>",
         "artist": [
             "Where Eagles Dare",
             "Set It Straight"
@@ -871,7 +871,7 @@ const releaseData =
         "tracklisting": "<ol class=\"tracklisting\">\r\n<li>Pizza Party</li>\r\n<li>Inhalant Abuse Is Illegal And Can Be Fatal</li>\r\n<li>There's A Bat</li>\r\n<li>Do You Like Guns? Want to See My Passport?</li>\r\n<li>Kids Kids Kids</li>\r\n<li>You Killed The Bee, But You Broke The Light You Asshole</li>\r\n<li>Very Dramatic</li>\r\n<li>Saran Wrap Love Affair</li>\r\n<li>Vaginal Blood And Construction Paper Cigarettes</li>\r\n<li>Track 10</li>\r\n<li>Track 11</li>\r\n</ol>",
         "bio": "<p>Heavy Heavy Low Low's debut EP. Courtside Seats EP was recorded in Mountain View, CA over the summer season of 2004. The EP was released on CD in February 2005.\r\n<p>The recording sucks, but this is some of the band's best and heaviest material.",
         "ffo": "",
-        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2019131599/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/courtside-seats\">Courtside Seats... by Heavy Heavy Low Low</a></iframe>",
+        "mediaplayer_html": "<iframe style=\"border: 0; width: 100%; height: 120px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=2019131599/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/\" seamless><a href=\"http://music.tgrex.com/album/courtside-seats\">Courtside Seats... by Heavy Heavy Low Low</a></iframe>",
         "artist": [
             "Heavy Heavy Low Low"
         ],
