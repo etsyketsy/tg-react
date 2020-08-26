@@ -7,7 +7,7 @@ import Releases from './containers/Releases/index.js';
 // import ReleaseDetail from './containers/ReleaseDetail/index.js';
 import Artists from './containers/Artists/index.js';
 import ArtistDetail from './containers/ArtistDetail/index.js';
-// import News from './containers/News/index.js';
+import News from './containers/News/index.js';
 import About from './containers/About/index.js';
 import Layout from './containers/Layout/index.js';
 import NotFound from './containers/NotFound/index.js';
@@ -20,7 +20,7 @@ ReactDOM.render(
         <Layout id="layout">
             <Switch>
                 <Route exact path='/' component={gaTracker(Home)} />
-                {/* <Route exact path='/news' component={gaTracker(News)} /> */}
+                <Route exact path='/news' component={gaTracker(News)} />
                 <Route exact path='/releases' component={gaTracker(Releases)} />
                 <Route exact path='/artists' component={gaTracker(Artists)} />
                 <Route

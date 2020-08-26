@@ -1,6 +1,6 @@
-/* .post img {
+.post img {
     max-width: 30vh;
-    float: left;
+    display: block;
     margin-right: 1vh;
 }
 .post figure {
@@ -9,14 +9,15 @@
     float: top;
 }
 .post {
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 .postHTML {
     padding: 0;
+    display: inline-block;
 }
 .postTitle {
     font-family: 'Karla', sans-serif;
-    display: flex;
+    /* display: flex; */
     font-size: 2vmin;
     border-bottom: solid #ffcebe;
 }
@@ -25,16 +26,20 @@
     font-size: 1vmin;
     margin-bottom: 2vh;
 }
-#blogLink .text{
+
+#blogLinkWrapper{
     border-bottom: solid #ffcebe;
     margin-right: 3vh;
 }
+
 #blogLink {
     display: flex;
     align-items: right;
     justify-content: flex-end;
     margin-bottom: 5vh;
+    
 }
+
 #news {
     display: flex;
     flex-direction: column;
@@ -45,10 +50,10 @@
     max-height: 100%;
     max-width: 100%;
 }
-br {
-    display: none;
-}
-@media only screen and (max-width: 1024px) {
+/* br {
+    display: none; 
+} */
+/* @media only screen and (max-width: 1024px) {
     .post{
       width: 100%;
       font-size: .75em;
@@ -85,3 +90,36 @@ br {
         margin-bottom: 1vh;
     }
 } */
+
+/* Tablet sizing */
+@media only screen and (max-width: 768px) {
+    .postTitle {
+      font-size: 3vmin;
+      margin-top: 2vh;
+    }  
+  
+    .postHTML {
+      font-size: 2vmin;
+      margin-bottom: 0vh;
+    }  
+
+    .postHTML img {
+        max-width: 20vh;
+        margin: 0;
+        margin-right: 1vh;
+        object-fit: scale-down;
+        float: left;
+    }
+}
+
+/* Mobile screen sizing */
+@media only screen and (max-width: 480px) {
+    .postTitle {
+        font-size: 4.75vw;
+    }
+
+    .postHTML {
+        font-size: 4vmin;
+    }
+}
+  
