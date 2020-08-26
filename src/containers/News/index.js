@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import RSSParser from 'rss-parser';
 import ReactHtmlParser from 'react-html-parser';
 import './index.css';
+import ScrollToTop from '../ScrollToTop/index';
 
 class News extends Component {
     state = {
@@ -14,7 +15,6 @@ class News extends Component {
         parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
             .then(feed => {
                 this.setState({ posts: feed.items })
-                console.log(feed.items)
             })
             .catch((error) => {
                 console.log(error)
@@ -51,9 +51,10 @@ class News extends Component {
                             id='blogLink' target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <div id='blogLinkWrapper'> view archives</div>
+                            <div id='blogLinkWrapper'>{'>'} all archives</div>
 
                         </a>
+                        <ScrollToTop />
                 </div>
         )
     }

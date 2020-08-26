@@ -17,14 +17,9 @@
 }
 .postTitle {
     font-family: 'Karla', sans-serif;
-    /* display: flex; */
     font-size: 2vmin;
     border-bottom: solid #ffcebe;
-}
-.postLink {
-    border-bottom: solid #ffcebe;
-    font-size: 1vmin;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
 }
 
 #blogLinkWrapper{
@@ -35,9 +30,9 @@
 #blogLink {
     display: flex;
     align-items: right;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-bottom: 5vh;
-    
+    margin-top: 5vh;
 }
 
 #news {
@@ -91,6 +86,14 @@
     }
 } */
 
+/* CSS for Laptop */
+@media only screen and (max-width: 1179px) {
+    .post {
+        margin-right: 2.5vh;
+        font-size: 1.15rem;
+    }
+  }
+
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
     .postTitle {
@@ -114,6 +117,9 @@
 
 /* Mobile screen sizing */
 @media only screen and (max-width: 480px) {
+    .post {
+        margin-right: 1vh;
+    }
     .postTitle {
         font-size: 4.75vw;
     }
