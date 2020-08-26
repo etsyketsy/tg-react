@@ -33,8 +33,15 @@ class News extends Component {
                         // ReactHtmlParser is used to make nested HTML elements work with React without using dangerouslySetInnerHTML
 
                         this.state.posts.map((post, index) => {
+                            let guid = post.guid.substring(
+                                post.guid.lastIndexOf('/') + 1
+                            );
                             return (
-                                <div className='post' key={index}>
+                                <div 
+                                    className='post' 
+                                    key={index}
+                                    id={guid}
+                                >
                                     <div className='postTitle'>
                                         {post.title}
                                     </div>
