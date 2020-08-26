@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ReactHtmlParser from 'react-html-parser';
 import RSSParser from 'rss-parser';
-
+import ReactHtmlParser from 'react-html-parser';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 class NewsPreview extends Component {
@@ -33,6 +33,9 @@ class NewsPreview extends Component {
                         this.state.posts.slice(0, 5).map((post, index) => {
 
                             let html = post.content;
+                            let guid = post.guid.substring(
+                                post.guid.lastIndexOf('/') + 1
+                            );
                    
                             return (
 
@@ -43,7 +46,12 @@ class NewsPreview extends Component {
                                     <div className='previewHTML'>
                                         {ReactHtmlParser(html)}
                                     </div>
-                                    <a href={post.link} className='postLink' target="_blank" rel="noopener noreferrer"> {'>'} view full post</a>
+                                   
+                                    <Link
+                                        to={`/news#${guid}`} className="postLink"
+                                    >
+                                        {'>'} view full post
+                                    </Link>
                                 </div>
                             )
 

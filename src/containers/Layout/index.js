@@ -19,11 +19,11 @@ class Layout extends Component {
 
           <div id="navLinks">
             <NavLink to="/" activeClassName="active" exact replace>
-              <div className='text'>HOME</div>
+              <div id="homeLink" className='text'>HOME</div>
             </NavLink>
-            {/* <NavLink to="/news" activeClassName="active" exact replace>
+            <NavLink to="/news" activeClassName="active" exact replace>
               <div className='text'>NEWS</div>
-            </NavLink> */}
+            </NavLink>
             <NavLink to="/releases" activeClassName="active" replace>
               <div className='text'>RELEASES</div>
             </NavLink>
