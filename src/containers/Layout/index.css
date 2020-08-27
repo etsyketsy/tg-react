@@ -152,8 +152,16 @@
 
   .text {
     margin-right: 1.75vh; 
+  } 
+}
+
+/* Small laptop/desktop/tablet screen sizing */
+@media only screen (max-width: 700px) {
+  .sectionHeader {
+    font-size: 5vmin;
   }
 }
+
 
 /* CSS for mobile screens */
 @media only screen and (max-width: 480px) {
@@ -179,9 +187,6 @@
     margin-right: 1vh;
   }
 
-  .sectionHeader {
-    font-size: 6vmin;
-  }
 
   #footer {
     display: flex;
