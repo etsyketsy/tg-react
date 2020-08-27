@@ -45,6 +45,10 @@
     max-height: 100%;
     max-width: 100%;
 }
+
+#news .sectionHeader {
+    margin-bottom: 1vh; 
+}
 /* br {
     display: none; 
 } */
@@ -92,7 +96,7 @@
         margin-right: 2.5vh;
         font-size: 1.15rem;
     }
-  }
+}
 
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
@@ -112,6 +116,19 @@
         margin-right: 1vh;
         object-fit: scale-down;
         float: left;
+    }
+
+
+}
+
+/* Mobile screen sizing */
+@media only screen and (max-width: 600px) {
+    .postTitle {
+        font-size: 4vmin;
+    }
+
+    .postHTML {
+        font-size: 3vmin;
     }
 }
 

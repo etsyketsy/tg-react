@@ -98,9 +98,9 @@
   display: none;
 }
 
-#releases .sectionHeader {
+/* #releases .sectionHeader {
   font-size: 4vmin;
-}
+} */
 
 /* CSS for tablets */
 @media only screen and (max-width: 768px) {
@@ -123,9 +123,9 @@
     margin-left:0;
   }
 
-  #releases .sectionHeader {
+  /* #releases .sectionHeader {
     font-size: 4.5vmin;
-  }
+  } */
 
   .releaseHeader {
     font-size: 4.75vmin;
@@ -134,9 +134,9 @@
 
 /* Sizing for small browser screens */
 @media only screen and (max-width: 600px) {
-  #releases .sectionHeader {
-    font-size: 5vmin;
-  }
+  /* #releases .sectionHeader {
+    font-size: 7vmin;
+  } */
 }
 
 /* CSS for mobile screens */
@@ -155,7 +155,7 @@
     font-size: 4vmin;
   }
 
-  #releases .sectionHeader {
+  /* #releases .sectionHeader {
     font-size: 7vmin;
-  }
+  } */
 }
