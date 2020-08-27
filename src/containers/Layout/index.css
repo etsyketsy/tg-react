@@ -154,12 +154,20 @@
     margin-right: 1.75vh; 
   } 
   .sectionHeader {
-    font-size: 7vmin;
+    font-size: 4vmin;
+  }
+}
+
+/* In between screen sizing */
+@media only screen and (min-width: 605px) and (max-width: 700px) {
+  .sectionheader {
+    font-size: 8vmin;
+    border: solid blue;
   }
 }
 
 /* Small laptop/desktop/tablet screen sizing */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
   .sectionHeader {
     font-size: 7vmin;
   }
