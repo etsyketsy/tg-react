@@ -17,9 +17,10 @@
 }
 .postTitle {
     font-family: 'Karla', sans-serif;
-    font-size: 2vmin;
+    font-size: 3vmin;
     border-bottom: solid #ffcebe;
     margin-bottom: 1vh;
+    margin-top: 2vh;
 }
 
 #blogLinkWrapper{
@@ -44,6 +45,10 @@
     overflow: hidden;
     max-height: 100%;
     max-width: 100%;
+}
+
+#news .sectionHeader {
+    margin-bottom: 1vh; 
 }
 /* br {
     display: none; 
@@ -88,11 +93,15 @@
 
 /* CSS for Laptop */
 @media only screen and (max-width: 1179px) {
-    .post {
+    /* .post {
         margin-right: 2.5vh;
         font-size: 1.15rem;
-    }
-  }
+    } */
+    .postHTML {
+        font-size: 2.2vmin;
+        margin-bottom: 0vh;
+    }  
+}
 
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
@@ -113,12 +122,29 @@
         object-fit: scale-down;
         float: left;
     }
+
+
 }
 
-/* Mobile screen sizing */
-@media only screen and (max-width: 480px) {
-    .post {
-        margin-right: 1vh;
+/* In between screen sizing */
+@media only screen and (min-width: 602px) and (max-width: 700px) {
+    .postTitle {
+        font-size: 3vmin;
+    }
+
+    .postHTML {
+        font-size: 2.5vmin;
+    }
+  }
+  
+  /* Small laptop/desktop/tablet screen sizing */
+  @media only screen and (max-width: 601px) {
+    .sectionHeader {
+      font-size: 7vmin;
+    }
+  
+    #homeLink {
+      display: none;
     }
 
     .postTitle {
@@ -127,6 +153,14 @@
 
     .postHTML {
         font-size: 4vmin;
+    }
+  }
+  
+
+/* Mobile screen sizing */
+@media only screen and (max-width: 480px) {
+    .post {
+        margin-right: 1vh;
     }
 }
   

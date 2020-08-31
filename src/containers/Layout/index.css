@@ -152,8 +152,31 @@
 
   .text {
     margin-right: 1.75vh; 
+  } 
+  .sectionHeader {
+    font-size: 4vmin;
   }
 }
+
+/* In between screen sizing */
+@media only screen and (min-width: 605px) and (max-width: 700px) {
+  .sectionheader {
+    font-size: 8vmin;
+    border: solid blue;
+  }
+}
+
+/* Small laptop/desktop/tablet screen sizing */
+@media only screen and (max-width: 601px) {
+  .sectionHeader {
+    font-size: 7vmin;
+  }
+
+  #homeLink {
+    display: none;
+  }
+}
+
 
 /* CSS for mobile screens */
 @media only screen and (max-width: 480px) {
@@ -162,10 +185,6 @@
     max-width: 12vh; */
     margin-bottom: 0;
     margin-right: 1vh;
-  }
-
-  #homeLink {
-    display: none;
   }
 
   #navLinks {
@@ -179,9 +198,6 @@
     margin-right: 1vh;
   }
 
-  .sectionHeader {
-    font-size: 6vmin;
-  }
 
   #footer {
     display: flex;

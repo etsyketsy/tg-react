@@ -133,9 +133,9 @@
 }
 
 /* Sizing for small browser screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   #releases .sectionHeader {
-    font-size: 5vmin;
+    font-size: 2.25rem;
   }
 }
 
