@@ -143,7 +143,7 @@ const releaseData =
         "tracklisting": "<ol><li>Thoughtograph</li><li>God Damn City</li><li>Zzaj Keed</li><li>Wish You Had</li><li>Graveyard Shift</li><li>So Much $$</li></ol>",
         "bio": "<p>Written in a dungeon on a beach somewhere in Santa Cruz, CA. Downstaaiirs' Weeping/Creeping is the band's debut EP originally released on 3/8/13 as a limited 50-tape run on Like Young Records, now seeing new light as a limited edition lathe cut 12\" accompanied by another run of tapes with new art.</p>",
         "ffo": null,
-        "mediaplayer_html": null, //TBD
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2904726386/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/weeping-creeping">Weeping/Creeping by Downstaaiirs</a></iframe>',
         "artist": [
             "Downstaaiirs"
         ],
