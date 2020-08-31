@@ -63,15 +63,15 @@
     grid-template-columns: repeat(2, minmax(20vh, 1fr));
 }
 
-.artistDetail {
+/* .artistDetail {
     margin-right: 2vh;
-}
+} */
 
 /* Laptop sizing */
 @media only screen and (max-width: 1025px) {
-    .artistDetail {
+    /* .artistDetail {
         margin-right: 2.2vh;
-    }
+    } */
 }
 
 /* Tablet sizing */
@@ -123,8 +123,8 @@
         margin-bottom: 1vh;
     }
 
-    .artistDetail {
+    /* .artistDetail {
         margin-right: 1vh;
-    }
+    } */
     
   }
