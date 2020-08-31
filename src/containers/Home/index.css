@@ -102,7 +102,7 @@
 @media only screen and (max-width: 768px) {
   .postPreview .postTitle {
     font-size: 2.5vmin;
-    border: none;
+    /* border: none; */
     margin-top: 2vh;
   }  
 
@@ -136,6 +136,7 @@
 
   .previewHTML {
     font-size: 2.5vmin;
+    margin-bottom: 1vh;
   }
 
   #latestReleases .releaseHeadline {
@@ -177,7 +178,7 @@
   .previewHTML {
     font-size: 4vmin;
     height: 21vh; 
-    margin-bottom: .5vh;
+
   }
 
   #latestReleases #releasesLink {
