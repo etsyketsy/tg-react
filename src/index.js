@@ -10,6 +10,7 @@ import ArtistDetail from './containers/ArtistDetail/index.js';
 import News from './containers/News/index.js';
 import About from './containers/About/index.js';
 import Layout from './containers/Layout/index.js';
+import Donations from './containers/Donations/index.js';
 import NotFound from './containers/NotFound/index.js';
 import gaTracker from './analytics/index.js';
 import * as serviceWorker from './serviceWorker';
@@ -28,6 +29,7 @@ ReactDOM.render(
                     component={gaTracker(ArtistDetail)}
                 />
                 <Route exact path='/about' component={gaTracker(About)} />
+                <Route path='/donations' component={gaTracker(Donations)} />
                 <Route path='*' component={NotFound} />
             </Switch>
         </Layout>
