@@ -11,10 +11,12 @@
 .post {
     margin-bottom: 3vh;
 }
+
 .postHTML {
     padding: 0;
     display: inline-block;
 }
+
 .postTitle {
     font-family: 'Karla', sans-serif;
     font-size: 3vmin;
@@ -93,10 +95,10 @@
 
 /* CSS for Laptop */
 @media only screen and (max-width: 1179px) {
-    /* .post {
-        margin-right: 2.5vh;
-        font-size: 1.15rem;
-    } */
+    .post {
+        margin-right: 3vh;
+    }
+
     .postHTML {
         font-size: 2.2vmin;
         margin-bottom: 0vh;
@@ -123,6 +125,9 @@
         float: left;
     }
 
+    .post {
+        margin-right: 2.5vh
+    }
 
 }
 
