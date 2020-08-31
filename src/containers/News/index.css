@@ -17,9 +17,10 @@
 }
 .postTitle {
     font-family: 'Karla', sans-serif;
-    font-size: 2vmin;
+    font-size: 3vmin;
     border-bottom: solid #ffcebe;
     margin-bottom: 1vh;
+    margin-top: 2vh;
 }
 
 #blogLinkWrapper{
@@ -92,10 +93,14 @@
 
 /* CSS for Laptop */
 @media only screen and (max-width: 1179px) {
-    .post {
+    /* .post {
         margin-right: 2.5vh;
         font-size: 1.15rem;
-    }
+    } */
+    .postHTML {
+        font-size: 2.2vmin;
+        margin-bottom: 0vh;
+    }  
 }
 
 /* Tablet sizing */
