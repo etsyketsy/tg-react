@@ -12,7 +12,7 @@ class NewsPreview extends Component {
     componentDidMount() {
         let parser = new RSSParser();
 
-        parser.parseURL('http://blog.tgrex.com/rss')
+        parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
             .then(feed => {
                 this.setState({ posts: feed.items })
             })
