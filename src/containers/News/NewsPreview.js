@@ -11,23 +11,53 @@ class NewsPreview extends Component {
 
     componentDidMount() {
         let parser = new RSSParser();
+        // let controller = new AbortController();
+        // let timeout = setTimeout(() => {controller.abort()}, 2);
 
+    //     return fetch('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
+    //     .then((response) => {
+    //         if (!response.ok) {
+    //             throw new Error(`${response.status}: ${response.statusText}`)
+    //         }
+    //         console.log(response.body)
+    //     return response
+
+    //     })
+
+    // .catch((error) => {
+
+    //   if (error.name === 'AbortError') {
+
+    //     throw new Error('Response timed out')
+
+    //   }
+
+    //   throw new Error(error.message)
+
+    // })
         parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
             .then(feed => {
+                console.log('got a response')
+                console.log(feed)
                 this.setState({ posts: feed.items })
             })
             .catch((error) => {
-                console.log(error)
+                throw new Error('Response timed out')
+                this.setState({ posts: newsFeed.items})
             });
     }
 
     render() {
         return (
+            (!this.state.posts) ?
+            <div id='newsPreview' className='preview'>
+            <div className="sectionHeader">{'//'} Latest News</div>
+                    <p id='loading'>loading...</p>
+            </div>
+                    :
             <div id='newsPreview' className='preview'>
                 <div className="sectionHeader">{'//'} Latest News</div>
-                {(!this.state.posts) ?
-                    <p id='loading'>loading...</p>
-                    :
+                {
                     this.state.posts.slice(0, 5).map((post, index) => {
 
                             let html = post.content;

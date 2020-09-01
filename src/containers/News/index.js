@@ -14,7 +14,11 @@ class News extends Component {
 
         parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
             .then(feed => {
-                this.setState({ posts: feed.items })
+                this.setState(
+                    { 
+                        posts: feed.items,
+                        feed: feed
+                     })
             })
             .catch((error) => {
                 console.log(error)
@@ -29,9 +33,10 @@ class News extends Component {
                 :
                 <div id='news' className='content'>
                     <div className="sectionHeader">{'//'} News</div>
+                    <div>{console.log(this.state.feed)}</div>
                     {
                         // ReactHtmlParser is used to make nested HTML elements work with React without using dangerouslySetInnerHTML
-
+                        
                         this.state.posts.map((post, index) => {
                             let guid = post.guid.substring(
                                 post.guid.lastIndexOf('/') + 1
