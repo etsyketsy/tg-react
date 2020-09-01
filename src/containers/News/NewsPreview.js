@@ -12,7 +12,7 @@ class NewsPreview extends Component {
     componentDidMount() {
         let parser = new RSSParser();
 
-        parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
+        parser.parseURL('http://blog.tgrex.com/rss')
             .then(feed => {
                 this.setState({ posts: feed.items })
             })
@@ -23,20 +23,18 @@ class NewsPreview extends Component {
 
     render() {
         return (
-            (!this.state.posts) ?
-            <p id='loading'>loading...</p>
-                :
-                <div id='newsPreview' className='preview'>
-                    <div className="sectionHeader">{'//'} Latest News</div>
-                    {
-
-                        this.state.posts.slice(0, 5).map((post, index) => {
+            <div id='newsPreview' className='preview'>
+                <div className="sectionHeader">{'//'} Latest News</div>
+                {(!this.state.posts) ?
+                    <p id='loading'>loading...</p>
+                    :
+                    this.state.posts.slice(0, 5).map((post, index) => {
 
                             let html = post.content;
                             let guid = post.guid.substring(
                                 post.guid.lastIndexOf('/') + 1
                             );
-                   
+
                             return (
 
                                 <div className='postPreview' key={index}>
@@ -46,7 +44,7 @@ class NewsPreview extends Component {
                                     <div className='previewHTML'>
                                         {ReactHtmlParser(html)}
                                     </div>
-                                   
+
                                     <Link
                                         to={`/news#${guid}`} className="postLink"
                                     >
@@ -57,7 +55,8 @@ class NewsPreview extends Component {
 
                         })
                     }
-                </div>
+
+            </div>
 
 
         )
