@@ -123,7 +123,7 @@ const artistData = [
         "artist_bio": "For Your Health is an emotional hardcore band hailing from the bowels of the midwest. Fuck cops, para tu salud.",
         "artist_type": "artist",
         "artist_contact": "#",
-        "status": "Unannounced",
+        "status": "Active",
         "id": 22,
         "image": fyh
     },
