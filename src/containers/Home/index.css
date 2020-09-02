@@ -29,7 +29,6 @@
 
 .previewHTML p {
   margin: 1vh;
-  font-size: 1.75vmin;
 }
 
 .previewHTML p:nth-of-type(1n+2) {
@@ -48,7 +47,6 @@
   box-sizing: border-box;
   border-top: solid #ffcebe;
   width: 100%;
-  font-size: 1rem;
 }
 
 #newsPreview {
