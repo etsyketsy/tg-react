@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import RSSParser from 'rss-parser';
 import ReactHtmlParser from 'react-html-parser';
 import { HashLink as Link } from 'react-router-hash-link';
+// import feedScript from './feedScript.js';
 
 
 class NewsPreview extends Component {
@@ -37,27 +38,37 @@ class NewsPreview extends Component {
     // })
         parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
             .then(feed => {
-                console.log('got a response')
-                console.log(feed)
+             
                 this.setState({ posts: feed.items })
             })
             .catch((error) => {
                 throw new Error('Response timed out')
-                this.setState({ posts: newsFeed.items})
+                // this.setState({ posts: newsFeed.items})
             });
+
+            const script = document.createElement("script");
+
+    script.src = "http://feeds.feedburner.com/tgrex?format=sigpro";
+    script.type= "text/javascript";
+    script.async = true;
+
+    console.log(document)
+
+    document.body.appendChild(script);
     }
 
     render() {
         return (
-            (!this.state.posts) ?
-            <div id='newsPreview' className='preview'>
-            <div className="sectionHeader">{'//'} Latest News</div>
-                    <p id='loading'>loading...</p>
-            </div>
-                    :
+            // (!this.state.posts) ?
+            // <div id='newsPreview' className='preview'>
+            // <div className="sectionHeader">{'//'} Latest News</div>
+            //         <p id='loading'>loading...</p>
+            // </div>
+            //         :
             <div id='newsPreview' className='preview'>
                 <div className="sectionHeader">{'//'} Latest News</div>
-                {
+                <div id='scriptTarget' />
+                {/* {
                     this.state.posts.slice(0, 5).map((post, index) => {
 
                             let html = post.content;
@@ -84,7 +95,7 @@ class NewsPreview extends Component {
                             )
 
                         })
-                    }
+                    } */}
 
             </div>
 
