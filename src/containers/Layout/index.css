@@ -92,7 +92,7 @@
 } 
 
 .sectionHeader {
-  font-size: 3.5vmin;
+  font-size: 2em;
   font-family: 'Karla', sans-serif;
 }
 
@@ -112,7 +112,7 @@
 }
 
 /* CSS for Laptop */
-@media only screen and (max-width: 1179px) {
+@media only screen and (max-width: 1200px) {
   #navLinks {
     margin-right: 2vh;
     width: 125%;

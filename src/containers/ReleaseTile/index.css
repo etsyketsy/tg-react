@@ -98,9 +98,9 @@
   display: none;
 }
 
-#releases .sectionHeader {
+/* #releases .sectionHeader {
   font-size: 4vmin;
-}
+} */
 
 /* CSS for tablets */
 @media only screen and (max-width: 768px) {
