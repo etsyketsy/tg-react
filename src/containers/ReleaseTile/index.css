@@ -123,9 +123,9 @@
     margin-left:0;
   }
 
-  #releases .sectionHeader {
+  /* #releases .sectionHeader {
     font-size: 3vmin;
-  }
+  } */
 
   .releaseHeader {
     font-size: 4.75vmin;
@@ -134,9 +134,9 @@
 
 /* Sizing for small browser screens */
 @media only screen and (max-width: 700px) {
-  #releases .sectionHeader {
+  /* #releases .sectionHeader {
     font-size: 2.25rem;
-  }
+  } */
 }
 
 /* CSS for mobile screens */
@@ -148,14 +148,14 @@
   }
 
   .releaseTile .releaseHeadline {
-    font-size: 4.75vw;
+    font-size: 4.75vmin;
   }
 
   .releaseTile {
     font-size: 4vmin;
   }
 
-  #releases .sectionHeader {
-    font-size: 7vmin;
-  }
+  /* #releases .sectionHeader {
+    font-size: 4.75vmin;
+  } */
 }
