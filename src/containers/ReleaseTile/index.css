@@ -90,7 +90,7 @@
   margin: 3vh;
   margin-left: 0;
   margin-bottom: 5vh;
-  font-size: 1.75vmin;
+  font-size: 2vmin;
 }
 
 .releaseTile .mediaPlayer {
@@ -106,7 +106,7 @@
 @media only screen and (max-width: 768px) {
   .releaseTile img {
     width: 15vh;
-    height: 15vh;
+    height: 16vh;
     margin-right: 1vh;
     display: block;
     float: left;
@@ -115,7 +115,7 @@
   .releaseTile {
     display: inline-block;
     float: left;
-    font-size: 1.15rem;
+    font-size: 2.25vmin;
   }
 
   .releaseDetails {

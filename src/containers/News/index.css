@@ -15,7 +15,7 @@
 .postHTML {
     padding: 0;
     display: inline-block;
-    font-size: 1.75vmin;
+    font-size: 2vmin;
 }
 
 .postTitle {
@@ -101,7 +101,6 @@
     }
 
     .postHTML {
-        font-size: 2.2vmin;
         margin-bottom: 0vh;
     }  
 }

@@ -41,7 +41,7 @@
   overflow-wrap: break-word;
   word-wrap: break-word; 
   hyphens: auto; 
-  font-size: 1.75vmin;
+  font-size: 2vmin;
   object-fit: scale-down;
   float: left;
   box-sizing: border-box;
@@ -166,7 +166,7 @@
 
   .postPreview .postTitle {
     font-size: 4.75vmin;
-    margin-top: 3vh;
+    margin-top: 2vh;
   }  
 
   .postPreview .postLink {
