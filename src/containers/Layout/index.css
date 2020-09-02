@@ -179,7 +179,7 @@
 /* Small laptop/desktop/tablet screen sizing */
 @media only screen and (max-width: 601px) {
   .sectionHeader {
-    font-size: 3.5vmin;
+    font-size: 4vmin;
   } 
 
   #navLinks {
