@@ -15,6 +15,7 @@
 .postHTML {
     padding: 0;
     display: inline-block;
+    font-size: 1.75vmin;
 }
 
 .postTitle {

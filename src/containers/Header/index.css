@@ -3,6 +3,15 @@
     width: 15vh;
     height: auto; 
     margin-top: 1vh;
+
+  }
+  
+  #logoWrapper img {
+    width: auto;
+    max-height: 10vh;
+    object-fit: scale-down;
+    margin-bottom: 2vh;
+    border: solid blue;
   }
   
   #logoWrapper {
@@ -10,7 +19,8 @@
     align-items: left;
     object-fit: scale-down;
     width: 100%;
-    margin-left: 2vh;
     margin-bottom: 2vh;
+    border: solid green;
+    justify-items: center;
+    margin-left: 10vh;
   }
-  
