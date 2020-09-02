@@ -3,8 +3,8 @@
   flex-direction: row;
   background-color: #212121;
   color: #efefef;
-  padding-left: 20vh;
-  padding-right: 20vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
   padding-top: 3vh;
   padding-bottom: 5vh;
   font-size: 1.75vmin;
@@ -144,13 +144,12 @@
     padding-left: 2vh;
     padding-bottom: 5vh;
     padding-right: 2vh;
-    font-size: 2.2vmin;
   }
 
 }
 
 /* CSS for tablets */
-@media only screen and (min-width: 701px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #navLinks {
     font-size: 3vmin;
     margin-right: 2vh;
@@ -178,13 +177,21 @@
 } */
 
 /* Small laptop/desktop/tablet screen sizing */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
   .sectionHeader {
-    font-size: 4.75vmin;
+    font-size: 3.5vmin;
+  } 
+
+  #navLinks {
+    font-size: 3.5vmin;
   }
 
   #homeLink {
     display: none;
+  }
+
+  #footer {
+    font-size: 3vmin;
   }
 }
 
@@ -192,7 +199,7 @@
 /* CSS for mobile screens */
 @media only screen and (max-width: 480px) {
   .sectionHeader {
-    font-size: 4.75vmin;
+    font-size: 5vmin;
   }
   #logoWrapper img {
     /* min-width: 8vh;

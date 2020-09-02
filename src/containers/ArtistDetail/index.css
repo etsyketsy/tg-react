@@ -77,12 +77,12 @@
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
     .artistReleases .releaseHeadline {
-        font-size: 2.5vmin;
+        font-size: 2vmin;
     }
 }   
 
 /* Extra small window and mobile phone sizing */
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 510px) {
     .artistReleases {
         display: flex;
         flex-flow: column wrap;
@@ -94,7 +94,7 @@
     }
 
     .artistDetail .bio {
-        font-size: 4vmin;
+        font-size: 3.5vmin;
     }
 
     .artistReleases .releaseHeadline{
