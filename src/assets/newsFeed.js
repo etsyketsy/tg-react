@@ -10,18 +10,6 @@ const newsFeed = {
     },
     "items": [
       {
-        "title": "TG046: Downstaaiirs - Weeping/Creeping",
-        "pubDate": "2020-08-31 15:31:31",
-        "link": "https://blog.tgrex.com/post/627979470044905472",
-        "guid": "https://blog.tgrex.com/post/627979470044905472",
-        "author": "",
-        "thumbnail": "https://64.media.tumblr.com/4a0db2ed8ab765e8afb0e3c671689f07/244b890d42f906db-80/s540x810/b7b239ed845411c6f90ab06c6486280f8a454fa8.png",
-        "description": "\n<figure class=\"tmblr-full\" data-orig-height=\"1505\" data-orig-width=\"1377\"><img src=\"https://64.media.tumblr.com/4a0db2ed8ab765e8afb0e3c671689f07/244b890d42f906db-80/s540x810/b7b239ed845411c6f90ab06c6486280f8a454fa8.png\" data-orig-height=\"1505\" data-orig-width=\"1377\"></figure><p>I’m thrilled to finally announce that I’ll be putting out a record that’s very special to me. It’s made up of some of my best friends in life playing a raw, emotional, sad sound that’s hard to compare to anything else.</p>\n<p>Written in a dungeon on a beach somewhere in Santa Cruz, <b>Downstaaiirs</b>’ Weeping/Creeping is the band’s debut EP originally released on 3/8/13 as a limited 50-tape run on Like Young Records, now seeing new light as a limited edition lathe cut 12\" accompanied by another run of tapes with new art. Recorded at The Panda Studios with Sam Pura.</p>\n<p>Pressing info:<br>- 38 one-sided limited edition lathe cut 12\"s<br>- 100 silver cassettes</p>\n<p>Lathe cut details:<br>- These are hand-numbered, one-sided 12” stereo lathe cuts made by Little Elephant<br>- Jackets are 12”x18” fold-overs with album art as a poster on the back<br></p>\n<p><b>Pre-orders go live on Wednesday, September 2nd</b> at Noon Eastern time at our <a href=\"http://dthw.sh/twelvegauge\">online store</a>.</p>\n<p>Stream the EP in its entirety on our <a href=\"https://twelvegauge.bandcamp.com/album/weeping-creeping\">Bandcamp</a>.</p>\n",
-        "content": "\n<figure class=\"tmblr-full\" data-orig-height=\"1505\" data-orig-width=\"1377\"><img src=\"https://64.media.tumblr.com/4a0db2ed8ab765e8afb0e3c671689f07/244b890d42f906db-80/s540x810/b7b239ed845411c6f90ab06c6486280f8a454fa8.png\" data-orig-height=\"1505\" data-orig-width=\"1377\"></figure><p>I’m thrilled to finally announce that I’ll be putting out a record that’s very special to me. It’s made up of some of my best friends in life playing a raw, emotional, sad sound that’s hard to compare to anything else.</p>\n<p>Written in a dungeon on a beach somewhere in Santa Cruz, <b>Downstaaiirs</b>’ Weeping/Creeping is the band’s debut EP originally released on 3/8/13 as a limited 50-tape run on Like Young Records, now seeing new light as a limited edition lathe cut 12\" accompanied by another run of tapes with new art. Recorded at The Panda Studios with Sam Pura.</p>\n<p>Pressing info:<br>- 38 one-sided limited edition lathe cut 12\"s<br>- 100 silver cassettes</p>\n<p>Lathe cut details:<br>- These are hand-numbered, one-sided 12” stereo lathe cuts made by Little Elephant<br>- Jackets are 12”x18” fold-overs with album art as a poster on the back<br></p>\n<p><b>Pre-orders go live on Wednesday, September 2nd</b> at Noon Eastern time at our <a href=\"http://dthw.sh/twelvegauge\">online store</a>.</p>\n<p>Stream the EP in its entirety on our <a href=\"https://twelvegauge.bandcamp.com/album/weeping-creeping\">Bandcamp</a>.</p>\n",
-        "enclosure": {},
-        "categories": []
-      },
-      {
         "title": "TG049: Sabertooth Zombie - Midnight Venom 12″LP",
         "pubDate": "2020-08-24 18:54:06",
         "link": "https://blog.tgrex.com/post/627358036036632577",
