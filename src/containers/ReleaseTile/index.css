@@ -20,7 +20,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  font-size: 1.5rem;
+  font-size: 2.5vmin;
   font-family: 'Karla', sans-serif;
   border-bottom: solid #ffcebe; 
 }
@@ -90,7 +90,7 @@
   margin: 3vh;
   margin-left: 0;
   margin-bottom: 5vh;
-  font-size: 1rem;
+  font-size: 1.75vmin;
 }
 
 .releaseTile .mediaPlayer {
@@ -98,15 +98,15 @@
   display: none;
 }
 
-#releases .sectionHeader {
+/* #releases .sectionHeader {
   font-size: 4vmin;
-}
+} */
 
 /* CSS for tablets */
 @media only screen and (max-width: 768px) {
   .releaseTile img {
     width: 15vh;
-    height: 15vh;
+    height: 16vh;
     margin-right: 1vh;
     display: block;
     float: left;
@@ -115,16 +115,12 @@
   .releaseTile {
     display: inline-block;
     float: left;
-    font-size: 1.15rem;
+    font-size: 2.25vmin;
   }
 
   .releaseDetails {
     width: inherit;
     margin-left:0;
-  }
-
-  #releases .sectionHeader {
-    font-size: 4.5vmin;
   }
 
   .releaseHeader {
@@ -134,10 +130,26 @@
 
 /* Sizing for small browser screens */
 @media only screen and (max-width: 700px) {
-  #releases .sectionHeader {
-    font-size: 2.25rem;
+  .releaseHeadline {
+      font-size: 3vmin;
+  }
+
+  .releaseTile {
+      font-size: 2.5vmin;
   }
 }
+
+  /* Small laptop/desktop/tablet screen sizing */
+  @media only screen and (max-width: 601px) {
+
+    .releaseHeadline {
+        font-size: 3.5vmin;
+    }
+
+    .releaseTile {
+        font-size: 3vmin;
+    }
+  }
 
 /* CSS for mobile screens */
 @media only screen and (max-width: 480px) {
@@ -148,14 +160,14 @@
   }
 
   .releaseTile .releaseHeadline {
-    font-size: 4.75vw;
+    font-size: 4.75vmin;
   }
 
   .releaseTile {
     font-size: 4vmin;
   }
 
-  #releases .sectionHeader {
-    font-size: 7vmin;
-  }
+  /* #releases .sectionHeader {
+    font-size: 4.75vmin;
+  } */
 }

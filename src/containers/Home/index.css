@@ -41,13 +41,12 @@
   overflow-wrap: break-word;
   word-wrap: break-word; 
   hyphens: auto; 
-  font-size: 1.5vmin;
+  font-size: 1.75vmin;
   object-fit: scale-down;
   float: left;
   box-sizing: border-box;
   border-top: solid #ffcebe;
   width: 100%;
-  font-size: 1rem;
 }
 
 #newsPreview {
@@ -101,13 +100,13 @@
 /* Tablet sizing */
 @media only screen and (max-width: 768px) {
   .postPreview .postTitle {
-    font-size: 2.5vmin;
+    font-size: 3vmin;
     /* border: none; */
     margin-top: 2vh;
   }  
 
   .previewHTML {
-    font-size: 2vmin;
+    font-size: 2.25vmin;
     min-height: 18vh;
     max-height: 21vh; 
     margin-bottom: .5vh;
@@ -129,7 +128,7 @@
 }
 
 /* Small laptop/desktop screen sizing */
-@media only screen and (min-width: 601px) and (max-width: 700px) {
+@media only screen  and (max-width: 700px) {
   .postPreview .postTitle {
     font-size: 3vmin;
   }  
@@ -145,7 +144,7 @@
 }
 
 /* CSS for small windows and mobile phones*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
   .home {
     display: flex;
     flex-wrap: wrap;
@@ -166,28 +165,29 @@
   }
 
   .postPreview .postTitle {
-    font-size: 4.75vmin;
-    margin-top: 3vh;
+    font-size: 3.5vmin;
+    margin-top: 2vh;
   }  
 
   .postPreview .postLink {
-    font-size: 4.25vmin;
+    font-size: 3vmin;
     margin-bottom: 5vh;
   } 
 
   .previewHTML {
-    font-size: 4vmin;
-    height: 21vh; 
+    font-size: 3vmin;
+    height: 17vh; 
 
   }
 
   #latestReleases #releasesLink {
-    font-size: 4.75vmin;
+    font-size: 3vmin;
   } 
 
   #latestReleases .releaseHeadline {
-    font-size: 4.75vmin;
+    font-size: 3.5vmin;
   }
+  
   #latestReleases .displayGrid {
     margin-right: 0;
   }
@@ -196,3 +196,30 @@
 
 
 
+@media only screen and (max-width: 480px) {
+
+  #latestReleases #releasesLink {
+    font-size: 3vmin;
+  } 
+
+  #latestReleases .releaseHeadline {
+    font-size: 4.75vmin;
+  }
+
+  .postPreview .postTitle {
+    font-size: 4.75vmin;
+    margin-top: 2vh;
+  }  
+
+  .postPreview .postLink {
+    font-size: 3vmin;
+    margin-bottom: 5vh;
+  } 
+
+  .previewHTML {
+    font-size: 4vmin;
+    height: 17vh; 
+
+  }
+  
+}

@@ -15,11 +15,12 @@
 .postHTML {
     padding: 0;
     display: inline-block;
+    font-size: 1.75vmin;
 }
 
 .postTitle {
     font-family: 'Karla', sans-serif;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     border-bottom: solid #ffcebe;
     margin-bottom: 1vh;
     margin-top: 2vh;
@@ -100,7 +101,6 @@
     }
 
     .postHTML {
-        font-size: 2.2vmin;
         margin-bottom: 0vh;
     }  
 }
@@ -113,7 +113,7 @@
     }  
   
     .postHTML {
-      font-size: 2.5vmin;
+      font-size: 2.25vmin;
       margin-bottom: 0vh;
     }  
 
@@ -125,13 +125,13 @@
     }
 
     .post {
-        margin-right: 2.5vh
+        margin-right: 2.5vh;
     }
 
 }
 
 /* In between screen sizing */
-@media only screen and (min-width: 602px) and (max-width: 700px) {
+@media only screen  and (max-width: 700px) {
     .postTitle {
         font-size: 3vmin;
     }
@@ -143,20 +143,13 @@
   
   /* Small laptop/desktop/tablet screen sizing */
   @media only screen and (max-width: 601px) {
-    .sectionHeader {
-      font-size: 7vmin;
-    }
-  
-    #homeLink {
-      display: none;
-    }
 
     .postTitle {
-        font-size: 4.75vw;
+        font-size: 3.5vmin;
     }
 
     .postHTML {
-        font-size: 4vmin;
+        font-size: 3vmin;
     }
   }
   
@@ -165,6 +158,14 @@
 @media only screen and (max-width: 480px) {
     .post {
         margin-right: 1vh;
+    }
+
+    .postTitle {
+        font-size: 4.75vmin;
+    }
+
+    .postHTML {
+        font-size: 4vmin;
     }
 }
   
