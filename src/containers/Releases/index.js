@@ -12,6 +12,10 @@ class Releases extends Component {
 
 
     componentDidMount() {
+        // Checks url for Release link and makes sure window opens at top if not routing to specific release
+        if (this.props.location.hash.length === 0) {
+            window.scrollTo(0, 0); 
+        }
         // Sort releases by Release Date
         // First converts release_date from a string to date format
         let sortedReleases = releaseData.sort((x, y) => {
