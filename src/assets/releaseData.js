@@ -76,14 +76,14 @@ const releaseData =
         "release_date": "2020-10-31",//TBD
         "artist_nice_name": "fyh", 
         "tracklisting": "<ol><li>Birthday Candles In The Effigy</li><li>I Slept With Wes Eisold And All I Got Was An Out Of Court Settlement</li><li>Push The Fucking Rock Sissy</li><li>Abscess Makes The Heart Grow</li><li>Day Of Black Sun</li><li>Save Your Breath, You're Gonna Need It To Blow My Head Off</li><li>If Anybody Asks, We're Already Fucked</li><li>You’re So United Ninety-three, We're So Flight Eighty</li><li>Like A Thirteenth Floor Elevator</li><li>Everyday at 1312</li><li>Thank You For The Venmo</li><li>This City Will Crumble And Many People Will Die</li></ol>",
-        "bio": null, //TBD
+        "bio": '<p>Twelve Gauge’s 50th release and the debut full-length "In Spite Of" from Columbus, Ohio’s For Your Health.</p><p>Friday the 13th either confirms your worst fears or convinces you to plunge into a brave new world, superstitions be damned. Columbus mathcore quartet for your health—vocalist Hayden Rodriguez (they/them), guitarist Damian Chacon (he/him), bassist Johnny DeBorde (he/him), and drummer Mike Mapes (they/them)—were set to continue their relentless touring schedule in Austin after clocking in twenty sets in February. On Friday the 13th, they decided to stay home.</p><p>This choice may have left others broken, but for your health was built this way. Urgency and spontaneity are linked together in their DNA—just ask Hayden, who formed the band after some road dates fell through in August 2018. The lineup came together from roommates and acquaintances to play a show at the drop of a hat. Their first releases—the Nosebleeds 7” and the Death of Spring with close collaborators and friends Shin Guard were written in practices split up by lengthy smoke breaks and recorded at blistering speed. Now that they faced their longest pause yet, their loudest actions came roaring over COVID-sponsored silence.</p><p>Hopefully the upgrades here will stop you from labeling them a screamo band. By allowing their individual influences to shine through, the result defies easy categorization. “Push the Fucking Rock, Sisy” is pure grindcore, a dizzying mess of cymbals and spit venom. “Save Your Breath, You’re Gonna Need It to Blow My Head Off” splits the difference between danceable sass and chaotic metalcore, and “Abscess Makes the Heart Grow” finds the band at their most melodic, with threaded guitar and building percussion in lockstep with each other. Beneath the panic chords and the concussive breakdowns, this is the calculated result of claiming Fall Out Boy as much of an influence as faithful allegiances to Daughters and At the Drive-In. And it almost didn’t exist.</p>', 
         "ffo": null,
         "mediaplayer_html": null, //TBD
         "artist": [
             "For Your Health"
         ],
         "image": null, //TBD
-        "status": "Unannounced"
+        "status": "Coming Soon"
     },
     {
         "cat_num": "TG049",
@@ -99,7 +99,7 @@ const releaseData =
             "Sabertooth Zombie"
         ],
         "image": TG049,
-        "status": "Coming Soon"
+        "status": "Out now"
     },
     {
         "cat_num": "TG048",
