@@ -98,7 +98,7 @@ class ReleaseTile extends Component {
                     </div>
                     <div className='releaseBio'>
                         <div className='releaseDate'>
-                            <div className='dateHeader'>Released:</div>
+                            <div className='dateHeader'>Release date:</div>
                             {this.props.item.release_date}
                         </div>
                         {ReactHtmlParser(this.props.item.bio)}

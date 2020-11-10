@@ -1,53 +1,54 @@
-import TG001 from '../assets/albumArt/TG-001.jpg';
-import TG002 from '../assets/albumArt/TG-002.jpg';
-import TG003 from '../assets/albumArt/TG-003.jpg';
-import TG004 from '../assets/albumArt/TG-004.jpg';
-import TG005 from '../assets/albumArt/TG-005.jpg';
-import TG006 from '../assets/albumArt/TG-006.jpg';
-import TG007 from '../assets/albumArt/TG-007.jpg';
-import TG008 from '../assets/albumArt/TG-008.jpg';
-import TG009 from '../assets/albumArt/TG-009.jpg';
-import TG010 from '../assets/albumArt/TG-010.jpg';
-import TG011 from '../assets/albumArt/TG-011.jpg';
-import TG012 from '../assets/albumArt/TG-012.jpg';
-import TG013 from '../assets/albumArt/TG-013.jpg';
-import TG014 from '../assets/albumArt/TG-014.jpg';
-import TG015 from '../assets/albumArt/TG-015.jpg';
-import TG016 from '../assets/albumArt/TG-016.jpg';
-import TG017 from '../assets/albumArt/TG-017.jpg';
-import TG018 from '../assets/albumArt/TG-018.jpg';
-import TG019 from '../assets/albumArt/TG-019.jpg';
-import TG020 from '../assets/albumArt/TG-020.jpg';
-import TG021 from '../assets/albumArt/TG-021.jpg';
-import TG022 from '../assets/albumArt/TG-022.jpg';
-import TG023 from '../assets/albumArt/TG-023.jpg';
-import TG024 from '../assets/albumArt/TG-024.jpg';
-import TG025 from '../assets/albumArt/TG-025.jpg';
-import TG026 from '../assets/albumArt/TG-026.jpg';
-import TG027 from '../assets/albumArt/TG-027.jpg';
-import TG028 from '../assets/albumArt/TG-028.jpg';
-import TG029 from '../assets/albumArt/TG-029.jpg';
-import TG030 from '../assets/albumArt/TG-030.jpg';
-import TG031 from '../assets/albumArt/TG-031.jpg';
-import TG032 from '../assets/albumArt/TG-032.jpg';
-import TG033 from '../assets/albumArt/TG-033.jpg';
-import TG034 from '../assets/albumArt/TG-034.jpg';
-import TG035 from '../assets/albumArt/TG-035.jpg';
-import TG036 from '../assets/albumArt/TG-036.jpg';
-import TG037 from '../assets/albumArt/TG-037.jpg';
-import TG038 from '../assets/albumArt/TG-038.jpg';
-import TG039 from '../assets/albumArt/TG-039.jpg';
-import TG040 from '../assets/albumArt/TG-040.jpg';
-import TG041 from '../assets/albumArt/TG-041.jpg';
-import TG042 from '../assets/albumArt/TG-042.jpg';
-import TG043 from '../assets/albumArt/TG-043.jpg';
-import TG044 from '../assets/albumArt/TG-044.jpg';
-import TG045 from '../assets/albumArt/TG-045.jpg';
-import TG046 from '../assets/albumArt/TG-046.jpg';
-import TG047 from '../assets/albumArt/TG-047.jpg';
-import TG048 from '../assets/albumArt/TG-048.jpg';
-import TG049 from '../assets/albumArt/TG-049.jpg';
-// import TG050 from '../assets/albumArt/TG-050.jpg';
+import TG001 from '../assets/albumArt/TG-001-300.jpg';
+import TG002 from '../assets/albumArt/TG-002-300.jpg';
+import TG003 from '../assets/albumArt/TG-003-300.jpg';
+import TG004 from '../assets/albumArt/TG-004-300.jpg';
+import TG005 from '../assets/albumArt/TG-005-300.jpg';
+import TG006 from '../assets/albumArt/TG-006-300.jpg';
+import TG007 from '../assets/albumArt/TG-007-300.jpg';
+import TG008 from '../assets/albumArt/TG-008-300.jpg';
+import TG009 from '../assets/albumArt/TG-009-300.jpg';
+import TG010 from '../assets/albumArt/TG-010-300.jpg';
+import TG011 from '../assets/albumArt/TG-011-300.jpg';
+import TG012 from '../assets/albumArt/TG-012-300.jpg';
+import TG013 from '../assets/albumArt/TG-013-300.jpg';
+import TG014 from '../assets/albumArt/TG-014-300.jpg';
+import TG015 from '../assets/albumArt/TG-015-300.jpg';
+import TG016 from '../assets/albumArt/TG-016-300.jpg';
+import TG017 from '../assets/albumArt/TG-017-300.jpg';
+import TG018 from '../assets/albumArt/TG-018-300.jpg';
+import TG019 from '../assets/albumArt/TG-019-300.jpg';
+import TG020 from '../assets/albumArt/TG-020-300.jpg';
+import TG021 from '../assets/albumArt/TG-021-300.jpg';
+import TG022 from '../assets/albumArt/TG-022-300.jpg';
+import TG023 from '../assets/albumArt/TG-023-300.jpg';
+import TG024 from '../assets/albumArt/TG-024-300.jpg';
+import TG025 from '../assets/albumArt/TG-025-300.jpg';
+import TG026 from '../assets/albumArt/TG-026-300.jpg';
+import TG027 from '../assets/albumArt/TG-027-300.jpg';
+import TG028 from '../assets/albumArt/TG-028-300.jpg';
+import TG029 from '../assets/albumArt/TG-029-300.jpg';
+import TG030 from '../assets/albumArt/TG-030-300.jpg';
+import TG031 from '../assets/albumArt/TG-031-300.jpg';
+import TG032 from '../assets/albumArt/TG-032-300.jpg';
+import TG033 from '../assets/albumArt/TG-033-300.jpg';
+import TG034 from '../assets/albumArt/TG-034-300.jpg';
+import TG035 from '../assets/albumArt/TG-035-300.jpg';
+import TG036 from '../assets/albumArt/TG-036-300.jpg';
+import TG037 from '../assets/albumArt/TG-037-300.jpg';
+import TG038 from '../assets/albumArt/TG-038-300.jpg';
+import TG039 from '../assets/albumArt/TG-039-300.jpg';
+import TG040 from '../assets/albumArt/TG-040-300.jpg';
+import TG041 from '../assets/albumArt/TG-041-300.jpg';
+import TG042 from '../assets/albumArt/TG-042-300.jpg';
+import TG043 from '../assets/albumArt/TG-043-300.jpg';
+import TG044 from '../assets/albumArt/TG-044-300.jpg';
+import TG045 from '../assets/albumArt/TG-045-300.jpg';
+import TG046 from '../assets/albumArt/TG-046-300.jpg';
+import TG047 from '../assets/albumArt/TG-047-300.jpg';
+import TG048 from '../assets/albumArt/TG-048-300.jpg';
+import TG049 from '../assets/albumArt/TG-049-300.jpg';
+import TG050 from '../assets/albumArt/TG-050-300.jpg';
+//import TG051 from '../assets/albumArt/TG-051-300.jpg';
 
 
 const releaseData = 
@@ -61,9 +62,9 @@ const releaseData =
         "tracklisting": null, //TBD
         "bio": "<p>Across the twenty tracks on their debut LP ‘Come and See’, World Peace further dial in their brand of low end violence. Featuring no guitars and track lengths averaging 30 seconds, WP examine the co-dependency of man and god through a “less is more“ sonic approach. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland two piece craft a sound wholly their own. Recorded in September 2020 by Charles Toshio at Panda Studios. Mastered by Brad Boatright at Audiosiege.</p>",
         "ffo": null,
-        "mediaplayer_html": null, //TBD
+        "mediaplayer_html": null, //'<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=128485116/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/come-and-see">Come And See by WORLD PEACE</a></iframe>'
         "artist": [
-            "World Peace"
+            "WORLD PEACE"
         ],
         "image": null, //TBD
         "status": "Unannounced"
@@ -73,17 +74,17 @@ const releaseData =
         "cat_num": "TG050",
         "release_title": "In Spite Of",
         "release_formats": "12\"LP, Cassette, Digital",
-        "release_date": "2020-10-31",//TBD
+        "release_date": "2021-02-12",
         "artist_nice_name": "fyh", 
         "tracklisting": "<ol><li>Birthday Candles In The Effigy</li><li>I Slept With Wes Eisold And All I Got Was An Out Of Court Settlement</li><li>Push The Fucking Rock Sissy</li><li>Abscess Makes The Heart Grow</li><li>Day Of Black Sun</li><li>Save Your Breath, You're Gonna Need It To Blow My Head Off</li><li>If Anybody Asks, We're Already Fucked</li><li>You’re So United Ninety-three, We're So Flight Eighty</li><li>Like A Thirteenth Floor Elevator</li><li>Everyday at 1312</li><li>Thank You For The Venmo</li><li>This City Will Crumble And Many People Will Die</li></ol>",
-        "bio": null, //TBD
+        "bio": '<p>Twelve Gauge’s 50th release and the debut full-length "In Spite Of" from Columbus, Ohio’s For Your Health.</p><p>Friday the 13th either confirms your worst fears or convinces you to plunge into a brave new world, superstitions be damned. Columbus mathcore quartet for your health—vocalist Hayden Rodriguez (they/them), guitarist Damian Chacon (he/him), bassist Johnny DeBorde (he/him), and drummer Mike Mapes (they/them)—were set to continue their relentless touring schedule in Austin after clocking in twenty sets in February. On Friday the 13th, they decided to stay home.</p><p>This choice may have left others broken, but for your health was built this way. Urgency and spontaneity are linked together in their DNA—just ask Hayden, who formed the band after some road dates fell through in August 2018. The lineup came together from roommates and acquaintances to play a show at the drop of a hat. Their first releases—the Nosebleeds 7” and the Death of Spring with close collaborators and friends Shin Guard were written in practices split up by lengthy smoke breaks and recorded at blistering speed. Now that they faced their longest pause yet, their loudest actions came roaring over COVID-sponsored silence.</p><p>Hopefully the upgrades here will stop you from labeling them a screamo band. By allowing their individual influences to shine through, the result defies easy categorization. “Push the Fucking Rock, Sisy” is pure grindcore, a dizzying mess of cymbals and spit venom. “Save Your Breath, You’re Gonna Need It to Blow My Head Off” splits the difference between danceable sass and chaotic metalcore, and “Abscess Makes the Heart Grow” finds the band at their most melodic, with threaded guitar and building percussion in lockstep with each other. Beneath the panic chords and the concussive breakdowns, this is the calculated result of claiming Fall Out Boy as much of an influence as faithful allegiances to Daughters and At the Drive-In. And it almost didn’t exist.</p>', 
         "ffo": null,
-        "mediaplayer_html": null, //TBD
+        "mediaplayer_html": "Coming soon", //'<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=1855653341/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/in-spite-of">In Spite Of by For Your Health</a></iframe>'
         "artist": [
             "For Your Health"
         ],
-        "image": null, //TBD
-        "status": "Unannounced"
+        "image": TG050,
+        "status": "Coming Soon"
     },
     {
         "cat_num": "TG049",
@@ -99,7 +100,7 @@ const releaseData =
             "Sabertooth Zombie"
         ],
         "image": TG049,
-        "status": "Coming Soon"
+        "status": "Out now"
     },
     {
         "cat_num": "TG048",
