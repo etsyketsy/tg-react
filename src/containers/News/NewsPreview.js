@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import RSSParser from 'rss-parser';
 import ReactHtmlParser from 'react-html-parser';
 import { HashLink as Link } from 'react-router-hash-link';
-import newsFeed from './newsFeed.js';
+import newsFeed from '../../assets/newsFeed.js';
 
 
 class NewsPreview extends Component {
