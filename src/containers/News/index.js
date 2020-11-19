@@ -11,7 +11,18 @@ class News extends Component {
 
     componentDidMount() {
         let parser = new RSSParser();
+        let controller = new AbortController();
 
+        // Sets timeout in case RSS feed is taking too long to load
+        setTimeout(() => {
+            controller.abort()
+            if(!this.state.posts) {
+                this.setState({ posts: newsFeed.items})
+            }
+
+        }, 2000);
+        
+        // Tries to process RSS feed, but defaults to local file if error
         parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
             .then(feed => {
                 this.setState(
@@ -21,7 +32,7 @@ class News extends Component {
                      })
             })
             .catch((error) => {
-                console.log(error)
+                this.setState({ posts: newsFeed.items})
             });
     }
 
