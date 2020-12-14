@@ -23,7 +23,7 @@ import stz from '../assets/artistArt/stz_photo_thumb.jpg';
 import theseeker from '../assets/artistArt/theseeker_photo_thumb.jpg';
 import thin from '../assets/artistArt/thin_photo_thumb.jpg';
 import throats from '../assets/artistArt/throats_photo_thumb.jpg';
-// import worldpeace from '../assets/artistArt/worldpeace_photo_thumb.jpg';
+import worldpeace from '../assets/artistArt/worldpeace_photo_thumb.jpg';
 import ylb from '../assets/artistArt/ylb_photo_thumb.jpg';
 import youthfuneral from '../assets/artistArt/youthfuneral_photo_thumb.jpg';
 
