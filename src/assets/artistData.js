@@ -395,10 +395,10 @@ const artistData = [
         "artist": "World Peace",
         "artist_nice_name": "worldpeace",
         "artist_location": "Oakland, CA",
-        "artist_bio": "World Peace is a two-piece powerviolence band featuring no guitar from Oakland, CA. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland three piece craft a sound wholly their own.",
+        "artist_bio": "World Peace is a three-piece powerviolence band featuring no guitars from Oakland, CA. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland three-piece craft a sound wholly their own.",
         "artist_type": "artist",
         "artist_contact": "#",
-        "status": "Unannounced",
+        "status": "Active",
         "id": 17,
         "image": null
     },
