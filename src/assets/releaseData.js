@@ -48,7 +48,7 @@ import TG047 from '../assets/albumArt/TG-047-300.jpg';
 import TG048 from '../assets/albumArt/TG-048-300.jpg';
 import TG049 from '../assets/albumArt/TG-049-300.jpg';
 import TG050 from '../assets/albumArt/TG-050-300.jpg';
-//import TG051 from '../assets/albumArt/TG-051-300.jpg';
+import TG051 from '../assets/albumArt/TG-051-300.jpg';
 
 
 const releaseData = 
@@ -57,17 +57,17 @@ const releaseData =
         "cat_num": "TG051",
         "release_title": "Come And See",
         "release_formats": "12\"LP, Cassette, Digital",
-        "release_date": "2020-12-31", // TBD
+        "release_date": "2021-03-12",
         "artist_nice_name": "worldpeace",
-        "tracklisting": null, //TBD
-        "bio": "<p>Across the twenty tracks on their debut LP ‘Come and See’, World Peace further dial in their brand of low end violence. Featuring no guitars and track lengths averaging 30 seconds, WP examine the co-dependency of man and god through a “less is more“ sonic approach. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland two piece craft a sound wholly their own. Recorded in September 2020 by Charles Toshio at Panda Studios. Mastered by Brad Boatright at Audiosiege.</p>",
+        "tracklisting": "<ol><li>Come and See</li><li>Unholy Perversion</li><li>In God We Trust</li><li>A Kingdom Decline</li><li>Salt from the Dead Sea</li><li>Promised Land</li><li>Inner Bethlehem</li><li>Patricide</li><li>Enough to Make Angels Weep</li><li>Ancestral Transgression</li><li>Sins of the Saint</li><li>All Things Material</li><li>To Do Thy Bidding</li><li>In Excelsis Deo!</li><li>Atrophied Muscles of Atlas</li><li>He Whose Cup Runneth Over</li><li>The West Will Fall</li><li>Parts of Animals and Little Else</li><li>Clergy and Choir</li><li>Genesis</li></ol>",
+        "bio": "<p>Across the twenty tracks on their debut LP ‘Come and See’, World Peace further dial in their brand of low end violence. Featuring no guitars and track lengths averaging 30 seconds, WP examine the co-dependency of man and god through a 'less is more' sonic approach. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland three-piece craft a sound wholly their own. Recorded in September 2020 by Charles Toshio at Panda Studios. Mastered by Brad Boatright at Audiosiege.</p>",
         "ffo": null,
-        "mediaplayer_html": null, //'<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=128485116/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/come-and-see">Come And See by WORLD PEACE</a></iframe>'
+        "mediaplayer_html": "Coming Soon", //'<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=128485116/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/come-and-see">Come And See by WORLD PEACE</a></iframe>'
         "artist": [
             "WORLD PEACE"
         ],
-        "image": null, //TBD
-        "status": "Unannounced"
+        "image": TG051,
+        "status": "Coming Soon"
     },
 
     {
@@ -79,7 +79,7 @@ const releaseData =
         "tracklisting": "<ol><li>Birthday Candles In The Effigy</li><li>I Slept With Wes Eisold And All I Got Was An Out Of Court Settlement</li><li>Push The Fucking Rock Sissy</li><li>Abscess Makes The Heart Grow</li><li>Day Of Black Sun</li><li>Save Your Breath, You're Gonna Need It To Blow My Head Off</li><li>If Anybody Asks, We're Already Fucked</li><li>You’re So United Ninety-three, We're So Flight Eighty</li><li>Like A Thirteenth Floor Elevator</li><li>Everyday at 1312</li><li>Thank You For The Venmo</li><li>This City Will Crumble And Many People Will Die</li></ol>",
         "bio": '<p>Twelve Gauge’s 50th release and the debut full-length "In Spite Of" from Columbus, Ohio’s For Your Health.</p><p>Friday the 13th either confirms your worst fears or convinces you to plunge into a brave new world, superstitions be damned. Columbus mathcore quartet for your health—vocalist Hayden Rodriguez (they/them), guitarist Damian Chacon (he/him), bassist Johnny DeBorde (he/him), and drummer Mike Mapes (they/them)—were set to continue their relentless touring schedule in Austin after clocking in twenty sets in February. On Friday the 13th, they decided to stay home.</p><p>This choice may have left others broken, but for your health was built this way. Urgency and spontaneity are linked together in their DNA—just ask Hayden, who formed the band after some road dates fell through in August 2018. The lineup came together from roommates and acquaintances to play a show at the drop of a hat. Their first releases—the Nosebleeds 7” and the Death of Spring with close collaborators and friends Shin Guard were written in practices split up by lengthy smoke breaks and recorded at blistering speed. Now that they faced their longest pause yet, their loudest actions came roaring over COVID-sponsored silence.</p><p>Hopefully the upgrades here will stop you from labeling them a screamo band. By allowing their individual influences to shine through, the result defies easy categorization. “Push the Fucking Rock, Sisy” is pure grindcore, a dizzying mess of cymbals and spit venom. “Save Your Breath, You’re Gonna Need It to Blow My Head Off” splits the difference between danceable sass and chaotic metalcore, and “Abscess Makes the Heart Grow” finds the band at their most melodic, with threaded guitar and building percussion in lockstep with each other. Beneath the panic chords and the concussive breakdowns, this is the calculated result of claiming Fall Out Boy as much of an influence as faithful allegiances to Daughters and At the Drive-In. And it almost didn’t exist.</p>', 
         "ffo": null,
-        "mediaplayer_html": "Coming soon", //'<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=1855653341/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/in-spite-of">In Spite Of by For Your Health</a></iframe>'
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=1855653341/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://music.tgrex.com/album/in-spite-of">In Spite Of by For Your Health</a></iframe>',
         "artist": [
             "For Your Health"
         ],
