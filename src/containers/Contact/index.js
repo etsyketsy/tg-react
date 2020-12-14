@@ -18,6 +18,9 @@ class Contact extends Component {
                         <li>Twitter: <a href="https://twitter.com/twelvegaugehc">@twelvegaugehc</a></li>
                         <li><a href="https://www.facebook.com/tgrex/">Facebook</a></li>
                     </ul>
+
+                    <br></br>
+                    <p>Website by Village Cabbage</p>
                     
           </div>
             </div>
