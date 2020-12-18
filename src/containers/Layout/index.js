@@ -30,8 +30,8 @@ class Layout extends Component {
             <NavLink to="/artists" activeClassName="active" replace>
               <div className='text'>ARTISTS</div>
             </NavLink>
-            <a href="https://music.tgrex.com/" target="_blank" rel="noopener noreferrer">
-              <div className='text'>AUDIO</div>
+            <a href="https://music.twelvegaugehc.com/" target="_blank" rel="noopener noreferrer">
+              <div className='text'>MUSIC</div>
             </a>
             <a href="https://deathwishinc.com/collections/twelve-gauge"
               target="_blank" rel="noopener noreferrer">

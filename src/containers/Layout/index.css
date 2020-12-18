@@ -3,11 +3,11 @@
   flex-direction: row;
   background-color: #212121;
   color: #efefef;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
   padding-top: 3vh;
   padding-bottom: 5vh;
-  font-size: 1.75vmin;
+  font-size: 2vmin;
  }
 
  #footer a {
@@ -17,20 +17,20 @@
  
 #about {
   max-height: 100%;
-  max-width: 47%;
-  margin-right: 3vh;
+  max-width: 51%;
+  margin-right: 5vh;
 }
 
 #contact {
   max-height: 100%;
-  max-width: 47%;
+  max-width: 43%;
   margin-right: 3vh;
 }
 
 #layoutBody {
   margin-top: 2vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
+  margin-left: 20vh;
+  margin-right: 20vh;
   margin-bottom: 5vh;
   width: 100%;
 }
@@ -64,10 +64,10 @@
   align-items: flex-end;
   height: auto;
   font-family: 'Inconsolata', monospace;
-  font-size: 3vmin;
+  font-size: 2.8vmin;
   margin-bottom: 2vh;
   margin-top: 1vh;
-  margin-right: 10vh;
+  margin-right: 20vh;
 }
 
 #logoWrapper img {
@@ -81,7 +81,7 @@
 #logoWrapper {
   /* justify-items: center; */
   width: 100%;
-  margin-left: 10vh;
+  margin-left: 20vh;
 
 }
 
@@ -94,7 +94,7 @@
 } 
 
 .sectionHeader {
-  font-size: 3vmin;
+  font-size: 2.8vmin;
   font-family: 'Karla', sans-serif;
 }
 
