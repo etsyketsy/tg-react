@@ -15,12 +15,12 @@
 .postHTML {
     padding: 0;
     display: inline-block;
-    font-size: 1.75vmin;
+    font-size: 2vmin;
 }
 
 .postTitle {
     font-family: 'Karla', sans-serif;
-    font-size: 2.5vmin;
+    font-size: 2.8vmin;
     border-bottom: solid #ffcebe;
     margin-bottom: 1vh;
     margin-top: 2vh;

@@ -9,14 +9,14 @@
 }  
 
 .artistDetail .name {
-    font-size: 4vmin;
+    font-size: 3.8vmin;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
 }
 
 .artistDetail .location {
-    font-size: 1.5rem;
+    font-size: 2.2vmin;
 }
 
 .artistDetail .artistPhoto {
@@ -54,7 +54,7 @@
 }
 
 .artistReleases .releaseHeadline {
-    font-size: 2.5vmin;
+    font-size: 2.8vmin;
 }
 
 .artistReleases {

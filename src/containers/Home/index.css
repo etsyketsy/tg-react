@@ -3,7 +3,7 @@
 } 
 
 .postPreview .postTitle {
-  font-size: 1.5rem;
+  font-size: 2.8vmin;
   border: none;
   margin-top: 2vh;
 }  
@@ -41,7 +41,7 @@
   overflow-wrap: break-word;
   word-wrap: break-word; 
   hyphens: auto; 
-  font-size: 1.75vmin;
+  font-size: 2vmin;
   object-fit: scale-down;
   float: left;
   box-sizing: border-box;
@@ -51,8 +51,8 @@
 
 #newsPreview {
   max-height: 100%;
-  max-width: 47%;
-  margin-right: 3vh;
+  max-width: 51%;
+  margin-right: 5vh;
 }
 
 #releasesLink {
@@ -66,7 +66,7 @@
 }
 
 #latestReleases {
-  width: 47%;
+  width: 43%;
 }
 
 #latestReleases .cat_num{
@@ -82,7 +82,7 @@
 }
 
 #latestReleases .releaseHeadline {
-  font-size: 1.5rem;
+  font-size: 2.8vmin;
 }
 
 .mediaPlayer {
