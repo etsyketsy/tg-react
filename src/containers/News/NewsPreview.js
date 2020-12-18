@@ -21,7 +21,7 @@ class NewsPreview extends Component {
                 this.setState({ posts: newsFeed.items})
             }
 
-        }, 2000);
+        }, 5000);
 
         // Tries to process RSS feed, but defaults to local file if error
         parser.parseURL('https://cors-anywhere.herokuapp.com/http://blog.tgrex.com/rss')
