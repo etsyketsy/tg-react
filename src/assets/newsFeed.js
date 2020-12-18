@@ -10,7 +10,7 @@ const newsFeed = {
   },
   "items": [
     {
-      "title": "For Your Health - In Spire Of Pre-orders",
+      "title": "For Your Health - In Spite Of Pre-orders",
         "pubDate": "2020-11-19 16:09:59",
         "link": "https://blog.tgrex.com/post/635229647207088128",
         "guid": "https://blog.tgrex.com/post/635229647207088128",
