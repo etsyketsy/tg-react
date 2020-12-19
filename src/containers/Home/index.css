@@ -54,7 +54,7 @@
 
 #newsPreview {
   max-height: 100%;
-  max-width: 55%;
+  max-width: 50%;
   margin-right: 5vh;
 }
 
@@ -69,7 +69,7 @@
 }
 
 #latestReleases {
-  width: 38%;
+  width: 40%;
 }
 
 #latestReleases .cat_num{
@@ -111,8 +111,12 @@
   .previewHTML {
     font-size: 2.25vmin;
     min-height: 18vh;
-    max-height: 21vh; 
+ /*   max-height: 21vh; */
     margin-bottom: .5vh;
+  }
+
+  #newsPreview {
+    max-width: 45%;
   }
 
   #latestReleases #releasesLink {
@@ -179,7 +183,7 @@
 
   .previewHTML {
     font-size: 3vmin;
-    height: 17vh; 
+    /* height: 17vh;  */
 
   }
 
@@ -221,7 +225,7 @@
 
   .previewHTML {
     font-size: 4vmin;
-    height: 17vh; 
+    /* height: 17vh;  */
 
   }
   
