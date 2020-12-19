@@ -44,7 +44,7 @@ class NewsPreview extends Component {
             <div id='newsPreview' className='preview'>
                 <div className="sectionHeader">{'//'} Latest News</div>
                 {
-                    this.state.posts.slice(0, 5).map((post, index) => {
+                    this.state.posts.slice(0, 3).map((post, index) => {
 
                             let html = post.content;
                             let guid = post.guid.substring(
@@ -57,15 +57,18 @@ class NewsPreview extends Component {
                                     <div className='postTitle'>
                                         {post.title}
                                     </div>
+                                    <div className='postDate'>
+                                        {post.pubDate}
+                                    </div>
                                     <div className='previewHTML'>
                                         {ReactHtmlParser(html)}
                                     </div>
 
-                                    <Link
+                                    {/* <Link
                                         to={`/news#${guid}`} className="postLink"
                                     >
                                         {'>'} view full post
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             )
 

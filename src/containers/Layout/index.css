@@ -94,8 +94,9 @@
 } 
 
 .sectionHeader {
-  font-size: 2.8vmin;
+  font-size: 2.9vmin;
   font-family: 'Karla', sans-serif;
+  font-weight: bold;
 }
 
 #artists .displayGrid {

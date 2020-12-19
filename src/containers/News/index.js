@@ -60,6 +60,9 @@ class News extends Component {
                                     <div className='postTitle'>
                                         {post.title}
                                     </div>
+                                    <div className='postDate'>
+                                        {post.pubDate}
+                                    </div>
                                     <div className='postHTML'>
                                         {ReactHtmlParser(post.content)}
                                     </div>
