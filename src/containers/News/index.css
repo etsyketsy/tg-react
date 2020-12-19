@@ -26,6 +26,11 @@
     margin-top: 2vh;
 }
 
+.postDate {
+    font-style: italic;
+    color: #999999;
+}
+
 #blogLinkWrapper{
     border-bottom: solid #ffcebe;
     margin-right: 3vh;

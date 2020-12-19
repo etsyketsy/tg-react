@@ -30,7 +30,7 @@
 .releasePreviewWrapper {  
   display: flex;
   flex-direction: column;
-  margin-bottom: 3vh;
+  margin-bottom: 1vh;
 }
 
 /* Mobile screen sizing */
