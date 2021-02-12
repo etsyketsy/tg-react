@@ -84,7 +84,7 @@ const releaseData =
             "For Your Health"
         ],
         "image": TG050,
-        "status": "Coming Soon"
+        "status": "Out Now"
     },
     {
         "cat_num": "TG049",

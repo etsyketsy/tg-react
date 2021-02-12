@@ -10,6 +10,90 @@ const newsFeed = {
   },
   "items": [
     {
+      "title": "TG050: For Your Health “In Spite Of” LP Out Now!",
+      "pubDate": "2021-02-12 16:50:06",
+      "link": "https://blog.tgrex.com/post/642932913370005504",
+      "guid": "https://blog.tgrex.com/post/642932913370005504",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/0452163fca39eb6215a70b6f0955d023/e3d982d7cb4181c3-58/s540x810/f8a9465853ed2705a721702096be136d2a40b85b.jpg",
+      "description": ' <figure class="tmblr-full" data-orig-height="3000" data-orig-width="3000"><img src="https://64.media.tumblr.com/0452163fca39eb6215a70b6f0955d023/e3d982d7cb4181c3-58/s540x810/f8a9465853ed2705a721702096be136d2a40b85b.jpg" data-orig-height="3000" data-orig-width="3000"></figure><p>This incredible debut LP from F<b>or Your Health</b> is out now. Streaming everywhere including our <a href="https://foryourhealth.bandcamp.com/album/in-spite-of">Bandcamp</a>! Only vinyl and tapes left are up on our <a href="https://deathwishinc.eu/products/for-your-health-in-spite-of">EU store</a>. Second pressing details coming soon. </p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="3000" data-orig-width="3000"><img src="https://64.media.tumblr.com/0452163fca39eb6215a70b6f0955d023/e3d982d7cb4181c3-58/s540x810/f8a9465853ed2705a721702096be136d2a40b85b.jpg" data-orig-height="3000" data-orig-width="3000"></figure><p>This incredible debut LP from F<b>or Your Health</b> is out now. Streaming everywhere including our <a href="https://foryourhealth.bandcamp.com/album/in-spite-of">Bandcamp</a>! Only vinyl and tapes left are up on our <a href="https://deathwishinc.eu/products/for-your-health-in-spite-of">EU store</a>. Second pressing details coming soon. </p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+      {
+      "title": "WORLD PEACE “Ancestral Transgression” Streaming Now",
+      "pubDate": "2021-01-18 21:11:32",
+      "link": "https://blog.tgrex.com/post/640684436580597760",
+      "guid": "https://blog.tgrex.com/post/640684436580597760",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/70247de4c9e353ea-e8/s540x810/ef33d7001b98200afe7595cd92e34ae11128c8b1.jpg",
+      "description": ' <figure class="tmblr-full" data-orig-height="3000" data-orig-width="3000"><img src="https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/70247de4c9e353ea-e8/s540x810/ef33d7001b98200afe7595cd92e34ae11128c8b1.jpg" data-orig-height="3000" data-orig-width="3000"></figure><p>Check out a cool write-up and new track streaming off the upcoming WORLD PEACE LP over at Cvlt Nation. <a href="https://cvltnation.com/sonic-violence-low-end-listen-to-the-new-world-peace-song-ancestral-transgression/">Click here</a> to check it out.</p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="3000" data-orig-width="3000"><img src="https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/70247de4c9e353ea-e8/s540x810/ef33d7001b98200afe7595cd92e34ae11128c8b1.jpg" data-orig-height="3000" data-orig-width="3000"></figure><p>Check out a cool write-up and new track streaming off the upcoming WORLD PEACE LP over at Cvlt Nation. <a href="https://cvltnation.com/sonic-violence-low-end-listen-to-the-new-world-peace-song-ancestral-transgression/">Click here</a> to check it out.</p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+      {
+      "title": "For Your Health “Save Your Breath” Music Video",
+      "pubDate": "2021-01-06 19:08:27",
+      "link": "https://blog.tgrex.com/post/639589529643335680",
+      "guid": "https://blog.tgrex.com/post/639589529643335680",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/7d317e556d69591537516bbe09d4a26c/f594bd629b0ebf99-ba/s540x810/76239e5fa0ca02543e594a4aed71e46c9c2653b9.png",
+      "description": ' <figure class="tmblr-full" data-orig-height="1460" data-orig-width="2842"><img src="https://64.media.tumblr.com/7d317e556d69591537516bbe09d4a26c/f594bd629b0ebf99-ba/s540x810/76239e5fa0ca02543e594a4aed71e46c9c2653b9.png" data-orig-height="1460" data-orig-width="2842"></figure><p>For Your Health has just released a second single off their upcoming LP, In Spite Of. You can <a href="https://knotfest.com/premiere-spaz-specialists-for-your-health-unveil-their-latest-visual-for-the-single-save-your-breath-youre-gonna-need-it-to-blow-my-head-off/">check it out now on Knotfest.com</a>! Pre-orders are still up with a limited number of vinyl and tapes available (<a href="http://dthw.sh/twelvegauge">on our webstore</a>).</p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="1460" data-orig-width="2842"><img src="https://64.media.tumblr.com/7d317e556d69591537516bbe09d4a26c/f594bd629b0ebf99-ba/s540x810/76239e5fa0ca02543e594a4aed71e46c9c2653b9.png" data-orig-height="1460" data-orig-width="2842"></figure><p>For Your Health has just released a second single off their upcoming LP, In Spite Of. You can <a href="https://knotfest.com/premiere-spaz-specialists-for-your-health-unveil-their-latest-visual-for-the-single-save-your-breath-youre-gonna-need-it-to-blow-my-head-off/">check it out now on Knotfest.com</a>! Pre-orders are still up with a limited number of vinyl and tapes available (<a href="http://dthw.sh/twelvegauge">on our webstore</a>).</p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+      {
+      "title": "WORLD PEACE “COME AND SEE” Pre-orders",
+      "pubDate": "2020-12-17 17:03:46",
+      "link": "https://blog.tgrex.com/post/637769745572167680",
+      "guid": "https://blog.tgrex.com/post/637769745572167680",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/a6c830aa58fb235bc49a4bd4c9cbed53/ce0e5b469aa4a8d3-df/s540x810/98438d32e8b8c9b3a050f109381c0a5bc145a0e6.png",
+      "description": ' <figure class="tmblr-full" data-orig-height="1920" data-orig-width="1920"><img src="https://64.media.tumblr.com/a6c830aa58fb235bc49a4bd4c9cbed53/ce0e5b469aa4a8d3-df/s540x810/98438d32e8b8c9b3a050f109381c0a5bc145a0e6.png" data-orig-height="1920" data-orig-width="1920"></figure><p>WORLD PEACE “COME AND SEE” LP Pre-orders go live tomorrow at Noon Eastern at <a href="http://dthw.sh/twelvegauge?fbclid=IwAR3iDGXG-reg7uG3_kZOn2500oYZDWhiUKJhS0KAxGwzgjRhExEoTCmIET0">http://dthw.sh/twelvegauge</a>. EU customers, please use <a href="http://www.deathwishinc.eu/?fbclid=IwAR0KQoDrHPi6bDNdKxmPQozI0qHQWdkaoSr1-Y6iVEFuuPNfk8E-l_g9nsU">www.deathwishinc.eu</a> and search for WORLD PEACE.</p> <p>LPs are limited to 500 (100 Clear, 150 White, 250 Black), tapes to 100, and shirts are exclusive to Twelve Gauge and available during pre-orders only!<br></p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="1920" data-orig-width="1920"><img src="https://64.media.tumblr.com/a6c830aa58fb235bc49a4bd4c9cbed53/ce0e5b469aa4a8d3-df/s540x810/98438d32e8b8c9b3a050f109381c0a5bc145a0e6.png" data-orig-height="1920" data-orig-width="1920"></figure><p>WORLD PEACE “COME AND SEE” LP Pre-orders go live tomorrow at Noon Eastern at <a href="http://dthw.sh/twelvegauge?fbclid=IwAR3iDGXG-reg7uG3_kZOn2500oYZDWhiUKJhS0KAxGwzgjRhExEoTCmIET0">http://dthw.sh/twelvegauge</a>. EU customers, please use <a href="http://www.deathwishinc.eu/?fbclid=IwAR0KQoDrHPi6bDNdKxmPQozI0qHQWdkaoSr1-Y6iVEFuuPNfk8E-l_g9nsU">www.deathwishinc.eu</a> and search for WORLD PEACE.</p> <p>LPs are limited to 500 (100 Clear, 150 White, 250 Black), tapes to 100, and shirts are exclusive to Twelve Gauge and available during pre-orders only!<br></p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+      {
+      "title": "TG051: World Peace - Come And See LP",
+      "pubDate": "2020-12-14 17:00:37",
+      "link": "https://blog.tgrex.com/post/637497757480960000",
+      "guid": "https://blog.tgrex.com/post/637497757480960000",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/93a7cc7d58d579dc5719d67e932fda4d/b38c7608fd584d97-11/s540x810/33bda07c72a2eb2ef109bbbd5a6c4e0dcc59a3b4.png",
+      "description": ' <figure data-orig-width="1665" data-orig-height="1144" class="tmblr-full"><img src="https://64.media.tumblr.com/93a7cc7d58d579dc5719d67e932fda4d/b38c7608fd584d97-11/s540x810/33bda07c72a2eb2ef109bbbd5a6c4e0dcc59a3b4.png" alt="image" data-orig-width="1665" data-orig-height="1144"></figure><p>Thrilled to announce the next Twelve Gauge release is the debut LP from Oakland, CA three-piece grind/pv band <b>World Peace</b>. Come And See will be released digitally, on vinyl, and cassette on March 12, 2021. <b>Pre-orders for the record along with exclusive merch go on sale this coming Friday December 18 at Noon Eastern</b> time on our <a href="http://dthw.sh/twelvegauge">Deathwish store</a>.</p> <p><a href="https://youtu.be/MRa2LJXciNI">Click here</a> to listen to “Enough to Make Angels Weep” on YouTube.</p> <figure data-orig-width="3000" data-orig-height="3000" class="tmblr-full"><img src="https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/b38c7608fd584d97-bf/s540x810/367fc5994d6019cc42209eb5cbe152fe5dedd905.jpg" alt="image" data-orig-width="3000" data-orig-height="3000"></figure><p>Across the twenty tracks on their debut LP “Come and See”, World Peace further dial in their brand of low end violence. Featuring no guitars and track lengths averaging 30 seconds, WP examine the co-dependency of man and god through a “less is more” sonic approach. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland three-piece craft a sound wholly their own. Recorded in September 2020 by Charles Toshio at Panda Studios. Mastered by Brad Boatright at Audiosiege.<br></p> ',
+      "content": ' <figure data-orig-width="1665" data-orig-height="1144" class="tmblr-full"><img src="https://64.media.tumblr.com/93a7cc7d58d579dc5719d67e932fda4d/b38c7608fd584d97-11/s540x810/33bda07c72a2eb2ef109bbbd5a6c4e0dcc59a3b4.png" alt="image" data-orig-width="1665" data-orig-height="1144"></figure><p>Thrilled to announce the next Twelve Gauge release is the debut LP from Oakland, CA three-piece grind/pv band <b>World Peace</b>. Come And See will be released digitally, on vinyl, and cassette on March 12, 2021. <b>Pre-orders for the record along with exclusive merch go on sale this coming Friday December 18 at Noon Eastern</b> time on our <a href="http://dthw.sh/twelvegauge">Deathwish store</a>.</p> <p><a href="https://youtu.be/MRa2LJXciNI">Click here</a> to listen to “Enough to Make Angels Weep” on YouTube.</p> <figure data-orig-width="3000" data-orig-height="3000" class="tmblr-full"><img src="https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/b38c7608fd584d97-bf/s540x810/367fc5994d6019cc42209eb5cbe152fe5dedd905.jpg" alt="image" data-orig-width="3000" data-orig-height="3000"></figure><p>Across the twenty tracks on their debut LP “Come and See”, World Peace further dial in their brand of low end violence. Featuring no guitars and track lengths averaging 30 seconds, WP examine the co-dependency of man and god through a “less is more” sonic approach. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland three-piece craft a sound wholly their own. Recorded in September 2020 by Charles Toshio at Panda Studios. Mastered by Brad Boatright at Audiosiege.<br></p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+      {
+      "title": "Year in Review",
+      "pubDate": "2020-12-05 17:00:46",
+      "link": "https://blog.tgrex.com/post/636682393306251265",
+      "guid": "https://blog.tgrex.com/post/636682393306251265",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/a5c0ab0573b9d4b62fe4a074e39fb1a4/4541ebcdc70e0333-a4/s540x810/44a41c7faabdb3d4be69f5c8f76af13845946d9c.png",
+      "description": ' <figure class="tmblr-full" data-orig-height="1920" data-orig-width="1080"><img src="https://64.media.tumblr.com/a5c0ab0573b9d4b62fe4a074e39fb1a4/4541ebcdc70e0333-a4/s540x810/44a41c7faabdb3d4be69f5c8f76af13845946d9c.png" data-orig-height="1920" data-orig-width="1080"></figure><p>2020 was an absolutely shit year for so many reasons and in many ways that led to being a huge motivator for me to keep going and try to do good with the label which I feel I was able to do and am very proud of. Between releases, auctions and misc. sales, we raised and donated close to $5,000 to mutual aid funds, bail out funds, and to organizations that needed it to support the fight for justice for all. This was all due to the hardworking bands who partnered up with me and the amazing supportive fans out there who buy records, shirts, donate, etc.. Thank you for everything.</p> <p>Stay safe, take care.<br>Jihad<br></p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="1920" data-orig-width="1080"><img src="https://64.media.tumblr.com/a5c0ab0573b9d4b62fe4a074e39fb1a4/4541ebcdc70e0333-a4/s540x810/44a41c7faabdb3d4be69f5c8f76af13845946d9c.png" data-orig-height="1920" data-orig-width="1080"></figure><p>2020 was an absolutely shit year for so many reasons and in many ways that led to being a huge motivator for me to keep going and try to do good with the label which I feel I was able to do and am very proud of. Between releases, auctions and misc. sales, we raised and donated close to $5,000 to mutual aid funds, bail out funds, and to organizations that needed it to support the fight for justice for all. This was all due to the hardworking bands who partnered up with me and the amazing supportive fans out there who buy records, shirts, donate, etc.. Thank you for everything.</p> <p>Stay safe, take care.<br>Jihad<br></p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+    {
       "title": "For Your Health - In Spite Of Pre-orders",
         "pubDate": "2020-11-19 16:09:59",
         "link": "https://blog.tgrex.com/post/635229647207088128",
