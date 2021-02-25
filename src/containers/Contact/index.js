@@ -15,17 +15,26 @@ class Contact extends Component {
                     <p>Follow us on social media:</p>
                     <ul>
                         <li>Instagram: 
-                            <a href="https://instagram.com/twelvegaugehc">
+                            <a 
+                                href="https://instagram.com/twelvegaugehc"
+                                target="_blank"
+                            >
                                 @twelvegaugehc<
                             /a>
                         </li>
                         <li>Twitter: 
-                            <a href="https://twitter.com/twelvegaugehc">
+                            <a 
+                                href="https://twitter.com/twelvegaugehc"
+                                target="_blank"
+                            >
                                 @twelvegaugehc
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/twelvegaugehc">
+                            <a 
+                                href="https://www.facebook.com/twelvegaugehc"
+                                target="_blank"
+                            >
                                 Facebook
                             </a>
                         </li>
