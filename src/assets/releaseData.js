@@ -55,19 +55,19 @@ const releaseData =
 [
     {
         "cat_num": "TG052",
-        "release_title": "////////////Come And See",
+        "release_title": "Self-titled",
         "release_formats": "7\"EP, Cassette, Digital",
-        "release_date": "/////////2021-03-12",
+        "release_date": "2021-04-23",
         "artist_nice_name": "bonecutter",
-        "tracklisting": "/////////////////// <ol><li>Come and See</li><li>Unholy Perversion</li><li>In God We Trust</li><li>A Kingdom Decline</li><li>Salt from the Dead Sea</li><li>Promised Land</li><li>Inner Bethlehem</li><li>Patricide</li><li>Enough to Make Angels Weep</li><li>Ancestral Transgression</li><li>Sins of the Saint</li><li>All Things Material</li><li>To Do Thy Bidding</li><li>In Excelsis Deo!</li><li>Atrophied Muscles of Atlas</li><li>He Whose Cup Runneth Over</li><li>The West Will Fall</li><li>Parts of Animals and Little Else</li><li>Clergy and Choir</li><li>Genesis</li></ol> *********//////////////////////",
-        "bio": "//////////////////////<p>Across the twenty tracks on their debut LP ‘Come and See’, World Peace further dial in their brand of low end violence. Featuring no guitars and track lengths averaging 30 seconds, WP examine the co-dependency of man and god through a 'less is more' sonic approach. Elements of bands like Water Torture, Vaccine, and even Sissy Spacek can be detected, but this Oakland three-piece craft a sound wholly their own. Recorded in September 2020 by Charles Toshio at Panda Studios. Mastered by Brad Boatright at Audiosiege.</p>",
+        "tracklisting": "<ol><li>My Dead Wife is a Cat (Meow)</li><li>How to Force Feed Your Children All of Your Failed Ideas in 10 Decayed Steps</li><li>Peckinpah Leather Crackle</li><li>Sea of Broken Needs</li></ol>",
+        "bio": "<p>This is Bone Cutter's debut self-titled EP which brings you four tracks of chaotic punk like no other. Hard to describe what the hell is happening, you just have to listen to it for yourself. As BrooklynVegan reported, \"[I]f you like classic HHLL, you should definitely not sleep on this. It's just as chaotic as the members' other band but even heavier, inspired by horror flicks and maybe all the death metal that Robbie says he's been listening to.\"</p>",
         "ffo": null,
         "mediaplayer_html": '////////////////////////////<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=1505415097/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://worldfuckingpeace.bandcamp.com/album/come-and-see">Come And See by WORLD PEACE</a></iframe>',
         "artist": [
             "Bone Cutter"
         ],
         "image": "//////////////////////////////TG052",
-        "status": "Unannounced"
+        "status": "Coming Soon"
     },
 
     {
