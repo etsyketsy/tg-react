@@ -14,13 +14,23 @@ class Contact extends Component {
 
                     <p>Follow us on social media:</p>
                     <ul>
-                        <li>Instagram: <a href="https://instagram.com/twelvegaugehc">@twelvegaugehc</a></li>
-                        <li>Twitter: <a href="https://twitter.com/twelvegaugehc">@twelvegaugehc</a></li>
-                        <li><a href="https://www.facebook.com/tgrex/">Facebook</a></li>
+                        <li>Instagram: 
+                            <a href="https://instagram.com/twelvegaugehc">
+                                @twelvegaugehc<
+                            /a>
+                        </li>
+                        <li>Twitter: 
+                            <a href="https://twitter.com/twelvegaugehc">
+                                @twelvegaugehc
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/twelvegaugehc">
+                                Facebook
+                            </a>
+                        </li>
                     </ul>
-
                     <br></br>
-                    <p>Website by Village Cabbage</p>
                     
           </div>
             </div>
