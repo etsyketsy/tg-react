@@ -38,6 +38,14 @@ class Contact extends Component {
                                 Facebook
                             </a>
                         </li>
+                        <li>
+                            <a 
+                                href="https://music.twelvegaugehc.com/"
+                                target="_blank"
+                            >
+                                Bandcamp
+                            </a>
+                        </li>
                     </ul>
                     <br></br>
                     
