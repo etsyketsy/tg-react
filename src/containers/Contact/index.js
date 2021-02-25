@@ -19,8 +19,8 @@ class Contact extends Component {
                                 href="https://instagram.com/twelvegaugehc"
                                 target="_blank"
                             >
-                                @twelvegaugehc<
-                            /a>
+                                @twelvegaugehc
+                            </a>
                         </li>
                             <li>Twitter:
                                 <a href="https://twitter.com/twelvegaugehc"
