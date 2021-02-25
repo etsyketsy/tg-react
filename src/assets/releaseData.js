@@ -49,6 +49,7 @@ import TG048 from '../assets/albumArt/TG-048-300.jpg';
 import TG049 from '../assets/albumArt/TG-049-300.jpg';
 import TG050 from '../assets/albumArt/TG-050-300.jpg';
 import TG051 from '../assets/albumArt/TG-051-300.jpg';
+import TG052 from '../assets/albumArt/TG-052-300.jpg';
 
 
 const releaseData = 
@@ -62,11 +63,11 @@ const releaseData =
         "tracklisting": "<ol><li>My Dead Wife is a Cat (Meow)</li><li>How to Force Feed Your Children All of Your Failed Ideas in 10 Decayed Steps</li><li>Peckinpah Leather Crackle</li><li>Sea of Broken Needs</li></ol>",
         "bio": "<p>This is Bone Cutter's debut self-titled EP which brings you four tracks of chaotic punk like no other. Hard to describe what the hell is happening, you just have to listen to it for yourself. As BrooklynVegan reported, \"[I]f you like classic HHLL, you should definitely not sleep on this. It's just as chaotic as the members' other band but even heavier, inspired by horror flicks and maybe all the death metal that Robbie says he's been listening to.\"</p>",
         "ffo": null,
-        "mediaplayer_html": '////////////////////////////<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=1505415097/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://worldfuckingpeace.bandcamp.com/album/come-and-see">Come And See by WORLD PEACE</a></iframe>',
+        "mediaplayer_html": '<iframe style="border: 0; width: 100%; height: 120px; margin-bottom: 2vh;" src="https://bandcamp.com/EmbeddedPlayer/album=2119947676/size=large/bgcol=ffffff/linkcol=383838/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://bonecutter.bandcamp.com/album/bone-cutter-2">Self-titled by Bone Cutter</a></iframe>',
         "artist": [
             "Bone Cutter"
         ],
-        "image": "//////////////////////////////TG052",
+        "image": TG052,
         "status": "Coming Soon"
     },
 
