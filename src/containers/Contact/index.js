@@ -14,43 +14,40 @@ class Contact extends Component {
 
                     <p>Follow us on social media:</p>
                     <ul>
-                        <li>Instagram: 
-                            <a 
+                        <li>Instagram:
+                            <a
                                 href="https://instagram.com/twelvegaugehc"
-                                target="_blank"
-                            >
-                                @twelvegaugehc<
-                            /a>
-                        </li>
-                        <li>Twitter: 
-                            <a 
-                                href="https://twitter.com/twelvegaugehc"
                                 target="_blank"
                             >
                                 @twelvegaugehc
                             </a>
                         </li>
-                        <li>
-                            <a 
-                                href="https://www.facebook.com/twelvegaugehc"
-                                target="_blank"
-                            >
-                                Facebook
-                            </a>
-                        </li>
-                        <li>
-                            <a 
-                                href="https://music.twelvegaugehc.com/"
-                                target="_blank"
-                            >
-                                Bandcamp
-                            </a>
-                        </li>
+                            <li>Twitter:
+                                <a href="https://twitter.com/twelvegaugehc"
+                                    target="_blank"
+                                >
+                                    @twelvegaugehc
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/twelvegaugehc"
+                                    target="_blank"
+                                >
+                                    Facebook
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://music.twelvegaugehc.com/"
+                                    target="_blank"
+                                >
+                                    Bandcamp
+                                </a>
+                            </li>
                     </ul>
-                    <br></br>
+                        <br></br>
                     
           </div>
-            </div>
+                </div>
         )
     }
 }

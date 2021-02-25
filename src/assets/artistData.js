@@ -26,6 +26,7 @@ import throats from '../assets/artistArt/throats_photo_thumb.jpg';
 import worldpeace from '../assets/artistArt/worldpeace_photo_thumb.jpg';
 import ylb from '../assets/artistArt/ylb_photo_thumb.jpg';
 import youthfuneral from '../assets/artistArt/youthfuneral_photo_thumb.jpg';
+import bonecutter from '../assets/artistArt/bonecutter_photo_thumb.jpg';
 
 const artistData = [
     {
@@ -49,6 +50,17 @@ const artistData = [
         "status": "Inactive",
         "id": 6,
         "image": blackteeth
+    },
+    {
+        "artist": "Bone Cutter",
+        "artist_nice_name": "bonecutter",
+        "artist_location": null,
+        "artist_bio": "Bone Cutter formed from the scattered pieces of heavyheavylowlow, cosmically glued together through time, space and place by the squirming hands of Sam Pura of The Panda Studios. The result is a shining knife of punk rock fury reflecting the flickering stars of grind, pop and metal.",
+        "artist_type": "artist",
+        "artist_contact": null,
+        "status": "Active",
+        "id": 23,
+        "image": bonecutter
     },
     {
         "artist": "Countdown",
