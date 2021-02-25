@@ -66,8 +66,8 @@ const releaseData =
         "artist": [
             "Bone Cutter"
         ],
-        "image": TG052,
-        "status": "Coming Soon"
+        "image": "//////////////////////////////TG052",
+        "status": "Unannounced"
     },
 
     {

@@ -37,7 +37,7 @@ const artistData = [
         "artist_contact": "-------",
         "status": "Active",
         "id": 23,
-        "image": bonecutter
+        "image": "///////////////"
     },
     {
         "artist": "Another Mistake",
