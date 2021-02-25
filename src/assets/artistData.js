@@ -29,6 +29,17 @@ import youthfuneral from '../assets/artistArt/youthfuneral_photo_thumb.jpg';
 
 const artistData = [
     {
+        "artist": "Bone Cutter",
+        "artist_nice_name": "bonecutter",
+        "artist_location": "------",
+        "artist_bio": "------",
+        "artist_type": "artist",
+        "artist_contact": "-------",
+        "status": "Active",
+        "id": 23,
+        "image": bonecutter
+    },
+    {
         "artist": "Another Mistake",
         "artist_nice_name": "anothermistake",
         "artist_location": "Lousville, KY",
