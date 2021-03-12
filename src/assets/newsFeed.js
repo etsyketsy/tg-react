@@ -11,6 +11,20 @@ const newsFeed = {
   },
   "items": [
     {
+      "title": "Out now: WORLD PEACE “COME AND SEE” LP",
+      "pubDate": "2021-03-12 17:40:36",
+      "link": "https://blog.tgrex.com/post/645472805088051200",
+      "guid": "https://blog.tgrex.com/post/645472805088051200",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/cc94a7d7cb1aaa90-73/s540x810/3c84f62efd712b7ac39e332a317cf2c282fef493.jpg",
+      "description": ' <figure class="tmblr-full" data-orig-height="3000" data-orig-width="3000"><img src="https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/cc94a7d7cb1aaa90-73/s540x810/3c84f62efd712b7ac39e332a317cf2c282fef493.jpg" data-orig-height="3000" data-orig-width="3000"></figure><p>This is officially out and streaming everywhere. Vinyl is still a few more weeks out due to delays from the plant and with international shipping but are expected to begin shipping out towards the end of the month.</p> <p>Stream on <a href="https://worldfuckingpeace.bandcamp.com/album/come-and-see">our bandcamp</a> or your favorite digital service.</p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="3000" data-orig-width="3000"><img src="https://64.media.tumblr.com/0e9896609369c9c76269331056f940c2/cc94a7d7cb1aaa90-73/s540x810/3c84f62efd712b7ac39e332a317cf2c282fef493.jpg" data-orig-height="3000" data-orig-width="3000"></figure><p>This is officially out and streaming everywhere. Vinyl is still a few more weeks out due to delays from the plant and with international shipping but are expected to begin shipping out towards the end of the month.</p> <p>Stream on <a href="https://worldfuckingpeace.bandcamp.com/album/come-and-see">our bandcamp</a> or your favorite digital service.</p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+    {
       "title": "TG052: Bone Cutter - Self-titled EP",
       "pubDate": "2021-02-24 17:15:40",
       "link": "https://blog.tgrex.com/post/644021685779070976",
