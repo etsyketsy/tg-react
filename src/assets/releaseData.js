@@ -85,7 +85,7 @@ const releaseData =
             "WORLD PEACE"
         ],
         "image": TG051,
-        "status": "Coming Soon"
+        "status": "Out Now"
     },
 
     {
