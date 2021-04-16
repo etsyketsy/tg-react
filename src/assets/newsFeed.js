@@ -11,6 +11,20 @@ const newsFeed = {
   },
   "items": [
     {
+      "title": "Coming Soon: BONE CUTTER Self-titled EP",
+      "pubDate": "2021-04-16 14:11:07",
+      "link": "https://blog.tgrex.com/post/648630519966433280",
+      "guid": "https://blog.tgrex.com/post/648630519966433280",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/f395cae6c0d3d95bca7c00982364ce7d/b9293c41fa3700bb-b7/s540x810/b9a2444a313b420c55c9bb73f6d3b33794e072a7.jpg",
+      "description": ' <figure class="tmblr-full" data-orig-height="1920" data-orig-width="1920"><img src="https://64.media.tumblr.com/f395cae6c0d3d95bca7c00982364ce7d/b9293c41fa3700bb-b7/s540x810/b9a2444a313b420c55c9bb73f6d3b33794e072a7.jpg" data-orig-height="1920" data-orig-width="1920"></figure><p>BONE CUTTER’s Self-titled EP comes out in just one week! We’ll be dropping some new merch along with the tape release, set to order on Wednesday April 21 at Noon Eastern on the Twelve Gauge store (<a href="http://dthw.sh/twelvegauge?fbclid=IwAR0lLd5-t8HMWYpTBNdi3fxuQsinaXMlqzqDtuCFWZj6x8CJ5vLTJVQGam0">http://dthw.sh/twelvegauge</a>). </p> <p>Vinyl is taking a while given massive delays at plants, but you can expect updates in the summer for a Fall release<br></p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="1920" data-orig-width="1920"><img src="https://64.media.tumblr.com/f395cae6c0d3d95bca7c00982364ce7d/b9293c41fa3700bb-b7/s540x810/b9a2444a313b420c55c9bb73f6d3b33794e072a7.jpg" data-orig-height="1920" data-orig-width="1920"></figure><p>BONE CUTTER’s Self-titled EP comes out in just one week! We’ll be dropping some new merch along with the tape release, set to order on Wednesday April 21 at Noon Eastern on the Twelve Gauge store (<a href="http://dthw.sh/twelvegauge?fbclid=IwAR0lLd5-t8HMWYpTBNdi3fxuQsinaXMlqzqDtuCFWZj6x8CJ5vLTJVQGam0">http://dthw.sh/twelvegauge</a>). </p> <p>Vinyl is taking a while given massive delays at plants, but you can expect updates in the summer for a Fall release<br></p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ],
+      },
+    {
       "title": "Out now: WORLD PEACE “COME AND SEE” LP",
       "pubDate": "2021-03-12 17:40:36",
       "link": "https://blog.tgrex.com/post/645472805088051200",
