@@ -1,4 +1,9 @@
-// 
+// *****************************************************************************
+// For converting feed, use feed2json.org **************************************
+// Update "summary" field to "content" *****************************************
+// Update "published_date" field to "pubDate" **********************************
+// For 'pubDate' replace 'T' with ' ' and remove text after seconds ************
+
 const newsFeed = {
   "status": "ok",
   "feed": {
@@ -10,6 +15,14 @@ const newsFeed = {
     "image": ""
   },
   "items": [
+    {
+      "guid": "https://blog.tgrex.com/post/649263993603653632",
+      "url": "https://blog.tgrex.com/post/649263993603653632",
+      "title": "Out now: BONE CUTTER - Self-titled EP",
+      "html": "<figure class=\"tmblr-full\" data-orig-height=\"3000\" data-orig-width=\"3000\"><img src=\"https://64.media.tumblr.com/1cef239a2e7573c61a12cd87b72f30e3/9ea3272a82a5ebc3-8c/s540x810/e99eed21afd0197ccad21fe8399e57e047aea29c.jpg\" data-orig-height=\"3000\" data-orig-width=\"3000\"/></figure><p>BONE CUTTER’s debut EP is officially out now and streaming everywhere. The first press tapes are now sold out but some merch is left on our <a href=\"http://dthw.sh/twelvegauge\">webstore</a>.</p><p>Vinyl is still coming but not until later in the year. Expect more updates to come.</p><p>Thanks for all your continued support!</p>",
+      "content": "<figure class=\"tmblr-full\" data-orig-height=\"3000\" data-orig-width=\"3000\"><img src=\"https://64.media.tumblr.com/1cef239a2e7573c61a12cd87b72f30e3/9ea3272a82a5ebc3-8c/s540x810/e99eed21afd0197ccad21fe8399e57e047aea29c.jpg\" data-orig-height=\"3000\" data-orig-width=\"3000\"/></figure><p>BONE CUTTER’s debut EP is officially out now and streaming everywhere. The first press tapes are now sold out but some merch is left on our <a href=\"http://dthw.sh/twelvegauge\">webstore</a>.</p><p>Vinyl is still coming but not until later in the year. Expect more updates to come.</p><p>Thanks for all your continued support!</p>",
+      "pubDate": "2021-04-23 13:59:55"
+    },
     {
       "title": "Coming Soon: BONE CUTTER Self-titled EP",
       "pubDate": "2021-04-16 14:11:07",
