@@ -16,6 +16,48 @@ const newsFeed = {
   },
   "items": [
     {
+      "title": "Pre-order: Bone Cutter - Self-titled 7″ and CD",
+      "pubDate": "2021-08-18 17:02:25",
+      "link": "https://blog.tgrex.com/post/659875321234997248",
+      "guid": "https://blog.tgrex.com/post/659875321234997248",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/6fa8838c5c267cf63b4bfc2221bd34f7/193ea896080d6c28-3d/s540x810/0f5bd10e7fd579a8600a09f787093635f25eef9c.jpg",
+      "description": ' <figure class="tmblr-full" data-orig-height="1200" data-orig-width="1200"><img src="https://64.media.tumblr.com/6fa8838c5c267cf63b4bfc2221bd34f7/193ea896080d6c28-3d/s540x810/0f5bd10e7fd579a8600a09f787093635f25eef9c.jpg" data-orig-height="1200" data-orig-width="1200"></figure><p>Pre-orders for Bone Cutter’s debut EP are now up on our US and EU stores. All links in <a href="http://linktr.ee/tghc">http://linktr.ee/tghc</a></p> ',
+      "content": ' <figure class="tmblr-full" data-orig-height="1200" data-orig-width="1200"><img src="https://64.media.tumblr.com/6fa8838c5c267cf63b4bfc2221bd34f7/193ea896080d6c28-3d/s540x810/0f5bd10e7fd579a8600a09f787093635f25eef9c.jpg" data-orig-height="1200" data-orig-width="1200"></figure><p>Pre-orders for Bone Cutter’s debut EP are now up on our US and EU stores. All links in <a href="http://linktr.ee/tghc">http://linktr.ee/tghc</a></p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+      {
+      "title": "Jihad/Twelve Gauge on a Podcast!",
+      "pubDate": "2021-08-10 22:41:02",
+      "link": "https://blog.tgrex.com/post/659171849215901696",
+      "guid": "https://blog.tgrex.com/post/659171849215901696",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/cae969345d7f855c03fbc734bd74a3c0/691e4ada9f0c2a52-fe/s540x810/70d3565e450c1d695862178c366c8ac6426b0bb6.jpg",
+      "description": ' <figure data-orig-width="1124" data-orig-height="1124" class="tmblr-full"><img src="https://64.media.tumblr.com/cae969345d7f855c03fbc734bd74a3c0/691e4ada9f0c2a52-fe/s540x810/70d3565e450c1d695862178c366c8ac6426b0bb6.jpg" data-orig-width="1124" data-orig-height="1124"></figure><p>I had an opportunity to join Josh from Drive Safe, Text When Home podcast and had a great conversation covering the label, record industry, and a bit about my life. Check it out wherever you listen to podcasts or <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xZmRjNWQ0Yy9wb2RjYXN0L3Jzcw/episode/NzI3MjdlMWYtNmM1Yy00MDgwLTk4NjctZGUwOTM2MDA1MWFk?hl=en&amp;ved=2ahUKEwjYjemAw6fyAhXa_rsIHY-RBW8QjrkEegQIAhAI&amp;ep=6">here</a>.</p>',
+      "content": ' <figure data-orig-width="1124" data-orig-height="1124" class="tmblr-full"><img src="https://64.media.tumblr.com/cae969345d7f855c03fbc734bd74a3c0/691e4ada9f0c2a52-fe/s540x810/70d3565e450c1d695862178c366c8ac6426b0bb6.jpg" data-orig-width="1124" data-orig-height="1124"></figure><p>I had an opportunity to join Josh from Drive Safe, Text When Home podcast and had a great conversation covering the label, record industry, and a bit about my life. Check it out wherever you listen to podcasts or <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xZmRjNWQ0Yy9wb2RjYXN0L3Jzcw/episode/NzI3MjdlMWYtNmM1Yy00MDgwLTk4NjctZGUwOTM2MDA1MWFk?hl=en&amp;ved=2ahUKEwjYjemAw6fyAhXa_rsIHY-RBW8QjrkEegQIAhAI&amp;ep=6">here</a>.</p> ',
+      "enclosure": {
+      },
+      "categories": [
+      ]
+      },
+      {
+      "title": "Twelve Gauge Updates",
+      "pubDate": "2021-06-02 20:46:50",
+      "link": "https://blog.tgrex.com/post/652913473402126336",
+      "guid": "https://blog.tgrex.com/post/652913473402126336",
+      "author": "",
+      "thumbnail": "https://64.media.tumblr.com/842485cd8e7b4b92513f7b128099b1f3/4e4d110e8d6a0021-f2/s540x810/e849da4c4b9f14fd9d9edd3335fd2ab3f30ceb90.jpg",
+      "description": ' <p><figure data-orig-width="1080" data-orig-height="1272" class="tmblr-full"><img src="https://64.media.tumblr.com/842485cd8e7b4b92513f7b128099b1f3/4e4d110e8d6a0021-f2/s540x810/e849da4c4b9f14fd9d9edd3335fd2ab3f30ceb90.jpg" alt="image" data-orig-width="1080" data-orig-height="1272"></figure></p> <h2>Quick update on things. Pressing plants are backed up but I’ve definitely got a lot in the works for later in the year and 2022.</h2> ',
+      "content": ' <p><figure data-orig-width="1080" data-orig-height="1272" class="tmblr-full"><img src="https://64.media.tumblr.com/842485cd8e7b4b92513f7b128099b1f3/4e4d110e8d6a0021-f2/s540x810/e849da4c4b9f14fd9d9edd3335fd2ab3f30ceb90.jpg" alt="image" data-orig-width="1080" data-orig-height="1272"></figure></p> <h2>Quick update on things. Pressing plants are backed up but I’ve definitely got a lot in the works for later in the year and 2022.</h2> ',
+      "enclosure": {
+      },
+      "categories": [
+      ],
+      },
+    {
       "guid": "https://blog.tgrex.com/post/649263993603653632",
       "url": "https://blog.tgrex.com/post/649263993603653632",
       "title": "Out now: BONE CUTTER - Self-titled EP",
